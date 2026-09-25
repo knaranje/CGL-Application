@@ -2058,6 +2058,1141 @@ window.CGL_DATA.gk = {
      "explanation": "Abhinav Bindra won gold in the 10 m air rifle at the 2008 Beijing Olympics. Karnam Malleswari (bronze, 2000) was the first Indian woman to win an Olympic medal."
     }
    ]
+  },
+  {
+   "id": "environment-ecology",
+   "name": "Environment & Ecology",
+   "notes": [
+    {
+     "heading": "Ecosystem, Food Chain & Energy Flow",
+     "points": [
+      "The term <b>ecology</b> was coined by <b>Ernst Haeckel</b> (1866); the term <b>ecosystem</b> by <b>A.G. Tansley</b> (1935).",
+      "Components: <b>abiotic</b> (light, water, soil, temperature) and <b>biotic</b> – producers (green plants), consumers (herbivores, carnivores) and <b>decomposers</b> (bacteria and fungi).",
+      "Food chain example: grass → grasshopper → frog → snake → eagle. Many interlinked food chains form a <b>food web</b>. Energy flow is always <b>unidirectional</b>.",
+      "<b>10% law</b> (Raymond Lindeman, 1942): only about 10% of energy passes from one trophic level to the next; the rest is lost mainly as heat.",
+      "Pyramid of <b>energy</b> is always upright; pyramid of numbers is inverted in a tree ecosystem; pyramid of biomass is inverted in a pond (aquatic) ecosystem.",
+      "<b>Biomagnification</b>: non-biodegradable toxins such as DDT and mercury increase in concentration at higher trophic levels. <b>Ecotone</b> = transition zone between two ecosystems."
+     ]
+    },
+    {
+     "heading": "Biodiversity & Wildlife Conservation",
+     "points": [
+      "<b>Biodiversity hotspot</b> concept – Norman Myers (1988); there are 36 hotspots worldwide (as of 2025). India has 4: <b>Himalaya, Indo-Burma, Western Ghats & Sri Lanka, Sundaland</b> (Nicobar Islands).",
+      "In-situ conservation: national parks, wildlife sanctuaries, biosphere reserves. Ex-situ: zoos, botanical gardens, seed and gene banks.",
+      "Biosphere reserves come under UNESCO's <b>Man and Biosphere (MAB)</b> programme (1971). India has 18 biosphere reserves (as of 2025), though only some of them are in UNESCO's World Network of Biosphere Reserves; the first was <b>Nilgiri</b> (1986).",
+      "<b>Ramsar Convention</b> on wetlands (Ramsar, Iran, 1971); India joined in 1982. First Indian Ramsar sites (1981): <b>Chilika Lake</b> (Odisha) and <b>Keoladeo NP</b> (Rajasthan). India had more than 85 Ramsar sites as of 2025, with Tamil Nadu having the most; Sundarbans is the largest. Keoladeo and Loktak are on the Montreux Record. World Wetlands Day – 2 February.",
+      "<b>Project Tiger</b> – 1 April 1973, first reserve <b>Jim Corbett NP</b>; NTCA set up in 2006. Tiger estimation 2022: at least 3,167 tigers (average estimate 3,682); Madhya Pradesh has the most. <b>Project Elephant</b> – 1992; Crocodile project – 1975; Project Snow Leopard – 2009; <b>Project Cheetah</b> – cheetahs from Namibia released in <b>Kuno NP</b> (MP) on 17 September 2022.",
+      "<b>IUCN</b>: founded 1948, HQ <b>Gland</b>, Switzerland; publishes the <b>Red List</b> (Extinct, Extinct in the Wild, Critically Endangered, Endangered, Vulnerable, Near Threatened, Least Concern). As of 2025: Great Indian Bustard – Critically Endangered; tiger – Endangered. WWF (1961, Gland) has the giant panda logo."
+     ]
+    },
+    {
+     "heading": "Pollution, Ozone & Greenhouse Gases",
+     "points": [
+      "Greenhouse gases: CO<sub>2</sub>, methane (CH<sub>4</sub>), nitrous oxide (N<sub>2</sub>O), water vapour, CFCs and ozone. Paddy fields and livestock are major sources of methane.",
+      "The <b>ozone layer</b> lies in the <b>stratosphere</b> (mainly 15–35 km) and absorbs harmful UV rays; its thickness is measured in <b>Dobson units</b>. It is depleted mainly by <b>CFCs</b> (chlorine). The Antarctic ozone hole was reported in 1985.",
+      "<b>Acid rain</b> is caused by SO<sub>2</sub> and NO<sub>x</sub>; it damages the marble of the Taj Mahal ('marble cancer'). <b>Photochemical smog</b> contains ozone, NO<sub>x</sub> and PAN.",
+      "Diseases: <b>Minamata</b> – mercury; <b>Itai-itai</b> – cadmium; <b>blue baby syndrome</b> – nitrates in water; fluorosis – excess fluoride; blackfoot disease – arsenic.",
+      "<b>Bhopal gas tragedy</b> (December 1984) – leak of <b>methyl isocyanate (MIC)</b> from the Union Carbide plant.",
+      "<b>Eutrophication</b>: excess nitrates and phosphates cause algal bloom and loss of dissolved oxygen in water. High <b>BOD</b> (Biochemical Oxygen Demand) indicates heavy organic pollution. PM<sub>2.5</sub> = particles of diameter ≤ 2.5 micrometres."
+     ]
+    },
+    {
+     "heading": "Conventions, Indian Laws & Movements",
+     "points": [
+      "<b>Stockholm Conference</b> (1972, UN Conference on the Human Environment) led to <b>UNEP</b> (HQ Nairobi) and World Environment Day (5 June). The separate <b>Stockholm Convention</b> (2001) deals with Persistent Organic Pollutants (POPs).",
+      "Ozone: <b>Vienna Convention</b> (1985) and <b>Montreal Protocol</b> (16 September 1987) to phase out ozone-depleting substances; <b>Kigali Amendment</b> (2016) phases down HFCs. Other: CITES (1973) – trade in endangered species; Basel (1989) – hazardous waste.",
+      "<b>Earth Summit</b>, Rio de Janeiro (1992): UNFCCC, <b>Convention on Biological Diversity (CBD)</b>, Agenda 21. CBD protocols: Cartagena (biosafety, 2000), Nagoya (access and benefit sharing, 2010); Kunming–Montreal Global Biodiversity Framework (2022) targets 30% protection of land and sea by 2030.",
+      "<b>Kyoto Protocol</b> (1997, in force 2005): binding emission cuts for developed countries, carbon credits and CDM. <b>Paris Agreement</b> (COP21, 2015; in force 2016): keep warming well below 2°C and pursue 1.5°C through NDCs. COP30 (2025) was held in Belém, Brazil.",
+      "Indian laws: Wildlife (Protection) Act 1972; Water Act 1974 (CPCB set up under it); Forest (Conservation) Act 1980; Air Act 1981; <b>Environment (Protection) Act 1986</b> (umbrella law after Bhopal); Biological Diversity Act 2002 (NBA, Chennai); Forest Rights Act 2006; <b>National Green Tribunal</b> Act 2010 (principal bench New Delhi). The 42nd Amendment (1976) added Article 48A and 51A(g).",
+      "Movements: <b>Chipko</b> (1973, Chamoli, Uttarakhand – Sunderlal Bahuguna, Gaura Devi); <b>Appiko</b> (1983, Karnataka – Panduranga Hegde); Narmada Bachao Andolan (Medha Patkar); Silent Valley (Kerala). Botanical Survey of India (1890) and Zoological Survey of India (1916) are headquartered in Kolkata."
+     ]
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Term 'ecosystem' was coined by",
+     "back": "A.G. Tansley (1935)"
+    },
+    {
+     "front": "10% law of energy transfer",
+     "back": "Raymond Lindeman (1942)"
+    },
+    {
+     "front": "Pyramid that is always upright",
+     "back": "Pyramid of energy"
+    },
+    {
+     "front": "India's four biodiversity hotspots",
+     "back": "Himalaya, Indo-Burma, Western Ghats & Sri Lanka, Sundaland"
+    },
+    {
+     "front": "First biosphere reserve of India",
+     "back": "Nilgiri (1986)"
+    },
+    {
+     "front": "First Ramsar sites of India (1981)",
+     "back": "Chilika Lake (Odisha) and Keoladeo NP (Rajasthan)"
+    },
+    {
+     "front": "Project Tiger was launched on",
+     "back": "1 April 1973 (first reserve: Jim Corbett NP)"
+    },
+    {
+     "front": "Headquarters of IUCN",
+     "back": "Gland, Switzerland"
+    },
+    {
+     "front": "Kigali Amendment (2016) to the Montreal Protocol targets",
+     "back": "Phase-down of HFCs (hydrofluorocarbons)"
+    },
+    {
+     "front": "Kyoto Protocol: adopted / came into force",
+     "back": "1997 / 2005"
+    },
+    {
+     "front": "Gas that leaked in the Bhopal tragedy (1984)",
+     "back": "Methyl isocyanate (MIC)"
+    },
+    {
+     "front": "Blue baby syndrome is caused by",
+     "back": "Excess nitrates in drinking water"
+    }
+   ],
+   "questions": [
+    {
+     "q": "The term 'ecosystem' was coined by:",
+     "options": [
+      "Ernst Haeckel",
+      "A.G. Tansley",
+      "E.O. Wilson",
+      "Charles Elton"
+     ],
+     "answer": 1,
+     "explanation": "A.G. Tansley coined 'ecosystem' in 1935. Haeckel coined 'ecology' (1866)."
+    },
+    {
+     "q": "The Montreal Protocol (1987) is related to:",
+     "options": [
+      "Binding greenhouse gas emission targets",
+      "Protection of wetlands",
+      "Phasing out ozone-depleting substances",
+      "Trade in endangered species"
+     ],
+     "answer": 2,
+     "explanation": "Montreal Protocol phases out ozone-depleting substances like CFCs. Emission targets – Kyoto; wetlands – Ramsar; endangered species trade – CITES."
+    },
+    {
+     "q": "Which ecological pyramid is always upright?",
+     "options": [
+      "Pyramid of energy",
+      "Pyramid of numbers",
+      "Pyramid of biomass",
+      "Both pyramid of numbers and biomass"
+     ],
+     "answer": 0,
+     "explanation": "Energy is lost at every trophic level (10% law), so the energy pyramid can never be inverted."
+    },
+    {
+     "q": "Which of the following is NOT one of the biodiversity hotspots found in India?",
+     "options": [
+      "Himalaya",
+      "Indo-Burma",
+      "Western Ghats and Sri Lanka",
+      "Eastern Ghats"
+     ],
+     "answer": 3,
+     "explanation": "India's four hotspots are Himalaya, Indo-Burma, Western Ghats & Sri Lanka and Sundaland (Nicobar). Eastern Ghats is not a hotspot."
+    },
+    {
+     "q": "Minamata disease is caused by poisoning due to:",
+     "options": [
+      "Mercury",
+      "Cadmium",
+      "Lead",
+      "Arsenic"
+     ],
+     "answer": 0,
+     "explanation": "Minamata disease (Japan) was caused by mercury in fish. Cadmium causes Itai-itai disease."
+    },
+    {
+     "q": "In which year was the Environment (Protection) Act enacted in India?",
+     "options": [
+      "1972",
+      "1981",
+      "1986",
+      "2002"
+     ],
+     "answer": 2,
+     "explanation": "Enacted in 1986 after the Bhopal gas tragedy. 1972 – Wildlife Act; 1981 – Air Act; 2002 – Biological Diversity Act."
+    },
+    {
+     "q": "The Chipko movement is associated with:",
+     "options": [
+      "Medha Patkar",
+      "Sunderlal Bahuguna",
+      "Panduranga Hegde",
+      "Salim Ali"
+     ],
+     "answer": 1,
+     "explanation": "Chipko (1973, Chamoli) was led by Sunderlal Bahuguna and Gaura Devi. Panduranga Hegde led Appiko; Medha Patkar led Narmada Bachao Andolan."
+    },
+    {
+     "q": "Which was the first biosphere reserve established in India?",
+     "options": [
+      "Nanda Devi",
+      "Sundarbans",
+      "Gulf of Mannar",
+      "Nilgiri"
+     ],
+     "answer": 3,
+     "explanation": "Nilgiri Biosphere Reserve (1986), spread over Tamil Nadu, Kerala and Karnataka, was India's first."
+    }
+   ]
+  },
+  {
+   "id": "computer-awareness",
+   "name": "Computer Awareness",
+   "notes": [
+    {
+     "heading": "History & Generations of Computers",
+     "points": [
+      "<b>Charles Babbage</b> – 'father of the computer'; designed the Difference Engine and the <b>Analytical Engine</b> (1837). <b>Ada Lovelace</b> is regarded as the first programmer.",
+      "Early devices: Abacus (earliest calculating aid); Pascaline (Blaise Pascal, 1642); punched-card tabulating machine (Herman Hollerith, 1890 US census).",
+      "<b>1st generation</b> (c. 1940–1956): <b>vacuum tubes</b>, machine language; ENIAC (1946), UNIVAC I (1951, first commercial computer in the US). <b>2nd</b> (c. 1956–1963): <b>transistors</b> (invented 1947 at Bell Labs), assembly language, FORTRAN and COBOL.",
+      "<b>3rd generation</b> (c. 1964–1971): <b>integrated circuits</b> (Jack Kilby and Robert Noyce). <b>4th</b> (1971 onwards): <b>microprocessors</b> and VLSI; the first microprocessor was the <b>Intel 4004</b> (1971).",
+      "<b>5th generation</b>: artificial intelligence, ULSI, parallel processing and natural language processing.",
+      "India's first supercomputer: <b>PARAM 8000</b> (1991) built by C-DAC, Pune, under Vijay Bhatkar."
+     ]
+    },
+    {
+     "heading": "Hardware, Memory & Storage",
+     "points": [
+      "<b>CPU</b> = ALU (Arithmetic Logic Unit) + CU (Control Unit) + registers. Speed of memory: registers > cache > RAM > secondary storage.",
+      "<b>RAM</b> is volatile (SRAM – faster, used in cache; DRAM – main memory, needs refreshing). <b>ROM</b> is non-volatile: PROM (write once), EPROM (erased by <b>UV light</b>), EEPROM (erased electrically). BIOS is stored in ROM/firmware.",
+      "Units: bit → <b>nibble (4 bits)</b> → <b>byte (8 bits)</b> → KB → MB → GB → TB → PB → EB → ZB → YB; each step is 1024 times (binary convention used in exams), e.g. 1 KB = 1024 bytes.",
+      "Storage: HDD (magnetic), SSD and pen drive (flash memory), CD (about 700 MB), DVD (4.7 GB single layer), Blu-ray (25 GB single layer).",
+      "Input devices: keyboard, mouse (Douglas Engelbart), scanner, joystick, light pen, barcode reader, <b>MICR</b> (bank cheques), <b>OMR</b> (answer sheets), <b>OCR</b> (printed text). Output devices: monitor, printer, plotter, speaker, projector. A touch screen is both input and output.",
+      "Printers: <b>impact</b> (dot matrix, daisy wheel) and <b>non-impact</b> (laser, inkjet). Print quality is measured in DPI (dots per inch)."
+     ]
+    },
+    {
+     "heading": "Software, OS, MS Office & File Types",
+     "points": [
+      "<b>System software</b> (operating system, device drivers, utilities, translators) vs <b>application software</b> (MS Word, browsers, games). Translators: <b>compiler</b> – whole program at once; <b>interpreter</b> – line by line; <b>assembler</b> – assembly to machine code.",
+      "OS examples: Windows (Microsoft), macOS, Unix (Bell Labs), <b>Linux</b> (Linus Torvalds, 1991, open source), Android (Linux-based, Google). MS-DOS has a command-line interface; Windows has a GUI. At booting, BIOS runs <b>POST</b> (Power-On Self-Test).",
+      "Common shortcuts: Ctrl+C copy, Ctrl+X cut, Ctrl+V paste, <b>Ctrl+Z undo</b>, Ctrl+Y redo, Ctrl+A select all, Ctrl+B/I/U bold/italic/underline, Ctrl+S save, Ctrl+P print, Ctrl+F find, Ctrl+N new, Ctrl+O open, Alt+F4 close window.",
+      "MS Word: Ctrl+H replace, Ctrl+K hyperlink, Ctrl+E centre, Ctrl+L left, Ctrl+R right, Ctrl+J justify, <b>F7 spelling & grammar</b>, <b>F12 Save As</b>, Shift+F3 change case. PowerPoint: <b>F5</b> slideshow from the beginning, Shift+F5 from the current slide.",
+      "MS Excel: F2 edit active cell, F11 chart in a new sheet, Ctrl+; inserts today's date; formulas begin with '='. A cell address is column letter + row number (e.g. B3). Excel 2007 onwards has 1,048,576 rows and 16,384 columns (last column XFD).",
+      "File extensions: .docx (Word), .xlsx (Excel), .pptx (PowerPoint), .pdf, .txt, .exe (executable), .jpg/.png/.gif (images), .mp3 (audio), .mp4 (video), .html (web page), .zip (compressed), .csv (comma-separated values)."
+     ]
+    },
+    {
+     "heading": "Networking, Internet & Cyber Security",
+     "points": [
+      "Networks by size: PAN < LAN < MAN < WAN; the Internet is the largest WAN. Topologies: bus, star, ring, mesh, tree. Devices: <b>modem</b> (modulator–demodulator), router, switch, hub, repeater, bridge, gateway.",
+      "ARPANET (1969) was the forerunner of the Internet; Vint Cerf and Bob Kahn developed <b>TCP/IP</b>. <b>World Wide Web</b> – <b>Tim Berners-Lee</b> (1989, CERN). Email – Ray Tomlinson (1971), who introduced the @ symbol.",
+      "Protocols: HTTP (port 80) and HTTPS (secure, port 443) for web pages; FTP – file transfer; <b>SMTP – sending email</b>; POP3/IMAP – receiving email. <b>DNS</b> translates domain names into IP addresses. IPv4 = 32-bit, IPv6 = 128-bit.",
+      "Abbreviations: BIOS – Basic Input Output System; URL – Uniform Resource Locator; HTML – HyperText Markup Language; USB – Universal Serial Bus; GUI – Graphical User Interface; MICR – Magnetic Ink Character Recognition; ISP – Internet Service Provider; UPS – Uninterruptible Power Supply; PDF – Portable Document Format.",
+      "Malware: <b>virus</b> (attaches to a host file), <b>worm</b> (self-replicates across networks), <b>Trojan horse</b> (disguised as useful software), <b>ransomware</b> (encrypts data and demands payment, e.g. WannaCry 2017), spyware, adware. First virus: Creeper (1971); first PC virus: Brain (1986).",
+      "<b>Phishing</b> – fake emails/websites to steal passwords; vishing (voice calls), smishing (SMS). Protection: firewall, antivirus, encryption, two-factor authentication. India: <b>IT Act 2000</b>; <b>CERT-In</b> is the national agency for cyber incident response."
+     ]
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Father of the computer",
+     "back": "Charles Babbage (Analytical Engine)"
+    },
+    {
+     "front": "Main component of 3rd generation computers",
+     "back": "Integrated circuits (ICs)"
+    },
+    {
+     "front": "First microprocessor",
+     "back": "Intel 4004 (1971)"
+    },
+    {
+     "front": "India's first supercomputer",
+     "back": "PARAM 8000 (1991), C-DAC"
+    },
+    {
+     "front": "1 nibble =",
+     "back": "4 bits"
+    },
+    {
+     "front": "EPROM is erased using",
+     "back": "Ultraviolet (UV) light"
+    },
+    {
+     "front": "Shortcut for spelling & grammar check in MS Word",
+     "back": "F7"
+    },
+    {
+     "front": "Start a PowerPoint slideshow from the beginning",
+     "back": "F5"
+    },
+    {
+     "front": "Full form of HTTP",
+     "back": "HyperText Transfer Protocol"
+    },
+    {
+     "front": "Function of DNS",
+     "back": "Translates domain names into IP addresses"
+    },
+    {
+     "front": "Address length: IPv4 vs IPv6",
+     "back": "32-bit vs 128-bit"
+    },
+    {
+     "front": "Creator of Linux",
+     "back": "Linus Torvalds (1991)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "First generation computers used:",
+     "options": [
+      "Transistors",
+      "Vacuum tubes",
+      "Integrated circuits",
+      "Microprocessors"
+     ],
+     "answer": 1,
+     "explanation": "1st gen – vacuum tubes; 2nd – transistors; 3rd – ICs; 4th – microprocessors."
+    },
+    {
+     "q": "1 kilobyte (KB) is equal to:",
+     "options": [
+      "1000 bits",
+      "1024 bits",
+      "1024 bytes",
+      "8 bits"
+     ],
+     "answer": 2,
+     "explanation": "1 KB = 2<sup>10</sup> = 1024 bytes. 8 bits make 1 byte."
+    },
+    {
+     "q": "Which keyboard shortcut is used to undo the last action?",
+     "options": [
+      "Ctrl+Z",
+      "Ctrl+Y",
+      "Ctrl+U",
+      "Ctrl+X"
+     ],
+     "answer": 0,
+     "explanation": "Ctrl+Z = undo; Ctrl+Y = redo; Ctrl+U = underline; Ctrl+X = cut."
+    },
+    {
+     "q": "Which of the following memories is volatile?",
+     "options": [
+      "ROM",
+      "EPROM",
+      "Hard disk",
+      "RAM"
+     ],
+     "answer": 3,
+     "explanation": "RAM loses its contents when power is switched off. ROM, EPROM and hard disk retain data."
+    },
+    {
+     "q": "Which protocol is used for sending email?",
+     "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "DNS"
+     ],
+     "answer": 1,
+     "explanation": "SMTP (Simple Mail Transfer Protocol) sends mail; POP3/IMAP are used to receive it."
+    },
+    {
+     "q": "Who invented the World Wide Web?",
+     "options": [
+      "Tim Berners-Lee",
+      "Vint Cerf",
+      "Charles Babbage",
+      "Ray Tomlinson"
+     ],
+     "answer": 0,
+     "explanation": "Tim Berners-Lee created the WWW in 1989 at CERN. Vint Cerf co-developed TCP/IP; Ray Tomlinson sent the first email."
+    },
+    {
+     "q": "MICR technology is mainly used by:",
+     "options": [
+      "Hospitals for patient records",
+      "Schools to check answer sheets",
+      "Banks to process cheques",
+      "Libraries to issue books"
+     ],
+     "answer": 2,
+     "explanation": "MICR (Magnetic Ink Character Recognition) reads the magnetic-ink numbers on cheques. Answer sheets use OMR."
+    },
+    {
+     "q": "Malware that encrypts a user's files and demands payment to unlock them is called:",
+     "options": [
+      "Worm",
+      "Spyware",
+      "Adware",
+      "Ransomware"
+     ],
+     "answer": 3,
+     "explanation": "Ransomware (e.g. WannaCry, 2017) holds data hostage for a ransom."
+    }
+   ]
+  },
+  {
+   "id": "sports-awards",
+   "name": "Sports & Awards",
+   "notes": [
+    {
+     "heading": "Sports Terms, Team Sizes & Measurements",
+     "points": [
+      "Players per side: <b>kho-kho 9</b> (on the field, from a team of 12, under standard KKFI rules); baseball 9; water polo 7; handball 7; netball 7; ice hockey 6; rugby union 15; rugby league 13.",
+      "Cricket: silly point, gully, maiden over, hat-trick, duck. Hockey: bully, penalty corner, dribble. Football: offside, penalty kick, corner kick. Badminton: smash, drop, let. Boxing: jab, hook, uppercut, knockout.",
+      "Golf: tee, caddie, <b>eagle</b> (2 under par), albatross (3 under par), hole-in-one. Chess: castling, gambit, stalemate. Polo: chukker. Kabaddi: raid, cant.",
+      "Measurements: cricket pitch <b>22 yards</b> (20.12 m); basketball ring 10 feet (3.05 m) high; <b>marathon 42.195 km</b>.",
+      "Tennis Grand Slams: Australian Open (Melbourne, hard court, January); <b>French Open</b> (Roland Garros, Paris, <b>clay</b>); <b>Wimbledon</b> (London, grass, oldest – 1877); US Open (New York, hard court)."
+     ]
+    },
+    {
+     "heading": "Trophies, Cups & Famous Venues",
+     "points": [
+      "Cricket: <b>Irani Cup</b> (Ranji champion vs Rest of India); Vijay Hazare Trophy (domestic one-day); Syed Mushtaq Ali Trophy (domestic T20); Deodhar Trophy (inter-zonal one-day); Cooch Behar Trophy (Under-19); <b>Border–Gavaskar Trophy</b> (India vs Australia Tests); The Ashes (England vs Australia).",
+      "Football: Federation Cup, IFA Shield, Rovers Cup; Copa América (South America); Ballon d'Or (best footballer award). Hockey: Rangaswamy Cup (national championship), Sultan Azlan Shah Cup (Malaysia).",
+      "Table tennis: <b>Swaythling Cup</b> (men's team), <b>Corbillon Cup</b> (women's team). Badminton: <b>Sudirman Cup</b> (mixed team). Tennis: Billie Jean King Cup (women's team, formerly Fed Cup). Sailing: America's Cup. Boat race: Nehru Trophy (Punnamada Lake, Alappuzha, Kerala).",
+      "Indian stadiums: <b>Eden Gardens</b> (Kolkata), Wankhede and Brabourne (Mumbai), M.A. Chidambaram / Chepauk (Chennai), M. Chinnaswamy (Bengaluru), Arun Jaitley / Feroz Shah Kotla (Delhi), <b>Narendra Modi Stadium</b> (Motera, Ahmedabad – world's largest cricket stadium as of 2025).",
+      "Other venues: Salt Lake Stadium / Yuva Bharati Krirangan (Kolkata, football); Major Dhyan Chand National Stadium (Delhi); Kalinga Stadium (Bhubaneswar) and Birsa Munda Stadium (Rourkela) – hosts of the 2023 Hockey World Cup.",
+      "World venues: <b>Lord's</b> (London) – 'home of cricket'; Melbourne Cricket Ground; Wembley (London) and Maracanã (Rio de Janeiro) – football; Augusta National (USA) – golf Masters."
+     ]
+    },
+    {
+     "heading": "Olympic, Asian & Commonwealth Games; Sports Awards",
+     "points": [
+      "Ancient Olympics began at Olympia, Greece (776 BCE). Modern Olympics: <b>Athens, 1896</b>, revived by <b>Pierre de Coubertin</b>; IOC founded 1894. Five rings: blue, yellow, black, green, red. Motto: 'Citius, Altius, Fortius – Communiter' ('Together' added in 2021).",
+      "India: Norman Pritchard won 2 silvers in 1900; <b>8 hockey golds</b> (1928, 1932, 1936, 1948, 1952, 1956, 1964, 1980). Tokyo 2020: 7 medals (Neeraj Chopra – javelin gold). Paris 2024: 6 medals (1 silver, 5 bronze); Manu Bhaker won 2 bronze. Paris 2024 Paralympics: 29 medals (7 gold). Next Olympics: Los Angeles 2028, Brisbane 2032.",
+      "<b>Asian Games</b>: first held in <b>New Delhi, 1951</b> (India hosted again in 1982); motto 'Ever Onward'. 19th Asian Games, Hangzhou (held 2023): India won 107 medals (28 gold), its best ever. 20th edition: Aichi–Nagoya, Japan (2026).",
+      "<b>Commonwealth Games</b>: first in 1930 at Hamilton, Canada; India hosted in Delhi (2010). Birmingham 2022: India 61 medals (22 gold), 4th place. Glasgow, Scotland was chosen to host the 2026 edition (July–August 2026).",
+      "<b>Major Dhyan Chand Khel Ratna</b> – highest sports honour (started 1991–92 as Rajiv Gandhi Khel Ratna, renamed 2021); first recipient <b>Viswanathan Anand</b>; prize ₹25 lakh. <b>Arjuna Award</b> (1961) – outstanding sportspersons, ₹15 lakh. <b>Dronacharya Award</b> (1985) – coaches.",
+      "Dhyan Chand Award for lifetime achievement (2002) was renamed Arjuna Award (Lifetime) in 2023. Maulana Abul Kalam Azad (MAKA) Trophy – best university; Rashtriya Khel Protsahan Puraskar – organisations promoting sport; Tenzing Norgay National Adventure Award – land, sea and air adventure."
+     ]
+    },
+    {
+     "heading": "Civilian, Film, Literary & International Awards",
+     "points": [
+      "<b>Bharat Ratna</b> – highest civilian award, instituted <b>2 January 1954</b>; normally at most 3 a year (5 were announced in 2024). First posthumous – Lal Bahadur Shastri (1966); first woman – Indira Gandhi (1971); first non-Indian – Khan Abdul Ghaffar Khan (1987); first sportsperson and youngest – <b>Sachin Tendulkar</b> (2014). <b>Padma awards</b> (1954): Padma Vibhushan > Padma Bhushan > Padma Shri.",
+      "<b>Jnanpith</b> – highest literary award, set up 1961; first given in 1965 to <b>G. Sankara Kurup</b> (Malayalam, 'Odakkuzhal'); first woman – Ashapoorna Devi (Bengali, 1976). 58th (2023): Gulzar and Jagadguru Rambhadracharya; 59th (2024): Vinod Kumar Shukla (Hindi).",
+      "<b>Dadasaheb Phalke Award</b> – highest honour in Indian cinema, instituted 1969; first recipient <b>Devika Rani</b>. 2022 – Mithun Chakraborty; 2023 – Mohanlal. Phalke made 'Raja Harishchandra' (1913), India's first full-length feature film.",
+      "<b>Nobel Prize</b>: first awarded 1901 (Economics added 1968, first given 1969); presented on 10 December – Peace Prize in Oslo, others in Stockholm. Indian citizens: Rabindranath Tagore (Literature 1913), C.V. Raman (Physics 1930), Mother Teresa (Peace 1979), Amartya Sen (Economics 1998), Kailash Satyarthi (Peace 2014, with Malala Yousafzai).",
+      "<b>Ramon Magsaysay Award</b> (1957, Philippines) – 'Asia's Nobel Prize'; first Indian winner – <b>Vinoba Bhave</b> (1958).",
+      "<b>Booker Prize</b> (UK, 1969) – English fiction: Kiran Desai (2006, 'The Inheritance of Loss'), Aravind Adiga (2008, 'The White Tiger'). <b>International Booker</b>: Geetanjali Shree's 'Tomb of Sand' (2022, from Hindi); Banu Mushtaq's 'Heart Lamp' (2025, from Kannada). Oscars 2023: 'Naatu Naatu' (RRR) – Best Original Song; 'The Elephant Whisperers' – Best Documentary Short."
+     ]
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Swaythling Cup is associated with",
+     "back": "Table tennis (men's team); Corbillon Cup is for women"
+    },
+    {
+     "front": "Sudirman Cup is associated with",
+     "back": "Badminton (mixed team)"
+    },
+    {
+     "front": "Irani Cup is played between",
+     "back": "Ranji Trophy champion and Rest of India"
+    },
+    {
+     "front": "The only Grand Slam played on clay",
+     "back": "French Open (Roland Garros, Paris)"
+    },
+    {
+     "front": "Venue known as the 'home of cricket'",
+     "back": "Lord's, London"
+    },
+    {
+     "front": "Founder of the modern Olympic Games",
+     "back": "Pierre de Coubertin"
+    },
+    {
+     "front": "First Asian Games were held at",
+     "back": "New Delhi, 1951"
+    },
+    {
+     "front": "First recipient of the Khel Ratna",
+     "back": "Viswanathan Anand (1991–92)"
+    },
+    {
+     "front": "Dronacharya Award is given to",
+     "back": "Sports coaches (since 1985)"
+    },
+    {
+     "front": "First woman to receive the Jnanpith Award",
+     "back": "Ashapoorna Devi (1976)"
+    },
+    {
+     "front": "First recipient of the Dadasaheb Phalke Award",
+     "back": "Devika Rani (1969)"
+    },
+    {
+     "front": "First Indian to win the Ramon Magsaysay Award",
+     "back": "Vinoba Bhave (1958)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many players of a kho-kho team take the field at a time?",
+     "options": [
+      "8",
+      "9",
+      "11",
+      "6"
+     ],
+     "answer": 1,
+     "explanation": "Under standard (KKFI) rules a kho-kho team has 12 players, of whom 9 take the field."
+    },
+    {
+     "q": "The Border–Gavaskar Trophy is contested between:",
+     "options": [
+      "India and England",
+      "Australia and England",
+      "India and Australia",
+      "India and South Africa"
+     ],
+     "answer": 2,
+     "explanation": "It is the India vs Australia Test series trophy. England vs Australia play for The Ashes."
+    },
+    {
+     "q": "Which Grand Slam tennis tournament is played on clay courts?",
+     "options": [
+      "Wimbledon",
+      "US Open",
+      "Australian Open",
+      "French Open"
+     ],
+     "answer": 3,
+     "explanation": "French Open (Roland Garros) – clay; Wimbledon – grass; US and Australian Opens – hard courts."
+    },
+    {
+     "q": "The first modern Olympic Games were held in:",
+     "options": [
+      "Athens, 1896",
+      "Paris, 1900",
+      "London, 1908",
+      "Stockholm, 1912"
+     ],
+     "answer": 0,
+     "explanation": "Revived by Pierre de Coubertin, the first modern Olympics were held in Athens in 1896."
+    },
+    {
+     "q": "Who was the first recipient of the Khel Ratna award (1991–92)?",
+     "options": [
+      "Sachin Tendulkar",
+      "Viswanathan Anand",
+      "Leander Paes",
+      "Karnam Malleswari"
+     ],
+     "answer": 1,
+     "explanation": "Chess player Viswanathan Anand was the first recipient. The award was renamed Major Dhyan Chand Khel Ratna in 2021."
+    },
+    {
+     "q": "Who was the first sportsperson to be awarded the Bharat Ratna?",
+     "options": [
+      "Sachin Tendulkar",
+      "Dhyan Chand",
+      "Milkha Singh",
+      "P.T. Usha"
+     ],
+     "answer": 0,
+     "explanation": "Sachin Tendulkar received it in 2014; at 40 he is also the youngest recipient."
+    },
+    {
+     "q": "Who was the first recipient of the Jnanpith Award (1965)?",
+     "options": [
+      "Amrita Pritam",
+      "Sumitranandan Pant",
+      "Ashapoorna Devi",
+      "G. Sankara Kurup"
+     ],
+     "answer": 3,
+     "explanation": "Malayalam poet G. Sankara Kurup won it for 'Odakkuzhal'. Ashapoorna Devi (1976) was the first woman."
+    },
+    {
+     "q": "The Ramon Magsaysay Award is given by a foundation based in:",
+     "options": [
+      "Sweden",
+      "Norway",
+      "Philippines",
+      "Singapore"
+     ],
+     "answer": 2,
+     "explanation": "It is named after Philippine President Ramon Magsaysay and presented in Manila; it is called 'Asia's Nobel Prize'."
+    }
+   ]
+  },
+  {
+   "id": "govt-schemes",
+   "name": "Government Schemes & Initiatives",
+   "notes": [
+    {
+     "heading": "Financial Inclusion & Social Security",
+     "points": [
+      "<b>PM Jan Dhan Yojana (PMJDY)</b>: launched <b>28 August 2014</b> (announced on 15 August 2014); Ministry of Finance (Department of Financial Services). Zero-balance bank accounts with a RuPay debit card, accident cover of ₹2 lakh (for accounts opened after 28 Aug 2018) and an overdraft of up to ₹10,000.",
+      "<b>PM MUDRA Yojana</b>: launched <b>8 April 2015</b>; collateral-free loans to non-farm micro enterprises. Categories: <b>Shishu</b> (up to ₹50,000), <b>Kishore</b> (₹50,000–₹5 lakh), <b>Tarun</b> (₹5–10 lakh); <b>Tarun Plus</b> (₹10–20 lakh) added in 2024. MUDRA = Micro Units Development and Refinance Agency.",
+      "<b>Atal Pension Yojana (APY)</b>: launched <b>9 May 2015</b> (replaced Swavalamban); age <b>18–40</b>; guaranteed pension of ₹1,000–₹5,000 per month after age 60; administered by <b>PFRDA</b>. Income-tax payers are not eligible from 1 October 2022.",
+      "<b>PMJJBY</b> (life insurance, ₹2 lakh, age 18–50, premium ₹436/year) and <b>PMSBY</b> (accident insurance, ₹2 lakh, age 18–70, premium ₹20/year) were launched with APY on 9 May 2015 (premiums as revised in 2022).",
+      "<b>Stand-Up India</b> (5 April 2016): bank loans of ₹10 lakh to ₹1 crore to at least one SC/ST and one woman entrepreneur per bank branch for greenfield enterprises.",
+      "<b>PM SVANidhi</b> (June 2020, Ministry of Housing and Urban Affairs): small working-capital loans for street vendors."
+     ]
+    },
+    {
+     "heading": "Farmers & Rural Development",
+     "points": [
+      "<b>PM-KISAN</b>: launched <b>24 February 2019</b> at <b>Gorakhpur (UP)</b>; Ministry of Agriculture & Farmers Welfare; <b>₹6,000 per year</b> to farmer families in three instalments of ₹2,000 by Direct Benefit Transfer; 100% centrally funded.",
+      "<b>PM Fasal Bima Yojana</b> (2016, Sehore, MP): crop insurance; farmer's premium is 2% for kharif, 1.5% for rabi and 5% for annual commercial/horticulture crops. <b>Soil Health Card</b> scheme: 19 February 2015 at <b>Suratgarh (Rajasthan)</b>. <b>e-NAM</b> (online agricultural market): 14 April 2016.",
+      "<b>MGNREGA</b>: Act of 2005, in force from <b>2 February 2006</b> (Anantapur district, AP); Ministry of Rural Development; guaranteed <b>100 days</b> of wage employment a year to every rural household. In December 2025 Parliament passed the <b>VB-G RAM G Act</b> (Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin)) to replace it, raising the guarantee to <b>125 days</b> (as of 2026).",
+      "<b>SVAMITVA</b> (Survey of Villages And Mapping with Improvised Technology in Village Areas): launched <b>24 April 2020</b> (National Panchayati Raj Day); <b>Ministry of Panchayati Raj</b>; drone mapping of inhabited village land and issue of property cards.",
+      "<b>PMAY-Gramin</b>: 20 November 2016 (Agra); restructured from the Indira Awaas Yojana; Ministry of Rural Development. <b>PM Gram Sadak Yojana</b>: 25 December 2000 (all-weather rural roads).",
+      "<b>Jal Jeevan Mission</b> ('Har Ghar Jal'): announced <b>15 August 2019</b>; Ministry of Jal Shakti; a functional tap connection (55 litres per person per day) for every rural household. The Union Budget 2025-26 extended it to <b>2028</b>."
+     ]
+    },
+    {
+     "heading": "Health, Women, Sanitation & Welfare",
+     "points": [
+      "<b>Swachh Bharat Mission</b>: launched <b>2 October 2014</b>; goal of an Open Defecation Free (ODF) India by 2 October 2019 (Gandhi's 150th birth anniversary). Rural part – Ministry of Jal Shakti; urban part – Ministry of Housing and Urban Affairs.",
+      "<b>Beti Bachao Beti Padhao</b>: launched <b>22 January 2015</b> at <b>Panipat (Haryana)</b> to fight the falling child sex ratio; led by the Ministry of Women & Child Development. <b>Sukanya Samriddhi Yojana</b> (savings account for a girl child below 10) was launched with it.",
+      "<b>PM Ujjwala Yojana</b>: launched <b>1 May 2016</b> at <b>Ballia (UP)</b>; Ministry of Petroleum & Natural Gas; free LPG connections to women of poor households. <b>Ujjwala 2.0</b> was launched in August 2021 from Mahoba (UP).",
+      "<b>Ayushman Bharat – PM-JAY</b>: launched <b>23 September 2018</b> at <b>Ranchi</b>; health cover of <b>₹5 lakh per family per year</b> for hospitalisation; run by the National Health Authority. From October 2024 it covers all citizens aged 70+ regardless of income (as of 2025).",
+      "Nutrition: <b>POSHAN Abhiyaan</b> launched 8 March 2018 at Jhunjhunu (Rajasthan); the Mid-Day Meal scheme was renamed <b>PM POSHAN</b> in 2021. <b>Mission Indradhanush</b> (immunisation) began on 25 December 2014.",
+      "<b>PM Garib Kalyan Anna Yojana</b> (started April 2020): free foodgrains, extended for five years from 1 January 2024. <b>PM Surya Ghar Muft Bijli Yojana</b> (February 2024): rooftop solar for 1 crore households with up to 300 units of free electricity a month."
+     ]
+    },
+    {
+     "heading": "Industry, Digital, Skills & Urban Missions",
+     "points": [
+      "<b>Make in India</b>: launched <b>25 September 2014</b>; DPIIT (Ministry of Commerce & Industry); logo is a lion made of gears. <b>Startup India</b>: <b>16 January 2016</b>, also under DPIIT.",
+      "<b>Digital India</b>: launched <b>1 July 2015</b>; Ministry of Electronics & IT (MeitY). <b>Skill India</b>: <b>15 July 2015</b> (World Youth Skills Day); Ministry of Skill Development & Entrepreneurship.",
+      "<b>25 June 2015</b>: <b>Smart Cities Mission</b> (100 cities), <b>AMRUT</b> (urban water and sewerage) and <b>PMAY-Urban</b> ('Housing for All') were all launched; Ministry of Housing and Urban Affairs.",
+      "<b>PM Vishwakarma</b>: launched <b>17 September 2023</b> (Vishwakarma Jayanti); Ministry of MSME; for artisans in <b>18 traditional trades</b>; collateral-free loans up to ₹3 lakh (₹1 lakh + ₹2 lakh) at 5% interest, ₹15,000 toolkit incentive and ₹500/day training stipend.",
+      "<b>PM Gati Shakti</b> National Master Plan (13 October 2021): multimodal infrastructure planning. <b>UDAN</b> ('Ude Desh ka Aam Nagrik'): regional air connectivity; first flight Shimla–Delhi, 27 April 2017."
+     ]
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "PM-KISAN – amount and launch place",
+     "back": "₹6,000 a year in 3 instalments of ₹2,000; launched 24 Feb 2019 at Gorakhpur (UP)"
+    },
+    {
+     "front": "PM Jan Dhan Yojana launch date",
+     "back": "28 August 2014 (Ministry of Finance)"
+    },
+    {
+     "front": "PM Ujjwala Yojana – launch date and place",
+     "back": "1 May 2016, Ballia (Uttar Pradesh); Ministry of Petroleum & Natural Gas"
+    },
+    {
+     "front": "Ayushman Bharat PM-JAY health cover",
+     "back": "₹5 lakh per family per year; launched 23 Sep 2018 at Ranchi"
+    },
+    {
+     "front": "Beti Bachao Beti Padhao launch",
+     "back": "22 January 2015, Panipat (Haryana)"
+    },
+    {
+     "front": "Three MUDRA loan categories (original)",
+     "back": "Shishu (up to ₹50,000), Kishore (₹50,000–₹5 lakh), Tarun (₹5–10 lakh)"
+    },
+    {
+     "front": "Atal Pension Yojana – entry age and regulator",
+     "back": "18–40 years; administered by PFRDA; pension ₹1,000–₹5,000/month after 60"
+    },
+    {
+     "front": "Ministry for the SVAMITVA scheme",
+     "back": "Ministry of Panchayati Raj (launched 24 April 2020)"
+    },
+    {
+     "front": "Digital India launch date",
+     "back": "1 July 2015 (MeitY)"
+    },
+    {
+     "front": "Make in India launch date",
+     "back": "25 September 2014 (DPIIT)"
+    },
+    {
+     "front": "Jal Jeevan Mission aim",
+     "back": "Tap water connection for every rural household ('Har Ghar Jal'); announced 15 Aug 2019; Ministry of Jal Shakti"
+    },
+    {
+     "front": "PM Vishwakarma launch and number of trades",
+     "back": "17 September 2023; 18 traditional trades; Ministry of MSME"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Under the PM-KISAN scheme, how much income support does an eligible farmer family receive in a year?",
+     "options": [
+      "₹4,000",
+      "₹6,000",
+      "₹8,000",
+      "₹12,000"
+     ],
+     "answer": 1,
+     "explanation": "PM-KISAN pays ₹6,000 a year in three equal instalments of ₹2,000 through Direct Benefit Transfer."
+    },
+    {
+     "q": "Pradhan Mantri Ujjwala Yojana was launched in 2016 from which place?",
+     "options": [
+      "Ballia, Uttar Pradesh",
+      "Panipat, Haryana",
+      "Ranchi, Jharkhand",
+      "Sehore, Madhya Pradesh"
+     ],
+     "answer": 0,
+     "explanation": "PMUY (free LPG connections to poor women) was launched on 1 May 2016 at Ballia, UP."
+    },
+    {
+     "q": "The 'Beti Bachao Beti Padhao' scheme was launched in January 2015 at:",
+     "options": [
+      "Ranchi",
+      "Gorakhpur",
+      "Mahoba",
+      "Panipat"
+     ],
+     "answer": 3,
+     "explanation": "It was launched on 22 January 2015 at Panipat, Haryana, to tackle the falling child sex ratio."
+    },
+    {
+     "q": "Under PM MUDRA Yojana, the 'Kishore' category covers loans of:",
+     "options": [
+      "Up to ₹50,000",
+      "₹50,000 to ₹5 lakh",
+      "₹5 lakh to ₹10 lakh",
+      "₹10 lakh to ₹20 lakh"
+     ],
+     "answer": 1,
+     "explanation": "Shishu: up to ₹50,000; Kishore: ₹50,000–₹5 lakh; Tarun: ₹5–10 lakh; Tarun Plus: ₹10–20 lakh."
+    },
+    {
+     "q": "The SVAMITVA scheme, which uses drones to map rural inhabited land, is run by which ministry?",
+     "options": [
+      "Ministry of Rural Development",
+      "Ministry of Agriculture & Farmers Welfare",
+      "Ministry of Panchayati Raj",
+      "Ministry of Housing and Urban Affairs"
+     ],
+     "answer": 2,
+     "explanation": "SVAMITVA was launched by the Ministry of Panchayati Raj on 24 April 2020 (National Panchayati Raj Day)."
+    },
+    {
+     "q": "Ayushman Bharat – PM-JAY provides a health cover of how much per family per year?",
+     "options": [
+      "₹1 lakh",
+      "₹2 lakh",
+      "₹3 lakh",
+      "₹5 lakh"
+     ],
+     "answer": 3,
+     "explanation": "PM-JAY gives ₹5 lakh per family per year for secondary and tertiary hospitalisation."
+    },
+    {
+     "q": "Atal Pension Yojana is administered by which body?",
+     "options": [
+      "PFRDA",
+      "SEBI",
+      "IRDAI",
+      "LIC"
+     ],
+     "answer": 0,
+     "explanation": "APY (entry age 18–40) is administered by the Pension Fund Regulatory and Development Authority (PFRDA)."
+    },
+    {
+     "q": "The 'Make in India' initiative was launched on:",
+     "options": [
+      "15 August 2014",
+      "2 October 2014",
+      "25 September 2014",
+      "1 July 2015"
+     ],
+     "answer": 2,
+     "explanation": "Make in India: 25 Sep 2014. 2 Oct 2014 was Swachh Bharat; 1 July 2015 was Digital India."
+    }
+   ]
+  },
+  {
+   "id": "science-tech-space",
+   "name": "Space, Defence & Technology",
+   "notes": [
+    {
+     "heading": "ISRO: History, Centres & Launch Vehicles",
+     "points": [
+      "<b>INCOSPAR</b> was set up in 1962 under <b>Vikram Sarabhai</b> (father of the Indian space programme); <b>ISRO</b> was formed on <b>15 August 1969</b>; Department of Space in 1972; ISRO HQ is in <b>Bengaluru</b>. Chairman as of 2025: <b>V. Narayanan</b> (from January 2025).",
+      "India's first rocket (a Nike-Apache) was launched on 21 November 1963 from <b>Thumba</b> (TERLS), near Thiruvananthapuram. <b>SLV-3</b>, India's first launch vehicle (project director <b>A.P.J. Abdul Kalam</b>), put Rohini RS-1 into orbit on 18 July 1980.",
+      "Main launch site: <b>Satish Dhawan Space Centre (SDSC SHAR), Sriharikota</b>, Andhra Pradesh; its 100th launch was GSLV-F15 (NVS-02) on 29 January 2025. A second spaceport for SSLV is being built at <b>Kulasekarapattinam</b> (Thoothukudi, Tamil Nadu).",
+      "Centres: <b>VSSC</b> Thiruvananthapuram (launch vehicles), <b>U R Rao Satellite Centre</b> Bengaluru (satellites), <b>Space Applications Centre</b> Ahmedabad, <b>NRSC</b> Hyderabad (remote sensing), ISRO Propulsion Complex at <b>Mahendragiri</b> (TN).",
+      "<b>PSLV</b> – 4 stages (solid and liquid alternately), ISRO's 'workhorse'; PSLV-C37 launched a record <b>104 satellites</b> on 15 February 2017. <b>GSLV</b> uses a cryogenic upper stage; <b>GSLV Mk III (now LVM3)</b> is the heaviest and will carry Gaganyaan. <b>SSLV</b> – small satellites up to about 500 kg to low Earth orbit; first successful flight in February 2023.",
+      "<b>NavIC</b> (IRNSS) is India's regional satellite navigation system; <b>GAGAN</b> is the satellite-based augmentation system built by ISRO and the Airports Authority of India."
+     ]
+    },
+    {
+     "heading": "Major ISRO Missions",
+     "points": [
+      "<b>Aryabhata</b>, India's first satellite, was launched by the <b>Soviet Union</b> on <b>19 April 1975</b>. <b>AstroSat</b> (2015) was India's first dedicated space observatory; <b>XPoSat</b> (1 January 2024) is India's first X-ray polarimetry satellite.",
+      "<b>Chandrayaan-1</b>: 22 October 2008 on PSLV-C11; helped confirm <b>water molecules</b> on the Moon; its Moon Impact Probe hit a site called 'Jawahar Sthal'. <b>Chandrayaan-2</b>: 22 July 2019 on GSLV Mk III; the Vikram lander crash-landed, but the orbiter kept working.",
+      "<b>Chandrayaan-3</b>: launched 14 July 2023 on LVM3-M4; the <b>Vikram</b> lander (with <b>Pragyan</b> rover) landed on <b>23 August 2023</b>. India became the <b>4th country</b> to soft-land on the Moon (after the USSR, USA and China) and the <b>first near the lunar south pole</b>. Landing site: '<b>Shiv Shakti Point</b>'; 23 August is <b>National Space Day</b>.",
+      "<b>Mangalyaan</b> (Mars Orbiter Mission): launched 5 November 2013 on <b>PSLV-C25</b>; reached Mars orbit on <b>24 September 2014</b>. India was the first Asian country to reach Mars orbit and the first country to do so on its first attempt.",
+      "<b>Aditya-L1</b> (India's first solar mission): launched 2 September 2023 on PSLV-C57; placed in a halo orbit around the Sun–Earth <b>Lagrange point L1</b> (about <b>1.5 million km</b> from Earth) on 6 January 2024. <b>SpaDeX</b>: first in-space docking on 16 January 2025, making India the 4th country to do this.",
+      "<b>Gaganyaan</b> (human spaceflight), status as of 2025: the crewed flight has not happened yet and uncrewed test flights (carrying the humanoid robot <b>Vyommitra</b>) come first. Astronaut-designates were named in February 2024. <b>Shubhanshu Shukla</b>, one of them, became the first Indian to visit the ISS (Axiom-4, June–July 2025). <b>Rakesh Sharma</b> (1984) was the first Indian in space."
+     ]
+    },
+    {
+     "heading": "DRDO, Missiles & Defence Platforms",
+     "points": [
+      "<b>DRDO</b> was formed in <b>1958</b> under the Ministry of Defence (HQ New Delhi). The <b>Integrated Guided Missile Development Programme (IGMDP)</b> began in <b>1983</b> under A.P.J. Abdul Kalam and produced <b>Prithvi, Agni, Trishul, Akash and Nag</b>.",
+      "<b>Prithvi</b> – short-range surface-to-surface ballistic missile (first IGMDP missile); <b>Agni</b> series – ballistic missiles; <b>Agni-V</b> has a range of over 5,000 km and was first tested with <b>MIRV</b> technology in <b>Mission Divyastra</b> (11 March 2024).",
+      "<b>Akash</b> and <b>Trishul</b> – surface-to-air missiles; <b>Nag</b> – 'fire-and-forget' <b>anti-tank guided missile</b> (helicopter version: Helina); <b>Astra</b> – beyond-visual-range air-to-air missile; <b>Nirbhay</b> – subsonic cruise missile; <b>K-4/K-15</b> – submarine-launched ballistic missiles.",
+      "<b>BrahMos</b> – supersonic cruise missile (about Mach 2.8) built by an India–<b>Russia</b> joint venture; the name comes from the <b>Brahmaputra</b> and <b>Moskva</b> rivers. <b>Mission Shakti</b> (27 March 2019): India's anti-satellite (ASAT) missile test, making India the 4th country to have this capability.",
+      "Platforms: <b>Tejas</b> – indigenous Light Combat Aircraft (HAL); <b>Prachand</b> – light combat helicopter (HAL); <b>Arjun</b> – main battle tank; <b>Pinaka</b> – multi-barrel rocket launcher; <b>INS Vikrant</b> – first indigenous aircraft carrier (commissioned 2 September 2022, built at Cochin Shipyard); <b>INS Arihant</b> – first indigenous nuclear-powered ballistic missile submarine (2016)."
+     ]
+    },
+    {
+     "heading": "Nuclear Establishments, Military Exercises & Tech Terms",
+     "points": [
+      "<b>Homi J. Bhabha</b> – father of India's nuclear programme; Atomic Energy Commission 1948; Department of Atomic Energy 1954. <b>Apsara</b> (Trombay, 1956) was Asia's first research reactor. AEET Trombay was renamed <b>BARC</b> in 1967.",
+      "<b>Tarapur</b> (Maharashtra, 1969) – India's first nuclear power station; <b>Kudankulam</b> (TN) – largest by installed capacity, built with Russian help; others: Rawatbhata (Rajasthan), Kalpakkam (TN, also home to IGCAR), Narora (UP), Kakrapar (Gujarat), Kaiga (Karnataka). Uranium mine: <b>Jaduguda</b> (Jharkhand).",
+      "Nuclear tests at <b>Pokhran</b> (Rajasthan): <b>'Smiling Buddha'</b> on 18 May 1974 and <b>'Operation Shakti'</b> in May 1998. India's three-stage nuclear programme ends with <b>thorium</b> in the third stage.",
+      "Exercises: <b>Yudh Abhyas</b> (army, USA); <b>Malabar</b> (navies of India, USA, Japan, Australia); <b>Garuda</b> (air force), <b>Varuna</b> (navy), <b>Shakti</b> (army) – all with <b>France</b>; <b>INDRA</b> (Russia); <b>Surya Kiran</b> (Nepal); <b>Mitra Shakti</b> (Sri Lanka); <b>Nomadic Elephant</b> (Mongolia); <b>Dharma Guardian</b> (Japan); <b>Sampriti</b> (Bangladesh); <b>Maitree</b> (Thailand); <b>Ajeya Warrior</b> (UK).",
+      "Tech: <b>PARAM 8000</b> (1991, C-DAC Pune) – India's first supercomputer; <b>UPI</b> (NPCI, 2016); <b>5G</b> launched in India on 1 October 2022. <b>Blockchain</b> – a decentralised, distributed ledger; <b>IoT</b> – everyday devices connected to the internet; <b>Phishing</b> – fake messages sent to steal passwords or bank details; <b>Li-Fi</b> – sends data using visible light."
+     ]
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "India's first satellite and its launch",
+     "back": "Aryabhata – launched by the USSR on 19 April 1975"
+    },
+    {
+     "front": "Father of the Indian space programme",
+     "back": "Dr. Vikram Sarabhai"
+    },
+    {
+     "front": "Chandrayaan-3 landing date and site name",
+     "back": "23 August 2023; 'Shiv Shakti Point' near the lunar south pole"
+    },
+    {
+     "front": "Launch vehicle and date of Mangalyaan",
+     "back": "PSLV-C25, 5 November 2013; entered Mars orbit on 24 September 2014"
+    },
+    {
+     "front": "Where Aditya-L1 is stationed",
+     "back": "Halo orbit around the Sun–Earth L1 point, about 1.5 million km from Earth"
+    },
+    {
+     "front": "PSLV record launch",
+     "back": "PSLV-C37 launched 104 satellites on 15 February 2017"
+    },
+    {
+     "front": "Missiles developed under IGMDP (1983)",
+     "back": "Prithvi, Agni, Trishul, Akash, Nag"
+    },
+    {
+     "front": "BrahMos – partner country and name origin",
+     "back": "Russia; Brahmaputra + Moskva rivers"
+    },
+    {
+     "front": "Mission Shakti (2019)",
+     "back": "India's anti-satellite (ASAT) missile test, 27 March 2019"
+    },
+    {
+     "front": "India's first nuclear power station",
+     "back": "Tarapur, Maharashtra (1969)"
+    },
+    {
+     "front": "Exercises Garuda, Varuna and Shakti are with",
+     "back": "France (air force, navy and army respectively)"
+    },
+    {
+     "front": "First Indian to visit the International Space Station",
+     "back": "Shubhanshu Shukla (Axiom-4 mission, 2025)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "India's first satellite, Aryabhata, was launched in which year?",
+     "options": [
+      "1969",
+      "1975",
+      "1980",
+      "1984"
+     ],
+     "answer": 1,
+     "explanation": "Aryabhata was launched by the Soviet Union on 19 April 1975. 1980 was Rohini on SLV-3."
+    },
+    {
+     "q": "The landing site of the Chandrayaan-3 lander Vikram on the Moon has been named:",
+     "options": [
+      "Tiranga Point",
+      "Jawahar Point",
+      "Shiv Shakti Point",
+      "Vikram Point"
+     ],
+     "answer": 2,
+     "explanation": "The 23 Aug 2023 landing site is 'Shiv Shakti Point'. 'Tiranga Point' is where Chandrayaan-2's lander crashed."
+    },
+    {
+     "q": "BrahMos supersonic cruise missile is a joint venture between India and:",
+     "options": [
+      "Russia",
+      "France",
+      "Israel",
+      "USA"
+     ],
+     "answer": 0,
+     "explanation": "BrahMos Aerospace is a DRDO–Russia (NPOM) joint venture; the name comes from the Brahmaputra and Moskva rivers."
+    },
+    {
+     "q": "Which launch vehicle carried India's Mars Orbiter Mission (Mangalyaan) in 2013?",
+     "options": [
+      "GSLV Mk II",
+      "LVM3",
+      "SSLV",
+      "PSLV"
+     ],
+     "answer": 3,
+     "explanation": "Mangalyaan was launched on PSLV-C25 on 5 November 2013 from Sriharikota."
+    },
+    {
+     "q": "Exercise 'Garuda' is a joint air force exercise between India and:",
+     "options": [
+      "USA",
+      "Russia",
+      "France",
+      "Japan"
+     ],
+     "answer": 2,
+     "explanation": "Garuda (air force), Varuna (navy) and Shakti (army) are India–France exercises."
+    },
+    {
+     "q": "India's first nuclear power station was set up at:",
+     "options": [
+      "Kudankulam",
+      "Tarapur",
+      "Kalpakkam",
+      "Narora"
+     ],
+     "answer": 1,
+     "explanation": "Tarapur Atomic Power Station in Maharashtra started operating in 1969."
+    },
+    {
+     "q": "Aditya-L1 is placed around the L1 point, which is approximately how far from Earth?",
+     "options": [
+      "1.5 million km",
+      "3.84 lakh km",
+      "15 crore km",
+      "36,000 km"
+     ],
+     "answer": 0,
+     "explanation": "L1 is about 1.5 million km from Earth, roughly 1% of the Earth–Sun distance (about 15 crore km)."
+    },
+    {
+     "q": "'Nag', developed under the IGMDP, is a/an:",
+     "options": [
+      "Surface-to-air missile",
+      "Intercontinental ballistic missile",
+      "Submarine-launched ballistic missile",
+      "Anti-tank guided missile"
+     ],
+     "answer": 3,
+     "explanation": "Nag is a third-generation 'fire-and-forget' anti-tank guided missile. Akash and Trishul are surface-to-air missiles."
+    }
+   ]
+  },
+  {
+   "id": "india-neighbours-population",
+   "name": "India: Neighbours, Population, Agriculture & Transport",
+   "notes": [
+    {
+     "heading": "Neighbours & Boundary Lines",
+     "points": [
+      "India shares land borders with <b>7 countries</b> (total land border about 15,107 km): <b>Bangladesh</b> (about 4,097 km – longest), China (3,488 km), Pakistan (3,323 km), Nepal (1,751 km), Myanmar (1,643 km), Bhutan (699 km) and <b>Afghanistan</b> (106 km – shortest). Sri Lanka and the Maldives are maritime neighbours.",
+      "Bordering states/UTs – <b>Pakistan</b>: Gujarat, Rajasthan, Punjab, J&K, Ladakh. <b>China</b>: Ladakh, Himachal Pradesh, Uttarakhand, Sikkim, Arunachal Pradesh. <b>Nepal</b>: Uttarakhand, UP, Bihar, West Bengal, Sikkim.",
+      "<b>Bhutan</b>: Sikkim, West Bengal, Assam, Arunachal Pradesh. <b>Bangladesh</b>: West Bengal, Assam, Meghalaya, Tripura, Mizoram. <b>Myanmar</b>: Arunachal Pradesh, Nagaland, Manipur, Mizoram. <b>Afghanistan</b>: Ladakh (through the Gilgit-Baltistan area of PoK).",
+      "States bordering 3 countries: <b>Sikkim</b> (China, Nepal, Bhutan), <b>Arunachal Pradesh</b> (China, Bhutan, Myanmar), <b>West Bengal</b> (Nepal, Bhutan, Bangladesh).",
+      "<b>Radcliffe Line</b> (1947, Sir Cyril Radcliffe): India–Pakistan and India–Bangladesh. <b>McMahon Line</b> (Simla Convention 1914): India–China in the east (Arunachal); China does not accept it. <b>Durand Line</b> (1893, Sir Mortimer Durand): Pakistan–Afghanistan. <b>LoC</b>: India–Pakistan in J&K; <b>LAC</b>: India–China.",
+      "The India–Bangladesh Land Boundary Agreement (100th Constitutional Amendment, 2015) swapped enclaves. The <b>Siliguri Corridor</b> ('Chicken's Neck') links the North-East with the rest of India; the <b>Palk Strait</b> separates India and Sri Lanka."
+     ]
+    },
+    {
+     "heading": "Census 2011 Key Figures",
+     "points": [
+      "Census 2011 was the 15th census overall and the 7th since Independence. Population: <b>121.09 crore</b>; decadal growth <b>17.7%</b>; density <b>382 per sq km</b>. The first census was in 1872 and the first synchronous census in <b>1881</b>.",
+      "Sex ratio: <b>943</b> females per 1,000 males; child sex ratio (0–6 years): <b>919</b>. Highest – <b>Kerala (1,084)</b>; lowest – <b>Haryana (879)</b>. Among UTs: Puducherry highest (1,037), Daman & Diu lowest (618).",
+      "Literacy (provisional figures, the ones usually asked): <b>74.04%</b> (male 82.14%, female 65.46%). Highest – <b>Kerala (about 94%)</b>; lowest – <b>Bihar (about 61.8%)</b>. Among UTs, Lakshadweep is highest.",
+      "Most populous state – <b>Uttar Pradesh</b> (about 19.98 crore), then Maharashtra and Bihar; least populous – <b>Sikkim</b>. Largest state by area – Rajasthan; smallest – Goa.",
+      "Density: highest – <b>Bihar (1,106)</b>; lowest – <b>Arunachal Pradesh (17)</b>. Among UTs, Delhi has the highest density and Andaman & Nicobar the lowest. Decadal growth: highest – Meghalaya; <b>Nagaland</b> had negative growth.",
+      "As of 2025: the next census (the first digital census, with caste enumeration) has a reference date of <b>1 March 2027</b> (1 October 2026 for snow-bound areas). The census is run by the Registrar General & Census Commissioner under the Ministry of Home Affairs."
+     ]
+    },
+    {
+     "heading": "Agriculture: Seasons, Revolutions & Leading States",
+     "points": [
+      "<b>Kharif</b> (sown with the monsoon in June–July, harvested Sep–Oct): rice, maize, jowar, bajra, cotton, groundnut, soybean, jute. <b>Rabi</b> (sown Oct–Dec, harvested Mar–Apr): wheat, barley, gram, mustard, peas. <b>Zaid</b> (summer): watermelon, muskmelon, cucumber, moong.",
+      "<b>Green Revolution</b> (from the mid-1960s): high-yielding varieties of wheat and rice; <b>M.S. Swaminathan</b> in India, <b>Norman Borlaug</b> worldwide. <b>White Revolution</b> (<b>Operation Flood</b>, 1970): milk; <b>Verghese Kurien</b>, NDDB, Amul (Anand, Gujarat).",
+      "Other revolutions: <b>Blue</b> – fish; <b>Yellow</b> – oilseeds; <b>Golden</b> – horticulture/honey; <b>Silver</b> – eggs/poultry; <b>Golden Fibre</b> – jute; <b>Round</b> – potato; <b>Grey</b> – fertilisers; <b>Red</b> – meat/tomato.",
+      "Leading states (as per Ministry of Agriculture / Basic Animal Husbandry Statistics data, 2022-23; rankings can shift year to year): wheat and sugarcane – <b>Uttar Pradesh</b>; tea – <b>Assam</b>; coffee – <b>Karnataka</b>; rubber – <b>Kerala</b>; jute – <b>West Bengal</b>; saffron – <b>J&K</b>; mustard and bajra – <b>Rajasthan</b>; pulses – <b>Madhya Pradesh</b>; milk – Uttar Pradesh.",
+      "India is the world's <b>largest producer of milk and pulses</b>. MSP is recommended by the <b>CACP</b> (set up in 1965 as the Agricultural Prices Commission); the Food Corporation of India was also set up in 1965; ICAR (1929) is in New Delhi."
+     ]
+    },
+    {
+     "heading": "Transport: Railways, Roads, Ports & Firsts",
+     "points": [
+      "First passenger train: <b>16 April 1853</b>, Bori Bunder (Bombay) to Thane (34 km). First electric train: 3 February 1925, Bombay VT–Kurla. First metro: <b>Kolkata</b> (1984). First Vande Bharat Express: New Delhi–Varanasi (15 February 2019).",
+      "As of 2025, Indian Railways has 17 zones including Kolkata Metro; an 18th, South Coast Railway (Visakhapatnam), was announced in 2019. HQs: Northern – New Delhi; Central – Mumbai CSMT; Western – Mumbai Churchgate; South Central – Secunderabad; North Eastern – Gorakhpur; NF – Maligaon (Guwahati); East Central – Hajipur; East Coast – Bhubaneswar; North Western – Jaipur; South Western – Hubballi; West Central – Jabalpur; South East Central – Bilaspur; North Central – Prayagraj.",
+      "Longest railway platform: <b>Hubballi (Karnataka)</b>, about 1,507 m. <b>Chenab Bridge</b> (Reasi, J&K; opened June 2025) is the world's highest railway arch bridge. The new <b>Pamban Bridge</b> (2025) is India's first vertical-lift sea bridge. <b>Bogibeel</b> (Assam) is the longest rail-cum-road bridge.",
+      "Roads: <b>NH-44</b> (Srinagar–Kanyakumari) is the longest national highway. The <b>Golden Quadrilateral</b> links Delhi, Mumbai, Chennai and Kolkata. <b>Atal Setu</b> (Mumbai, 2024) is the longest sea bridge; <b>Bhupen Hazarika Setu</b> (Dhola–Sadiya, Assam) is a long river bridge; the <b>Atal Tunnel</b> (Rohtang) is the world's longest highway tunnel above 10,000 ft. Mumbai–Pune was India's first access-controlled expressway.",
+      "Major ports: west coast – Deendayal (Kandla, a tidal port), Mumbai, <b>JNPT</b> (largest container-handling major port), Mormugao, New Mangalore, Kochi; east coast – V.O. Chidambaranar (Tuticorin), Chennai, Kamarajar (Ennore, the first corporatised major port), Visakhapatnam, Paradip, <b>Syama Prasad Mookerjee Port, Kolkata</b> (the only riverine major port). <b>Vizhinjam</b> (Kerala, 2025) is India's first deep-water transshipment port.",
+      "<b>NW-1</b> (Ganga–Bhagirathi–Hooghly, Prayagraj–Haldia, 1,620 km) is the longest national waterway; <b>NW-2</b> is the Brahmaputra (Sadiya–Dhubri). <b>Cochin Airport</b> is the world's first fully solar-powered airport."
+     ]
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Country with which India has its longest land border",
+     "back": "Bangladesh (about 4,097 km); the shortest is with Afghanistan (106 km)"
+    },
+    {
+     "front": "McMahon Line separates",
+     "back": "India and China (eastern sector); drawn at the Simla Convention, 1914"
+    },
+    {
+     "front": "Durand Line separates",
+     "back": "Pakistan and Afghanistan (1893)"
+    },
+    {
+     "front": "Radcliffe Line separates",
+     "back": "India from Pakistan and Bangladesh (1947)"
+    },
+    {
+     "front": "Census 2011: sex ratio and child sex ratio",
+     "back": "943 and 919 (females per 1,000 males)"
+    },
+    {
+     "front": "Census 2011: literacy rate and density",
+     "back": "74.04%; 382 persons per sq km"
+    },
+    {
+     "front": "Census 2011: highest and lowest density states",
+     "back": "Bihar (1,106) and Arunachal Pradesh (17)"
+    },
+    {
+     "front": "Operation Flood / White Revolution is linked with",
+     "back": "Milk; Verghese Kurien (NDDB, Amul)"
+    },
+    {
+     "front": "Yellow Revolution",
+     "back": "Oilseeds"
+    },
+    {
+     "front": "Longest national highway",
+     "back": "NH-44, Srinagar to Kanyakumari"
+    },
+    {
+     "front": "Only riverine major port of India",
+     "back": "Syama Prasad Mookerjee Port, Kolkata (on the Hooghly)"
+    },
+    {
+     "front": "First passenger train in India",
+     "back": "16 April 1853, Bori Bunder (Bombay) to Thane"
+    }
+   ],
+   "questions": [
+    {
+     "q": "India shares its longest international land border with which country?",
+     "options": [
+      "China",
+      "Pakistan",
+      "Bangladesh",
+      "Nepal"
+     ],
+     "answer": 2,
+     "explanation": "Bangladesh (about 4,097 km) is followed by China (3,488 km) and Pakistan (3,323 km)."
+    },
+    {
+     "q": "The McMahon Line is the boundary between:",
+     "options": [
+      "India and Pakistan",
+      "India and China",
+      "Pakistan and Afghanistan",
+      "India and Nepal"
+     ],
+     "answer": 1,
+     "explanation": "The McMahon Line (Simla Convention, 1914) marks the India–China boundary in the eastern sector."
+    },
+    {
+     "q": "According to Census 2011, India's sex ratio was:",
+     "options": [
+      "933",
+      "927",
+      "943",
+      "919"
+     ],
+     "answer": 2,
+     "explanation": "Sex ratio in 2011 was 943 females per 1,000 males; 919 is the child (0–6) sex ratio, 933 was the 2001 figure and 927 the 1991 figure."
+    },
+    {
+     "q": "Which state shares international borders with China, Bhutan and Myanmar?",
+     "options": [
+      "Arunachal Pradesh",
+      "Assam",
+      "Nagaland",
+      "Sikkim"
+     ],
+     "answer": 0,
+     "explanation": "Arunachal Pradesh borders all three. Assam borders Bhutan and Bangladesh; Sikkim borders China, Nepal and Bhutan."
+    },
+    {
+     "q": "As per Census 2011, which state had the lowest population density?",
+     "options": [
+      "Sikkim",
+      "Mizoram",
+      "Nagaland",
+      "Arunachal Pradesh"
+     ],
+     "answer": 3,
+     "explanation": "Arunachal Pradesh had the lowest density, 17 persons per sq km. Bihar had the highest (1,106)."
+    },
+    {
+     "q": "The 'Yellow Revolution' in India is associated with:",
+     "options": [
+      "Oilseeds",
+      "Fish",
+      "Eggs",
+      "Milk"
+     ],
+     "answer": 0,
+     "explanation": "Yellow – oilseeds; Blue – fish; Silver – eggs; White – milk."
+    },
+    {
+     "q": "Which is the longest national highway in India?",
+     "options": [
+      "NH-48",
+      "NH-44",
+      "NH-27",
+      "NH-19"
+     ],
+     "answer": 1,
+     "explanation": "NH-44 runs from Srinagar to Kanyakumari (North–South corridor). NH-27 is the East–West corridor (Porbandar–Silchar)."
+    },
+    {
+     "q": "Which is the only riverine major port of India?",
+     "options": [
+      "Paradip",
+      "Visakhapatnam",
+      "Kamarajar (Ennore)",
+      "Syama Prasad Mookerjee Port, Kolkata"
+     ],
+     "answer": 3,
+     "explanation": "The Kolkata port (with the Haldia dock complex) is on the Hooghly river; the others are sea ports."
+    }
+   ]
   }
  ]
 };

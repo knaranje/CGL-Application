@@ -1232,6 +1232,943 @@ window.CGL_DATA.quant = {
           "explanation": "2019 + 2020 = 120 + 96 = 216; 2022 + 2023 = 150 + 162 = 312.<br>216 : 312 → divide by 24 → <b>9 : 13</b>."
         }
       ]
+    },
+    {
+      "id": "linear-equations-graphs",
+      "name": "Linear Equations & Graphs",
+      "notes": [
+        {
+          "heading": "Consistency of a Pair of Linear Equations",
+          "points": [
+            "For a<sub>1</sub>x + b<sub>1</sub>y + c<sub>1</sub> = 0 and a<sub>2</sub>x + b<sub>2</sub>y + c<sub>2</sub> = 0, compare the ratios a<sub>1</sub>/a<sub>2</sub>, b<sub>1</sub>/b<sub>2</sub>, c<sub>1</sub>/c<sub>2</sub>.",
+            "<b>Unique solution</b> (intersecting lines, consistent): a<sub>1</sub>/a<sub>2</sub> ≠ b<sub>1</sub>/b<sub>2</sub>.",
+            "<b>Infinitely many solutions</b> (coincident lines, consistent and dependent): a<sub>1</sub>/a<sub>2</sub> = b<sub>1</sub>/b<sub>2</sub> = c<sub>1</sub>/c<sub>2</sub>.",
+            "<b>No solution</b> (parallel lines, inconsistent): a<sub>1</sub>/a<sub>2</sub> = b<sub>1</sub>/b<sub>2</sub> ≠ c<sub>1</sub>/c<sub>2</sub>.",
+            "Cross-multiplication: x/(b<sub>1</sub>c<sub>2</sub> − b<sub>2</sub>c<sub>1</sub>) = y/(c<sub>1</sub>a<sub>2</sub> − c<sub>2</sub>a<sub>1</sub>) = 1/(a<sub>1</sub>b<sub>2</sub> − a<sub>2</sub>b<sub>1</sub>).",
+            "Trap: if equations are written as ax + by = c, the constant ratio is still c<sub>1</sub>/c<sub>2</sub> (the sign flips on both sides, so the ratio is unchanged)."
+          ]
+        },
+        {
+          "heading": "Slope, Intercepts & Special Lines",
+          "points": [
+            "For ax + by + c = 0: slope m = −a/b; x-intercept = −c/a; y-intercept = −c/b.",
+            "Slope-intercept form y = mx + c; intercept form x/a + y/b = 1 (cuts x-axis at (a, 0) and y-axis at (0, b)).",
+            "Slope through (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>) = (y<sub>2</sub> − y<sub>1</sub>)/(x<sub>2</sub> − x<sub>1</sub>).",
+            "Parallel lines: m<sub>1</sub> = m<sub>2</sub>. Perpendicular lines: m<sub>1</sub> × m<sub>2</sub> = −1.",
+            "x = k is a line parallel to the y-axis; y = k is parallel to the x-axis. The x-axis is y = 0 and the y-axis is x = 0.",
+            "The graph of y = mx (no constant) always passes through the origin; y = x and y = −x are perpendicular."
+          ]
+        },
+        {
+          "heading": "Areas, Intersections & Distances",
+          "points": [
+            "Line ax + by = c with the axes: triangle of area = c²/(2|ab|) (i.e. ½ × |x-intercept| × |y-intercept|).",
+            "Intersection point of two lines = solution of the pair of equations; solve by elimination or substitution.",
+            "Triangle formed by two lines and the x-axis: base = distance between their x-intercepts, height = |y-coordinate of their intersection|.",
+            "Area with vertices (x<sub>1</sub>,y<sub>1</sub>), (x<sub>2</sub>,y<sub>2</sub>), (x<sub>3</sub>,y<sub>3</sub>) = ½|x<sub>1</sub>(y<sub>2</sub> − y<sub>3</sub>) + x<sub>2</sub>(y<sub>3</sub> − y<sub>1</sub>) + x<sub>3</sub>(y<sub>1</sub> − y<sub>2</sub>)|; area 0 means the points are collinear.",
+            "Distance of (x<sub>0</sub>, y<sub>0</sub>) from ax + by + c = 0 is |ax<sub>0</sub> + by<sub>0</sub> + c|/√(a² + b²).",
+            "Distance between parallel lines ax + by + c<sub>1</sub> = 0 and ax + by + c<sub>2</sub> = 0 is |c<sub>1</sub> − c<sub>2</sub>|/√(a² + b²)."
+          ]
+        },
+        {
+          "heading": "Word Problems in Two Variables",
+          "points": [
+            "Two-digit number with tens digit x and units digit y = 10x + y; reversed = 10y + x.",
+            "Number + reversed = 11(x + y); number − reversed = 9(x − y).",
+            "Cost problems (a items + b items): adding and subtracting the two equations often gives (x + y) and (x − y) directly.",
+            "Age problems: if present ages are x and y, ages n years ago are (x − n) and (y − n); the age difference never changes.",
+            "Fraction problems: let the fraction be x/y and form one equation per condition.",
+            "Quick method in MCQs: substitute the options back into both equations instead of solving fully."
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Condition for a unique solution of a pair of linear equations?",
+          "back": "a<sub>1</sub>/a<sub>2</sub> ≠ b<sub>1</sub>/b<sub>2</sub> (lines intersect)"
+        },
+        {
+          "front": "Condition for infinitely many solutions?",
+          "back": "a<sub>1</sub>/a<sub>2</sub> = b<sub>1</sub>/b<sub>2</sub> = c<sub>1</sub>/c<sub>2</sub> (coincident lines)"
+        },
+        {
+          "front": "Condition for no solution?",
+          "back": "a<sub>1</sub>/a<sub>2</sub> = b<sub>1</sub>/b<sub>2</sub> ≠ c<sub>1</sub>/c<sub>2</sub> (parallel lines)"
+        },
+        {
+          "front": "Slope of ax + by + c = 0?",
+          "back": "−a/b"
+        },
+        {
+          "front": "x- and y-intercepts of ax + by + c = 0?",
+          "back": "x-intercept −c/a, y-intercept −c/b"
+        },
+        {
+          "front": "Area of triangle formed by ax + by = c and the coordinate axes?",
+          "back": "c²/(2|ab|)"
+        },
+        {
+          "front": "Condition for two lines to be perpendicular?",
+          "back": "Product of slopes m<sub>1</sub>m<sub>2</sub> = −1"
+        },
+        {
+          "front": "Graph of x = 5 is parallel to which axis?",
+          "back": "The y-axis"
+        },
+        {
+          "front": "Distance between parallel lines ax + by + c<sub>1</sub> = 0 and ax + by + c<sub>2</sub> = 0?",
+          "back": "|c<sub>1</sub> − c<sub>2</sub>|/√(a² + b²)"
+        },
+        {
+          "front": "Difference between a two-digit number and its reverse?",
+          "back": "9 × (difference of its digits)"
+        },
+        {
+          "front": "Sum of a two-digit number and its reverse?",
+          "back": "11 × (sum of its digits)"
+        },
+        {
+          "front": "Intercept form of a line?",
+          "back": "x/a + y/b = 1, cutting the axes at (a, 0) and (0, b)"
+        }
+      ],
+      "questions": [
+        {
+          "q": "For what value of k will the system 2x + 3y = 7 and (k − 1)x + (k + 2)y = 3k have infinitely many solutions?",
+          "options": [
+            "5",
+            "7",
+            "3",
+            "9"
+          ],
+          "answer": 1,
+          "explanation": "2/(k − 1) = 3/(k + 2) ⇒ 2k + 4 = 3k − 3 ⇒ k = 7.<br>Check: 2/6 = 3/9 = 7/21 = 1/3."
+        },
+        {
+          "q": "For what value of k does the system kx + 2y = 5 and 3x + y = 1 have no solution?",
+          "options": [
+            "6",
+            "−6",
+            "3/2",
+            "2/3"
+          ],
+          "answer": 0,
+          "explanation": "No solution: k/3 = 2/1 ≠ 5/1 ⇒ k = 6 (and 5 ≠ 2, so the condition holds)."
+        },
+        {
+          "q": "What is the area of the triangle formed by the line 3x + 4y = 24 and the coordinate axes?",
+          "options": [
+            "48 sq units",
+            "12 sq units",
+            "24 sq units",
+            "36 sq units"
+          ],
+          "answer": 2,
+          "explanation": "Intercepts: x = 8, y = 6. Area = ½ × 8 × 6 = 24 sq units."
+        },
+        {
+          "q": "What is the area of the triangle formed by the lines 2x + 3y = 12, x − y = 1 and the x-axis?",
+          "options": [
+            "10 sq units",
+            "6 sq units",
+            "7.5 sq units",
+            "5 sq units"
+          ],
+          "answer": 3,
+          "explanation": "Lines meet at (3, 2). x-intercepts are 6 and 1, so base = 5, height = 2.<br>Area = ½ × 5 × 2 = 5 sq units."
+        },
+        {
+          "q": "What is the slope of a line perpendicular to 3x − 2y + 5 = 0?",
+          "options": [
+            "3/2",
+            "−2/3",
+            "2/3",
+            "−3/2"
+          ],
+          "answer": 1,
+          "explanation": "Slope of given line = −a/b = −3/(−2) = 3/2. Perpendicular slope = −1 ÷ (3/2) = −2/3."
+        },
+        {
+          "q": "The sum of the digits of a two-digit number is 9. If the digits are reversed, the number increases by 27. Find the number.",
+          "options": [
+            "36",
+            "63",
+            "45",
+            "27"
+          ],
+          "answer": 0,
+          "explanation": "x + y = 9 and 9(y − x) = 27 ⇒ y − x = 3. So y = 6, x = 3; number = 36."
+        },
+        {
+          "q": "5 pens and 3 notebooks cost ₹110, while 3 pens and 5 notebooks cost ₹130. What is the cost of 2 pens and 1 notebook?",
+          "options": [
+            "₹30",
+            "₹50",
+            "₹40",
+            "₹35"
+          ],
+          "answer": 2,
+          "explanation": "Adding: 8(p + n) = 240 ⇒ p + n = 30. Subtracting: 2(n − p) = 20 ⇒ n − p = 10.<br>n = 20, p = 10 ⇒ 2p + n = ₹40."
+        },
+        {
+          "q": "The line through (2, 3) and (6, k) is parallel to the line 2x − y + 4 = 0. Find k.",
+          "options": [
+            "8",
+            "5",
+            "10",
+            "11"
+          ],
+          "answer": 3,
+          "explanation": "Slope of 2x − y + 4 = 0 is 2. So (k − 3)/(6 − 2) = 2 ⇒ k − 3 = 8 ⇒ k = 11."
+        }
+      ]
+    },
+    {
+      "id": "congruence-similarity-tangents",
+      "name": "Congruence, Similarity, Quadrilaterals & Tangents",
+      "notes": [
+        {
+          "heading": "Congruence & Similarity",
+          "points": [
+            "Congruence rules: <b>SSS, SAS</b> (angle must be included), <b>ASA, AAS, RHS</b> (right angle–hypotenuse–side). <b>SSA and AAA are NOT</b> congruence rules.",
+            "AAA only proves similarity (same shape, not necessarily same size). Corresponding parts of congruent triangles are equal (CPCT).",
+            "Similarity criteria: <b>AA</b> (or AAA), <b>SAS</b> (two sides in proportion + included angle equal), <b>SSS</b> (all three sides in proportion).",
+            "For similar triangles, ratio of sides = ratio of perimeters = ratio of corresponding altitudes, medians and angle bisectors.",
+            "<b>Ratio of areas = square of ratio of corresponding sides</b> (or altitudes/medians).",
+            "Right angle at A, AD ⟂ hypotenuse BC: ΔABD ~ ΔCAD ~ ΔCBA; AD² = BD × DC; AB² = BD × BC; AC² = CD × CB."
+          ]
+        },
+        {
+          "heading": "BPT, Angle Bisector Theorem & Apollonius",
+          "points": [
+            "<b>Basic Proportionality Theorem (Thales)</b>: if DE ∥ BC with D on AB and E on AC, then AD/DB = AE/EC (and ΔADE ~ ΔABC). The converse is also true.",
+            "<b>Midpoint theorem</b>: the segment joining the midpoints of two sides is parallel to the third side and equal to half of it.",
+            "<b>Internal angle bisector theorem</b>: if AD bisects ∠A (D on BC), then BD/DC = AB/AC. The external bisector divides BC externally in the same ratio.",
+            "<b>Apollonius theorem</b>: if AD is a median, AB² + AC² = 2(AD² + BD²).",
+            "Median length: m<sub>a</sub> = ½√(2b² + 2c² − a²).",
+            "Sum of squares of the three medians = ¾ × (sum of squares of the three sides)."
+          ]
+        },
+        {
+          "heading": "Quadrilateral Properties",
+          "points": [
+            "<b>Parallelogram</b>: opposite sides equal and parallel, opposite angles equal, adjacent angles supplementary, diagonals bisect each other; d<sub>1</sub>² + d<sub>2</sub>² = 2(a² + b²).",
+            "<b>Rhombus</b>: all sides equal, diagonals bisect each other at 90°; 4a² = d<sub>1</sub>² + d<sub>2</sub>²; area = ½ d<sub>1</sub>d<sub>2</sub>. <b>Rectangle</b>: diagonals equal. <b>Square</b>: diagonals equal and perpendicular.",
+            "<b>Cyclic quadrilateral</b>: opposite angles sum to 180°; exterior angle = interior opposite angle; Ptolemy: AC × BD = AB × CD + AD × BC. A cyclic parallelogram is a rectangle.",
+            "<b>Trapezium</b>: area = ½ × (sum of parallel sides) × height; the line joining midpoints of the non-parallel sides = ½ × (sum of parallel sides); diagonals divide each other in the ratio of the parallel sides. An isosceles trapezium is cyclic.",
+            "Joining the midpoints of the sides of any quadrilateral gives a parallelogram with half the area.",
+            "If a circle is inscribed in quadrilateral ABCD (tangential quadrilateral): AB + CD = AD + BC."
+          ]
+        },
+        {
+          "heading": "Circles: Chords, Tangents & Secants",
+          "points": [
+            "Angle at centre = 2 × angle at circumference on the same arc; angles in the same segment are equal; angle in a semicircle = 90°.",
+            "Perpendicular from the centre bisects a chord; equal chords are equidistant from the centre. Intersecting chords AB, CD at P: PA × PB = PC × PD.",
+            "Tangent ⟂ radius at point of contact; two tangents from an external point are equal; tangent length = √(d² − r²). If PA, PB are tangents: ∠APB + ∠AOB = 180°.",
+            "<b>Alternate segment theorem</b>: angle between a tangent and a chord = angle in the alternate segment.",
+            "<b>Tangent–secant theorem</b>: PT² = PA × PB (secant PAB from external point P). Two secants: PA × PB = PC × PD.",
+            "Common tangents (centres d apart): <b>direct</b> = √(d² − (r<sub>1</sub> − r<sub>2</sub>)²), <b>transverse</b> = √(d² − (r<sub>1</sub> + r<sub>2</sub>)²). Number: separate 4, touching externally 3, intersecting 2, touching internally 1, one inside the other 0."
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Which two combinations are NOT valid congruence rules?",
+          "back": "SSA and AAA (AAA gives only similarity)"
+        },
+        {
+          "front": "Ratio of areas of two similar triangles?",
+          "back": "Square of the ratio of corresponding sides (or altitudes, medians)"
+        },
+        {
+          "front": "Basic Proportionality Theorem?",
+          "back": "If DE ∥ BC in ΔABC, then AD/DB = AE/EC"
+        },
+        {
+          "front": "Angle bisector theorem (AD bisects ∠A)?",
+          "back": "BD/DC = AB/AC"
+        },
+        {
+          "front": "Apollonius theorem (AD median)?",
+          "back": "AB² + AC² = 2(AD² + BD²)"
+        },
+        {
+          "front": "Relation between side and diagonals of a rhombus?",
+          "back": "4a² = d<sub>1</sub>² + d<sub>2</sub>²"
+        },
+        {
+          "front": "Sum of squares of diagonals of a parallelogram?",
+          "back": "d<sub>1</sub>² + d<sub>2</sub>² = 2(a² + b²)"
+        },
+        {
+          "front": "Opposite angles of a cyclic quadrilateral?",
+          "back": "Supplementary (sum = 180°)"
+        },
+        {
+          "front": "Length of direct common tangent?",
+          "back": "√(d² − (r<sub>1</sub> − r<sub>2</sub>)²)"
+        },
+        {
+          "front": "Length of transverse common tangent?",
+          "back": "√(d² − (r<sub>1</sub> + r<sub>2</sub>)²)"
+        },
+        {
+          "front": "Tangent–secant theorem?",
+          "back": "PT² = PA × PB"
+        },
+        {
+          "front": "Number of common tangents when two circles touch externally?",
+          "back": "3"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Which of the following is NOT a criterion for congruence of triangles?",
+          "options": [
+            "SAS",
+            "RHS",
+            "SSA",
+            "ASA"
+          ],
+          "answer": 2,
+          "explanation": "SSA (angle not included between the two sides) does not guarantee congruence; SAS, RHS and ASA do."
+        },
+        {
+          "q": "In ΔABC, D and E are points on AB and AC such that DE ∥ BC and AD : DB = 2 : 3. What is the ratio of the area of ΔADE to the area of trapezium DBCE?",
+          "options": [
+            "4 : 25",
+            "4 : 21",
+            "2 : 3",
+            "4 : 9"
+          ],
+          "answer": 1,
+          "explanation": "ΔADE ~ ΔABC with AD/AB = 2/5, so areas are 4 : 25.<br>Trapezium = 25 − 4 = 21 ⇒ ratio 4 : 21."
+        },
+        {
+          "q": "In ΔABC, AB = 12 cm, AC = 8 cm and BC = 15 cm. The bisector of ∠A meets BC at D. Find BD.",
+          "options": [
+            "6 cm",
+            "7.5 cm",
+            "10 cm",
+            "9 cm"
+          ],
+          "answer": 3,
+          "explanation": "BD/DC = AB/AC = 12/8 = 3/2. BD = 15 × 3/5 = 9 cm."
+        },
+        {
+          "q": "In ΔABC, AB = 7 cm, AC = 9 cm and BC = 8 cm. What is the length of the median AD?",
+          "options": [
+            "7 cm",
+            "6 cm",
+            "√55 cm",
+            "8 cm"
+          ],
+          "answer": 0,
+          "explanation": "Apollonius: 49 + 81 = 2(AD² + 4²) ⇒ 65 = AD² + 16 ⇒ AD² = 49 ⇒ AD = 7 cm."
+        },
+        {
+          "q": "The diagonals of a rhombus are 24 cm and 10 cm. What is its perimeter?",
+          "options": [
+            "68 cm",
+            "48 cm",
+            "26 cm",
+            "52 cm"
+          ],
+          "answer": 3,
+          "explanation": "Side = √(12² + 5²) = 13 cm (diagonals bisect at 90°). Perimeter = 4 × 13 = 52 cm."
+        },
+        {
+          "q": "ABCD is a cyclic quadrilateral with ∠A = (2x + 10)° and ∠C = (3x − 5)°. Find ∠C.",
+          "options": [
+            "80°",
+            "95°",
+            "100°",
+            "105°"
+          ],
+          "answer": 2,
+          "explanation": "∠A + ∠C = 180° ⇒ 5x + 5 = 180 ⇒ x = 35. ∠C = 105 − 5 = 100°."
+        },
+        {
+          "q": "Two circles of radii 8 cm and 3 cm have their centres 13 cm apart. What is the length of their direct common tangent?",
+          "options": [
+            "4√3 cm",
+            "12 cm",
+            "10 cm",
+            "11 cm"
+          ],
+          "answer": 1,
+          "explanation": "Direct = √(13² − (8 − 3)²) = √(169 − 25) = √144 = 12 cm.<br>(Transverse would be √(169 − 121) = 4√3 cm.)"
+        },
+        {
+          "q": "From an external point P, a secant PAB cuts a circle at A and B, with PA = 4 cm and AB = 5 cm. What is the length of the tangent PT from P to the circle?",
+          "options": [
+            "6 cm",
+            "√20 cm",
+            "4.5 cm",
+            "9 cm"
+          ],
+          "answer": 0,
+          "explanation": "PB = 4 + 5 = 9 cm. PT² = PA × PB = 4 × 9 = 36 ⇒ PT = 6 cm."
+        }
+      ]
+    },
+    {
+      "id": "mensuration-3d-advanced",
+      "name": "Prism, Pyramid, Frustum & Solids",
+      "notes": [
+        {
+          "heading": "Right Prism & Cuboid",
+          "points": [
+            "Right prism: <b>Volume = base area × height</b>; <b>LSA = perimeter of base × height</b>; TSA = LSA + 2 × base area.",
+            "Useful base areas: equilateral triangle (√3/4)a²; regular hexagon (3√3/2)a²; right triangle ½ × product of legs.",
+            "Cuboid: diagonal = √(l² + b² + h²); TSA = 2(lb + bh + hl); (l + b + h)² = diagonal² + TSA. Cube diagonal = a√3.",
+            "Euler's formula for polyhedra: F + V − E = 2 (cube: 6 faces, 8 vertices, 12 edges).",
+            "Cube of side n painted and cut into n³ unit cubes: 3 faces painted = 8; 2 faces = 12(n − 2); 1 face = 6(n − 2)²; unpainted = (n − 2)³."
+          ]
+        },
+        {
+          "heading": "Regular Right Pyramid",
+          "points": [
+            "<b>Volume = ⅓ × base area × height</b>; <b>LSA = ½ × perimeter of base × slant height</b>; TSA = LSA + base area.",
+            "Square base (side a, height h): slant height l = √(h² + (a/2)²); lateral edge = √(h² + a²/2).",
+            "Equilateral-triangle base (side a): inradius of base = a/(2√3), so slant height = √(h² + a²/12); lateral edge = √(h² + a²/3).",
+            "Regular tetrahedron (all edges a): volume = a³/(6√2); TSA = √3 a²; height = a√(2/3).",
+            "A pyramid has 1/3 the volume of a prism with the same base and height (like a cone vs a cylinder)."
+          ]
+        },
+        {
+          "heading": "Frustum & Hollow Solids",
+          "points": [
+            "Frustum of cone (radii R, r; height h): <b>V = (πh/3)(R² + r² + Rr)</b>; slant l = √(h² + (R − r)²); CSA = π(R + r)l; TSA = π(R + r)l + πR² + πr².",
+            "Frustum of pyramid (end areas A<sub>1</sub>, A<sub>2</sub>): V = (h/3)(A<sub>1</sub> + A<sub>2</sub> + √(A<sub>1</sub>A<sub>2</sub>)).",
+            "A cone cut parallel to the base at half its height: small cone = 1/8 of the volume, frustum = 7/8.",
+            "Hollow cylinder (outer R, inner r, height h): V = πh(R² − r²); total curved surface (outer + inner) = 2πh(R + r); TSA = 2πh(R + r) + 2π(R² − r²).",
+            "Hollow sphere (outer R, inner r): volume of material = (4/3)π(R³ − r³); outer surface area = 4πR²."
+          ]
+        },
+        {
+          "heading": "Melting, Recasting & Percentage Change",
+          "points": [
+            "On melting and recasting, <b>volume stays the same</b>: number of new solids = volume of original ÷ volume of one new solid.",
+            "Sphere of radius R recast into n equal spheres of radius r: n = (R/r)³. Total surface area increases.",
+            "Drawing a wire: volume of metal = πr² × length of wire (keep units the same: 1 m = 100 cm, 1 cm = 10 mm).",
+            "Rise in water level = volume of the immersed solid ÷ base area of the container. 1 litre = 1000 cm³.",
+            "If every linear dimension is scaled by k: surface area × k², volume × k³. A 20% rise in each edge of a cube raises area by 44% and volume by 72.8%.",
+            "Cylinder or cone with radius change r% and height change h%: new/old volume = (1 + r/100)² × (1 + h/100)."
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Volume and LSA of a right prism?",
+          "back": "V = base area × height; LSA = base perimeter × height"
+        },
+        {
+          "front": "Volume of a pyramid?",
+          "back": "⅓ × base area × height"
+        },
+        {
+          "front": "LSA of a regular pyramid?",
+          "back": "½ × perimeter of base × slant height"
+        },
+        {
+          "front": "Slant height of a square pyramid (side a, height h)?",
+          "back": "√(h² + (a/2)²)"
+        },
+        {
+          "front": "Volume of a frustum of a cone?",
+          "back": "(πh/3)(R² + r² + Rr)"
+        },
+        {
+          "front": "CSA of a frustum of a cone?",
+          "back": "π(R + r)l, where l = √(h² + (R − r)²)"
+        },
+        {
+          "front": "Volume of a hollow cylinder?",
+          "back": "πh(R² − r²)"
+        },
+        {
+          "front": "Volume of metal in a hollow sphere?",
+          "back": "(4/3)π(R³ − r³)"
+        },
+        {
+          "front": "Diagonal of a cuboid?",
+          "back": "√(l² + b² + h²)"
+        },
+        {
+          "front": "(l + b + h)² in terms of cuboid diagonal and TSA?",
+          "back": "diagonal² + TSA"
+        },
+        {
+          "front": "Volume of a regular tetrahedron of edge a?",
+          "back": "a³/(6√2)"
+        },
+        {
+          "front": "Each dimension scaled by k: effect on volume?",
+          "back": "Volume becomes k³ times (area k² times)"
+        }
+      ],
+      "questions": [
+        {
+          "q": "The base of a right prism is a right triangle with legs 6 cm and 8 cm. If the total surface area of the prism is 288 cm², what is its volume?",
+          "options": [
+            "192 cm³",
+            "288 cm³",
+            "240 cm³",
+            "480 cm³"
+          ],
+          "answer": 2,
+          "explanation": "Base area = 24, hypotenuse = 10, perimeter = 24. TSA = 24h + 2 × 24 = 288 ⇒ h = 10.<br>Volume = 24 × 10 = 240 cm³."
+        },
+        {
+          "q": "A right pyramid has a square base of side 10 cm and height 12 cm. What is its total surface area?",
+          "options": [
+            "360 cm²",
+            "260 cm²",
+            "400 cm²",
+            "460 cm²"
+          ],
+          "answer": 0,
+          "explanation": "Slant height = √(12² + 5²) = 13. LSA = ½ × 40 × 13 = 260.<br>TSA = 260 + 100 = 360 cm²."
+        },
+        {
+          "q": "The base of a right pyramid is an equilateral triangle of side 6 cm and its height is 10√3 cm. What is its volume?",
+          "options": [
+            "270 cm³",
+            "45 cm³",
+            "30√3 cm³",
+            "90 cm³"
+          ],
+          "answer": 3,
+          "explanation": "Base area = (√3/4) × 36 = 9√3. Volume = ⅓ × 9√3 × 10√3 = ⅓ × 270 = 90 cm³."
+        },
+        {
+          "q": "A bucket in the shape of a frustum of a cone has top and bottom radii 20 cm and 10 cm and height 21 cm. What is its capacity? (π = 22/7)",
+          "options": [
+            "13.2 litres",
+            "15.4 litres",
+            "17.6 litres",
+            "14.3 litres"
+          ],
+          "answer": 1,
+          "explanation": "V = (π × 21/3)(400 + 100 + 200) = 7π × 700 = 4900 × 22/7 = 15400 cm³ = 15.4 litres."
+        },
+        {
+          "q": "An iron pipe 14 cm long has outer diameter 10 cm and inner diameter 8 cm. What is the volume of iron in it? (π = 22/7)",
+          "options": [
+            "352 cm³",
+            "792 cm³",
+            "396 cm³",
+            "440 cm³"
+          ],
+          "answer": 2,
+          "explanation": "R = 5, r = 4. V = πh(R² − r²) = (22/7) × 14 × 9 = 44 × 9 = 396 cm³."
+        },
+        {
+          "q": "A hollow metallic sphere with external radius 6 cm and internal radius 4 cm is melted and recast into a solid cone of base radius 4 cm. What is the height of the cone?",
+          "options": [
+            "38 cm",
+            "19 cm",
+            "36 cm",
+            "42 cm"
+          ],
+          "answer": 0,
+          "explanation": "(4/3)π(216 − 64) = (1/3)π × 16 × h ⇒ 4 × 152 = 16h ⇒ h = 38 cm."
+        },
+        {
+          "q": "The radius of a cylinder is increased by 10% and its height is decreased by 10%. What is the change in its volume?",
+          "options": [
+            "No change",
+            "10.9% increase",
+            "9.9% decrease",
+            "8.9% increase"
+          ],
+          "answer": 3,
+          "explanation": "New/old = (1.1)² × 0.9 = 1.21 × 0.9 = 1.089 ⇒ 8.9% increase."
+        },
+        {
+          "q": "The sum of the length, breadth and height of a cuboid is 19 cm and its diagonal is 11 cm. What is its total surface area?",
+          "options": [
+            "120 cm²",
+            "240 cm²",
+            "260 cm²",
+            "361 cm²"
+          ],
+          "answer": 1,
+          "explanation": "(l + b + h)² = diagonal² + TSA ⇒ 361 = 121 + TSA ⇒ TSA = 240 cm²."
+        }
+      ]
+    },
+    {
+      "id": "trig-radian-complementary",
+      "name": "Degree–Radian & Complementary Angles",
+      "notes": [
+        {
+          "heading": "Degree–Radian Conversion",
+          "points": [
+            "<b>π rad = 180°</b>. Degree → radian: multiply by <b>π/180</b>. Radian → degree: multiply by <b>180/π</b>.",
+            "1 rad = 180/π ≈ <b>57.3°</b> (57°16′22″ using π = 22/7); 1° = π/180 ≈ 0.01745 rad.",
+            "Common values: 30° = π/6, 45° = π/4, 60° = π/3, 90° = π/2, 120° = 2π/3, 135° = 3π/4, 150° = 5π/6, 270° = 3π/2, 360° = 2π.",
+            "1° = 60′ (minutes), 1′ = 60″ (seconds). Convert minutes to a decimal first: 22°30′ = 22.5° = π/8; 67°30′ = 67.5° = 3π/8.",
+            "Right angle = 90° = π/2 rad = 100 grades (centesimal system: 1 grade = 0.9°)."
+          ]
+        },
+        {
+          "heading": "Arc, Sector & Clock Angles in Radians",
+          "points": [
+            "Arc length <b>l = rθ</b> and θ = l/r — valid only when θ is in <b>radians</b>.",
+            "Sector area = <b>½r²θ</b> = <b>½lr</b> (θ in radians); in degrees it is (θ/360°) × πr².",
+            "Perimeter of a sector = 2r + l.",
+            "Minute hand turns 6° per minute = π/30 rad/min (2π rad per hour); hour hand turns 0.5° per minute = π/360 rad/min (π/6 rad per hour).",
+            "Angle between hands at H:M = |30H − 5.5M|°; convert with π/180. E.g. 3:00 → 90° = π/2; 4:20 → 10° = π/18."
+          ]
+        },
+        {
+          "heading": "Complementary Angle Identities",
+          "points": [
+            "sin(90° − θ) = cos θ; cos(90° − θ) = sin θ.",
+            "tan(90° − θ) = cot θ; cot(90° − θ) = tan θ.",
+            "sec(90° − θ) = cosec θ; cosec(90° − θ) = sec θ.",
+            "For acute angles: if sin A = cos B, tan A = cot B or sec A = cosec B, then <b>A + B = 90°</b>. E.g. sec 4A = cosec(A − 20°) → 5A − 20° = 90° → A = 22°.",
+            "Useful results: tan θ · tan(90° − θ) = 1; sin θ · sec(90° − θ) = 1; sin²θ + sin²(90° − θ) = 1; sin 35°/cos 55° = 1."
+          ]
+        },
+        {
+          "heading": "Standard Products, Sums & Quadrant Signs",
+          "points": [
+            "<b>tan 1° · tan 2° · … · tan 89° = 1</b> (pairs tan θ · tan(90° − θ) = 1, middle term tan 45° = 1). Same for cot.",
+            "Any product containing cos 90° (or sin 0°, sin 180°) is <b>0</b>: cos 1° · cos 2° · … · cos 100° = 0.",
+            "<b>sin²1° + sin²2° + … + sin²89° = 44.5</b> (44 complementary pairs give 1 each, plus sin²45° = ½). Same for cos².",
+            "sin²0° + sin²1° + … + sin²90° = 45.5; sin²5° + sin²10° + … + sin²85° (17 terms) = 8 + ½ = 8.5.",
+            "Quadrant signs (<b>ASTC</b>): I — all positive; II — sin, cosec; III — tan, cot; IV — cos, sec.",
+            "sin(180° − θ) = sin θ, cos(180° − θ) = −cos θ, tan(180° − θ) = −tan θ; sin(90° + θ) = cos θ, cos(90° + θ) = −sin θ."
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "π radians = ? degrees",
+          "back": "180°"
+        },
+        {
+          "front": "1 radian ≈ ? degrees",
+          "back": "≈ 57.3° (57°16′22″ using π = 22/7)"
+        },
+        {
+          "front": "Arc length formula (θ in radians)?",
+          "back": "l = rθ"
+        },
+        {
+          "front": "Area of sector (θ in radians)?",
+          "back": "½r²θ = ½lr"
+        },
+        {
+          "front": "Angle turned by minute hand in 1 minute, in radians?",
+          "back": "π/30 rad (6°)"
+        },
+        {
+          "front": "Angle turned by hour hand in 1 hour, in radians?",
+          "back": "π/6 rad (30°)"
+        },
+        {
+          "front": "sec(90° − θ) = ?",
+          "back": "cosec θ"
+        },
+        {
+          "front": "If tan A = cot B (A, B acute), then A + B = ?",
+          "back": "90°"
+        },
+        {
+          "front": "tan 1° · tan 2° · … · tan 89° = ?",
+          "back": "1"
+        },
+        {
+          "front": "sin²1° + sin²2° + … + sin²89° = ?",
+          "back": "44.5 (= 89/2)"
+        },
+        {
+          "front": "Which ratios are positive in the 3rd quadrant?",
+          "back": "tan and cot (ASTC rule)"
+        },
+        {
+          "front": "22°30′ in radians?",
+          "back": "π/8"
+        }
+      ],
+      "questions": [
+        {
+          "q": "The radian measure 5π/12 is equal to:",
+          "options": [
+            "60°",
+            "75°",
+            "105°",
+            "150°"
+          ],
+          "answer": 1,
+          "explanation": "5π/12 × 180/π = 5 × 15 = 75°."
+        },
+        {
+          "q": "An arc of length 22 cm subtends an angle of 60° at the centre of a circle. The radius of the circle is (take π = 22/7):",
+          "options": [
+            "21 cm",
+            "14 cm",
+            "7 cm",
+            "42 cm"
+          ],
+          "answer": 0,
+          "explanation": "60° = π/3 rad = 22/21. r = l/θ = 22 ÷ (22/21) = 21 cm."
+        },
+        {
+          "q": "The value of tan 1° · tan 2° · tan 3° · … · tan 89° is:",
+          "options": [
+            "1",
+            "0",
+            "√3",
+            "89"
+          ],
+          "answer": 0,
+          "explanation": "tan θ · tan(90° − θ) = tan θ · cot θ = 1 for each of 44 pairs, and tan 45° = 1. Product = 1."
+        },
+        {
+          "q": "The value of sin²1° + sin²2° + sin²3° + … + sin²89° is:",
+          "options": [
+            "44",
+            "45",
+            "89/2",
+            "89"
+          ],
+          "answer": 2,
+          "explanation": "sin²θ + sin²(90° − θ) = sin²θ + cos²θ = 1 for 44 pairs, plus sin²45° = ½. Sum = 44 + ½ = 89/2."
+        },
+        {
+          "q": "The angle between the hour hand and the minute hand of a clock at 4:20, in radians, is:",
+          "options": [
+            "π/9",
+            "π/36",
+            "π/12",
+            "π/18"
+          ],
+          "answer": 3,
+          "explanation": "|30 × 4 − 5.5 × 20| = |120 − 110| = 10°. 10 × π/180 = π/18."
+        },
+        {
+          "q": "If sec 4A = cosec(A − 20°), where 4A is an acute angle, then the value of A is:",
+          "options": [
+            "20°",
+            "24°",
+            "22°",
+            "30°"
+          ],
+          "answer": 2,
+          "explanation": "sec 4A = cosec(90° − 4A), so 90° − 4A = A − 20° → 5A = 110° → A = 22°."
+        },
+        {
+          "q": "The area of a sector of a circle of radius 14 cm whose central angle is 1.5 radians is:",
+          "options": [
+            "294 cm²",
+            "21 cm²",
+            "98 cm²",
+            "147 cm²"
+          ],
+          "answer": 3,
+          "explanation": "Area = ½r²θ = ½ × 196 × 1.5 = 98 × 1.5 = 147 cm²."
+        },
+        {
+          "q": "If tan 2θ · tan 4θ = 1, where 2θ and 4θ are acute angles, then θ is:",
+          "options": [
+            "10°",
+            "15°",
+            "20°",
+            "30°"
+          ],
+          "answer": 1,
+          "explanation": "tan 2θ = 1/tan 4θ = cot 4θ = tan(90° − 4θ) → 2θ = 90° − 4θ → 6θ = 90° → θ = 15°."
+        }
+      ]
+    },
+    {
+      "id": "histogram-frequency",
+      "name": "Histogram, Frequency Polygon & Bar Diagram",
+      "notes": [
+        {
+          "heading": "Frequency Distribution Basics",
+          "points": [
+            "Grouped data is shown in classes, e.g. Class 0–10: 5, 10–20: 8, 20–30: 12. <b>Frequency</b> = number of observations in a class.",
+            "<b>Class width (size)</b> = upper limit − lower limit (exclusive classes) = difference between consecutive class marks.",
+            "<b>Class mark (mid-value)</b> = (lower limit + upper limit)/2. E.g. class 25–35 → 30.",
+            "Exclusive classes (10–20, 20–30: upper limit not included) vs inclusive (10–19, 20–29). To convert inclusive to exclusive with a gap of 1, subtract 0.5 from lower and add 0.5 to upper limits: 9.5–19.5, 19.5–29.5.",
+            "<b>Cumulative frequency</b> (less-than type) = running total of frequencies; the last cf equals N (total). More-than type counts from the total downward.",
+            "<b>Range</b> = highest observation − lowest observation."
+          ]
+        },
+        {
+          "heading": "Histogram, Frequency Polygon & Ogive",
+          "points": [
+            "<b>Histogram</b>: adjacent rectangles (no gaps) drawn on continuous classes; <b>area</b> of each rectangle is proportional to its frequency.",
+            "Equal class widths: heights = frequencies. <b>Unequal widths</b>: height = adjusted frequency = (minimum class width ÷ class width) × frequency.",
+            "<b>Frequency polygon</b>: join the mid-points of the tops of histogram rectangles, i.e. plot (class mark, frequency); close it at both ends at the class marks of imaginary zero-frequency classes. For equal class widths, its area equals the area of the histogram.",
+            "<b>Ogive</b> (cumulative frequency curve): less-than ogive plots (upper limit, cf); more-than ogive plots (lower limit, cf). The x-coordinate of their intersection is the <b>median</b>.",
+            "<b>Bar diagram</b>: bars of equal width with equal gaps; only the length (height) shows the value. Used for discrete/categorical data, unlike a histogram."
+          ]
+        },
+        {
+          "heading": "Grouped Mean, Median & Mode",
+          "points": [
+            "<b>Mean</b> = Σfx/Σf (x = class mark). Assumed-mean method: x̄ = A + Σfd/Σf, d = x − A. Step-deviation: x̄ = A + (Σfu/Σf) × h, u = (x − A)/h.",
+            "<b>Median class</b> = first class whose cumulative frequency ≥ N/2.",
+            "<b>Median</b> = l + [(N/2 − cf)/f] × h — l: lower limit of median class, cf: cumulative frequency of the class before it, f: its frequency, h: class width.",
+            "<b>Modal class</b> = class with the highest frequency. <b>Mode</b> = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h — f₁: modal class frequency, f₀: preceding, f₂: succeeding.",
+            "<b>Empirical relation</b> (moderately skewed data): Mode = 3 Median − 2 Mean. For symmetric data Mean = Median = Mode."
+          ]
+        },
+        {
+          "heading": "Reading Bar Diagrams & Tables",
+          "points": [
+            "Types: simple bar, multiple (grouped) bar for comparing two or more series, sub-divided (stacked) bar showing parts of a total, percentage bar.",
+            "Stacked bar: total = full bar height; a component = difference between its top and bottom levels.",
+            "Percentage change = (new − old)/old × 100. Ratios: cancel common factors before dividing.",
+            "Average of bars = sum of values ÷ number of bars. For \"how many years above average\", find the average first, then count.",
+            "From a less-than cf table, frequency of a class = its cf − previous cf (e.g. less than 30: 23, less than 20: 11 → class 20–30 has 12)."
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Class mark of a class?",
+          "back": "(Lower limit + Upper limit)/2"
+        },
+        {
+          "front": "Class width from class marks?",
+          "back": "Difference between two consecutive class marks"
+        },
+        {
+          "front": "Adjusted frequency for unequal class widths?",
+          "back": "(Minimum class width ÷ class width) × frequency"
+        },
+        {
+          "front": "In a histogram, frequency is proportional to the rectangle's ___",
+          "back": "Area"
+        },
+        {
+          "front": "Frequency polygon is drawn by plotting?",
+          "back": "(Class mark, frequency), closed at both ends by zero-frequency classes"
+        },
+        {
+          "front": "Less-than and more-than ogives intersect at?",
+          "back": "The median (x-coordinate)"
+        },
+        {
+          "front": "Grouped median formula?",
+          "back": "l + [(N/2 − cf)/f] × h"
+        },
+        {
+          "front": "Grouped mode formula?",
+          "back": "l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h"
+        },
+        {
+          "front": "Empirical relation between mean, median, mode?",
+          "back": "Mode = 3 Median − 2 Mean"
+        },
+        {
+          "front": "Median class is?",
+          "back": "First class with cumulative frequency ≥ N/2"
+        },
+        {
+          "front": "Key difference: histogram vs bar diagram?",
+          "back": "Histogram: continuous classes, no gaps, area matters. Bar diagram: equal gaps, only height matters."
+        }
+      ],
+      "questions": [
+        {
+          "q": "In a frequency distribution the class marks are 15, 25, 35 and 45. The class width and the upper limit of the last class are respectively:",
+          "options": [
+            "10, 50",
+            "10, 45",
+            "5, 50",
+            "10, 55"
+          ],
+          "answer": 0,
+          "explanation": "Width = 25 − 15 = 10. Last class = 45 ± 5 = 40–50, so upper limit = 50."
+        },
+        {
+          "q": "For a moderately skewed distribution, the mean is 24 and the median is 26. Using the empirical relation, the mode is:",
+          "options": [
+            "28",
+            "30",
+            "32",
+            "22"
+          ],
+          "answer": 1,
+          "explanation": "Mode = 3 Median − 2 Mean = 78 − 48 = 30."
+        },
+        {
+          "q": "Find the mean of the data: Class 0–10: 4, 10–20: 6, 20–30: 8, 30–40: 2.",
+          "options": [
+            "18",
+            "21",
+            "20",
+            "19"
+          ],
+          "answer": 3,
+          "explanation": "Class marks 5, 15, 25, 35. Σfx = 20 + 90 + 200 + 70 = 380; Σf = 20. Mean = 380/20 = 19."
+        },
+        {
+          "q": "Find the median of the data: Class 0–10: 5, 10–20: 8, 20–30: 12, 30–40: 10, 40–50: 5.",
+          "options": [
+            "24.17",
+            "25.5",
+            "25.83",
+            "26.5"
+          ],
+          "answer": 2,
+          "explanation": "N = 40, N/2 = 20; cf: 5, 13, 25 → median class 20–30. Median = 20 + [(20 − 13)/12] × 10 = 20 + 5.83 = 25.83."
+        },
+        {
+          "q": "Find the mode of the data: Class 10–20: 6, 20–30: 10, 30–40: 16, 40–50: 12, 50–60: 6.",
+          "options": [
+            "36",
+            "35",
+            "34",
+            "38"
+          ],
+          "answer": 0,
+          "explanation": "Modal class 30–40 (f₁ = 16, f₀ = 10, f₂ = 12). Mode = 30 + [6/(32 − 10 − 12)] × 10 = 30 + 6 = 36."
+        },
+        {
+          "q": "A histogram is drawn for the classes 0–5: 10, 5–15: 24, 15–35: 30. Taking the minimum class width as the base, the height (adjusted frequency) of the rectangle for class 15–35 is:",
+          "options": [
+            "30",
+            "15",
+            "6",
+            "7.5"
+          ],
+          "answer": 3,
+          "explanation": "Minimum width = 5, width of 15–35 = 20. Adjusted frequency = (5/20) × 30 = 7.5."
+        },
+        {
+          "q": "A less-than cumulative frequency table is: less than 10: 4, less than 20: 11, less than 30: 23, less than 40: 30, less than 50: 34. The frequency of the class 20–30 is:",
+          "options": [
+            "23",
+            "11",
+            "12",
+            "7"
+          ],
+          "answer": 2,
+          "explanation": "Frequency of 20–30 = cf(less than 30) − cf(less than 20) = 23 − 11 = 12."
+        },
+        {
+          "q": "A bar diagram shows the sales (₹ crore) of a company: 2019: 120, 2020: 150, 2021: 135, 2022: 180, 2023: 165. The percentage increase in sales from 2021 to 2022 is:",
+          "options": [
+            "25%",
+            "33⅓%",
+            "30%",
+            "45%"
+          ],
+          "answer": 1,
+          "explanation": "(180 − 135)/135 × 100 = 45/135 × 100 = 33⅓%."
+        }
+      ]
     }
   ]
 };

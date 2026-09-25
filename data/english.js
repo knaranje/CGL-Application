@@ -1073,6 +1073,568 @@ window.CGL_DATA.english = {
           "explanation": "Arguments that make even opponents agree are persuasive — 'cogent' means <b>convincing</b>."
         }
       ]
+    },
+    {
+      "id": "sentence-rearrangement",
+      "name": "Sentence Rearrangement (Para Jumbles)",
+      "notes": [
+        {
+          "heading": "Two question types in SSC",
+          "points": [
+            "<b>Parts of a sentence:</b> one sentence is broken into parts labelled P, Q, R, S; the opening words (and sometimes the ending) are given. Arrange the parts into one correct sentence.",
+            "<b>Sentences of a passage:</b> four or more sentences (P, Q, R, S) of a short paragraph are jumbled. Sometimes the first and last sentences are fixed; sometimes all are jumbled.",
+            "Always use the 4 options: fix one sure link (for example 'R must come right after P'), then strike out every option that breaks it. Usually one or two links are enough.",
+            "For sentence parts, follow natural word order: <b>Subject → Verb → Object/Complement → Adverbial (manner, place, time)</b>.",
+            "Read your final order once in full. It must sound smooth and make complete sense."
+          ]
+        },
+        {
+          "heading": "Finding the opening sentence",
+          "points": [
+            "The opening sentence introduces the subject with a full noun or name: <i>Dr. Mehta was a doctor…</i>, <i>Water is essential for all forms of life.</i>",
+            "It is often a general statement, a definition or the start of a story (time and setting: <i>One evening…</i>, <i>Long ago…</i>).",
+            "It rarely begins with a pronoun that refers back (<b>he, she, it, they, this, these, such</b>).",
+            "It rarely begins with a connector: <b>however, but, therefore, thus, also, moreover, as a result, for example</b>.",
+            "A noun with <b>'a/an'</b> usually appears before the same noun with <b>'the'</b>: <i>a letter</i> (first mention) → <i>the letter</i> (later)."
+          ]
+        },
+        {
+          "heading": "Linking clues (connectors, pronouns, time)",
+          "points": [
+            "<b>Pronoun link:</b> the sentence naming a person or thing comes before the one using he/she/it/they/this for it.",
+            "<b>Contrast</b> (however, but, yet, on the other hand) follows the idea it contradicts.",
+            "<b>Addition</b> (moreover, also, besides, further) follows a similar point; <b>example</b> (for example, for instance) follows the general statement it supports.",
+            "<b>Result</b> (so, therefore, thus, as a result, hence) follows the cause.",
+            "<b>Time order:</b> first → then/next → later/after that → finally; dates and events run in chronological order.",
+            "A full form comes before its short form or acronym: <i>the World Health Organization (WHO)…</i> → <i>WHO…</i>"
+          ]
+        },
+        {
+          "heading": "Mandatory pairs and closing sentence",
+          "points": [
+            "<b>Mandatory pair:</b> two parts that must sit side by side, such as a question and its answer, a cause and its effect, or a noun and the relative clause describing it.",
+            "A relative clause (<b>who, which, that, whose</b>) comes right after the noun it describes: <i>The Taj Mahal, which was built…</i>",
+            "Correlative pairs stay in order: <b>not only…but also, either…or, neither…nor, both…and, so…that</b>.",
+            "The closing sentence usually concludes, sums up or advises: <b>thus, therefore, hence, in short, so we must…</b>",
+            "Sentence-part tip: a verb part (<i>finally decided</i>) needs its object part next (<i>to postpone the elections</i>); a phrase like <i>after a long discussion</i> fits before the main verb or at the end."
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "First step in any para jumble?",
+          "back": "Find one sure link (opening sentence or a mandatory pair) and eliminate options that break it."
+        },
+        {
+          "front": "Can a sentence starting with 'However' be the opening sentence?",
+          "back": "Rarely — 'however' shows contrast with an earlier idea, so it needs a sentence before it."
+        },
+        {
+          "front": "Pronoun clue",
+          "back": "The sentence naming the person/thing (Ravi, the committee) comes before the one with he/it/they/this."
+        },
+        {
+          "front": "Article clue",
+          "back": "'A/an + noun' (first mention) comes before 'the + same noun' (later mention)."
+        },
+        {
+          "front": "Where does a 'which/who' clause go?",
+          "back": "Immediately after the noun it describes."
+        },
+        {
+          "front": "'As a result', 'therefore', 'thus' signal…",
+          "back": "An effect or conclusion — they follow the cause, and often begin the last sentence."
+        },
+        {
+          "front": "'For example' signals…",
+          "back": "An illustration — it follows the general statement it supports."
+        },
+        {
+          "front": "Natural order for sentence parts",
+          "back": "Subject → Verb → Object/Complement → Manner/Place/Time."
+        },
+        {
+          "front": "What is a mandatory pair?",
+          "back": "Two parts that must be adjacent, e.g. question–answer, cause–effect, noun–relative clause."
+        },
+        {
+          "front": "Acronym clue",
+          "back": "The full form (World Health Organization) appears before the short form (WHO)."
+        },
+        {
+          "front": "Typical opening sentence",
+          "back": "General statement, definition or story setting, with the subject named in full; no referring pronoun or connector."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.<br>The committee<br>P. after a long discussion<br>Q. to postpone the elections<br>R. that had met yesterday<br>S. finally decided",
+          "options": [
+            "PRSQ",
+            "RPSQ",
+            "SQRP",
+            "QRSP"
+          ],
+          "answer": 1,
+          "explanation": "'that had met yesterday' must follow 'The committee' (noun + relative clause). Then 'after a long discussion, finally decided to postpone the elections' → <b>RPSQ</b>."
+        },
+        {
+          "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.<br>P. which was built in the seventeenth century<br>Q. The Taj Mahal<br>R. attracts millions of tourists<br>S. every year",
+          "options": [
+            "PQRS",
+            "QRPS",
+            "QPRS",
+            "RSQP"
+          ],
+          "answer": 2,
+          "explanation": "Subject Q, then its relative clause P (which refers to the Taj Mahal), then verb R and time S: 'The Taj Mahal, which was built in the seventeenth century, attracts millions of tourists every year' → <b>QPRS</b>."
+        },
+        {
+          "q": "Given below are four jumbled sentences. Select the option that gives their correct logical sequence.<br>P. He decided to take a short cut through the forest.<br>Q. Ravi was returning home late one evening.<br>R. Before long, he realised he had lost his way.<br>S. As a result, he had to spend the night under a tree.",
+          "options": [
+            "QPRS",
+            "PQRS",
+            "QRPS",
+            "RQPS"
+          ],
+          "answer": 0,
+          "explanation": "Q names Ravi and sets the scene (opening). P (short cut) → R (lost his way) → S ('As a result' gives the effect) → <b>QPRS</b>."
+        },
+        {
+          "q": "The first sentence is given. Arrange P, Q, R and S in a logical sequence.<br>Water is essential for all forms of life.<br>P. Yet, in many parts of the world, it is becoming scarce.<br>Q. This shortage is caused mainly by overuse and pollution.<br>R. Therefore, every one of us must learn to use it wisely.<br>S. Without it, plants, animals and humans cannot survive.",
+          "options": [
+            "PQSR",
+            "SQPR",
+            "QPSR",
+            "SPQR"
+          ],
+          "answer": 3,
+          "explanation": "S expands 'essential'; P ('Yet') gives the contrast; Q ('This shortage') refers to 'scarce' in P; R ('Therefore') concludes → <b>SPQR</b>."
+        },
+        {
+          "q": "Which of the following sentences is most likely to be the OPENING sentence of a paragraph?",
+          "options": [
+            "However, the plan was soon abandoned.",
+            "This made him very popular among the villagers.",
+            "Dr. Mehta was a doctor who had served the village for thirty years.",
+            "They, too, agreed with him."
+          ],
+          "answer": 2,
+          "explanation": "It introduces the person by name with no connector or back-referring pronoun. The others begin with 'However', 'This' or 'They', which need an earlier sentence."
+        },
+        {
+          "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.<br>If you<br>P. you will surely<br>Q. regularly and sincerely<br>R. pass the examination<br>S. study",
+          "options": [
+            "QPRS",
+            "SQPR",
+            "SRQP",
+            "PRSQ"
+          ],
+          "answer": 1,
+          "explanation": "'If you study regularly and sincerely, you will surely pass the examination' → <b>SQPR</b>. The other orders leave 'study' or the main clause broken."
+        },
+        {
+          "q": "Given below are four jumbled sentences. Select the option that gives their correct logical sequence.<br>P. The letter informed him that he had been selected for the job.<br>Q. Anil had applied for a job in a bank.<br>R. After a month, he received a letter from the bank.<br>S. He was overjoyed and shared the news with his parents.",
+          "options": [
+            "RQPS",
+            "QPRS",
+            "SQRP",
+            "QRPS"
+          ],
+          "answer": 3,
+          "explanation": "Q names Anil (opening). R mentions 'a letter' (first mention), P follows with 'The letter', and S gives his reaction → <b>QRPS</b>."
+        },
+        {
+          "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.<br>She is<br>P. but also<br>Q. a good singer<br>R. not only<br>S. a talented dancer",
+          "options": [
+            "RQPS",
+            "QRPS",
+            "PRSQ",
+            "SPRQ"
+          ],
+          "answer": 0,
+          "explanation": "The correlative 'not only…but also' must stay in order: 'She is not only a good singer but also a talented dancer' → <b>RQPS</b>."
+        }
+      ]
+    },
+    {
+      "id": "homonyms-confusables",
+      "name": "Homonyms & Commonly Confused Words",
+      "notes": [
+        {
+          "heading": "Key terms and approach",
+          "points": [
+            "<b>Homophones:</b> words that sound the same but differ in spelling and meaning: <i>principal/principle, stationary/stationery, site/sight/cite</i>.",
+            "<b>Homographs:</b> same spelling, different meaning (often different pronunciation): <i>lead</i> (metal) / <i>lead</i> (to guide); <i>tear</i> (from the eye) / <i>tear</i> (to rip).",
+            "<b>Homonyms</b> (in the strict sense): same spelling and sound, different meaning: <i>bank</i> of a river / a <i>bank</i> for money. In exams the word is often used loosely for all such pairs.",
+            "<b>Paronyms / confusables:</b> look-alike words with related roots but different meanings: <i>credible/creditable, economic/economical, judicial/judicious</i>.",
+            "SSC tests them through fill in the blanks, error spotting and sentence improvement. Decide first which part of speech (noun, verb, adjective) the blank needs."
+          ]
+        },
+        {
+          "heading": "Top confusable pairs (1)",
+          "points": [
+            "<b>Principal</b> = head of a school; main (adjective); a sum of money lent. <b>Principle</b> = a rule or belief: <i>a man of principles</i>.",
+            "<b>Stationary</b> = not moving (think 'a' for 'at rest'). <b>Stationery</b> = paper, pens, envelopes (think 'e' for 'envelope').",
+            "<b>Complement</b> = something that completes or goes well with: <i>The sauce complements the dish.</i> <b>Compliment</b> = praise. <b>Complimentary</b> also means free: <i>a complimentary ticket</i>.",
+            "<b>Affect</b> is usually a verb (to influence): <i>Smoking affects health.</i> <b>Effect</b> is usually a noun (result): <i>the effect of smoking</i>. As a verb, 'effect' means to bring about: <i>to effect a change</i>.",
+            "<b>Eminent</b> = famous and respected: <i>an eminent scientist</i>. <b>Imminent</b> = about to happen: <i>imminent danger</i>.",
+            "<b>Council</b> = an elected or advisory body: <i>the city council</i>. <b>Counsel</b> = advice, or a lawyer; as a verb, to advise. (Councillor = council member; counsellor = adviser.)"
+          ]
+        },
+        {
+          "heading": "Top confusable pairs (2)",
+          "points": [
+            "<b>Elicit</b> = to draw out (a reply, a reaction). <b>Illicit</b> = illegal: <i>illicit liquor</i>.",
+            "<b>Ascent</b> = climb, upward movement. <b>Assent</b> = agreement, approval: <i>The President gave his assent to the Bill.</i>",
+            "<b>Accept</b> = to receive or agree to. <b>Except</b> = excluding: <i>Everyone except Ravi came.</i>",
+            "<b>Advice</b> (noun) / <b>advise</b> (verb); <b>practice</b> (noun) / <b>practise</b> (verb) in British and Indian usage; <b>licence</b> (noun) / <b>license</b> (verb).",
+            "<b>Site</b> = place; <b>sight</b> = vision or a view; <b>cite</b> = to quote as an example or proof.",
+            "<b>Desert</b> = dry sandy land, or to abandon; <b>dessert</b> = sweet dish after a meal. <b>Loose</b> = not tight; <b>lose</b> = to fail to keep."
+          ]
+        },
+        {
+          "heading": "More confusables (high yield)",
+          "points": [
+            "<b>Beside</b> = next to: <i>She sat beside me.</i> <b>Besides</b> = in addition to: <i>Besides English, he knows French.</i>",
+            "<b>Allusion</b> = indirect reference; <b>illusion</b> = false perception. <b>Breath</b> (noun) / <b>breathe</b> (verb). <b>Personal</b> = private; <b>personnel</b> = staff.",
+            "<b>Later</b> = afterwards; <b>latter</b> = the second of two. <b>Formally</b> = officially; <b>formerly</b> = earlier. <b>Lightning</b> = flash in a storm; <b>lightening</b> = making lighter.",
+            "<b>Credible</b> = believable; <b>creditable</b> = deserving praise; <b>credulous</b> = too ready to believe. <b>Continual</b> = repeated with breaks; <b>continuous</b> = without a break.",
+            "<b>Economic</b> = relating to the economy; <b>economical</b> = thrifty, not wasteful. <b>Historic</b> = important in history; <b>historical</b> = relating to history.",
+            "<b>Judicial</b> = of courts and judges; <b>judicious</b> = wise. <b>Industrial</b> = of industry; <b>industrious</b> = hardworking. <b>Respectable</b> = deserving respect; <b>respectful</b> = showing respect; <b>respective</b> = belonging to each."
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Principal vs principle",
+          "back": "Principal = head / main / sum of money. Principle = rule or belief."
+        },
+        {
+          "front": "Stationary vs stationery",
+          "back": "Stationary = not moving ('a' for at rest). Stationery = writing materials ('e' for envelope)."
+        },
+        {
+          "front": "Complement vs compliment",
+          "back": "Complement = completes / goes well with. Compliment = praise. Complimentary = free or praising."
+        },
+        {
+          "front": "Affect vs effect",
+          "back": "Affect (verb) = influence. Effect (noun) = result; effect (verb) = bring about."
+        },
+        {
+          "front": "Eminent vs imminent",
+          "back": "Eminent = distinguished. Imminent = about to happen."
+        },
+        {
+          "front": "Council vs counsel",
+          "back": "Council = body of members. Counsel = advice, a lawyer, or to advise."
+        },
+        {
+          "front": "Elicit vs illicit",
+          "back": "Elicit = draw out (a response). Illicit = illegal."
+        },
+        {
+          "front": "Ascent vs assent",
+          "back": "Ascent = climb. Assent = agreement/approval."
+        },
+        {
+          "front": "Beside vs besides",
+          "back": "Beside = next to. Besides = in addition to."
+        },
+        {
+          "front": "Credible / creditable / credulous",
+          "back": "Believable / praiseworthy / easily believing."
+        },
+        {
+          "front": "Judicial vs judicious",
+          "back": "Judicial = of courts/judges. Judicious = wise, sensible."
+        },
+        {
+          "front": "Advice vs advise; practice vs practise",
+          "back": "Advice, practice = nouns. Advise, practise = verbs (British/Indian usage)."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Fill in the blank with the most appropriate word.<br>The ______ of the school addressed the students at the morning assembly.",
+          "options": [
+            "principle",
+            "principal",
+            "principled",
+            "principality"
+          ],
+          "answer": 1,
+          "explanation": "The head of a school is the <b>principal</b>. 'Principle' means a rule or belief."
+        },
+        {
+          "q": "Fill in the blank with the most appropriate word.<br>Please buy some ______ such as pens, envelopes and registers for the office.",
+          "options": [
+            "stationary",
+            "station",
+            "stationed",
+            "stationery"
+          ],
+          "answer": 3,
+          "explanation": "Writing materials are <b>stationery</b>. 'Stationary' means not moving."
+        },
+        {
+          "q": "Fill in the blank with the most appropriate word.<br>The new policy will not ______ the prices of essential goods.",
+          "options": [
+            "effect",
+            "affection",
+            "affect",
+            "effective"
+          ],
+          "answer": 2,
+          "explanation": "A verb meaning 'influence' is needed after 'will not', so <b>affect</b>. 'Effect' is mainly a noun (result)."
+        },
+        {
+          "q": "Fill in the blank with the most appropriate word.<br>Dark clouds gathered quickly and a storm seemed ______.",
+          "options": [
+            "imminent",
+            "eminent",
+            "prominent",
+            "permanent"
+          ],
+          "answer": 0,
+          "explanation": "<b>Imminent</b> = about to happen. 'Eminent' means famous and respected, which does not suit a storm."
+        },
+        {
+          "q": "Fill in the blank with the most appropriate word.<br>The lawyer's ______ to his client was to remain silent during questioning.",
+          "options": [
+            "council",
+            "counsel",
+            "councillor",
+            "consul"
+          ],
+          "answer": 1,
+          "explanation": "<b>Counsel</b> = advice. A 'council' is a body of members; a 'consul' is a diplomatic official."
+        },
+        {
+          "q": "Fill in the blank with the most appropriate word.<br>She paid me a ______ on my neat handwriting.",
+          "options": [
+            "complement",
+            "complementary",
+            "complimentary",
+            "compliment"
+          ],
+          "answer": 3,
+          "explanation": "A noun meaning 'praise' is needed after 'a': <b>compliment</b>. 'Complement' means something that completes."
+        },
+        {
+          "q": "Fill in the blank with the most appropriate word.<br>______ English, he speaks French and German fluently.",
+          "options": [
+            "Besides",
+            "Beside",
+            "Except",
+            "Despite"
+          ],
+          "answer": 0,
+          "explanation": "<b>Besides</b> = in addition to. 'Beside' means next to; 'except' would exclude English, which makes no sense here."
+        },
+        {
+          "q": "Fill in the blanks with the most appropriate option.<br>The ______ of the steep hill took six hours, and the team leader gave his ______ to the plan to camp at the top.",
+          "options": [
+            "assent, ascent",
+            "ascent, ascent",
+            "ascent, assent",
+            "assent, assent"
+          ],
+          "answer": 2,
+          "explanation": "The climb is the <b>ascent</b>; agreement is <b>assent</b>."
+        }
+      ]
+    },
+    {
+      "id": "parts-of-speech-errors",
+      "name": "Error Spotting: Pronouns, Adjectives, Adverbs, Conjunctions & Modals",
+      "notes": [
+        {
+          "heading": "Pronoun rules",
+          "points": [
+            "<b>Who</b> is a subject, <b>whom</b> an object. Test with he/him: <i>Who do you think will win?</i> (he will win). <i>Whom did you invite?</i> (you invited him).",
+            "<b>Each other</b> for two persons; <b>one another</b> for more than two (the rule SSC follows): <i>The two sisters love each other.</i>",
+            "Order of personal pronouns: <b>2-3-1</b> normally (<i>You, he and I will go</i>); <b>1-2-3</b> when admitting a fault (<i>I, you and he are to blame</i>).",
+            "After <b>than/as</b>, use the case the hidden verb needs: <i>He is taller than I (am).</i> After prepositions and 'let', use the object form: <i>between you and me; Let him and me go.</i>",
+            "<b>One</b> is followed by <b>one's/oneself</b>: <i>One should keep one's promises.</i>",
+            "<b>Avail, absent, pride</b> (and <b>enjoy</b> with no other object) need a reflexive pronoun: <i>He availed himself of the offer. We enjoyed ourselves.</i>"
+          ]
+        },
+        {
+          "heading": "Adjectives and degrees of comparison",
+          "points": [
+            "No double comparative or superlative: not <i>more better / most cleverest</i> → <b>better, cleverest</b>. Absolute adjectives (unique, perfect, complete) are not compared.",
+            "<b>Senior, junior, superior, inferior, prior</b> (and the verb <b>prefer</b>) take <b>to</b>, not 'than': <i>He is senior to me. I prefer tea to coffee.</i>",
+            "Compare like with like: <i>The climate of Delhi is hotter than <b>that of</b> Shimla.</i> Within the same group use <b>than any other + singular</b>: <i>He is taller than any other boy in the class.</i>",
+            "<b>Few</b> = hardly any; <b>a few</b> = some; <b>the few</b> = all of the small number (countable). <b>Little / a little / the little</b> follow the same pattern with uncountable nouns.",
+            "<b>Fewer</b> with countable nouns, <b>less</b> with uncountable ones. <b>Elder/eldest</b> for family members and never with 'than' (use <b>older than</b>). <b>Farther</b> = distance; <b>further</b> = additional.",
+            "Double comparative pattern: <i><b>The</b> harder you work, <b>the</b> better you score.</i>"
+          ]
+        },
+        {
+          "heading": "Adverbs and conjunctions",
+          "points": [
+            "<b>No sooner…than</b>; <b>Hardly/Scarcely…when</b>: <i>No sooner had he left than it rained. Scarcely had I sat down when the bell rang.</i>",
+            "<b>Lest</b> is followed by <b>should</b> (never 'not' or 'will'): <i>Work hard lest you should fail.</i>",
+            "<b>Unless</b> (= if not) already has a negative sense, and <b>until</b> (= up to the time that) is also not followed by 'not': <i>Unless you hurry, you will miss the bus. Wait here until I return</i> (not <i>until I do not return</i>).",
+            "<b>Hardly, scarcely, seldom, rarely, barely</b> are negative in sense; do not add 'not/no/never' (double negative): <i>I can hardly hear you</i>, not <i>I can't hardly hear you.</i>",
+            "<b>Though/Although…yet</b> (or a comma), never 'but'. <b>Both…and</b>, not 'both…as well as'. <b>Not only…but also</b> must join similar forms.",
+            "<b>Very</b> + positive (very good); <b>much</b> + comparative (much better). <b>Enough</b> comes after an adjective (good enough). <b>Hard</b> = with effort; <b>hardly</b> = scarcely. <b>Late</b> = not on time; <b>lately</b> = recently."
+          ]
+        },
+        {
+          "heading": "Modals and other high-yield rules",
+          "points": [
+            "Modals (<b>can, could, may, might, must, shall, should, will, would</b>) take the base form (V1) with no 'to': <i>She can swim</i>, not <i>can swims / can to swim</i>. Past sense: modal + have + V3 (<i>should have gone</i>).",
+            "Modals never add -s, -ed or -ing, and two modals are never used together: not <i>will can</i> → <b>will be able to</b>.",
+            "<b>Ought to, had better, would rather</b> + V1: <i>You ought to apologise. You had better leave. I would rather walk than wait.</i>",
+            "<b>Need/dare</b> as modals (negatives/questions) take V1 without 'to' and no -s: <i>He need not come. He dare not speak.</i> As main verbs: <i>He needs to come.</i>",
+            "<b>Used to + V1</b> = past habit (<i>I used to swim</i>); <b>be/get used to + V-ing</b> = accustomed (<i>I am used to walking</i>).",
+            "<b>One of the + plural noun + singular verb</b>: <i>One of the players <b>has</b> been selected.</i>"
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Who or whom: '___ do you think will win?'",
+          "back": "Who — it is the subject of 'will win' (he will win); 'do you think' is only an inserted phrase."
+        },
+        {
+          "front": "Each other vs one another",
+          "back": "Each other for two; one another for more than two (SSC rule)."
+        },
+        {
+          "front": "Pronoun order: normal vs admitting fault",
+          "back": "Normal 2-3-1: You, he and I. Fault 1-2-3: I, you and he are to blame."
+        },
+        {
+          "front": "'He is taller than me' or '…than I'?",
+          "back": "Formally 'than I' (than I am)."
+        },
+        {
+          "front": "Which adjectives take 'to' instead of 'than'?",
+          "back": "Senior, junior, superior, inferior, prior, and the verb prefer."
+        },
+        {
+          "front": "'Than any other' is followed by…",
+          "back": "A singular noun: taller than any other boy."
+        },
+        {
+          "front": "Few / a few / the few",
+          "back": "Hardly any / some / all of the small number (countable nouns)."
+        },
+        {
+          "front": "Correct pairs with No sooner and Hardly/Scarcely",
+          "back": "No sooner…than; Hardly/Scarcely…when."
+        },
+        {
+          "front": "What follows 'lest'?",
+          "back": "Should + V1: <i>Run lest you should miss the train.</i>"
+        },
+        {
+          "front": "Unless/until + not?",
+          "back": "No: 'Unless you hurry' (not 'Unless you do not hurry'); 'Wait until I return' (not 'until I do not return')."
+        },
+        {
+          "front": "Modal + ?",
+          "back": "Base form (V1) without 'to': can go, must go (but ought to go)."
+        },
+        {
+          "front": "One of the + ? + ?",
+          "back": "Plural noun + singular verb: One of the boys is absent."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>She can speaks three languages fluently.",
+          "options": [
+            "She can",
+            "speaks three languages",
+            "fluently",
+            "No error"
+          ],
+          "answer": 1,
+          "explanation": "A modal takes the base form: 'can <b>speak</b>', not 'can speaks'."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>The two brothers love one another very much.",
+          "options": [
+            "The two brothers",
+            "love one another",
+            "very much",
+            "No error"
+          ],
+          "answer": 1,
+          "explanation": "For two persons use <b>each other</b>; 'one another' is for more than two."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>Unless you do not leave now, you will miss the train.",
+          "options": [
+            "Unless you do not",
+            "leave now, you will",
+            "miss the train",
+            "No error"
+          ],
+          "answer": 0,
+          "explanation": "'Unless' already means 'if not', so drop 'do not': <b>Unless you leave now</b>…"
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>Whom do you think will win the match?",
+          "options": [
+            "Whom do you think",
+            "will win",
+            "the match?",
+            "No error"
+          ],
+          "answer": 0,
+          "explanation": "The pronoun is the subject of 'will win' (he will win), so use <b>Who</b>. 'Do you think' is only an inserted phrase."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>No sooner did he see the police when he ran away.",
+          "options": [
+            "No sooner did he",
+            "see the police",
+            "when he ran away",
+            "No error"
+          ],
+          "answer": 2,
+          "explanation": "'No sooner' pairs with <b>than</b>: 'No sooner did he see the police <b>than</b> he ran away.' 'When' goes with hardly/scarcely."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>Walk carefully lest you will slip on the wet floor.",
+          "options": [
+            "Walk carefully",
+            "lest you",
+            "will slip on the wet floor",
+            "No error"
+          ],
+          "answer": 2,
+          "explanation": "'Lest' is followed by <b>should</b>: 'lest you <b>should</b> slip on the wet floor'."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>One of the players has been selected for the national team.",
+          "options": [
+            "One of the players",
+            "has been selected",
+            "for the national team",
+            "No error"
+          ],
+          "answer": 3,
+          "explanation": "'One of the + plural noun' takes a singular verb, so 'One of the players <b>has</b>' is correct: <b>No error</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>My sister is senior to me by three years and is much taller than I.",
+          "options": [
+            "My sister is senior to me",
+            "by three years and is",
+            "much taller than I",
+            "No error"
+          ],
+          "answer": 3,
+          "explanation": "'Senior to' is correct, 'much' suits a comparative, and 'than I (am)' is the correct case: <b>No error</b>."
+        }
+      ]
     }
   ]
 };

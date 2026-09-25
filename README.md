@@ -5,7 +5,7 @@ Application designed for revision for CGL 2026 aspirants.
 A free revision app for **SSC CGL Tier 1**: short notes, flashcards, topic-wise practice and timed mock tests for all four sections:
 
 - General Intelligence & Reasoning
-- General Awareness (static GK)
+- General Awareness
 - Quantitative Aptitude
 - English Comprehension
 
@@ -21,6 +21,19 @@ It is a static site (plain HTML/CSS/JS, no build step, no server, no sign-up). P
 - **Quick reference**: squares 1–50, cubes 1–30, powers of 2/3/5, square roots, fraction→percent, trig values, Pythagorean triplets, primes, plus a one-page sheet of every Quant formula (the number tables are computed, not typed)
 - **Saved questions** and **My notes** (for current affairs, which the app does not cover)
 - Exam countdown, progress dashboard, dark mode, backup export/import, installable on phones
+
+## Syllabus coverage
+
+Topics are mapped to the official SSC CGL Tier 1 syllabus: 73 topics, 655 flashcards and 474 practice questions.
+
+| Section | Topics |
+|---|---|
+| Reasoning (19) | Analogy, classification, number and letter series, coding-decoding, blood relations, direction, order and ranking, seating, syllogism, Venn diagrams, mathematical operations, calendar and clock, word arrangement, non-verbal tips, statement and conclusion, emotional and social intelligence, indexing and address matching, cubes, dice and counting figures |
+| General Awareness (18) | Ancient, medieval and modern history, polity, Indian and world geography, economy, physics, chemistry, biology, art and culture, static GK, environment and ecology, computer awareness, sports and awards, government schemes, space, defence and technology, India's neighbours, population, agriculture and transport |
+| Quant (20) | Number system, HCF-LCM, simplification, percentage, profit and loss, ratio and partnership, averages, interest, time and work, time and distance, algebra, geometry, mensuration, trigonometry, DI and statistics, linear equations and graphs, congruence, similarity and tangents, prism, pyramid and frustum, degree–radian and complementary angles, histogram and frequency polygon |
+| English (16) | Error spotting and subject-verb agreement, tenses, articles, prepositions, voice, narration, synonyms, antonyms, idioms, one-word substitution, spelling, sentence improvement, cloze and RC, sentence rearrangement, homonyms, pronoun/adjective/adverb/conjunction errors |
+
+**Not covered:** current affairs, which students should track in *My notes*. Picture-based non-verbal questions (figure series, mirror images, paper folding) are explained with rules and tips only, because the app is text-based.
 
 ## Run locally
 

@@ -1177,6 +1177,733 @@ window.CGL_DATA.reasoning = {
           "explanation": "1×1 squares: 16, 2×2: 9, 3×3: 4, 4×4: 1. Total = 16 + 9 + 4 + 1 = <b>30</b>."
         }
       ]
+    },
+    {
+      "id": "statement-conclusion",
+      "name": "Statement & Conclusion / Critical Thinking",
+      "notes": [
+        {
+          "heading": "Statement & Conclusion – rules",
+          "points": [
+            "A conclusion follows only if it is <b>definitely true</b> on the basis of the statement. Use common sense, but do not add outside facts.",
+            "Take the statement as true even if it seems false in real life.",
+            "Conclusions with extreme words – <b>only, all, always, never, definitely, best, must</b> – usually do not follow unless the statement itself says so.",
+            "Guesses about the future ('will surely happen') and reasons not given in the statement usually do not follow.",
+            "Standard options: Only I follows / Only II follows / Either I or II follows / Neither I nor II follows / Both I and II follow.",
+            "Choose <b>'Either I or II'</b> when the two conclusions are complementary: one of them must be true, but the statement does not tell you which."
+          ]
+        },
+        {
+          "heading": "Statement & Assumption",
+          "points": [
+            "An assumption is something the speaker <b>takes for granted</b> without saying it.",
+            "Negation test: turn the assumption into its opposite. If the statement then becomes pointless, the assumption is implicit.",
+            "An advertisement assumes that people will read or see it and that it will influence buyers.",
+            "Advice, appeals and orders assume they will be followed and will achieve their purpose.",
+            "'Do X to achieve Y' assumes X is possible and will help achieve Y. Assumptions with 'only', 'best' or 'all' are usually not implicit."
+          ]
+        },
+        {
+          "heading": "Course of Action",
+          "points": [
+            "A course of action is a practical step that <b>solves, reduces or prevents</b> the problem in the statement.",
+            "It follows if it is practical, related to the problem, and within the power of the authority concerned.",
+            "Extreme steps (banning, shutting down, abolishing, punishing everyone) generally do not follow.",
+            "Short-term relief (rescue, medical aid) and long-term measures (inquiry, awareness drives) can both follow together.",
+            "If carelessness caused the problem, action is taken against those responsible, not against innocent people."
+          ]
+        },
+        {
+          "heading": "Arguments, Cause & Effect, Inferences",
+          "points": [
+            "<b>Strong argument</b>: directly related to the question, important, and backed by facts or established truth.",
+            "<b>Weak argument</b>: superficial, based on tradition, 'others do it', personal opinion, or exaggeration.",
+            "Cause & Effect: the cause happens first and leads to the effect. Ask 'Did I lead to II?' and 'Did II lead to I?'.",
+            "Two statements can also be independent causes, independent effects, or both effects of a common cause that is not stated.",
+            "Inference questions: choose what is <b>definitely</b> or <b>probably</b> true from the passage. Never add new facts."
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "When does a conclusion 'follow'?",
+          "back": "When it is definitely true from the statement alone (treat the statement as true)."
+        },
+        {
+          "front": "Negation test for assumptions",
+          "back": "Turn the assumption into its opposite. If the statement becomes pointless, the assumption is implicit."
+        },
+        {
+          "front": "When do you choose 'Either I or II follows'?",
+          "back": "When the two conclusions are complementary (one must be true, both cannot be) and the statement does not say which."
+        },
+        {
+          "front": "Words that usually make a conclusion invalid",
+          "back": "Only, all, always, never, definitely, best, must – unless they appear in the statement."
+        },
+        {
+          "front": "Does an advertisement assume people read it?",
+          "back": "Yes. Every advertisement assumes it will be read or seen and will influence people."
+        },
+        {
+          "front": "Features of a valid course of action",
+          "back": "Practical, related to the problem, within the authority's power, not extreme."
+        },
+        {
+          "front": "Is 'Ban it completely' usually a valid course of action?",
+          "back": "No. Extreme or impractical actions usually do not follow."
+        },
+        {
+          "front": "What makes an argument strong?",
+          "back": "It is directly related, important, and supported by facts or established truth."
+        },
+        {
+          "front": "Is 'Yes, because other countries do it' a strong argument?",
+          "back": "No. Arguments based on copying others or on tradition are weak."
+        },
+        {
+          "front": "Cause & Effect: 'effects of a common cause'",
+          "back": "Both statements result from a third event that is not given, e.g. 'Schools closed' and 'Roads empty' – both caused by a curfew."
+        },
+        {
+          "front": "Standard SSC options for two conclusions",
+          "back": "Only I / Only II / Either I or II / Neither I nor II / Both I and II."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Statement: The government has made helmets compulsory for both the rider and the pillion rider of two-wheelers.<br>Conclusions:<br>I. Wearing a helmet reduces the risk of head injury in an accident.<br>II. People who wear helmets never meet with accidents.",
+          "options": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both I and II follow",
+            "Neither I nor II follows"
+          ],
+          "answer": 0,
+          "explanation": "The rule only makes sense if helmets protect against head injury, so I follows. II uses the extreme word 'never' and does not follow."
+        },
+        {
+          "q": "Statement: 'Use Glow toothpaste for whiter teeth.' – an advertisement in a newspaper.<br>Assumptions:<br>I. People read advertisements in newspapers.<br>II. People want to have whiter teeth.",
+          "options": [
+            "Only assumption I is implicit",
+            "Only assumption II is implicit",
+            "Both I and II are implicit",
+            "Neither I nor II is implicit"
+          ],
+          "answer": 2,
+          "explanation": "An advertisement assumes it will be read (I). It also assumes people want the promised benefit, whiter teeth (II). So both are implicit."
+        },
+        {
+          "q": "Statement: A large number of students in a district failed the Class 10 mathematics examination this year.<br>Courses of action:<br>I. The mathematics examination should be abolished in the district.<br>II. The education department should find out the reasons for the poor results and arrange remedial classes.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both I and II follow",
+            "Neither I nor II follows"
+          ],
+          "answer": 1,
+          "explanation": "Abolishing the exam is extreme and does not solve the problem. Finding the causes and holding remedial classes is practical, so only II follows."
+        },
+        {
+          "q": "Statement: Ravi scored the highest marks in his class in the half-yearly examination.<br>Conclusions:<br>I. Ravi will score the highest marks in the final examination also.<br>II. Ravi's classmates did not study for the examination.",
+          "options": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both I and II follow",
+            "Neither I nor II follows"
+          ],
+          "answer": 3,
+          "explanation": "I is a guess about the future. II blames the others without any basis in the statement. Neither follows."
+        },
+        {
+          "q": "Statement: Should Sunday be made a working day for all offices?<br>Arguments:<br>I. Yes, people only waste their time on Sundays.<br>II. No, Sunday has always been a holiday.",
+          "options": [
+            "Only argument I is strong",
+            "Only argument II is strong",
+            "Both I and II are strong",
+            "Neither I nor II is strong"
+          ],
+          "answer": 3,
+          "explanation": "I is an over-generalisation ('only waste'). II rests only on tradition ('always been'). Both arguments are weak."
+        },
+        {
+          "q": "Statements:<br>I. The prices of vegetables in the city have risen sharply.<br>II. Heavy rains have damaged crops in the nearby farming areas.",
+          "options": [
+            "Statement I is the cause and statement II is its effect",
+            "Statement II is the cause and statement I is its effect",
+            "Both statements are independent causes",
+            "Both statements are effects of some common cause"
+          ],
+          "answer": 1,
+          "explanation": "Crop damage (II) cuts the supply of vegetables, which pushes prices up (I). So II is the cause and I is the effect."
+        },
+        {
+          "q": "Statement: The company will either increase the salaries of its employees or give them a bonus this year, but not both.<br>Conclusions:<br>I. The employees will get a salary increase this year.<br>II. The employees will get a bonus this year.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Either I or II follows",
+            "Neither I nor II follows"
+          ],
+          "answer": 2,
+          "explanation": "Exactly one of the two will happen, but the statement does not say which. I and II are complementary, so 'Either I or II' follows."
+        },
+        {
+          "q": "Statement: The school has decided to hold extra classes on Saturdays to finish the syllabus before the examinations.<br>Assumptions:<br>I. The syllabus may not be finished in the regular classes before the examinations.<br>II. Students do not like coming to school on Saturdays.",
+          "options": [
+            "Only assumption I is implicit",
+            "Only assumption II is implicit",
+            "Both I and II are implicit",
+            "Neither I nor II is implicit"
+          ],
+          "answer": 0,
+          "explanation": "Extra classes are needed only if the regular classes are not enough, so I is implicit. The students' likes and dislikes are not part of the decision, so II is not."
+        }
+      ]
+    },
+    {
+      "id": "emotional-social-intelligence",
+      "name": "Emotional & Social Intelligence",
+      "notes": [
+        {
+          "heading": "Emotional intelligence – basics",
+          "points": [
+            "Emotional intelligence (EI or EQ) is the ability to recognise, understand and manage your own emotions and those of others.",
+            "The formal model was given by Peter Salovey and John Mayer (1990). <b>Daniel Goleman</b> made it popular with his 1995 book 'Emotional Intelligence'.",
+            "Goleman's five components: <b>self-awareness, self-regulation, motivation, empathy, social skills</b>.",
+            "Social intelligence is the ability to understand people and act wisely in human relations. The idea is linked to <b>Edward Thorndike</b> (1920).",
+            "IQ measures thinking ability, while EQ is about handling emotions and relationships. High EQ is linked to good leadership and teamwork."
+          ]
+        },
+        {
+          "heading": "How to pick the best response",
+          "points": [
+            "Choose the response that is <b>calm, responsible, constructive and aimed at solving the problem</b>.",
+            "Reject options that are aggressive (shouting, revenge), passive (ignoring, doing nothing), escapist (quitting, running away) or that shift blame.",
+            "Prefer talking to the person concerned directly and politely before taking the matter higher.",
+            "Use proper channels: inform your senior or the authorities when the matter is beyond your control.",
+            "Balance empathy with rules. Help the person, but do not break the law or ethics."
+          ]
+        },
+        {
+          "heading": "Workplace situations",
+          "points": [
+            "Your own mistake: admit it promptly, inform your senior, correct it and learn from it.",
+            "A colleague takes credit for your work: first discuss it with them privately, then clarify politely with facts if needed.",
+            "A team member is struggling: talk with empathy, offer help, and adjust the work with the team leader's knowledge.",
+            "Criticism from your boss: listen calmly, accept the valid points and improve. Do not argue in public.",
+            "Conflict between two teammates: listen to both sides, focus on the common goal and help them settle it.",
+            "Tight deadline: prioritise, plan, and tell people early. Ask for help instead of silently missing the deadline."
+          ]
+        },
+        {
+          "heading": "Social situations",
+          "points": [
+            "Road accident: call an ambulance or 112 (India's national emergency number) and give basic first aid. Do not leave the victim unattended.",
+            "Lost child: comfort the child, stay with them, and hand them over to the police, station staff or announcement desk.",
+            "Friend upset after a failure: listen, encourage them, and suggest professional help if needed. Never mock or ignore them.",
+            "An elderly or differently-abled person needs help: offer it politely and respectfully.",
+            "Rumours or fake news: check before sharing, and do not forward unverified messages."
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Who popularised 'Emotional Intelligence'?",
+          "back": "Daniel Goleman, in his 1995 book 'Emotional Intelligence'."
+        },
+        {
+          "front": "Goleman's five components of EI",
+          "back": "Self-awareness, self-regulation, motivation, empathy, social skills."
+        },
+        {
+          "front": "Who gave the first formal model of emotional intelligence?",
+          "back": "Peter Salovey and John Mayer (1990)."
+        },
+        {
+          "front": "The concept of 'social intelligence' is linked to?",
+          "back": "Edward Thorndike (1920)."
+        },
+        {
+          "front": "Self-regulation means?",
+          "back": "Controlling your impulses and emotions, and staying calm and balanced under pressure."
+        },
+        {
+          "front": "Empathy vs sympathy",
+          "back": "Empathy = understanding someone's feelings from their point of view. Sympathy = feeling pity or sorrow for them."
+        },
+        {
+          "front": "Options to reject in situation questions",
+          "back": "Aggressive, passive (do nothing), escapist (quit or run away) and blame-shifting responses."
+        },
+        {
+          "front": "You made a mistake at work – best response?",
+          "back": "Admit it promptly, inform your senior and correct it."
+        },
+        {
+          "front": "You see an accident victim – best response?",
+          "back": "Call an ambulance or 112 and give basic first aid until help arrives."
+        },
+        {
+          "front": "Found a lost child in a crowd – best response?",
+          "back": "Comfort the child and hand them over to the police or officials so the parents can be traced."
+        }
+      ],
+      "questions": [
+        {
+          "q": "While travelling, you see an injured person lying on the road after an accident. What is the most appropriate action?",
+          "options": [
+            "Take photos and post them on social media to alert others",
+            "Move on, since it is the job of the police",
+            "Call an ambulance or the emergency number and give basic first aid until help arrives",
+            "Go looking for the driver responsible and scold him"
+          ],
+          "answer": 2,
+          "explanation": "The victim needs urgent help. Calling for medical help and giving first aid is the responsible, empathetic response."
+        },
+        {
+          "q": "In a meeting, a colleague presents your work as his own. What should you do?",
+          "options": [
+            "Speak to the colleague politely in private and, if needed, show the facts to the manager",
+            "Shout at the colleague in front of everyone",
+            "Stop sharing any work with the team in future",
+            "Complain about the colleague to other employees"
+          ],
+          "answer": 0,
+          "explanation": "A calm, direct conversation followed by proper channels settles the issue without aggression or gossip."
+        },
+        {
+          "q": "After submitting a report to your boss, you notice an important error in it. What should you do?",
+          "options": [
+            "Hide the mistake and hope nobody notices",
+            "Blame the junior who helped you prepare it",
+            "Wait until the boss finds it and then explain",
+            "Inform the boss promptly, admit the mistake and submit a corrected report"
+          ],
+          "answer": 3,
+          "explanation": "Taking responsibility and fixing the error quickly shows honesty and accountability."
+        },
+        {
+          "q": "A member of your team has not been contributing for some weeks because of personal problems. As a teammate, what is the best step?",
+          "options": [
+            "Report him to the manager for poor performance immediately",
+            "Talk to him with empathy, offer support and, with the team leader's knowledge, share some of his work for a while",
+            "Ignore it, since his personal life is not your concern",
+            "Do his work silently every day without telling anyone"
+          ],
+          "answer": 1,
+          "explanation": "This combines empathy with teamwork and proper communication. Ignoring him, reporting him or covering up silently are all poor choices."
+        },
+        {
+          "q": "Your senior criticises your work harshly in a meeting. What is the most emotionally intelligent response?",
+          "options": [
+            "Stay calm, listen, and later discuss the points with the senior to improve your work",
+            "Argue back immediately to defend yourself",
+            "Resign, since you have been insulted",
+            "Stop giving your opinions in meetings"
+          ],
+          "answer": 0,
+          "explanation": "Self-regulation: stay calm, take the feedback, and improve. Arguing, quitting or withdrawing are not constructive."
+        },
+        {
+          "q": "Which of the following is NOT one of the five components of emotional intelligence given by Daniel Goleman?",
+          "options": [
+            "Self-awareness",
+            "Empathy",
+            "Self-regulation",
+            "Logical reasoning"
+          ],
+          "answer": 3,
+          "explanation": "Goleman's five components are self-awareness, self-regulation, motivation, empathy and social skills. Logical reasoning is a cognitive (IQ) ability."
+        },
+        {
+          "q": "Which psychologist popularised the term 'Emotional Intelligence' through his 1995 book of the same name?",
+          "options": [
+            "Howard Gardner",
+            "Daniel Goleman",
+            "Alfred Binet",
+            "Sigmund Freud"
+          ],
+          "answer": 1,
+          "explanation": "Daniel Goleman's 1995 book 'Emotional Intelligence' made the idea popular. Gardner is known for multiple intelligences and Binet for the first IQ test."
+        },
+        {
+          "q": "At a crowded railway station, you find a small child crying who has lost his parents. What should you do?",
+          "options": [
+            "Take the child to your home",
+            "Ignore him, since the parents will come back",
+            "Comfort the child and take him to the station master or railway police so that an announcement can be made",
+            "Ask the child to go and look for his parents himself"
+          ],
+          "answer": 2,
+          "explanation": "Comfort the child and hand him to the proper authorities. This keeps him safe and gives the best chance of finding his parents."
+        }
+      ]
+    },
+    {
+      "id": "indexing-matching",
+      "name": "Indexing, Address & Data Matching",
+      "notes": [
+        {
+          "heading": "Dictionary order / Indexing",
+          "points": [
+            "Compare words letter by letter from the left. The first letter that differs decides the order.",
+            "If one word is the start of another, the shorter one comes first: Man → Manage → Manager.",
+            "In directories and indexes, names are arranged by <b>surname first</b>, then first name (Gupta Amit comes before Gupta Anil).",
+            "For 'which word comes third/last', look only at the letters where the words differ. There is no need to sort everything.",
+            "Watch look-alike beginnings: Proc-, Prod-, Prof-, Prog-, Proj-, Prom- (c < d < f < g < j < m)."
+          ]
+        },
+        {
+          "heading": "Address & data matching technique",
+          "points": [
+            "Compare the given entry with each option <b>part by part</b>: name → house number → street/area → city → PIN.",
+            "Common traps: swapped digits (462003 vs 462030), an extra or missing letter (Kumar vs Kumaar), a changed letter (Nagar vs Nager), a different separator (45/B vs 45-B).",
+            "Check numbers and PIN codes first. They are changed most often, so you can rule out options quickly.",
+            "An Indian PIN code has <b>6 digits</b>, and the first digit shows the postal region.",
+            "For 'how many pairs are identical', mark each pair ✓ or ✗ once and count the ticks."
+          ]
+        },
+        {
+          "heading": "Date, city & code classification",
+          "points": [
+            "Date matching: check the day, month and year separately. Watch for 12-05 vs 05-12 and 2024 vs 2042.",
+            "City names: look for spelling changes such as Kolkata/Kolkatta and Tiruchirappalli/Tiruchirapalli.",
+            "Roll number or centre code questions give a format (e.g. Centre code – Year – Serial). Split each code into these parts before counting.",
+            "Odd one out in codes: check where the letters and digits sit, the number of characters, the sum of the digits, and the order of the letters.",
+            "Count with a tally mark against each code so you never count one twice."
+          ]
+        },
+        {
+          "heading": "Small & capital letters coding",
+          "points": [
+            "In case-sensitive questions, 'a' and 'A' are <b>different</b> symbols. Check the case at every position.",
+            "Common patterns: alternating capital and small letters, a capital letter becoming the next letter in small case, vowels in capitals and consonants in small letters.",
+            "Odd one out: check (i) the case pattern, (ii) the gaps between letters, (iii) where the digits are placed.",
+            "Write the rule from the example under each letter, then apply it to the new word.",
+            "Letter positions: A = 1 … Z = 26. Use EJOTY (5, 10, 15, 20, 25) to find positions fast."
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Dictionary rule when one word is the start of another",
+          "back": "The shorter word comes first: Man, Manage, Manager."
+        },
+        {
+          "front": "Order of names in a telephone directory",
+          "back": "By surname first, then by first name."
+        },
+        {
+          "front": "Nation, Native, National, Nationality – dictionary order",
+          "back": "Nation, National, Nationality, Native (o comes before v)."
+        },
+        {
+          "front": "Which comes first: Brake or Bracket?",
+          "back": "Bracket (B-R-A-C before B-R-A-K, since c comes before k)."
+        },
+        {
+          "front": "Most common trap in address matching",
+          "back": "Swapped digits in the PIN or house number (e.g. 462003 vs 462030)."
+        },
+        {
+          "front": "How many digits in an Indian PIN code?",
+          "back": "6 digits. The first digit shows the postal region."
+        },
+        {
+          "front": "Date trap: 04-07-2024",
+          "back": "4 July 2024 in DD-MM format, but 7 April 2024 in MM-DD format. Always check the format."
+        },
+        {
+          "front": "Are 'aBc' and 'AbC' the same in a case-sensitive question?",
+          "back": "No. Each letter's case must match exactly."
+        },
+        {
+          "front": "First step in roll number or centre code questions",
+          "back": "Split each code into the parts of the given format (e.g. Centre – Year – Serial)."
+        },
+        {
+          "front": "Fastest way to compare two long codes",
+          "back": "Compare in chunks of 3–4 characters, checking the numbers first."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Arrange the following words in the order in which they appear in an English dictionary.<br>1. Protect<br>2. Protest<br>3. Protein<br>4. Protector",
+          "options": [
+            "1, 4, 3, 2",
+            "1, 3, 4, 2",
+            "4, 1, 3, 2",
+            "1, 4, 2, 3"
+          ],
+          "answer": 0,
+          "explanation": "Protect comes before Protector (the shorter word first). Then compare the 6th letter: c (Protect) < i (Protein) < s (Protest). Order: 1, 4, 3, 2."
+        },
+        {
+          "q": "Select the option that is exactly the same as the given address.<br>Ramesh Kumar, 45/B, Nehru Nagar, Bhopal – 462003",
+          "options": [
+            "Ramesh Kumar, 45/B, Nehru Nagar, Bhopal – 462030",
+            "Ramesh Kumar, 54/B, Nehru Nagar, Bhopal – 462003",
+            "Ramesh Kumaar, 45/B, Nehru Nagar, Bhopal – 462003",
+            "Ramesh Kumar, 45/B, Nehru Nagar, Bhopal – 462003"
+          ],
+          "answer": 3,
+          "explanation": "The first option has a wrong PIN (462030), the second a wrong house number (54/B), and the third a misspelt name (Kumaar)."
+        },
+        {
+          "q": "How many of the following pairs are exactly identical?<br>(i) 7843-KLM : 7843-KLM<br>(ii) Q9R2T : Q9R2T<br>(iii) 56DF81 : 56FD81<br>(iv) Mumbai-400012 : Mumbai-400021<br>(v) AbCdE : AbcdE",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1,
+          "explanation": "Only (i) and (ii) match. (iii) has DF/FD, (iv) has 12/21, and (v) has C/c."
+        },
+        {
+          "q": "Three of the following four letter-groups are alike in some way and one is different. Select the odd one.",
+          "options": [
+            "aBcD",
+            "eFgH",
+            "MnOp",
+            "iJkL"
+          ],
+          "answer": 2,
+          "explanation": "aBcD, eFgH and iJkL all start with a small letter and alternate small–capital. MnOp starts with a capital letter."
+        },
+        {
+          "q": "In an examination, roll numbers are written as Centre code – Year – Serial number. The roll numbers are: DL-24-105, UP-23-218, DL-23-091, MH-24-332, UP-24-015. How many candidates of year 24 are NOT from centre DL?",
+          "options": [
+            "3",
+            "1",
+            "4",
+            "2"
+          ],
+          "answer": 3,
+          "explanation": "Year 24 codes: DL-24-105, MH-24-332, UP-24-015. Leaving out DL gives MH-24-332 and UP-24-015, which is 2."
+        },
+        {
+          "q": "Select the entry that is exactly the same as:<br>Kolkata, 15-08-2024, Flight AI-719",
+          "options": [
+            "Kolkata, 15-08-2024, Flight AI-791",
+            "Kolkatta, 15-08-2024, Flight AI-719",
+            "Kolkata, 15-08-2024, Flight AI-719",
+            "Kolkata, 15-08-2042, Flight AI-719"
+          ],
+          "answer": 2,
+          "explanation": "The others have a changed flight number (791), a misspelt city (Kolkatta) or a wrong year (2042)."
+        },
+        {
+          "q": "In a telephone directory, names are listed by surname first and then by first name. Which name will come THIRD?<br>Sharma Anil, Sharma Aman, Shah Rohit, Sharma Ajay",
+          "options": [
+            "Sharma Anil",
+            "Sharma Aman",
+            "Shah Rohit",
+            "Sharma Ajay"
+          ],
+          "answer": 1,
+          "explanation": "Shah comes before Sharma (h < r). Among the Sharmas: Ajay < Aman < Anil (j < m < n). Order: Shah Rohit, Sharma Ajay, Sharma Aman, Sharma Anil."
+        },
+        {
+          "q": "In a certain code, each capital letter is written as the next letter of the alphabet in small case, and each small letter is written as the previous letter in capital. How will 'MoRe' be written in that code?",
+          "options": [
+            "nNsD",
+            "nNsF",
+            "nPsF",
+            "LnQd"
+          ],
+          "answer": 0,
+          "explanation": "M (capital) → n; o (small) → N; R (capital) → s; e (small) → D. Code: nNsD."
+        }
+      ]
+    },
+    {
+      "id": "cubes-dice-figures",
+      "name": "Cubes, Dice & Counting Figures",
+      "notes": [
+        {
+          "heading": "Painted cube formulas (side n, cut into n³ unit cubes)",
+          "points": [
+            "Three faces painted = <b>8</b> (the corner cubes), for n ≥ 2.",
+            "Two faces painted = <b>12(n − 2)</b> (edge cubes, not counting corners).",
+            "One face painted = <b>6(n − 2)²</b> (cubes in the middle of each face).",
+            "No face painted = <b>(n − 2)³</b> (the inner cubes).",
+            "Check: 8 + 12(n − 2) + 6(n − 2)² + (n − 2)³ = n³. For n = 4: 8 + 24 + 24 + 8 = 64.",
+            "Cuboid a × b × c (all ≥ 2): no face painted = (a − 2)(b − 2)(c − 2). With x, y and z straight cuts parallel to the three faces, you get (x + 1)(y + 1)(z + 1) pieces. The minimum number of cuts to make n³ equal cubes (without rearranging pieces) is 3(n − 1)."
+          ]
+        },
+        {
+          "heading": "Dice – finding opposite faces",
+          "points": [
+            "Standard die: opposite faces add up to <b>7</b> → 1–6, 2–5, 3–4. All six faces add up to 21.",
+            "Two faces seen together in any position are adjacent, so they can never be opposite.",
+            "If a face is seen with four different faces across the positions, the remaining sixth face is opposite to it.",
+            "Two positions with a common face in the <b>same place</b>: the faces in the other matching places are opposite. E.g. (top 1, front 2, right 3) and (top 1, front 4, right 5) → 2 is opposite 4 and 3 is opposite 5.",
+            "One common face in <b>different places</b>: in each position, list the faces clockwise starting from the common face. Faces at matching places in the two lists are opposite."
+          ]
+        },
+        {
+          "heading": "Counting figures – formulas",
+          "points": [
+            "Triangle with lines from one vertex dividing the opposite side into n parts: number of triangles = <b>n(n + 1)/2</b>.",
+            "A square with both diagonals drawn contains <b>8</b> triangles.",
+            "n × n grid: total squares = 1² + 2² + … + n² = n(n + 1)(2n + 1)/6. An 8 × 8 chessboard has <b>204</b> squares.",
+            "m × n grid: rectangles (squares included) = [m(m + 1)/2] × [n(n + 1)/2]. A chessboard has 36 × 36 = <b>1296</b> rectangles.",
+            "Method: label every point with a letter, then count systematically – single regions first, then groups of 2, 3 and more regions."
+          ]
+        },
+        {
+          "heading": "Cube nets & space orientation",
+          "points": [
+            "A cube has 6 faces, 12 edges and 8 vertices. There are <b>11</b> different nets of a cube.",
+            "In a net, two faces with exactly one face between them in a straight row or column are opposite.",
+            "Faces that share an edge in the net are adjacent on the cube and can never be opposite.",
+            "In a net with a row of 4 squares, the 1st and 3rd are opposite, as are the 2nd and 4th. The two squares attached on either side of the row are opposite each other.",
+            "However a die or cube is turned or rolled, its opposite pairs never change. Use this to eliminate options."
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Painted cube (side n): cubes with 3 faces painted",
+          "back": "8 (the corners)"
+        },
+        {
+          "front": "Painted cube (side n): cubes with exactly 2 faces painted",
+          "back": "12(n − 2)"
+        },
+        {
+          "front": "Painted cube (side n): cubes with exactly 1 face painted",
+          "back": "6(n − 2)²"
+        },
+        {
+          "front": "Painted cube (side n): cubes with no face painted",
+          "back": "(n − 2)³"
+        },
+        {
+          "front": "Minimum cuts to divide a cube into 27 equal cubes",
+          "back": "6, from 3(n − 1) with n = 3"
+        },
+        {
+          "front": "Opposite faces of a standard die",
+          "back": "1–6, 2–5, 3–4 (each pair adds up to 7)"
+        },
+        {
+          "front": "Number of squares on a chessboard",
+          "back": "204 (1² + 2² + … + 8²)"
+        },
+        {
+          "front": "Number of rectangles on a chessboard",
+          "back": "1296 (36 × 36)"
+        },
+        {
+          "front": "Triangles in a triangle whose base is divided into n parts by lines from the top vertex",
+          "back": "n(n + 1)/2"
+        },
+        {
+          "front": "Triangles in a square with both diagonals",
+          "back": "8 (4 small + 4 made of two small ones)"
+        },
+        {
+          "front": "How many different nets does a cube have?",
+          "back": "11"
+        },
+        {
+          "front": "A face is seen with four other faces. Which face is opposite it?",
+          "back": "The sixth face, the one never seen with it."
+        }
+      ],
+      "questions": [
+        {
+          "q": "A cube of side 5 cm is painted on all its faces and then cut into cubes of side 1 cm. How many small cubes have exactly two faces painted?",
+          "options": [
+            "36",
+            "27",
+            "54",
+            "48"
+          ],
+          "answer": 0,
+          "explanation": "n = 5. Two faces painted = 12(n − 2) = 12 × 3 = 36."
+        },
+        {
+          "q": "A cube of side 6 cm is painted on all its faces and then cut into cubes of side 1 cm. How many small cubes have no face painted?",
+          "options": [
+            "216",
+            "125",
+            "64",
+            "96"
+          ],
+          "answer": 2,
+          "explanation": "n = 6. No face painted = (n − 2)³ = 4³ = 64."
+        },
+        {
+          "q": "A cube painted on all faces is cut into 64 identical smaller cubes. How many of the smaller cubes have exactly one face painted?",
+          "options": [
+            "8",
+            "16",
+            "32",
+            "24"
+          ],
+          "answer": 3,
+          "explanation": "64 = 4³, so n = 4. One face painted = 6(n − 2)² = 6 × 4 = 24."
+        },
+        {
+          "q": "A die has the numbers 1 to 6 on its faces. In one position the visible faces are 1, 2 and 3. In another position the visible faces are 1, 4 and 5. Which number is opposite 1?",
+          "options": [
+            "4",
+            "6",
+            "2",
+            "5"
+          ],
+          "answer": 1,
+          "explanation": "1 is seen with 2, 3, 4 and 5, so none of these can be opposite it. The remaining number, 6, is opposite 1."
+        },
+        {
+          "q": "A die has the letters A, B, C, D, E and F on its faces. Three positions show these visible faces: Position 1 – A, B, C; Position 2 – B, C, D; Position 3 – B, F, A. Which letter is opposite B?",
+          "options": [
+            "F",
+            "C",
+            "D",
+            "E"
+          ],
+          "answer": 3,
+          "explanation": "B is seen with A, C, D and F. The only letter never seen with B is E, so E is opposite B."
+        },
+        {
+          "q": "A standard die (opposite faces add up to 7) lies on a table with 5 on top. What is the sum of the numbers on its four side faces?",
+          "options": [
+            "16",
+            "14",
+            "12",
+            "15"
+          ],
+          "answer": 1,
+          "explanation": "Bottom = 7 − 5 = 2. The four sides = 21 − 5 − 2 = 14."
+        },
+        {
+          "q": "In triangle ABC, three straight lines are drawn from vertex A to different points on side BC, dividing BC into 4 parts. How many triangles are there in the figure?",
+          "options": [
+            "10",
+            "8",
+            "6",
+            "12"
+          ],
+          "answer": 0,
+          "explanation": "Base divided into n = 4 parts. Triangles = n(n + 1)/2 = 4 × 5/2 = 10."
+        },
+        {
+          "q": "A large square is divided into a 4 × 4 grid of 16 equal small squares. How many squares in total are there in the figure?",
+          "options": [
+            "16",
+            "25",
+            "30",
+            "20"
+          ],
+          "answer": 2,
+          "explanation": "1×1: 16, 2×2: 9, 3×3: 4, 4×4: 1. Total = 16 + 9 + 4 + 1 = 30."
+        }
+      ]
     }
   ]
 };
