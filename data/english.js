@@ -93,6 +93,94 @@ window.CGL_DATA.english = {
           "options": ["Bread and butter", "is my favourite", "breakfast", "No error"],
           "answer": 3,
           "explanation": "'Bread and butter' refers to a single dish, so it takes a singular verb. The sentence is correct: <b>No error</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>The number of candidates appearing for the examination have increased this year.",
+          "options": [
+            "The number of candidates",
+            "appearing for the examination",
+            "have increased this year",
+            "No error"
+          ],
+          "answer": 2,
+          "explanation": "'The number of' + plural noun takes a singular verb. So 'have increased' should be <b>has increased</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>The captain, along with his players, were given a warm welcome at the airport.",
+          "options": [
+            "The captain, along with his players,",
+            "were given",
+            "a warm welcome at the airport",
+            "No error"
+          ],
+          "answer": 1,
+          "explanation": "With 'along with' the verb agrees with the first subject, 'the captain' (singular). So 'were given' should be <b>was given</b>."
+        },
+        {
+          "q": "Choose the correct verb to fill in the blank.<br>Mathematics ______ my favourite subject since childhood.",
+          "options": [
+            "have been",
+            "were",
+            "are",
+            "has been"
+          ],
+          "answer": 3,
+          "explanation": "Names of subjects like Mathematics are singular in meaning, and 'since childhood' needs the present perfect: <b>has been</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>The furniture in the new office were bought from a local dealer.",
+          "options": [
+            "The furniture",
+            "in the new office",
+            "were bought from a local dealer",
+            "No error"
+          ],
+          "answer": 2,
+          "explanation": "'Furniture' is an uncountable noun and takes a singular verb. So 'were bought' should be <b>was bought</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>The cattle is grazing in the field near the river.",
+          "options": [
+            "The cattle",
+            "is grazing",
+            "in the field near the river",
+            "No error"
+          ],
+          "answer": 1,
+          "explanation": "'Cattle' is always plural and takes a plural verb. So 'is grazing' should be <b>are grazing</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>Five hundred kilometres is a long distance to travel in a day.",
+          "options": [
+            "Five hundred kilometres",
+            "is a long distance",
+            "to travel in a day",
+            "No error"
+          ],
+          "answer": 3,
+          "explanation": "A distance seen as one unit takes a singular verb, so 'Five hundred kilometres is' is correct: <b>No error</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>Each of the student has submitted the assignment on time.",
+          "options": [
+            "Each of the student",
+            "has submitted",
+            "the assignment on time",
+            "No error"
+          ],
+          "answer": 0,
+          "explanation": "'Each of' is followed by a plural noun: <b>Each of the students</b>. The singular verb 'has submitted' is correct."
+        },
+        {
+          "q": "Choose the correct verb to fill in the blank.<br>Either the principal or the teachers ______ going to address the parents.",
+          "options": [
+            "are",
+            "is",
+            "has",
+            "was"
+          ],
+          "answer": 0,
+          "explanation": "With 'either…or' the verb agrees with the nearer subject. 'Teachers' is plural, so <b>are</b> is correct."
         }
       ]
     },
@@ -171,6 +259,94 @@ window.CGL_DATA.english = {
           "options": ["I am knowing him", "for many years", "and trust him completely", "No error"],
           "answer": 0,
           "explanation": "'Know' is a stative verb and is not used in the continuous form. With 'for many years' the correct form is <b>I have known him</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>I have seen him yesterday at the market.",
+          "options": [
+            "I have seen him",
+            "yesterday",
+            "at the market",
+            "No error"
+          ],
+          "answer": 0,
+          "explanation": "The present perfect is not used with a definite past time like 'yesterday'. Use the simple past: <b>I saw him</b> yesterday."
+        },
+        {
+          "q": "Fill in the blank with the correct option.<br>By next March, she ______ her degree.",
+          "options": [
+            "completes",
+            "will have completed",
+            "has completed",
+            "will be completing"
+          ],
+          "answer": 1,
+          "explanation": "'By' + a future time shows an action that will be finished before that time, so the future perfect is needed: <b>will have completed</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>I will wait here until you will return from the bank.",
+          "options": [
+            "I will wait here",
+            "until you",
+            "will return from the bank",
+            "No error"
+          ],
+          "answer": 2,
+          "explanation": "'Will' is not used in a time clause beginning with 'until'. Use the simple present: until you <b>return</b>."
+        },
+        {
+          "q": "Fill in the blank with the correct option.<br>If I ______ a bird, I would fly across the sea.",
+          "options": [
+            "am",
+            "was being",
+            "had",
+            "were"
+          ],
+          "answer": 3,
+          "explanation": "An imaginary present situation (type 2 conditional) takes the simple past, and 'were' is used for all persons: <b>If I were a bird</b>."
+        },
+        {
+          "q": "Fill in the blank with the correct option.<br>By the time the police arrived, the thieves ______.",
+          "options": [
+            "had escaped",
+            "have escaped",
+            "escape",
+            "will escape"
+          ],
+          "answer": 0,
+          "explanation": "The escape was completed before another past action (the police arrived), so the past perfect <b>had escaped</b> is needed."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>I wish I studied harder for the exam last year.",
+          "options": [
+            "I wish",
+            "I studied harder",
+            "for the exam last year",
+            "No error"
+          ],
+          "answer": 1,
+          "explanation": "A regret about the past takes the past perfect after 'I wish': <b>I had studied</b> harder."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>She has lived in Delhi since 2015 and does not want to move.",
+          "options": [
+            "She has lived in Delhi",
+            "since 2015",
+            "and does not want to move",
+            "No error"
+          ],
+          "answer": 3,
+          "explanation": "'Since' + a point of time with the present perfect is correct, and 'want' (stative) is rightly in the simple present: <b>No error</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>When I reached the station, the train already left.",
+          "options": [
+            "When I reached",
+            "the station,",
+            "the train already left",
+            "No error"
+          ],
+          "answer": 2,
+          "explanation": "The train left before I reached, so the earlier action takes the past perfect: the train <b>had already left</b>."
         }
       ]
     },
@@ -260,6 +436,94 @@ window.CGL_DATA.english = {
           "options": ["an, an", "an, a", "a, a", "a, an"],
           "answer": 3,
           "explanation": "'One' is pronounced 'wun' (consonant sound) → <b>a</b> one-rupee coin; 'old' begins with a vowel sound → <b>an</b> old blanket."
+        },
+        {
+          "q": "Fill in the blanks with the correct articles.<br>______ Himalayas are ______ highest mountain range in the world.",
+          "options": [
+            "The, a",
+            "A, the",
+            "No article, the",
+            "The, the"
+          ],
+          "answer": 3,
+          "explanation": "Mountain ranges take 'the' (<b>the Himalayas</b>), and a superlative takes 'the' (<b>the highest</b>)."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>He is a MBA from a reputed institute in Delhi.",
+          "options": [
+            "He is a MBA",
+            "from a reputed",
+            "institute in Delhi",
+            "No error"
+          ],
+          "answer": 0,
+          "explanation": "'MBA' begins with the vowel sound 'em', so it takes 'an': <b>He is an MBA</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>The rich should always help poor in times of need.",
+          "options": [
+            "The rich",
+            "should always help",
+            "poor in times of need",
+            "No error"
+          ],
+          "answer": 2,
+          "explanation": "'The' + adjective stands for a whole class of people. So 'poor' should be <b>the poor</b>."
+        },
+        {
+          "q": "Fill in the blank with the correct option.<br>There were ______ mistakes in his essay than in mine.",
+          "options": [
+            "less",
+            "fewer",
+            "little",
+            "much"
+          ],
+          "answer": 1,
+          "explanation": "'Mistakes' is a countable noun, so the comparative is <b>fewer</b>. 'Less' is used with uncountable nouns."
+        },
+        {
+          "q": "Fill in the blanks with the correct articles.<br>______ more you practise, ______ better you become.",
+          "options": [
+            "The, a",
+            "A, the",
+            "The, the",
+            "No article, the"
+          ],
+          "answer": 2,
+          "explanation": "Double comparatives take 'the' in both parts: <b>The more</b> you practise, <b>the better</b> you become."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>The Mount Everest is the highest peak in the world.",
+          "options": [
+            "The Mount Everest",
+            "is the highest peak",
+            "in the world",
+            "No error"
+          ],
+          "answer": 0,
+          "explanation": "A single mountain peak takes no article: <b>Mount Everest</b> is the highest peak in the world."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>I asked for help, but neither of the three brothers was willing to help me.",
+          "options": [
+            "I asked for help, but",
+            "neither of the three brothers",
+            "was willing to help me",
+            "No error"
+          ],
+          "answer": 1,
+          "explanation": "'Neither' refers to two only. For three or more, use 'none': <b>none of the three brothers</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>He went to the hospital to visit his ailing friend.",
+          "options": [
+            "He went to",
+            "the hospital",
+            "to visit his ailing friend",
+            "No error"
+          ],
+          "answer": 3,
+          "explanation": "He did not go as a patient (the hospital's main purpose), so 'the' is correct here: <b>No error</b>."
         }
       ]
     },
@@ -340,6 +604,94 @@ window.CGL_DATA.english = {
           "options": ["to", "by", "on", "with"],
           "answer": 3,
           "explanation": "The fixed pair is <b>comply with</b> (rules, orders, requests)."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>He is senior than me in service.",
+          "options": [
+            "He is senior",
+            "than me",
+            "in service",
+            "No error"
+          ],
+          "answer": 1,
+          "explanation": "'Senior' is followed by 'to', never 'than': <b>senior to me</b>."
+        },
+        {
+          "q": "Fill in the blank with the correct preposition.<br>My colleagues congratulated me ______ my promotion.",
+          "options": [
+            "for",
+            "on",
+            "at",
+            "with"
+          ],
+          "answer": 1,
+          "explanation": "The fixed pair is <b>congratulate (someone) on</b> an achievement."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>We reached at the station just before the train arrived.",
+          "options": [
+            "We reached at the station",
+            "just before",
+            "the train arrived",
+            "No error"
+          ],
+          "answer": 0,
+          "explanation": "'Reach' takes a direct object without a preposition: <b>We reached the station</b>."
+        },
+        {
+          "q": "Fill in the blank with the correct preposition.<br>Please submit your application ______ Friday; late entries will not be accepted.",
+          "options": [
+            "till",
+            "since",
+            "by",
+            "from"
+          ],
+          "answer": 2,
+          "explanation": "<b>By</b> means 'not later than' a deadline. 'Till' means 'up to' a time and does not fit a deadline."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>She has been working here since five years.",
+          "options": [
+            "She has been working",
+            "here",
+            "since five years",
+            "No error"
+          ],
+          "answer": 2,
+          "explanation": "'Five years' is a period of time, so it takes 'for': <b>for five years</b>. 'Since' is used with a point of time."
+        },
+        {
+          "q": "Fill in the blank with the correct preposition.<br>Many members abstained ______ voting on the resolution.",
+          "options": [
+            "from",
+            "to",
+            "for",
+            "of"
+          ],
+          "answer": 0,
+          "explanation": "The fixed pair is <b>abstain from</b> (doing something)."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>He resembles his father in many ways.",
+          "options": [
+            "He resembles",
+            "his father",
+            "in many ways",
+            "No error"
+          ],
+          "answer": 3,
+          "explanation": "'Resemble' takes a direct object ('resembles his father', not 'resembles to/with'). The sentence is correct: <b>No error</b>."
+        },
+        {
+          "q": "Fill in the blank with the correct option.<br>______ English, he knows three other languages.",
+          "options": [
+            "Beside",
+            "Along",
+            "Except",
+            "Besides"
+          ],
+          "answer": 3,
+          "explanation": "<b>Besides</b> means 'in addition to'. 'Beside' means 'next to', and 'except' would contradict 'three other languages'."
         }
       ]
     },
@@ -420,6 +772,94 @@ window.CGL_DATA.english = {
           "options": ["You would be interested by the book.", "You are interested in the book.", "You will be interested in the book.", "You will be interested at the book."],
           "answer": 2,
           "explanation": "Simple future → will be + V3, and 'interested' takes 'in': <b>You will be interested in the book.</b>"
+        },
+        {
+          "q": "Select the correct passive form of the given sentence.<br>You must obey the rules.",
+          "options": [
+            "The rules must be obeyed by you.",
+            "The rules must obeyed by you.",
+            "The rules must have been obeyed by you.",
+            "You must be obeyed by the rules."
+          ],
+          "answer": 0,
+          "explanation": "Modal in the active → modal + be + V3: <b>The rules must be obeyed by you.</b>"
+        },
+        {
+          "q": "Select the correct passive form of the given sentence.<br>Please lend me your pen.",
+          "options": [
+            "Your pen is lent to me.",
+            "Please be lent your pen to me.",
+            "You are requested to lend me your pen.",
+            "You were requested to lend me your pen."
+          ],
+          "answer": 2,
+          "explanation": "A polite request with 'please' becomes 'You are requested to + V1': <b>You are requested to lend me your pen.</b>"
+        },
+        {
+          "q": "Select the correct passive form of the given sentence.<br>The result surprised everyone.",
+          "options": [
+            "Everyone is surprised at the result.",
+            "Everyone was surprised at the result.",
+            "Everyone was surprised with the result.",
+            "Everyone had been surprised at the result."
+          ],
+          "answer": 1,
+          "explanation": "Simple past → was/were + V3, and 'surprised' takes 'at': <b>Everyone was surprised at the result.</b>"
+        },
+        {
+          "q": "Select the correct passive form of the given sentence.<br>The workers were repairing the road.",
+          "options": [
+            "The road was repaired by the workers.",
+            "The road has been repaired by the workers.",
+            "The road is being repaired by the workers.",
+            "The road was being repaired by the workers."
+          ],
+          "answer": 3,
+          "explanation": "Past continuous → was/were + being + V3: <b>The road was being repaired by the workers.</b>"
+        },
+        {
+          "q": "Select the correct active form of the given sentence.<br>The letter had been posted by Ramesh before noon.",
+          "options": [
+            "Ramesh posted the letter before noon.",
+            "Ramesh has posted the letter before noon.",
+            "Ramesh had been posting the letter before noon.",
+            "Ramesh had posted the letter before noon."
+          ],
+          "answer": 3,
+          "explanation": "'Had been + V3' is the passive of the past perfect, so the active is had + V3: <b>Ramesh had posted the letter before noon.</b>"
+        },
+        {
+          "q": "Select the correct passive form of the given sentence.<br>Did the manager sign the cheque?",
+          "options": [
+            "Was the cheque signed by the manager?",
+            "Did the cheque signed by the manager?",
+            "Has the cheque been signed by the manager?",
+            "Was the cheque being signed by the manager?"
+          ],
+          "answer": 0,
+          "explanation": "A simple past question with 'did' becomes Was/Were + object + V3: <b>Was the cheque signed by the manager?</b>"
+        },
+        {
+          "q": "Select the correct passive form of the given sentence.<br>The teacher gave him a prize.",
+          "options": [
+            "He is given a prize by the teacher.",
+            "He was given a prize by the teacher.",
+            "A prize was gave to him by the teacher.",
+            "He had been given a prize by the teacher."
+          ],
+          "answer": 1,
+          "explanation": "Simple past → was + V3. The indirect object 'him' becomes the subject 'He': <b>He was given a prize by the teacher.</b>"
+        },
+        {
+          "q": "Select the correct passive form of the given sentence.<br>Do not insult the poor.",
+          "options": [
+            "Let not the poor insulted.",
+            "The poor are not insulted.",
+            "Let the poor not be insulted.",
+            "Let the poor be not insulting."
+          ],
+          "answer": 2,
+          "explanation": "A negative imperative becomes Let + object + not + be + V3: <b>Let the poor not be insulted.</b>"
         }
       ]
     },
@@ -500,6 +940,94 @@ window.CGL_DATA.english = {
           "options": ["Ravi exclaimed with joy that he had lost his purse.", "Ravi said alas that he has lost his purse.", "Ravi exclaimed with sorrow that he had lost his purse.", "Ravi exclaimed with sorrow that he has lost his purse."],
           "answer": 2,
           "explanation": "'Alas!' shows sorrow → 'exclaimed with sorrow'; present perfect → past perfect: <b>…that he had lost his purse.</b>"
+        },
+        {
+          "q": "Select the correct indirect form of the given sentence.<br>He said to me, 'Do you know the way to the station?'",
+          "options": [
+            "He asked me if I knew the way to the station.",
+            "He asked me that did I know the way to the station.",
+            "He asked me if I know the way to the station.",
+            "He told me whether I knew the way to the station."
+          ],
+          "answer": 0,
+          "explanation": "A yes/no question takes 'asked' + if/whether + statement order, and the simple present becomes the simple past: <b>He asked me if I knew the way to the station.</b>"
+        },
+        {
+          "q": "Select the correct indirect form of the given sentence.<br>She says, 'I am tired.'",
+          "options": [
+            "She says that she was tired.",
+            "She says that she is tired.",
+            "She said that she is tired.",
+            "She says that I am tired."
+          ],
+          "answer": 1,
+          "explanation": "When the reporting verb is in the present tense ('says'), the tense does not change; only the pronoun changes: <b>She says that she is tired.</b>"
+        },
+        {
+          "q": "Select the correct indirect form of the given sentence.<br>He said to his friends, 'Let us go for a picnic.'",
+          "options": [
+            "He told his friends to let us go for a picnic.",
+            "He suggested his friends that we should go for a picnic.",
+            "He proposed to his friends that let them go for a picnic.",
+            "He proposed to his friends that they should go for a picnic."
+          ],
+          "answer": 3,
+          "explanation": "'Let us' (a suggestion) becomes proposed/suggested <b>to</b> + that + they should + V1: <b>He proposed to his friends that they should go for a picnic.</b>"
+        },
+        {
+          "q": "Select the correct indirect form of the given sentence.<br>She said to him, 'Please help me.'",
+          "options": [
+            "She requested him to help her.",
+            "She requested him to help me.",
+            "She told him please help her.",
+            "She requested to him that he helps her."
+          ],
+          "answer": 0,
+          "explanation": "A request with 'please' becomes requested + object + to + V1, and 'me' → 'her': <b>She requested him to help her.</b>"
+        },
+        {
+          "q": "Select the correct direct form of the given sentence.<br>The boy said that he would go to Mumbai the next day.",
+          "options": [
+            "The boy said, 'I would go to Mumbai the next day.'",
+            "The boy said, 'I will go to Mumbai tomorrow.'",
+            "The boy said, 'He will go to Mumbai tomorrow.'",
+            "The boy said, 'I went to Mumbai tomorrow.'"
+          ],
+          "answer": 1,
+          "explanation": "Reverse the changes: would → will, he → I, the next day → tomorrow: <b>The boy said, 'I will go to Mumbai tomorrow.'</b>"
+        },
+        {
+          "q": "Select the correct indirect form of the given sentence.<br>He said, 'I can finish this work today.'",
+          "options": [
+            "He said that he can finish this work today.",
+            "He said that he could finish this work today.",
+            "He said that he could have finished that work that day.",
+            "He said that he could finish that work that day."
+          ],
+          "answer": 3,
+          "explanation": "can → could, this → that, today → that day: <b>He said that he could finish that work that day.</b>"
+        },
+        {
+          "q": "Select the correct indirect form of the given sentence.<br>My mother said to me, 'May God bless you!'",
+          "options": [
+            "My mother prayed that God may bless you.",
+            "My mother wished that God blesses me.",
+            "My mother prayed that God might bless me.",
+            "My mother told me that God might bless me."
+          ],
+          "answer": 2,
+          "explanation": "A prayer/wish becomes 'prayed that', may → might, and 'you' → 'me': <b>My mother prayed that God might bless me.</b>"
+        },
+        {
+          "q": "Select the correct indirect form of the given sentence.<br>He said to her, 'What did you buy yesterday?'",
+          "options": [
+            "He asked her what did she buy the previous day.",
+            "He asked her what she bought yesterday.",
+            "He asked her what she had bought the previous day.",
+            "He asked her that what she had bought the day before."
+          ],
+          "answer": 2,
+          "explanation": "Wh-question: asked + wh-word + statement order, no 'that'; simple past → past perfect, yesterday → the previous day: <b>He asked her what she had bought the previous day.</b>"
         }
       ]
     },
@@ -581,6 +1109,94 @@ window.CGL_DATA.english = {
           "options": ["Foolish", "Talkative", "Cowardly", "Wise"],
           "answer": 3,
           "explanation": "'Sagacious' means having sound judgement — <b>wise</b>. 'Foolish' is its antonym."
+        },
+        {
+          "q": "Select the synonym of the given word.<br><b>OBDURATE</b>",
+          "options": [
+            "Stubborn",
+            "Gentle",
+            "Yielding",
+            "Timid"
+          ],
+          "answer": 0,
+          "explanation": "'Obdurate' means refusing to change one's opinion — <b>stubborn</b>. 'Yielding' is its opposite."
+        },
+        {
+          "q": "Select the synonym of the given word.<br><b>CAPRICIOUS</b>",
+          "options": [
+            "Steady",
+            "Whimsical",
+            "Consistent",
+            "Cautious"
+          ],
+          "answer": 1,
+          "explanation": "'Capricious' means given to sudden changes of mood or behaviour — <b>whimsical</b>. Steady and consistent are opposites."
+        },
+        {
+          "q": "Select the synonym of the given word.<br><b>SPURIOUS</b>",
+          "options": [
+            "Authentic",
+            "Harmless",
+            "Fake",
+            "Ancient"
+          ],
+          "answer": 2,
+          "explanation": "'Spurious' means false or not genuine — <b>fake</b>. 'Authentic' is its antonym."
+        },
+        {
+          "q": "Select the most appropriate synonym of the underlined word.<br>The minister gave a <u>laconic</u> reply to the reporters' long questions.",
+          "options": [
+            "Lengthy",
+            "Humorous",
+            "Angry",
+            "Brief"
+          ],
+          "answer": 3,
+          "explanation": "'Laconic' means using very few words — <b>brief</b>, terse. 'Lengthy' is the opposite."
+        },
+        {
+          "q": "Select the synonym of the given word.<br><b>DEBACLE</b>",
+          "options": [
+            "Fiasco",
+            "Triumph",
+            "Debate",
+            "Celebration"
+          ],
+          "answer": 0,
+          "explanation": "A 'debacle' is a sudden, humiliating failure — a <b>fiasco</b>. 'Triumph' is the opposite; 'debate' is a sound-alike trap."
+        },
+        {
+          "q": "Select the most appropriate synonym of the underlined word.<br>Her <u>ostentatious</u> lifestyle drew sharp criticism from the villagers.",
+          "options": [
+            "Modest",
+            "Showy",
+            "Secretive",
+            "Healthy"
+          ],
+          "answer": 1,
+          "explanation": "'Ostentatious' means designed to impress or attract notice — <b>showy</b>. 'Modest' is the opposite."
+        },
+        {
+          "q": "Select the synonym of the given word.<br><b>EXONERATE</b>",
+          "options": [
+            "Accuse",
+            "Punish",
+            "Absolve",
+            "Exaggerate"
+          ],
+          "answer": 2,
+          "explanation": "'Exonerate' means to free someone from blame — <b>absolve</b>. 'Accuse' is the opposite; 'exaggerate' is a sound-alike trap."
+        },
+        {
+          "q": "Select the synonym of the given word.<br><b>UBIQUITOUS</b>",
+          "options": [
+            "Rare",
+            "Unique",
+            "Ambiguous",
+            "Omnipresent"
+          ],
+          "answer": 3,
+          "explanation": "'Ubiquitous' means present or found everywhere — <b>omnipresent</b>. 'Rare' is the opposite."
         }
       ]
     },
@@ -656,6 +1272,94 @@ window.CGL_DATA.english = {
           "options": ["Summit", "Nadir", "Peak", "Apex"],
           "answer": 1,
           "explanation": "'Zenith' is the highest point. Its opposite is <b>nadir</b>, the lowest point. Summit, peak and apex are synonyms."
+        },
+        {
+          "q": "Select the antonym of the given word.<br><b>BENIGN</b>",
+          "options": [
+            "Malignant",
+            "Kind",
+            "Gentle",
+            "Harmless"
+          ],
+          "answer": 0,
+          "explanation": "'Benign' means gentle or not harmful (a benign tumour). Its opposite is <b>malignant</b>. The other options are synonyms."
+        },
+        {
+          "q": "Select the antonym of the given word.<br><b>GREGARIOUS</b>",
+          "options": [
+            "Sociable",
+            "Reclusive",
+            "Friendly",
+            "Outgoing"
+          ],
+          "answer": 1,
+          "explanation": "'Gregarious' means fond of company. Its opposite is <b>reclusive</b> (avoiding company). The others are synonyms."
+        },
+        {
+          "q": "Select the antonym of the given word.<br><b>VERBOSE</b>",
+          "options": [
+            "Wordy",
+            "Talkative",
+            "Concise",
+            "Garrulous"
+          ],
+          "answer": 2,
+          "explanation": "'Verbose' means using more words than needed. Its opposite is <b>concise</b>. Wordy, talkative and garrulous are similar in meaning."
+        },
+        {
+          "q": "Select the antonym of the underlined word.<br>The witness gave a <u>candid</u> account of what she had seen.",
+          "options": [
+            "Frank",
+            "Honest",
+            "Detailed",
+            "Evasive"
+          ],
+          "answer": 3,
+          "explanation": "'Candid' means frank and open. Its opposite is <b>evasive</b> (avoiding a direct answer)."
+        },
+        {
+          "q": "Select the antonym of the given word.<br><b>ALLEVIATE</b>",
+          "options": [
+            "Aggravate",
+            "Relieve",
+            "Ease",
+            "Mitigate"
+          ],
+          "answer": 0,
+          "explanation": "'Alleviate' means to make pain or trouble less severe. Its opposite is <b>aggravate</b> (make worse). Relieve, ease and mitigate are synonyms."
+        },
+        {
+          "q": "Select the antonym of the underlined word.<br>Fame in the film industry is often <u>ephemeral</u>.",
+          "options": [
+            "Transient",
+            "Permanent",
+            "Fleeting",
+            "Brief"
+          ],
+          "answer": 1,
+          "explanation": "'Ephemeral' means lasting a very short time. Its opposite is <b>permanent</b>. The others are synonyms."
+        },
+        {
+          "q": "Select the antonym of the given word.<br><b>MAGNANIMOUS</b>",
+          "options": [
+            "Generous",
+            "Noble",
+            "Petty",
+            "Charitable"
+          ],
+          "answer": 2,
+          "explanation": "'Magnanimous' means generous and forgiving, big-hearted. Its opposite is <b>petty</b> (small-minded, mean)."
+        },
+        {
+          "q": "Select the antonym of the given word.<br><b>ACQUIT</b>",
+          "options": [
+            "Release",
+            "Pardon",
+            "Discharge",
+            "Convict"
+          ],
+          "answer": 3,
+          "explanation": "To 'acquit' is to declare someone not guilty. Its opposite is <b>convict</b> (declare guilty). The others are close in sense to 'acquit'."
         }
       ]
     },
@@ -749,6 +1453,94 @@ window.CGL_DATA.english = {
           "options": ["To stare at someone", "To quarrel", "To agree fully", "To meet face to face"],
           "answer": 2,
           "explanation": "'To see eye to eye' means <b>to agree fully</b> with someone. It is usually used in the negative: 'They do not see eye to eye.'"
+        },
+        {
+          "q": "Select the most appropriate meaning of the given idiom.<br>Rahul had to <b>burn the midnight oil</b> to finish his project on time.",
+          "options": [
+            "Work late into the night",
+            "Waste electricity",
+            "Work carelessly",
+            "Go to bed early"
+          ],
+          "answer": 0,
+          "explanation": "'Burn the midnight oil' means <b>to work or study late into the night</b>."
+        },
+        {
+          "q": "Select the most appropriate meaning of the given idiom.<br><b>To let the cat out of the bag</b>",
+          "options": [
+            "To set an animal free",
+            "To reveal a secret",
+            "To create confusion",
+            "To keep a promise"
+          ],
+          "answer": 1,
+          "explanation": "'Let the cat out of the bag' means <b>to reveal a secret</b>, usually by mistake."
+        },
+        {
+          "q": "Select the most appropriate meaning of the given idiom.<br>Poor spelling has always been his <b>Achilles' heel</b>.",
+          "options": [
+            "A painful injury",
+            "A great strength",
+            "A weak point",
+            "A lucky charm"
+          ],
+          "answer": 2,
+          "explanation": "An 'Achilles' heel' is <b>a weak or vulnerable point</b> in an otherwise strong person or thing."
+        },
+        {
+          "q": "Select the most appropriate meaning of the given idiom.<br><b>To smell a rat</b>",
+          "options": [
+            "To make a false promise",
+            "To live in dirty conditions",
+            "To lose one's temper",
+            "To suspect that something is wrong"
+          ],
+          "answer": 3,
+          "explanation": "'Smell a rat' means <b>to suspect that something is wrong</b> or that someone is being dishonest."
+        },
+        {
+          "q": "Select the most appropriate meaning of the given idiom.<br>After a tough season, the defending champions finally <b>bit the dust</b> in the semi-final.",
+          "options": [
+            "Were defeated",
+            "Played dirty",
+            "Won easily",
+            "Became humble"
+          ],
+          "answer": 0,
+          "explanation": "'Bite the dust' means <b>to be defeated or to fail</b> (it can also mean to die)."
+        },
+        {
+          "q": "Select the most appropriate meaning of the given idiom.<br>With only one bus in the day, the villagers faced a <b>Hobson's choice</b>.",
+          "options": [
+            "A wise decision",
+            "No real choice at all",
+            "A choice between two good options",
+            "A popular choice"
+          ],
+          "answer": 1,
+          "explanation": "A 'Hobson's choice' is <b>no real choice</b>: take what is offered or nothing at all."
+        },
+        {
+          "q": "Select the most appropriate meaning of the given idiom.<br>She was <b>on cloud nine</b> after clearing the exam.",
+          "options": [
+            "Very confused",
+            "Highly ambitious",
+            "Extremely happy",
+            "Very tired"
+          ],
+          "answer": 2,
+          "explanation": "'On cloud nine' means <b>extremely happy</b>."
+        },
+        {
+          "q": "Select the most appropriate meaning of the given idiom.<br>The day of her graduation was <b>a red-letter day</b> for the whole family.",
+          "options": [
+            "A day of mourning",
+            "A day of warning",
+            "An ordinary working day",
+            "A memorable, important day"
+          ],
+          "answer": 3,
+          "explanation": "'A red-letter day' is <b>a day that is memorable because something important or pleasant happened</b>."
         }
       ]
     },
@@ -832,6 +1624,94 @@ window.CGL_DATA.english = {
           "options": ["Apiary", "Aquarium", "Aviary", "Arsenal"],
           "answer": 2,
           "explanation": "An <b>aviary</b> is an enclosure for birds. Apiary = bees; aquarium = fish; arsenal = weapons."
+        },
+        {
+          "q": "Select the word that can substitute the given phrase.<br>One who hates mankind",
+          "options": [
+            "Misanthrope",
+            "Philanthropist",
+            "Misogynist",
+            "Misogamist"
+          ],
+          "answer": 0,
+          "explanation": "A <b>misanthrope</b> hates mankind. Philanthropist = lover/helper of mankind; misogynist = hater of women; misogamist = hater of marriage."
+        },
+        {
+          "q": "Select the word that can substitute the given phrase.<br>The killing of one's own brother",
+          "options": [
+            "Patricide",
+            "Fratricide",
+            "Regicide",
+            "Matricide"
+          ],
+          "answer": 1,
+          "explanation": "<b>Fratricide</b> is the killing of one's brother. Patricide = father; regicide = king; matricide = mother."
+        },
+        {
+          "q": "Select the word that can substitute the given phrase.<br>A remedy for all diseases or problems",
+          "options": [
+            "Placebo",
+            "Antidote",
+            "Panacea",
+            "Vaccine"
+          ],
+          "answer": 2,
+          "explanation": "A <b>panacea</b> is a cure-all. An antidote counters a particular poison; a placebo is a dummy medicine."
+        },
+        {
+          "q": "Select the word that can substitute the given phrase.<br>Handwriting that cannot be read",
+          "options": [
+            "Ineligible",
+            "Inaudible",
+            "Illiterate",
+            "Illegible"
+          ],
+          "answer": 3,
+          "explanation": "<b>Illegible</b> = not readable. Ineligible = not qualified; inaudible = cannot be heard; illiterate = unable to read or write."
+        },
+        {
+          "q": "Select the word that can substitute the given phrase.<br>One who is incapable of making a mistake",
+          "options": [
+            "Infallible",
+            "Invincible",
+            "Indelible",
+            "Inevitable"
+          ],
+          "answer": 0,
+          "explanation": "<b>Infallible</b> = never wrong. Invincible = cannot be defeated; indelible = cannot be erased; inevitable = cannot be avoided."
+        },
+        {
+          "q": "Select the word that can substitute the given phrase.<br>A book or an award that is published or given after the death of the author or recipient",
+          "options": [
+            "Premature",
+            "Posthumous",
+            "Obituary",
+            "Epitaph"
+          ],
+          "answer": 1,
+          "explanation": "<b>Posthumous</b> means occurring after death. An obituary is a death notice; an epitaph is an inscription on a tomb."
+        },
+        {
+          "q": "Select the word that can substitute the given phrase.<br>Government by a small group of powerful people",
+          "options": [
+            "Monarchy",
+            "Anarchy",
+            "Oligarchy",
+            "Democracy"
+          ],
+          "answer": 2,
+          "explanation": "<b>Oligarchy</b> is rule by a few. Monarchy = rule by a king/queen; anarchy = absence of government; democracy = rule by the people."
+        },
+        {
+          "q": "Select the word that can substitute the given phrase.<br>The study of the origin and history of words",
+          "options": [
+            "Entomology",
+            "Ethnology",
+            "Epistemology",
+            "Etymology"
+          ],
+          "answer": 3,
+          "explanation": "<b>Etymology</b> is the study of word origins. Entomology = insects; ethnology = comparison of cultures/races; epistemology = theory of knowledge."
         }
       ]
     },
@@ -913,6 +1793,94 @@ window.CGL_DATA.english = {
           "options": ["Questionaire", "Questionnaire", "Questionnare", "Quesstionnaire"],
           "answer": 1,
           "explanation": "<b>Questionnaire</b> has double 'n' and ends in '-aire'."
+        },
+        {
+          "q": "Select the correctly spelt word.",
+          "options": [
+            "Entrepreneur",
+            "Enterpreneur",
+            "Entrepeneur",
+            "Entreprenuer"
+          ],
+          "answer": 0,
+          "explanation": "The correct spelling is <b>Entrepreneur</b> (en-tre-pre-neur), a French borrowing ending in '-eur'."
+        },
+        {
+          "q": "Select the INCORRECTLY spelt word.",
+          "options": [
+            "Receive",
+            "Harrass",
+            "Occurred",
+            "Separate"
+          ],
+          "answer": 1,
+          "explanation": "The correct spelling is <b>Harass</b> — one 'r', double 's'. The other three are spelt correctly."
+        },
+        {
+          "q": "Select the correctly spelt word.",
+          "options": [
+            "Pronounciation",
+            "Pronunsiation",
+            "Pronunciation",
+            "Prononciation"
+          ],
+          "answer": 2,
+          "explanation": "The noun is <b>Pronunciation</b> — 'pronounce' loses its 'o': pro-<b>nun</b>-ci-a-tion."
+        },
+        {
+          "q": "Select the correctly spelt word.",
+          "options": [
+            "Survelliance",
+            "Surveilance",
+            "Servaillance",
+            "Surveillance"
+          ],
+          "answer": 3,
+          "explanation": "The correct spelling is <b>Surveillance</b> — sur-veil-lance, with double 'l'."
+        },
+        {
+          "q": "Select the INCORRECTLY spelt word.",
+          "options": [
+            "Mischievious",
+            "Liaison",
+            "Rhythm",
+            "Lieutenant"
+          ],
+          "answer": 0,
+          "explanation": "The correct spelling is <b>Mischievous</b> (three syllables, no 'i' before '-ous'). The others are correct."
+        },
+        {
+          "q": "Select the correctly spelt word.",
+          "options": [
+            "Beaurocracy",
+            "Bureaucracy",
+            "Bureacracy",
+            "Burocracy"
+          ],
+          "answer": 1,
+          "explanation": "The correct spelling is <b>Bureaucracy</b> — 'bureau' + '-cracy'."
+        },
+        {
+          "q": "Identify the misspelt word in the given sentence.<br>The committee's recomendation was accepted by the government.",
+          "options": [
+            "committee's",
+            "accepted",
+            "recomendation",
+            "government"
+          ],
+          "answer": 2,
+          "explanation": "The correct spelling is <b>recommendation</b> — one 'c', double 'm'."
+        },
+        {
+          "q": "Select the correctly spelt word.",
+          "options": [
+            "Reminiscense",
+            "Reminisence",
+            "Remminiscence",
+            "Reminiscence"
+          ],
+          "answer": 3,
+          "explanation": "The correct spelling is <b>Reminiscence</b> — 'sc' in the middle and '-ence' at the end."
         }
       ]
     },
@@ -991,6 +1959,94 @@ window.CGL_DATA.english = {
           "options": ["Each of the players were", "Each of the player was", "All of the player were", "No improvement"],
           "answer": 3,
           "explanation": "'Each of' + plural noun + singular verb is correct: 'Each of the players was…'. <b>No improvement</b> is needed."
+        },
+        {
+          "q": "Select the most appropriate option to improve the underlined part. If no improvement is needed, select 'No improvement'.<br>I look forward to <u>meet</u> you at the conference next month.",
+          "options": [
+            "meeting",
+            "have met",
+            "be meeting",
+            "No improvement"
+          ],
+          "answer": 0,
+          "explanation": "In 'look forward to', 'to' is a preposition, so it is followed by a gerund (-ing form): <b>look forward to meeting</b> you."
+        },
+        {
+          "q": "Select the most appropriate option to improve the underlined part. If no improvement is needed, select 'No improvement'.<br>The reason for his absence <u>is because</u> he was ill.",
+          "options": [
+            "is due to",
+            "is that",
+            "was because of",
+            "No improvement"
+          ],
+          "answer": 1,
+          "explanation": "'Reason' already expresses cause, so 'because' is redundant. Use 'The reason… <b>is that</b>…'."
+        },
+        {
+          "q": "Select the most appropriate option to improve the underlined part. If no improvement is needed, select 'No improvement'.<br>The teacher did not let him <u>to go</u> home early.",
+          "options": [
+            "go",
+            "going",
+            "goes",
+            "No improvement"
+          ],
+          "answer": 0,
+          "explanation": "'Let' is followed by an object and a bare infinitive (without 'to'): let him <b>go</b>."
+        },
+        {
+          "q": "Select the most appropriate option to improve the underlined part. If no improvement is needed, select 'No improvement'.<br>My uncle lives abroad and <u>hardly never</u> visits us.",
+          "options": [
+            "hardly not",
+            "hardly ever",
+            "seldom never",
+            "No improvement"
+          ],
+          "answer": 1,
+          "explanation": "'Hardly' is already negative in sense, so 'hardly never' is a double negative. The correct form is <b>hardly ever</b>."
+        },
+        {
+          "q": "Select the most appropriate option to improve the underlined part. If no improvement is needed, select 'No improvement'.<br>Her style of painting is <u>most unique</u>.",
+          "options": [
+            "more unique",
+            "very unique",
+            "unique",
+            "No improvement"
+          ],
+          "answer": 2,
+          "explanation": "'Unique' means one of a kind, an absolute adjective that cannot be compared or intensified. Use just <b>unique</b>."
+        },
+        {
+          "q": "Fill in the blank with the most appropriate option.<br>The Prime Minister ______ the foundation stone of the new hospital last week.",
+          "options": [
+            "lied",
+            "lay",
+            "lain",
+            "laid"
+          ],
+          "answer": 3,
+          "explanation": "'Lay' (to put down) is transitive: lay–<b>laid</b>–laid. 'Lay' is also the past of 'lie' (to rest), 'lain' its past participle and 'lied' means told a lie."
+        },
+        {
+          "q": "Select the most appropriate option to improve the underlined part. If no improvement is needed, select 'No improvement'.<br>I am <u>too glad</u> to meet you after so many years.",
+          "options": [
+            "more glad",
+            "much glad",
+            "very glad",
+            "No improvement"
+          ],
+          "answer": 2,
+          "explanation": "'Too…to' gives a negative sense (too weak to walk). For simple emphasis use <b>very glad</b>."
+        },
+        {
+          "q": "Select the most appropriate option to improve the underlined part. If no improvement is needed, select 'No improvement'.<br>She <u>not only sings well but also dances</u> gracefully.",
+          "options": [
+            "sings not only well but also dances",
+            "not only sings well but also is dancing",
+            "not only is singing well but also dances",
+            "No improvement"
+          ],
+          "answer": 3,
+          "explanation": "'Not only…but also' correctly joins two parallel verbs (sings… dances). <b>No improvement</b> is needed."
         }
       ]
     },
@@ -1071,6 +2127,94 @@ window.CGL_DATA.english = {
           "options": ["Confusing", "Lengthy", "Convincing", "Humorous"],
           "answer": 2,
           "explanation": "Arguments that make even opponents agree are persuasive — 'cogent' means <b>convincing</b>."
+        },
+        {
+          "q": "<i>Passage:</i> The new water project is ambitious, but it cannot work on its own. Its success will depend largely ______ the cooperation of the local people.<br><br>Choose the most appropriate word for the blank.",
+          "options": [
+            "of",
+            "on",
+            "at",
+            "with"
+          ],
+          "answer": 1,
+          "explanation": "The fixed pair is 'depend <b>on</b>'. The other prepositions do not go with 'depend'."
+        },
+        {
+          "q": "<i>Passage:</i> The fire started late at night in a crowded market. By the time the fire brigade arrived, the entire building ______ to the ground.<br><br>Choose the most appropriate word for the blank.",
+          "options": [
+            "burns",
+            "has burnt",
+            "will burn",
+            "had burnt"
+          ],
+          "answer": 3,
+          "explanation": "'By the time + simple past' needs the past perfect for the earlier action: <b>had burnt</b>."
+        },
+        {
+          "q": "<i>Passage:</i> It rained heavily throughout the night and most roads in the town were flooded. ______, all schools remained closed for the next two days.<br><br>Choose the most appropriate word for the blank.",
+          "options": [
+            "Consequently",
+            "However",
+            "Nevertheless",
+            "Otherwise"
+          ],
+          "answer": 0,
+          "explanation": "School closure is the result of the flooding, so a result connector is needed: <b>Consequently</b>. 'However' and 'Nevertheless' show contrast."
+        },
+        {
+          "q": "<i>Passage:</i> Born in a poor family in a small village, the young scientist had few advantages. Yet, through sheer hard work and dedication, she rose to ______ and won several national awards.<br><br>Choose the most appropriate word for the blank.",
+          "options": [
+            "obscurity",
+            "ignorance",
+            "prominence",
+            "decline"
+          ],
+          "answer": 2,
+          "explanation": "Winning national awards shows she became well known: 'rose to <b>prominence</b>'. The other words give the opposite sense."
+        },
+        {
+          "q": "<i>Passage:</i> Plastic bags take hundreds of years to decompose. They choke drains, pollute rivers and are often swallowed by cattle and sea animals. Many cities have therefore banned single-use plastic and are urging people to carry cloth bags.<br><br>Which is the most suitable title for the passage?",
+          "options": [
+            "The Menace of Plastic Bags",
+            "The Life of Cattle",
+            "Cloth Bags in Fashion",
+            "The Rivers of Our Cities"
+          ],
+          "answer": 0,
+          "explanation": "The whole passage is about the harm caused by plastic bags and steps against them. The other titles cover only a passing detail."
+        },
+        {
+          "q": "<i>Passage:</i> Meena reached the platform just as the train began to pull out. She stood there, staring at the last coach as it disappeared round the bend, her ticket still in her hand.<br><br>What can be inferred from the passage?",
+          "options": [
+            "She had cancelled her journey",
+            "She missed her train",
+            "She had come to see off a friend",
+            "She was the guard of the train"
+          ],
+          "answer": 1,
+          "explanation": "She arrived as the train left and still held her own ticket, so she <b>missed her train</b>. Nothing suggests the other options."
+        },
+        {
+          "q": "<i>Passage:</i> Our city's new flyover is truly a marvel of planning. It was opened with great fanfare last month and has already been closed twice for repairs. Commuters now enjoy the rare privilege of being stuck in traffic both above and below it.<br><br>The tone of the writer is:",
+          "options": [
+            "admiring",
+            "neutral",
+            "sarcastic",
+            "sympathetic"
+          ],
+          "answer": 2,
+          "explanation": "The writer uses praise ('marvel', 'rare privilege') to mock a failure, which is a <b>sarcastic</b> tone."
+        },
+        {
+          "q": "<i>Passage:</i> The Great Indian Bustard is one of the heaviest flying birds in the world. It lives in dry grasslands, mainly in Rajasthan. Its numbers have fallen sharply because of hunting, loss of habitat and collisions with overhead power lines.<br><br>Which of the following is NOT stated in the passage?",
+          "options": [
+            "It is one of the heaviest flying birds",
+            "It lives mainly in dry grasslands",
+            "Power lines are a threat to it",
+            "It migrates to Africa every winter"
+          ],
+          "answer": 3,
+          "explanation": "The passage says nothing about migration to Africa. The other three are stated directly."
         }
       ]
     },
@@ -1254,6 +2398,72 @@ window.CGL_DATA.english = {
           ],
           "answer": 0,
           "explanation": "The correlative 'not only…but also' must stay in order: 'She is not only a good singer but also a talented dancer' → <b>RQPS</b>."
+        },
+        {
+          "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.<br>P. to submit their assignments<br>Q. The teacher asked<br>R. before the end of the week<br>S. all the students",
+          "options": [
+            "PQSR",
+            "SPQR",
+            "QSPR",
+            "RPQS"
+          ],
+          "answer": 2,
+          "explanation": "Subject + verb (Q), object (S), infinitive (P), time phrase (R): 'The teacher asked all the students to submit their assignments before the end of the week' → <b>QSPR</b>."
+        },
+        {
+          "q": "The first and the last sentences are given. Arrange P, Q, R and S in a logical sequence.<br>S1. A farmer noticed that his crops were being destroyed every night.<br>P. So he decided to stay awake and watch the field.<br>Q. Around midnight, he saw a herd of wild boars entering it.<br>R. He shouted loudly and beat a drum to frighten them.<br>S. The animals ran away and never came back.<br>S6. From then on, his harvest was safe.",
+          "options": [
+            "PRQS",
+            "PQRS",
+            "QPRS",
+            "PQSR"
+          ],
+          "answer": 1,
+          "explanation": "'So' in P gives his response to S1; Q ('it' = the field) shows what he saw; R is his action; S is the result that leads to S6 → <b>PQRS</b>."
+        },
+        {
+          "q": "Given below are four jumbled sentences. Select the option that gives their correct logical sequence.<br>P. For example, a single tree can absorb several kilograms of carbon dioxide in a year.<br>Q. Trees play a vital role in keeping our environment healthy.<br>R. Therefore, cutting them down carelessly harms us all.<br>S. They absorb carbon dioxide and release oxygen.",
+          "options": [
+            "SQPR",
+            "PQSR",
+            "RSQP",
+            "QSPR"
+          ],
+          "answer": 3,
+          "explanation": "Q is the general opening; S ('They' = trees) explains it; P gives an example of S; R ('Therefore') concludes → <b>QSPR</b>."
+        },
+        {
+          "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.<br>Hardly<br>P. when the guests<br>Q. had we reached<br>R. started arriving<br>S. the hall",
+          "options": [
+            "QSPR",
+            "QPRS",
+            "PRQS",
+            "SQPR"
+          ],
+          "answer": 0,
+          "explanation": "'Hardly' takes inverted order (had we reached) and pairs with 'when': 'Hardly had we reached the hall when the guests started arriving' → <b>QSPR</b>."
+        },
+        {
+          "q": "The first sentence is given. Arrange P, Q, R and S in a logical sequence.<br>Making a cup of tea is quite simple.<br>P. Then add the tea leaves and let them boil for a minute.<br>Q. First, boil a cup of water in a pan.<br>R. Finally, strain the tea into a cup and serve it hot.<br>S. After that, pour in some milk and sugar.",
+          "options": [
+            "QPSR",
+            "PQSR",
+            "QPRS",
+            "SQPR"
+          ],
+          "answer": 0,
+          "explanation": "The time markers fix the order: First (Q) → Then (P) → After that (S) → Finally (R) → <b>QPSR</b>."
+        },
+        {
+          "q": "Given below are four jumbled sentences. Select the option that gives their correct logical sequence.<br>P. However, he refused to accept any money for it.<br>Q. An old man once found a purse full of money on the road.<br>R. He returned it to its owner, a rich merchant.<br>S. The grateful merchant offered him a large reward.",
+          "options": [
+            "QSRP",
+            "QRPS",
+            "RQSP",
+            "QRSP"
+          ],
+          "answer": 3,
+          "explanation": "Q names the old man (opening); R introduces 'a rich merchant'; S follows with 'The grateful merchant' and the reward; P ('However… refused') contrasts with the offer → <b>QRSP</b>."
         }
       ]
     },
@@ -1443,6 +2653,72 @@ window.CGL_DATA.english = {
           ],
           "answer": 2,
           "explanation": "The climb is the <b>ascent</b>; agreement is <b>assent</b>."
+        },
+        {
+          "q": "Fill in the blank with the most appropriate word.<br>The police raided the warehouse and seized a large quantity of ______ liquor.",
+          "options": [
+            "elicit",
+            "illicit",
+            "explicit",
+            "implicit"
+          ],
+          "answer": 1,
+          "explanation": "<b>Illicit</b> = illegal. 'Elicit' is a verb meaning to draw out (a reply or reaction)."
+        },
+        {
+          "q": "Fill in the blank with the most appropriate word.<br>Ravi and Mohan both applied for the post; the former was selected, and the ______ was placed on the waiting list.",
+          "options": [
+            "later",
+            "lateral",
+            "letter",
+            "latter"
+          ],
+          "answer": 3,
+          "explanation": "<b>Latter</b> = the second of two (Mohan), paired with 'former'. 'Later' means afterwards."
+        },
+        {
+          "q": "Fill in the blank with the most appropriate word.<br>The court found the witness's account ______ and accepted it as evidence.",
+          "options": [
+            "credible",
+            "creditable",
+            "credulous",
+            "credited"
+          ],
+          "answer": 0,
+          "explanation": "<b>Credible</b> = believable. 'Creditable' = deserving praise; 'credulous' = too ready to believe."
+        },
+        {
+          "q": "Select the sentence in which the word in bold is used correctly.",
+          "options": [
+            "Please do not <b>loose</b> your ticket.",
+            "The <b>personal</b> department handles all recruitment.",
+            "The sudden flash of <b>lightning</b> frightened the children.",
+            "He was <b>formally</b> a teacher, but now he runs a shop."
+          ],
+          "answer": 2,
+          "explanation": "<b>Lightning</b> is the flash in a storm. The others need 'lose' (fail to keep), 'personnel' (staff) and 'formerly' (earlier)."
+        },
+        {
+          "q": "Fill in the blank with the most appropriate word.<br>The judge ______ an earlier ruling of the Supreme Court to support his decision.",
+          "options": [
+            "sited",
+            "cited",
+            "sighted",
+            "seated"
+          ],
+          "answer": 1,
+          "explanation": "<b>Cite</b> = to quote as an example or proof. 'Site' is a place and 'sight' is vision or a view."
+        },
+        {
+          "q": "Fill in the blanks with the most appropriate option.<br>The patient's ______ was so weak that he could barely ______ without help.",
+          "options": [
+            "breath, breathe",
+            "breathe, breath",
+            "breath, breath",
+            "breathe, breathe"
+          ],
+          "answer": 0,
+          "explanation": "After 'The patient's' a noun is needed: <b>breath</b>. After 'could barely' a verb is needed: <b>breathe</b>."
         }
       ]
     },
@@ -1633,6 +2909,72 @@ window.CGL_DATA.english = {
           ],
           "answer": 3,
           "explanation": "'Senior to' is correct, 'much' suits a comparative, and 'than I (am)' is the correct case: <b>No error</b>."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>He availed of the opportunity to study abroad.",
+          "options": [
+            "He availed of",
+            "the opportunity",
+            "to study abroad",
+            "No error"
+          ],
+          "answer": 0,
+          "explanation": "'Avail' needs a reflexive pronoun: 'He <b>availed himself of</b> the opportunity'."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>Though he worked very hard, but he could not pass the test.",
+          "options": [
+            "Though he worked very hard,",
+            "but he could not",
+            "pass the test",
+            "No error"
+          ],
+          "answer": 1,
+          "explanation": "'Though' is not paired with 'but'. Use '<b>yet</b> he could not' or just a comma."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>The old man walked towards the bus stop very slow.",
+          "options": [
+            "The old man walked",
+            "towards the bus stop",
+            "very slow",
+            "No error"
+          ],
+          "answer": 2,
+          "explanation": "'Slow' here describes how he walked, so an adverb is needed: 'walked towards the bus stop very <b>slowly</b>'."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>I, you and he will attend the meeting tomorrow.",
+          "options": [
+            "I, you and he",
+            "will attend",
+            "the meeting tomorrow",
+            "No error"
+          ],
+          "answer": 0,
+          "explanation": "The normal order of pronouns is second, third, first person: '<b>You, he and I</b> will attend'. The 1-2-3 order is only for admitting a fault."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>Having lived on a farm for years, I am used to wake up early every morning.",
+          "options": [
+            "Having lived on a farm for years,",
+            "I am used to wake up",
+            "early every morning",
+            "No error"
+          ],
+          "answer": 1,
+          "explanation": "'Be used to' (= accustomed to) takes the -ing form: 'I am used to <b>waking</b> up'."
+        },
+        {
+          "q": "Identify the segment that contains a grammatical error. If there is no error, select 'No error'.<br>You had better consult a doctor before the fever gets worse.",
+          "options": [
+            "You had better",
+            "consult a doctor",
+            "before the fever gets worse",
+            "No error"
+          ],
+          "answer": 3,
+          "explanation": "'Had better' is correctly followed by the base form 'consult', and 'gets' suits the time clause: <b>No error</b>."
         }
       ]
     }

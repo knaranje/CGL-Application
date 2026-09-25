@@ -173,6 +173,94 @@ window.CGL_DATA.gk = {
      ],
      "answer": 1,
      "explanation": "Mahavira attained nirvana at Pavapuri in Bihar. He was born at Kundagrama near Vaishali."
+    },
+    {
+     "q": "The dockyard of the Harappan civilisation was discovered at:",
+     "options": [
+      "Kalibangan",
+      "Lothal",
+      "Dholavira",
+      "Banawali"
+     ],
+     "answer": 1,
+     "explanation": "Lothal (Gujarat, on the Bhogava river) had a brick dockyard, showing maritime trade."
+    },
+    {
+     "q": "The 'Battle of Ten Kings' (Dasarajna) mentioned in the Rigveda was fought on the banks of which river?",
+     "options": [
+      "Sindhu (Indus)",
+      "Vitasta (Jhelum)",
+      "Asikni (Chenab)",
+      "Parushni (Ravi)"
+     ],
+     "answer": 3,
+     "explanation": "The Dasarajna war was fought on the Parushni (Ravi); Sudas of the Bharata tribe won."
+    },
+    {
+     "q": "Megasthenes, author of 'Indica', came to the court of Chandragupta Maurya as the ambassador of:",
+     "options": [
+      "Seleucus Nicator",
+      "Alexander the Great",
+      "Darius I",
+      "Antiochus III"
+     ],
+     "answer": 0,
+     "explanation": "Megasthenes was the Greek envoy of Seleucus Nicator at Pataliputra; his account of Mauryan India is called Indica."
+    },
+    {
+     "q": "The Tamil epic 'Silappadikaram' was composed by:",
+     "options": [
+      "Thiruvalluvar",
+      "Tolkappiyar",
+      "Ilango Adigal",
+      "Kamban"
+     ],
+     "answer": 2,
+     "explanation": "Silappadikaram, a Sangam-era epic, is attributed to Ilango Adigal; Thiruvalluvar wrote Tirukkural."
+    },
+    {
+     "q": "Which Chinese pilgrim visited India during the reign of Harshavardhana?",
+     "options": [
+      "Fa-Hien",
+      "I-Tsing",
+      "Hiuen Tsang",
+      "Sung Yun"
+     ],
+     "answer": 2,
+     "explanation": "Hiuen Tsang visited Harsha's kingdom in the 7th century; Fa-Hien came under Chandragupta II."
+    },
+    {
+     "q": "The rock-cut Kailasa temple at Ellora was built by the Rashtrakuta ruler:",
+     "options": [
+      "Pulakeshin II",
+      "Krishna I",
+      "Narasimhavarman I",
+      "Amoghavarsha"
+     ],
+     "answer": 1,
+     "explanation": "Rashtrakuta king Krishna I (8th century) commissioned the Kailasa (Kailasanatha) temple, Ellora."
+    },
+    {
+     "q": "Who first deciphered the Brahmi script of Ashoka's inscriptions in 1837?",
+     "options": [
+      "James Prinsep",
+      "Alexander Cunningham",
+      "John Marshall",
+      "William Jones"
+     ],
+     "answer": 0,
+     "explanation": "James Prinsep deciphered Brahmi in 1837, making Ashoka's edicts readable."
+    },
+    {
+     "q": "The Fourth Buddhist Council, held in Kashmir, was convened under the patronage of:",
+     "options": [
+      "Ashoka",
+      "Ajatashatru",
+      "Kalashoka",
+      "Kanishka"
+     ],
+     "answer": 3,
+     "explanation": "Kanishka convened it in Kashmir (presided by Vasumitra); Buddhism split into Hinayana and Mahayana."
     }
    ]
   },
@@ -347,6 +435,94 @@ window.CGL_DATA.gk = {
      ],
      "answer": 0,
      "explanation": "Sher Shah defeated Humayun at Chausa in 1539 and again at Kannauj (Bilgram) in 1540, forcing him into exile. Sher Shah also introduced the silver rupiya."
+    },
+    {
+     "q": "The construction of the Qutub Minar, begun by Qutbuddin Aibak, was completed by:",
+     "options": [
+      "Balban",
+      "Iltutmish",
+      "Razia Sultan",
+      "Alauddin Khalji"
+     ],
+     "answer": 1,
+     "explanation": "Aibak began the Qutub Minar; his successor Iltutmish completed it."
+    },
+    {
+     "q": "Which Delhi Sultan shifted the capital from Delhi to Daulatabad (Devagiri) in 1327?",
+     "options": [
+      "Firoz Shah Tughlaq",
+      "Alauddin Khalji",
+      "Muhammad bin Tughlaq",
+      "Ghiyasuddin Tughlaq"
+     ],
+     "answer": 2,
+     "explanation": "Muhammad bin Tughlaq moved the capital to Daulatabad in 1327; he also introduced token currency."
+    },
+    {
+     "q": "The Vijayanagara Empire was founded in 1336 by:",
+     "options": [
+      "Harihara and Bukka",
+      "Krishnadeva Raya",
+      "Hasan Gangu",
+      "Devaraya I"
+     ],
+     "answer": 0,
+     "explanation": "Harihara and Bukka of the Sangama dynasty founded Vijayanagara, with its capital at Hampi."
+    },
+    {
+     "q": "In which year was the Battle of Talikota fought, in which the Deccan Sultanates defeated Vijayanagara?",
+     "options": [
+      "1556",
+      "1576",
+      "1526",
+      "1565"
+     ],
+     "answer": 3,
+     "explanation": "The combined Deccan Sultanates crushed Vijayanagara at Talikota in 1565."
+    },
+    {
+     "q": "In the Second Battle of Panipat (1556), Akbar's forces defeated:",
+     "options": [
+      "Ibrahim Lodi",
+      "Rana Sanga",
+      "Hemu",
+      "Sikandar Suri"
+     ],
+     "answer": 2,
+     "explanation": "Akbar, with regent Bairam Khan, defeated Hemu in 1556. Ibrahim Lodi lost the First Battle of Panipat (1526)."
+    },
+    {
+     "q": "The philosophy of Vishishtadvaita (qualified non-dualism) was propounded by:",
+     "options": [
+      "Ramanuja",
+      "Shankaracharya",
+      "Madhvacharya",
+      "Vallabhacharya"
+     ],
+     "answer": 0,
+     "explanation": "Ramanuja – Vishishtadvaita; Shankaracharya – Advaita; Madhvacharya – Dvaita; Vallabhacharya – Shuddhadvaita."
+    },
+    {
+     "q": "Shivaji was crowned Chhatrapati at Raigad in the year:",
+     "options": [
+      "1665",
+      "1680",
+      "1627",
+      "1674"
+     ],
+     "answer": 3,
+     "explanation": "Shivaji's coronation took place at Raigad in 1674. 1665 was the Treaty of Purandar."
+    },
+    {
+     "q": "The Zabti (Dahsala) system of land revenue under Akbar was devised by:",
+     "options": [
+      "Bairam Khan",
+      "Raja Todar Mal",
+      "Abul Fazl",
+      "Raja Man Singh"
+     ],
+     "answer": 1,
+     "explanation": "Raja Todar Mal, Akbar's finance minister, devised the Zabti/Dahsala system based on 10-year average produce."
     }
    ]
   },
@@ -522,6 +698,94 @@ window.CGL_DATA.gk = {
      ],
      "answer": 2,
      "explanation": "The Champaran Satyagraha (1917) in Bihar was against the tinkathia system of forced indigo cultivation. It was followed by Kheda and the Ahmedabad mill strike in 1918."
+    },
+    {
+     "q": "In the Battle of Plassey (1757), Robert Clive defeated:",
+     "options": [
+      "Mir Qasim",
+      "Siraj-ud-Daulah",
+      "Shuja-ud-Daula",
+      "Mir Jafar"
+     ],
+     "answer": 1,
+     "explanation": "Clive defeated Nawab Siraj-ud-Daulah of Bengal at Plassey in 1757; Mir Jafar had sided with the British."
+    },
+    {
+     "q": "Which was the first state annexed by Lord Dalhousie under the Doctrine of Lapse?",
+     "options": [
+      "Jhansi",
+      "Nagpur",
+      "Satara",
+      "Sambalpur"
+     ],
+     "answer": 2,
+     "explanation": "Satara was the first state annexed under the Doctrine of Lapse, in 1848."
+    },
+    {
+     "q": "India's first passenger railway line, opened on 16 April 1853, ran between:",
+     "options": [
+      "Bombay and Thane",
+      "Calcutta and Hooghly",
+      "Madras and Arcot",
+      "Delhi and Agra"
+     ],
+     "answer": 0,
+     "explanation": "The first train ran from Bori Bunder (Bombay) to Thane, about 34 km, in 1853."
+    },
+    {
+     "q": "Who presided over the first session of the Indian National Congress at Bombay in 1885?",
+     "options": [
+      "Dadabhai Naoroji",
+      "Badruddin Tyabji",
+      "A.O. Hume",
+      "W.C. Bonnerjee"
+     ],
+     "answer": 3,
+     "explanation": "W.C. Bonnerjee presided over the first session (72 delegates); Dadabhai Naoroji presided in 1886."
+    },
+    {
+     "q": "Which committee was appointed to enquire into the Jallianwala Bagh massacre of 1919?",
+     "options": [
+      "Simon Commission",
+      "Hunter Commission",
+      "Butler Committee",
+      "Lee Commission"
+     ],
+     "answer": 1,
+     "explanation": "The Hunter Commission (Disorders Inquiry Committee) enquired into the massacre ordered by General Dyer."
+    },
+    {
+     "q": "The Poona Pact of 1932 was signed between:",
+     "options": [
+      "Gandhi and B.R. Ambedkar",
+      "Gandhi and Lord Irwin",
+      "Nehru and Jinnah",
+      "Gandhi and Jinnah"
+     ],
+     "answer": 0,
+     "explanation": "The Poona Pact gave reserved seats to the Depressed Classes within the general electorate instead of separate electorates."
+    },
+    {
+     "q": "The Arya Samaj was founded in 1875 at Bombay by:",
+     "options": [
+      "Raja Ram Mohan Roy",
+      "Swami Vivekananda",
+      "Keshab Chandra Sen",
+      "Swami Dayanand Saraswati"
+     ],
+     "answer": 3,
+     "explanation": "Swami Dayanand Saraswati founded the Arya Samaj and wrote Satyarth Prakash ('Go back to the Vedas')."
+    },
+    {
+     "q": "The Chauri Chaura incident of February 1922 led Gandhi to withdraw the:",
+     "options": [
+      "Civil Disobedience Movement",
+      "Quit India Movement",
+      "Non-Cooperation Movement",
+      "Swadeshi Movement"
+     ],
+     "answer": 2,
+     "explanation": "After violence at Chauri Chaura (5 February 1922), Gandhi called off the Non-Cooperation Movement."
     }
    ]
   },
@@ -692,6 +956,94 @@ window.CGL_DATA.gk = {
      ],
      "answer": 3,
      "explanation": "The 73rd Amendment (1992) added the Eleventh Schedule, which lists 29 subjects for Panchayats. The Twelfth Schedule (74th Amendment) lists 18 subjects for Municipalities."
+    },
+    {
+     "q": "After the 44th Amendment (1978), the Right to Property became a legal (constitutional) right under:",
+     "options": [
+      "Article 300A",
+      "Article 31",
+      "Article 19(1)(f)",
+      "Article 32"
+     ],
+     "answer": 0,
+     "explanation": "The 44th Amendment removed Art 19(1)(f) and Art 31 and placed the right to property in Art 300A."
+    },
+    {
+     "q": "Article 17 of the Indian Constitution deals with:",
+     "options": [
+      "Equality before law",
+      "Abolition of titles",
+      "Abolition of untouchability",
+      "Protection of life and personal liberty"
+     ],
+     "answer": 2,
+     "explanation": "Art 14 – equality before law; Art 17 – abolition of untouchability; Art 18 – abolition of titles; Art 21 – life and liberty."
+    },
+    {
+     "q": "Fundamental Duties were added to the Constitution on the recommendation of the:",
+     "options": [
+      "Sarkaria Commission",
+      "Swaran Singh Committee",
+      "Balwant Rai Mehta Committee",
+      "Punchhi Commission"
+     ],
+     "answer": 1,
+     "explanation": "The Swaran Singh Committee's recommendation led to Part IVA (Art 51A) through the 42nd Amendment, 1976."
+    },
+    {
+     "q": "The Tenth Schedule (anti-defection law) was added to the Constitution by the:",
+     "options": [
+      "42nd Amendment",
+      "44th Amendment",
+      "61st Amendment",
+      "52nd Amendment"
+     ],
+     "answer": 3,
+     "explanation": "The 52nd Amendment Act, 1985 added the Tenth Schedule on disqualification on grounds of defection."
+    },
+    {
+     "q": "A Financial Emergency can be proclaimed by the President under:",
+     "options": [
+      "Article 352",
+      "Article 356",
+      "Article 360",
+      "Article 365"
+     ],
+     "answer": 2,
+     "explanation": "Art 352 – National Emergency; Art 356 – President's Rule; Art 360 – Financial Emergency."
+    },
+    {
+     "q": "The voting age in India was lowered from 21 to 18 years by the:",
+     "options": [
+      "61st Amendment",
+      "73rd Amendment",
+      "86th Amendment",
+      "91st Amendment"
+     ],
+     "answer": 0,
+     "explanation": "The 61st Amendment Act, 1988 (in force 1989) amended Art 326 to lower the voting age to 18."
+    },
+    {
+     "q": "Who was the temporary (interim) President of the Constituent Assembly at its first meeting on 9 December 1946?",
+     "options": [
+      "Dr Rajendra Prasad",
+      "Dr B.R. Ambedkar",
+      "B.N. Rau",
+      "Sachchidananda Sinha"
+     ],
+     "answer": 3,
+     "explanation": "Sachchidananda Sinha, the oldest member, was temporary President; Rajendra Prasad was elected permanent President on 11 December 1946."
+    },
+    {
+     "q": "The 'basic structure' doctrine was laid down by the Supreme Court in which case?",
+     "options": [
+      "Golaknath case",
+      "Kesavananda Bharati case",
+      "Minerva Mills case",
+      "Berubari case"
+     ],
+     "answer": 1,
+     "explanation": "In Kesavananda Bharati v. State of Kerala (1973), the SC held that Parliament cannot alter the basic structure of the Constitution."
     }
    ]
   },
@@ -861,6 +1213,94 @@ window.CGL_DATA.gk = {
      ],
      "answer": 0,
      "explanation": "The Tropic of Cancer does not pass through Odisha. It crosses 8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram."
+    },
+    {
+     "q": "At Devprayag, the Bhagirathi meets which river to form the Ganga?",
+     "options": [
+      "Mandakini",
+      "Alaknanda",
+      "Yamuna",
+      "Pindar"
+     ],
+     "answer": 1,
+     "explanation": "The Bhagirathi and the Alaknanda unite at Devprayag (Uttarakhand) to form the Ganga."
+    },
+    {
+     "q": "The Nagarjuna Sagar dam is built on which river?",
+     "options": [
+      "Godavari",
+      "Kaveri",
+      "Krishna",
+      "Tungabhadra"
+     ],
+     "answer": 2,
+     "explanation": "Nagarjuna Sagar is on the Krishna, on the Telangana–Andhra Pradesh border. Mettur is on the Kaveri."
+    },
+    {
+     "q": "Which is the largest freshwater lake in India?",
+     "options": [
+      "Wular",
+      "Dal",
+      "Chilika",
+      "Sambhar"
+     ],
+     "answer": 0,
+     "explanation": "Wular Lake (J&K) is the largest freshwater lake; Chilika is a brackish lagoon and Sambhar is a salt lake."
+    },
+    {
+     "q": "The Ten Degree Channel separates:",
+     "options": [
+      "the Andaman Islands from the Nicobar Islands",
+      "India from Sri Lanka",
+      "Lakshadweep from the Maldives",
+      "Great Nicobar from Sumatra"
+     ],
+     "answer": 0,
+     "explanation": "The Ten Degree Channel (along 10°N) lies between the Andaman and Nicobar groups. The Palk Strait separates India and Sri Lanka."
+    },
+    {
+     "q": "India's only active volcano is located on:",
+     "options": [
+      "Narcondam Island",
+      "Barren Island",
+      "Havelock Island",
+      "Minicoy Island"
+     ],
+     "answer": 1,
+     "explanation": "Barren Island in the Andaman Sea is India's only active volcano; Narcondam is considered dormant."
+    },
+    {
+     "q": "Mawsynram, which receives the highest average rainfall in India, is located in:",
+     "options": [
+      "Assam",
+      "Arunachal Pradesh",
+      "Sikkim",
+      "Meghalaya"
+     ],
+     "answer": 3,
+     "explanation": "Mawsynram lies in the Khasi Hills of Meghalaya, near Cherrapunji (Sohra)."
+    },
+    {
+     "q": "The pre-monsoon thunderstorms called 'Kal Baisakhi' (Nor'westers) are associated mainly with:",
+     "options": [
+      "Kerala and Karnataka",
+      "Punjab and Haryana",
+      "West Bengal and Assam",
+      "Tamil Nadu and Puducherry"
+     ],
+     "answer": 2,
+     "explanation": "Kal Baisakhi strikes West Bengal and Assam; 'mango showers' occur in Kerala and Karnataka."
+    },
+    {
+     "q": "The highest peak of the Aravalli Range is:",
+     "options": [
+      "Dhupgarh",
+      "Anamudi",
+      "Doddabetta",
+      "Guru Shikhar"
+     ],
+     "answer": 3,
+     "explanation": "Guru Shikhar (Mount Abu, Rajasthan) is the highest Aravalli peak. Dhupgarh – Satpura; Anamudi – Western Ghats; Doddabetta – Nilgiris."
     }
    ]
   },
@@ -1029,6 +1469,94 @@ window.CGL_DATA.gk = {
      ],
      "answer": 3,
      "explanation": "Lake Superior (USA–Canada) is the largest freshwater lake by area. The Caspian Sea is bigger but saline, and Lake Baikal is the deepest."
+    },
+    {
+     "q": "Challenger Deep, the deepest known point on Earth, lies in the:",
+     "options": [
+      "Puerto Rico Trench",
+      "Java (Sunda) Trench",
+      "Mariana Trench",
+      "Tonga Trench"
+     ],
+     "answer": 2,
+     "explanation": "Challenger Deep is in the Mariana Trench in the western Pacific Ocean."
+    },
+    {
+     "q": "The Harmattan, a dry dusty wind nicknamed 'the doctor', blows over:",
+     "options": [
+      "West Africa",
+      "Southern Europe",
+      "The Rocky Mountains",
+      "Central Asia"
+     ],
+     "answer": 0,
+     "explanation": "The Harmattan blows from the Sahara over West Africa; its dryness gives relief from humid heat, hence 'the doctor'."
+    },
+    {
+     "q": "Which of the following is a warm ocean current?",
+     "options": [
+      "Labrador Current",
+      "Benguela Current",
+      "Oyashio Current",
+      "Kuroshio Current"
+     ],
+     "answer": 3,
+     "explanation": "The Kuroshio (off Japan) is warm; the Labrador, Benguela and Oyashio are cold currents."
+    },
+    {
+     "q": "Which is the deepest lake in the world?",
+     "options": [
+      "Lake Superior",
+      "Lake Baikal",
+      "Lake Tanganyika",
+      "Caspian Sea"
+     ],
+     "answer": 1,
+     "explanation": "Lake Baikal in Siberia, Russia, is the deepest lake (about 1,600 m)."
+    },
+    {
+     "q": "The Earth is at perihelion (closest to the Sun) around:",
+     "options": [
+      "4 July",
+      "21 June",
+      "3 January",
+      "23 September"
+     ],
+     "answer": 2,
+     "explanation": "Perihelion falls around 3 January and aphelion around 4 July."
+    },
+    {
+     "q": "The Grand Banks, a major fishing ground where the Gulf Stream meets the Labrador Current, lie off the coast of:",
+     "options": [
+      "Newfoundland",
+      "Norway",
+      "Japan",
+      "Peru"
+     ],
+     "answer": 0,
+     "explanation": "The Grand Banks are off Newfoundland (Canada), where warm and cold currents mix and favour plankton growth."
+    },
+    {
+     "q": "Meteors entering the Earth's atmosphere mostly burn up in which layer, also the coldest layer?",
+     "options": [
+      "Stratosphere",
+      "Thermosphere",
+      "Troposphere",
+      "Mesosphere"
+     ],
+     "answer": 3,
+     "explanation": "The mesosphere (about 50–80 km) is the coldest layer, and most meteors burn up there."
+    },
+    {
+     "q": "When it is 12 noon at Greenwich (0°), what is the local time at a place on 60°E longitude?",
+     "options": [
+      "8:00 AM",
+      "4:00 PM",
+      "2:00 PM",
+      "4:00 AM"
+     ],
+     "answer": 1,
+     "explanation": "60° × 4 min = 240 min = 4 hours. East is ahead, so 12 noon + 4 h = 4:00 PM."
     }
    ]
   },
@@ -1205,6 +1733,94 @@ window.CGL_DATA.gk = {
      ],
      "answer": 1,
      "explanation": "A higher CRR locks more bank deposits with the RBI, leaving banks less to lend and shrinking money supply. It is a quantitative tool used to fight inflation."
+    },
+    {
+     "q": "In India, 'national income' refers to which of the following?",
+     "options": [
+      "GDP at market price",
+      "GNP at market price",
+      "NNP at factor cost",
+      "NDP at market price"
+     ],
+     "answer": 2,
+     "explanation": "Net National Product at factor cost is called national income: GNP minus depreciation, valued at factor cost."
+    },
+    {
+     "q": "Which of the following is a <b>qualitative</b> (selective) tool of monetary policy used by the RBI?",
+     "options": [
+      "Moral suasion",
+      "Cash Reserve Ratio",
+      "Statutory Liquidity Ratio",
+      "Open market operations"
+     ],
+     "answer": 0,
+     "explanation": "CRR, SLR and OMO are quantitative tools that change the overall money supply. Moral suasion (persuading banks) and margin requirements are qualitative tools."
+    },
+    {
+     "q": "Who was the first Indian Governor of the Reserve Bank of India?",
+     "options": [
+      "Sir Osborne Smith",
+      "C.D. Deshmukh",
+      "Benegal Rama Rau",
+      "Sir James Taylor"
+     ],
+     "answer": 1,
+     "explanation": "C.D. Deshmukh (1943-49) was the first Indian Governor. Osborne Smith was the first Governor and James Taylor the second."
+    },
+    {
+     "q": "In India, the ₹1 currency note is issued by:",
+     "options": [
+      "Reserve Bank of India",
+      "State Bank of India",
+      "Security Printing and Minting Corporation of India",
+      "Ministry of Finance, Government of India"
+     ],
+     "answer": 3,
+     "explanation": "The RBI issues all notes except the ₹1 note, which (like coins) is issued by the Government of India's Ministry of Finance and signed by the Finance Secretary."
+    },
+    {
+     "q": "India's First Five-Year Plan (1951-56) was based on which model?",
+     "options": [
+      "Harrod-Domar model",
+      "Mahalanobis model",
+      "Gandhian model",
+      "Lewis model"
+     ],
+     "answer": 0,
+     "explanation": "The 1st Plan, focused on agriculture, was based on the Harrod-Domar model. The 2nd Plan used the Mahalanobis model."
+    },
+    {
+     "q": "The Laffer curve shows the relationship between:",
+     "options": [
+      "Inflation and unemployment",
+      "Tax rates and tax revenue",
+      "Income and consumption",
+      "Money supply and price level"
+     ],
+     "answer": 1,
+     "explanation": "The Laffer curve shows that beyond a point, raising tax rates lowers total tax revenue. The Phillips curve relates inflation and unemployment."
+    },
+    {
+     "q": "The sale of a part of the government's shareholding in public sector enterprises is called:",
+     "options": [
+      "Nationalisation",
+      "Demonetisation",
+      "Disinvestment",
+      "Devaluation"
+     ],
+     "answer": 2,
+     "explanation": "Disinvestment means the government selling its equity in PSUs. Nationalisation is the opposite: the state taking over private firms."
+    },
+    {
+     "q": "Stagflation is a situation in which an economy has:",
+     "options": [
+      "Falling prices along with rising output",
+      "A slowing rate of inflation",
+      "High inflation along with high growth",
+      "High inflation along with stagnant growth and high unemployment"
+     ],
+     "answer": 3,
+     "explanation": "Stagflation = inflation + economic stagnation + high unemployment. A slowing rate of inflation is disinflation; falling prices is deflation."
     }
    ]
   },
@@ -1379,6 +1995,94 @@ window.CGL_DATA.gk = {
      ],
      "answer": 0,
      "explanation": "Setting F = 9C/5 + 32 equal to C gives C = −40, so both scales read −40° there. Absolute zero is 0 K = −273.15°C."
+    },
+    {
+     "q": "Stars appear to twinkle at night because of:",
+     "options": [
+      "Reflection of light",
+      "Atmospheric refraction",
+      "Dispersion of light",
+      "Total internal reflection"
+     ],
+     "answer": 1,
+     "explanation": "Starlight is refracted by air layers of changing density, so a star's apparent position and brightness keep changing."
+    },
+    {
+     "q": "Who discovered electromagnetic induction?",
+     "options": [
+      "Michael Faraday",
+      "H.C. Oersted",
+      "André-Marie Ampère",
+      "James Clerk Maxwell"
+     ],
+     "answer": 0,
+     "explanation": "Faraday (1831) showed a changing magnetic field induces a current, the principle of the generator. Oersted found the magnetic effect of current."
+    },
+    {
+     "q": "One kilowatt-hour (kWh), the commercial unit of electrical energy, equals:",
+     "options": [
+      "3.6 × 10<sup>3</sup> J",
+      "3.6 × 10<sup>5</sup> J",
+      "3.6 × 10<sup>6</sup> J",
+      "3.6 × 10<sup>9</sup> J"
+     ],
+     "answer": 2,
+     "explanation": "1 kWh = 1000 W × 3600 s = 3,600,000 J = 3.6 × 10<sup>6</sup> J."
+    },
+    {
+     "q": "What is the power of a convex lens of focal length 25 cm?",
+     "options": [
+      "+0.25 D",
+      "−4 D",
+      "+25 D",
+      "+4 D"
+     ],
+     "answer": 3,
+     "explanation": "P = 1/f (in metres) = 1/0.25 = +4 D. A convex lens has positive power."
+    },
+    {
+     "q": "What is the apparent weight of a person standing in a lift that is falling freely?",
+     "options": [
+      "Twice the actual weight",
+      "Equal to the actual weight",
+      "Half the actual weight",
+      "Zero"
+     ],
+     "answer": 3,
+     "explanation": "In free fall the lift and person both accelerate at g, so the floor exerts no normal force: apparent weight is zero."
+    },
+    {
+     "q": "A mirage seen on a hot road is an example of:",
+     "options": [
+      "Dispersion of light",
+      "Scattering of light",
+      "Total internal reflection",
+      "Polarisation of light"
+     ],
+     "answer": 2,
+     "explanation": "Hot air near the road is less dense. Light from the sky bends away and is totally internally reflected, so it looks like water."
+    },
+    {
+     "q": "The acceleration due to gravity (g) on the Earth's surface is maximum at the:",
+     "options": [
+      "Poles",
+      "Equator",
+      "Tropic of Capricorn",
+      "Tropic of Cancer"
+     ],
+     "answer": 0,
+     "explanation": "The poles are closer to the Earth's centre and have no rotational effect, so g is greatest there and least at the equator."
+    },
+    {
+     "q": "In which of the following does sound travel the fastest?",
+     "options": [
+      "Air",
+      "Steel",
+      "Water",
+      "Vacuum"
+     ],
+     "answer": 1,
+     "explanation": "Sound is fastest in solids, slower in liquids and slowest in gases. It cannot travel through a vacuum at all."
     }
    ]
   },
@@ -1551,6 +2255,94 @@ window.CGL_DATA.gk = {
      ],
      "answer": 3,
      "explanation": "CNG is mainly methane (CH<sub>4</sub>), which is also the main constituent of biogas. LPG, in contrast, is mainly butane and propane."
+    },
+    {
+     "q": "What is the chemical formula of washing soda?",
+     "options": [
+      "NaHCO<sub>3</sub>",
+      "Na<sub>2</sub>CO<sub>3</sub>·10H<sub>2</sub>O",
+      "NaOH",
+      "CaOCl<sub>2</sub>"
+     ],
+     "answer": 1,
+     "explanation": "Washing soda is sodium carbonate decahydrate, Na<sub>2</sub>CO<sub>3</sub>·10H<sub>2</sub>O. NaHCO<sub>3</sub> is baking soda and CaOCl<sub>2</sub> is bleaching powder."
+    },
+    {
+     "q": "Galvanisation is the process of coating iron with a thin layer of:",
+     "options": [
+      "Zinc",
+      "Tin",
+      "Chromium",
+      "Copper"
+     ],
+     "answer": 0,
+     "explanation": "Galvanised iron is coated with zinc, which protects the iron from rusting."
+    },
+    {
+     "q": "Bauxite is the chief ore of which metal?",
+     "options": [
+      "Iron",
+      "Lead",
+      "Aluminium",
+      "Mercury"
+     ],
+     "answer": 2,
+     "explanation": "Bauxite is the ore of aluminium. Haematite is an iron ore, galena a lead ore and cinnabar a mercury ore."
+    },
+    {
+     "q": "What colour does phenolphthalein show in a basic solution?",
+     "options": [
+      "Colourless",
+      "Blue",
+      "Yellow",
+      "Pink"
+     ],
+     "answer": 3,
+     "explanation": "Phenolphthalein is colourless in acidic solutions and turns pink in basic solutions."
+    },
+    {
+     "q": "The modern periodic law states that the properties of elements are a periodic function of their:",
+     "options": [
+      "Atomic number",
+      "Atomic mass",
+      "Number of neutrons",
+      "Density"
+     ],
+     "answer": 0,
+     "explanation": "Moseley's modern periodic law is based on atomic number. Mendeleev's earlier table was based on atomic mass."
+    },
+    {
+     "q": "Vulcanisation of rubber involves heating raw rubber with:",
+     "options": [
+      "Carbon",
+      "Phosphorus",
+      "Sulphur",
+      "Chlorine"
+     ],
+     "answer": 2,
+     "explanation": "Charles Goodyear's vulcanisation heats rubber with sulphur, making it harder, more elastic and more durable."
+    },
+    {
+     "q": "Isotopes of an element have:",
+     "options": [
+      "The same mass number but different atomic numbers",
+      "The same atomic number but different mass numbers",
+      "The same number of neutrons but different numbers of protons",
+      "Different atomic numbers and different mass numbers"
+     ],
+     "answer": 1,
+     "explanation": "Isotopes (e.g. protium, deuterium, tritium) have the same number of protons but different numbers of neutrons. Same mass number, different atomic number describes isobars."
+    },
+    {
+     "q": "'Laughing gas', used as a mild anaesthetic, is:",
+     "options": [
+      "Nitric oxide (NO)",
+      "Nitrogen dioxide (NO<sub>2</sub>)",
+      "Dinitrogen pentoxide (N<sub>2</sub>O<sub>5</sub>)",
+      "Nitrous oxide (N<sub>2</sub>O)"
+     ],
+     "answer": 3,
+     "explanation": "Laughing gas is nitrous oxide, N<sub>2</sub>O."
     }
    ]
   },
@@ -1724,6 +2516,94 @@ window.CGL_DATA.gk = {
      ],
      "answer": 3,
      "explanation": "Ethylene is a gaseous plant hormone that hastens fruit ripening. Abscisic acid is known as the stress hormone."
+    },
+    {
+     "q": "Which organ of the human body is called the 'graveyard of RBCs'?",
+     "options": [
+      "Liver",
+      "Spleen",
+      "Kidney",
+      "Red bone marrow"
+     ],
+     "answer": 1,
+     "explanation": "Old and worn-out red blood cells (life about 120 days) are broken down mainly in the spleen. RBCs are made in the red bone marrow."
+    },
+    {
+     "q": "Night blindness is caused by the deficiency of which vitamin?",
+     "options": [
+      "Vitamin A",
+      "Vitamin B<sub>1</sub>",
+      "Vitamin D",
+      "Vitamin K"
+     ],
+     "answer": 0,
+     "explanation": "Vitamin A (retinol) is needed to form the visual pigment in the retina. Its lack causes night blindness."
+    },
+    {
+     "q": "What is the structural and functional unit of the kidney?",
+     "options": [
+      "Neuron",
+      "Alveolus",
+      "Nephron",
+      "Villus"
+     ],
+     "answer": 2,
+     "explanation": "The nephron filters blood and forms urine. The neuron is the unit of the nervous system and alveoli are the air sacs of the lungs."
+    },
+    {
+     "q": "The hormone insulin is secreted by which gland?",
+     "options": [
+      "Liver",
+      "Thyroid gland",
+      "Adrenal gland",
+      "Pancreas"
+     ],
+     "answer": 3,
+     "explanation": "Insulin is made by the beta cells of the islets of Langerhans in the pancreas. Its deficiency causes diabetes mellitus."
+    },
+    {
+     "q": "<i>Rhizobium</i> bacteria found in the root nodules of leguminous plants help in:",
+     "options": [
+      "Fixing atmospheric nitrogen",
+      "Carrying out photosynthesis",
+      "Absorbing water from the soil",
+      "Protecting the plant from fungi"
+     ],
+     "answer": 0,
+     "explanation": "<i>Rhizobium</i> lives symbiotically in legume root nodules and converts atmospheric nitrogen into compounds the plant can use."
+    },
+    {
+     "q": "Who discovered penicillin in 1928?",
+     "options": [
+      "Louis Pasteur",
+      "Edward Jenner",
+      "Alexander Fleming",
+      "Robert Koch"
+     ],
+     "answer": 2,
+     "explanation": "Alexander Fleming discovered penicillin, the first antibiotic. Jenner made the smallpox vaccine and Koch found the TB bacterium."
+    },
+    {
+     "q": "Which part of the human brain maintains body balance and coordinates voluntary movements?",
+     "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla oblongata",
+      "Hypothalamus"
+     ],
+     "answer": 1,
+     "explanation": "The cerebellum controls balance and posture. The cerebrum handles intelligence and memory, and the medulla controls involuntary actions."
+    },
+    {
+     "q": "Kwashiorkor, seen mainly in children, is caused by the deficiency of:",
+     "options": [
+      "Carbohydrates",
+      "Fats",
+      "Iron",
+      "Proteins"
+     ],
+     "answer": 3,
+     "explanation": "Kwashiorkor is due to protein deficiency. Marasmus is due to deficiency of both protein and energy (calories)."
     }
    ]
   },
@@ -1891,6 +2771,94 @@ window.CGL_DATA.gk = {
      ],
      "answer": 2,
      "explanation": "Akbar built Buland Darwaza to commemorate his victory over Gujarat. Fatehpur Sikri is a UNESCO World Heritage Site (1986)."
+    },
+    {
+     "q": "Kathakali, a classical dance-drama known for elaborate make-up and costumes, belongs to which state?",
+     "options": [
+      "Tamil Nadu",
+      "Kerala",
+      "Karnataka",
+      "Andhra Pradesh"
+     ],
+     "answer": 1,
+     "explanation": "Kathakali and Mohiniyattam are from Kerala. Bharatanatyam is from Tamil Nadu and Kuchipudi from Andhra Pradesh."
+    },
+    {
+     "q": "The 'Natya Shastra', the ancient treatise on drama, dance and music, is attributed to:",
+     "options": [
+      "Bharata Muni",
+      "Kalidasa",
+      "Panini",
+      "Banabhatta"
+     ],
+     "answer": 0,
+     "explanation": "The Natya Shastra is credited to Bharata Muni. Panini wrote the Ashtadhyayi (grammar) and Banabhatta the Harshacharita."
+    },
+    {
+     "q": "The Hornbill Festival is celebrated every December in which state?",
+     "options": [
+      "Manipur",
+      "Mizoram",
+      "Nagaland",
+      "Arunachal Pradesh"
+     ],
+     "answer": 2,
+     "explanation": "The Hornbill Festival, the 'festival of festivals', is held in Nagaland in the first week of December."
+    },
+    {
+     "q": "Pandit Shivkumar Sharma was a famous exponent of which musical instrument?",
+     "options": [
+      "Sarod",
+      "Flute",
+      "Sitar",
+      "Santoor"
+     ],
+     "answer": 3,
+     "explanation": "Shivkumar Sharma popularised the santoor in Hindustani classical music. Hariprasad Chaurasia is known for the flute."
+    },
+    {
+     "q": "The Sun Temple at Konark (Odisha) was built by:",
+     "options": [
+      "Narasimhadeva I",
+      "Rajaraja Chola I",
+      "Krishna I",
+      "Anantavarman Chodaganga"
+     ],
+     "answer": 0,
+     "explanation": "Narasimhadeva I of the Eastern Ganga dynasty built the Konark Sun Temple in the 13th century."
+    },
+    {
+     "q": "The Charminar in Hyderabad was built in 1591 by:",
+     "options": [
+      "Ibrahim Adil Shah",
+      "Muhammad Quli Qutb Shah",
+      "Aurangzeb",
+      "Mir Osman Ali Khan"
+     ],
+     "answer": 1,
+     "explanation": "Muhammad Quli Qutb Shah, the fifth ruler of the Qutb Shahi dynasty, built the Charminar in 1591."
+    },
+    {
+     "q": "Madhubani (Mithila) painting is a folk art form of which state?",
+     "options": [
+      "Odisha",
+      "West Bengal",
+      "Bihar",
+      "Rajasthan"
+     ],
+     "answer": 2,
+     "explanation": "Madhubani painting comes from the Mithila region of Bihar. Pattachitra is from Odisha, Kalighat from West Bengal and Phad from Rajasthan."
+    },
+    {
+     "q": "Who was the first musician to be awarded the Bharat Ratna?",
+     "options": [
+      "Lata Mangeshkar",
+      "Pandit Ravi Shankar",
+      "Ustad Bismillah Khan",
+      "M.S. Subbulakshmi"
+     ],
+     "answer": 3,
+     "explanation": "Carnatic vocalist M.S. Subbulakshmi received it in 1998. Ravi Shankar followed in 1999, then Lata Mangeshkar and Bismillah Khan in 2001."
     }
    ]
   },
@@ -2056,6 +3024,94 @@ window.CGL_DATA.gk = {
      ],
      "answer": 3,
      "explanation": "Abhinav Bindra won gold in the 10 m air rifle at the 2008 Beijing Olympics. Karnam Malleswari (bronze, 2000) was the first Indian woman to win an Olympic medal."
+    },
+    {
+     "q": "How many spokes does the Ashoka Chakra on the National Flag of India have?",
+     "options": [
+      "22",
+      "24",
+      "26",
+      "32"
+     ],
+     "answer": 1,
+     "explanation": "The navy-blue Ashoka Chakra at the centre of the flag has 24 spokes."
+    },
+    {
+     "q": "The motto 'Satyameva Jayate' on the State Emblem of India is taken from the:",
+     "options": [
+      "Mundaka Upanishad",
+      "Rigveda",
+      "Bhagavad Gita",
+      "Katha Upanishad"
+     ],
+     "answer": 0,
+     "explanation": "'Satyameva Jayate' (Truth alone triumphs) comes from the Mundaka Upanishad and is written in Devanagari script."
+    },
+    {
+     "q": "National Sports Day in India (29 August) is observed on the birth anniversary of:",
+     "options": [
+      "Milkha Singh",
+      "P.T. Usha",
+      "Major Dhyan Chand",
+      "K.D. Jadhav"
+     ],
+     "answer": 2,
+     "explanation": "29 August is the birth anniversary of hockey legend Major Dhyan Chand."
+    },
+    {
+     "q": "The book 'Indica', describing Mauryan India, was written by:",
+     "options": [
+      "Fa-Hien",
+      "Hiuen Tsang",
+      "Al-Biruni",
+      "Megasthenes"
+     ],
+     "answer": 3,
+     "explanation": "Megasthenes, the Greek ambassador of Seleucus at Chandragupta Maurya's court, wrote 'Indica'."
+    },
+    {
+     "q": "Where is the headquarters of the World Trade Organization (WTO)?",
+     "options": [
+      "Geneva",
+      "New York",
+      "Vienna",
+      "Washington DC"
+     ],
+     "answer": 0,
+     "explanation": "The WTO is headquartered in Geneva, Switzerland. The IMF and World Bank are in Washington DC and OPEC is in Vienna."
+    },
+    {
+     "q": "How many players of each team are on the court in a standard kabaddi match?",
+     "options": [
+      "5",
+      "7",
+      "9",
+      "11"
+     ],
+     "answer": 1,
+     "explanation": "Kabaddi is played with 7 players per side on the court. Basketball has 5 and volleyball 6."
+    },
+    {
+     "q": "Who was the first woman Chief Minister of an Indian state?",
+     "options": [
+      "Sarojini Naidu",
+      "Nandini Satpathy",
+      "Sucheta Kripalani",
+      "J. Jayalalithaa"
+     ],
+     "answer": 2,
+     "explanation": "Sucheta Kripalani became Chief Minister of Uttar Pradesh in 1963. Sarojini Naidu was the first woman Governor."
+    },
+    {
+     "q": "The autobiography 'Wings of Fire' was written by:",
+     "options": [
+      "Khushwant Singh",
+      "R.K. Narayan",
+      "Vikram Seth",
+      "A.P.J. Abdul Kalam"
+     ],
+     "answer": 3,
+     "explanation": "'Wings of Fire' is the autobiography of Dr. A.P.J. Abdul Kalam, written with Arun Tiwari."
     }
    ]
   },
@@ -2246,6 +3302,72 @@ window.CGL_DATA.gk = {
      ],
      "answer": 3,
      "explanation": "Nilgiri Biosphere Reserve (1986), spread over Tamil Nadu, Kerala and Karnataka, was India's first."
+    },
+    {
+     "q": "The ozone layer that absorbs most of the Sun's harmful ultraviolet rays lies mainly in the:",
+     "options": [
+      "Troposphere",
+      "Stratosphere",
+      "Mesosphere",
+      "Thermosphere"
+     ],
+     "answer": 1,
+     "explanation": "The ozone layer lies in the stratosphere, mainly about 15–35 km above the Earth. Its thickness is measured in Dobson units."
+    },
+    {
+     "q": "Which gas leaked from the Union Carbide plant in the Bhopal gas tragedy of December 1984?",
+     "options": [
+      "Methyl isocyanate",
+      "Phosgene",
+      "Hydrogen sulphide",
+      "Carbon monoxide"
+     ],
+     "answer": 0,
+     "explanation": "Methyl isocyanate (MIC) leaked from the Union Carbide pesticide plant in Bhopal. The disaster led to the Environment (Protection) Act, 1986."
+    },
+    {
+     "q": "In which type of ecosystem is the pyramid of biomass generally inverted?",
+     "options": [
+      "Grassland ecosystem",
+      "Forest ecosystem",
+      "Desert ecosystem",
+      "Pond ecosystem"
+     ],
+     "answer": 3,
+     "explanation": "In a pond, the biomass of phytoplankton (producers) at any moment is smaller than that of the consumers feeding on them, so the pyramid of biomass is inverted."
+    },
+    {
+     "q": "The Ramsar Convention on wetlands was signed in 1971 in which country?",
+     "options": [
+      "Brazil",
+      "Switzerland",
+      "Iran",
+      "Japan"
+     ],
+     "answer": 2,
+     "explanation": "It was signed at Ramsar, Iran, in 1971. India joined in 1982. World Wetlands Day is 2 February."
+    },
+    {
+     "q": "Eutrophication of a lake is mainly caused by excess amounts of:",
+     "options": [
+      "Nitrates and phosphates",
+      "Sulphur dioxide and nitrogen oxides",
+      "Chlorofluorocarbons",
+      "Lead and mercury"
+     ],
+     "answer": 0,
+     "explanation": "Excess nitrates and phosphates (from fertilisers and sewage) cause algal bloom. When the algae decay, dissolved oxygen falls and fish die."
+    },
+    {
+     "q": "The Kigali Amendment (2016) to the Montreal Protocol aims to phase down the use of:",
+     "options": [
+      "Carbon dioxide",
+      "Hydrofluorocarbons (HFCs)",
+      "Methane",
+      "Persistent organic pollutants"
+     ],
+     "answer": 1,
+     "explanation": "The Kigali Amendment phases down HFCs. HFCs replaced CFCs and do not harm the ozone layer, but they are powerful greenhouse gases."
     }
    ]
   },
@@ -2436,6 +3558,72 @@ window.CGL_DATA.gk = {
      ],
      "answer": 3,
      "explanation": "Ransomware (e.g. WannaCry, 2017) holds data hostage for a ransom."
+    },
+    {
+     "q": "The contents of an EPROM chip are erased by exposing it to:",
+     "options": [
+      "A magnetic field",
+      "Ultraviolet light",
+      "X-rays",
+      "Sound waves"
+     ],
+     "answer": 1,
+     "explanation": "EPROM (Erasable Programmable ROM) is erased with ultraviolet light. EEPROM is erased electrically."
+    },
+    {
+     "q": "Intel 4004, the world's first commercial microprocessor, was released in:",
+     "options": [
+      "1965",
+      "1968",
+      "1971",
+      "1975"
+     ],
+     "answer": 2,
+     "explanation": "Intel launched the 4004, a 4-bit microprocessor, in 1971. Microprocessors mark the fourth generation of computers."
+    },
+    {
+     "q": "In MS Word, which function key starts the Spelling and Grammar check?",
+     "options": [
+      "F5",
+      "F9",
+      "F12",
+      "F7"
+     ],
+     "answer": 3,
+     "explanation": "F7 opens Spelling & Grammar. F12 is Save As and F5 is Go To in Word."
+    },
+    {
+     "q": "An IPv6 address is how many bits long?",
+     "options": [
+      "128 bits",
+      "32 bits",
+      "64 bits",
+      "256 bits"
+     ],
+     "answer": 0,
+     "explanation": "IPv6 uses 128-bit addresses. IPv4 uses 32-bit addresses."
+    },
+    {
+     "q": "Which language translator converts the whole high-level program into machine code in one go, before it is run?",
+     "options": [
+      "Interpreter",
+      "Assembler",
+      "Compiler",
+      "Loader"
+     ],
+     "answer": 2,
+     "explanation": "A compiler translates the whole program at once. An interpreter goes line by line, and an assembler converts assembly language to machine code."
+    },
+    {
+     "q": "Which system on the Internet translates domain names (such as www.example.com) into IP addresses?",
+     "options": [
+      "DHCP",
+      "DNS",
+      "FTP",
+      "ARP"
+     ],
+     "answer": 1,
+     "explanation": "DNS (Domain Name System) maps domain names to IP addresses. DHCP assigns IP addresses to devices and FTP transfers files."
     }
    ]
   },
@@ -2625,6 +3813,72 @@ window.CGL_DATA.gk = {
      ],
      "answer": 2,
      "explanation": "It is named after Philippine President Ramon Magsaysay and presented in Manila; it is called 'Asia's Nobel Prize'."
+    },
+    {
+     "q": "The Swaythling Cup is associated with which sport?",
+     "options": [
+      "Badminton",
+      "Table tennis",
+      "Lawn tennis",
+      "Squash"
+     ],
+     "answer": 1,
+     "explanation": "The Swaythling Cup is the men's team trophy of the World Table Tennis Championships. The Corbillon Cup is the women's team trophy."
+    },
+    {
+     "q": "What is the length of a cricket pitch (between the two sets of stumps)?",
+     "options": [
+      "22 yards",
+      "20 yards",
+      "24 yards",
+      "26 yards"
+     ],
+     "answer": 0,
+     "explanation": "A cricket pitch is 22 yards long, which is about 20.12 m."
+    },
+    {
+     "q": "Who was the first recipient of the Dadasaheb Phalke Award (1969)?",
+     "options": [
+      "Prithviraj Kapoor",
+      "Satyajit Ray",
+      "Raj Kapoor",
+      "Devika Rani"
+     ],
+     "answer": 3,
+     "explanation": "Devika Rani received the first Dadasaheb Phalke Award in 1969. It is the highest award in Indian cinema."
+    },
+    {
+     "q": "The first Asian Games were held in:",
+     "options": [
+      "Tokyo, 1958",
+      "Manila, 1954",
+      "New Delhi, 1951",
+      "Jakarta, 1962"
+     ],
+     "answer": 2,
+     "explanation": "The first Asian Games took place in New Delhi in 1951. India hosted them again in 1982."
+    },
+    {
+     "q": "In golf, the term 'eagle' means completing a hole in:",
+     "options": [
+      "One stroke under par",
+      "Two strokes under par",
+      "Three strokes under par",
+      "One stroke over par"
+     ],
+     "answer": 1,
+     "explanation": "Birdie is 1 under par, eagle is 2 under par, albatross is 3 under par and bogey is 1 over par."
+    },
+    {
+     "q": "The term 'chukker' is associated with which sport?",
+     "options": [
+      "Polo",
+      "Golf",
+      "Hockey",
+      "Squash"
+     ],
+     "answer": 0,
+     "explanation": "A chukker (or chukka) is one of the timed periods of play in a polo match."
     }
    ]
   },
@@ -2814,6 +4068,72 @@ window.CGL_DATA.gk = {
      ],
      "answer": 2,
      "explanation": "Make in India: 25 Sep 2014. 2 Oct 2014 was Swachh Bharat; 1 July 2015 was Digital India."
+    },
+    {
+     "q": "The Swachh Bharat Mission was launched on:",
+     "options": [
+      "15 August 2014",
+      "2 October 2014",
+      "26 January 2015",
+      "25 September 2014"
+     ],
+     "answer": 1,
+     "explanation": "It was launched on 2 October 2014 (Gandhi Jayanti), with the goal of an Open Defecation Free India by 2 October 2019."
+    },
+    {
+     "q": "What is the age group for joining the Atal Pension Yojana?",
+     "options": [
+      "18–40 years",
+      "18–50 years",
+      "21–60 years",
+      "18–70 years"
+     ],
+     "answer": 0,
+     "explanation": "Subscribers must join between 18 and 40 years of age, and the pension starts at 60. The age limit for PMJJBY is 18–50 and for PMSBY it is 18–70."
+    },
+    {
+     "q": "The Jal Jeevan Mission ('Har Ghar Jal'), which aims to give a tap connection to every rural household, is run by which ministry?",
+     "options": [
+      "Ministry of Rural Development",
+      "Ministry of Housing and Urban Affairs",
+      "Ministry of Environment, Forest and Climate Change",
+      "Ministry of Jal Shakti"
+     ],
+     "answer": 3,
+     "explanation": "The Ministry of Jal Shakti runs the Jal Jeevan Mission, which was announced on 15 August 2019."
+    },
+    {
+     "q": "Pradhan Mantri Suraksha Bima Yojana (PMSBY), launched in 2015, is a/an:",
+     "options": [
+      "Life insurance scheme",
+      "Crop insurance scheme",
+      "Accident insurance scheme",
+      "Health insurance scheme"
+     ],
+     "answer": 2,
+     "explanation": "PMSBY gives ₹2 lakh of accident insurance cover for a low yearly premium (₹20 as of 2025). PMJJBY is the matching life insurance scheme."
+    },
+    {
+     "q": "The PM Vishwakarma scheme, launched on 17 September 2023, supports artisans and craftspeople in how many traditional trades?",
+     "options": [
+      "12",
+      "18",
+      "15",
+      "21"
+     ],
+     "answer": 1,
+     "explanation": "PM Vishwakarma covers 18 traditional trades, such as carpenters, blacksmiths, potters and goldsmiths. It is run by the Ministry of MSME."
+    },
+    {
+     "q": "Under the Stand-Up India scheme (2016), bank loans for greenfield enterprises of SC/ST and women entrepreneurs range from:",
+     "options": [
+      "₹10 lakh to ₹1 crore",
+      "₹50,000 to ₹5 lakh",
+      "₹1 crore to ₹5 crore",
+      "₹5 lakh to ₹10 lakh"
+     ],
+     "answer": 0,
+     "explanation": "Stand-Up India gives loans of ₹10 lakh to ₹1 crore, to at least one SC/ST borrower and one woman borrower per bank branch."
     }
    ]
   },
@@ -3002,6 +4322,72 @@ window.CGL_DATA.gk = {
      ],
      "answer": 3,
      "explanation": "Nag is a third-generation 'fire-and-forget' anti-tank guided missile. Akash and Trishul are surface-to-air missiles."
+    },
+    {
+     "q": "The Indian Space Research Organisation (ISRO) was established in which year?",
+     "options": [
+      "1962",
+      "1969",
+      "1972",
+      "1975"
+     ],
+     "answer": 1,
+     "explanation": "ISRO was formed on 15 August 1969. It grew out of INCOSPAR (1962), and the Department of Space was set up in 1972."
+    },
+    {
+     "q": "On 15 February 2017, ISRO's PSLV-C37 set a world record by launching how many satellites in a single mission?",
+     "options": [
+      "104",
+      "83",
+      "100",
+      "120"
+     ],
+     "answer": 0,
+     "explanation": "PSLV-C37 put 104 satellites into orbit in one launch from Sriharikota."
+    },
+    {
+     "q": "India's first nuclear test, code-named 'Smiling Buddha' (18 May 1974), was conducted at:",
+     "options": [
+      "Kalpakkam",
+      "Trombay",
+      "Jaduguda",
+      "Pokhran"
+     ],
+     "answer": 3,
+     "explanation": "Both 'Smiling Buddha' (1974) and 'Operation Shakti' (1998) were carried out at Pokhran in Rajasthan."
+    },
+    {
+     "q": "The 'Malabar' exercise, as held since 2020, involves the navies of:",
+     "options": [
+      "India and France",
+      "India and Russia",
+      "India, USA, Japan and Australia",
+      "India and Sri Lanka"
+     ],
+     "answer": 2,
+     "explanation": "Malabar is a naval exercise; Australia rejoined India, the USA and Japan in 2020. Varuna is with France, INDRA with Russia and SLINEX with Sri Lanka."
+    },
+    {
+     "q": "'Mission Shakti', conducted by DRDO on 27 March 2019, was India's:",
+     "options": [
+      "First indigenous aircraft carrier",
+      "Anti-satellite (ASAT) missile test",
+      "First human spaceflight mission",
+      "First nuclear-powered submarine"
+     ],
+     "answer": 1,
+     "explanation": "In Mission Shakti, a missile destroyed a satellite in low Earth orbit. India became the 4th country with ASAT capability, after the USA, Russia and China."
+    },
+    {
+     "q": "INS Vikrant, India's first indigenous aircraft carrier (commissioned in 2022), was built at:",
+     "options": [
+      "Mazagon Dock, Mumbai",
+      "Garden Reach Shipbuilders, Kolkata",
+      "Cochin Shipyard, Kochi",
+      "Hindustan Shipyard, Visakhapatnam"
+     ],
+     "answer": 2,
+     "explanation": "INS Vikrant was built by Cochin Shipyard Limited and commissioned on 2 September 2022."
     }
    ]
   },
@@ -3191,6 +4577,72 @@ window.CGL_DATA.gk = {
      ],
      "answer": 3,
      "explanation": "The Kolkata port (with the Haldia dock complex) is on the Hooghly river; the others are sea ports."
+    },
+    {
+     "q": "With which neighbouring country does India share its shortest international land border?",
+     "options": [
+      "Bhutan",
+      "Afghanistan",
+      "Myanmar",
+      "Nepal"
+     ],
+     "answer": 1,
+     "explanation": "The border with Afghanistan is only about 106 km long and runs through the Gilgit-Baltistan area of PoK (Ladakh). Bhutan's border is 699 km."
+    },
+    {
+     "q": "The Durand Line marks the boundary between:",
+     "options": [
+      "India and Pakistan",
+      "India and China",
+      "Pakistan and Afghanistan",
+      "India and Bangladesh"
+     ],
+     "answer": 2,
+     "explanation": "The Durand Line was drawn in 1893 by Sir Mortimer Durand and divides Pakistan and Afghanistan. The Radcliffe Line (1947) divides India from Pakistan and from Bangladesh."
+    },
+    {
+     "q": "According to the provisional figures of Census 2011, India's overall literacy rate was:",
+     "options": [
+      "74.04%",
+      "65.46%",
+      "82.14%",
+      "64.84%"
+     ],
+     "answer": 0,
+     "explanation": "Overall literacy was 74.04% (male 82.14%, female 65.46%). The figure of 64.84% was from Census 2001."
+    },
+    {
+     "q": "As per Census 2011, which state had the highest population density?",
+     "options": [
+      "West Bengal",
+      "Kerala",
+      "Uttar Pradesh",
+      "Bihar"
+     ],
+     "answer": 3,
+     "explanation": "Bihar had the highest density, 1,106 persons per sq km, followed by West Bengal (about 1,028). Arunachal Pradesh had the lowest (17)."
+    },
+    {
+     "q": "Which of the following states does NOT share a border with Nepal?",
+     "options": [
+      "Himachal Pradesh",
+      "Uttarakhand",
+      "Bihar",
+      "Sikkim"
+     ],
+     "answer": 0,
+     "explanation": "Nepal borders Uttarakhand, Uttar Pradesh, Bihar, West Bengal and Sikkim. Himachal Pradesh borders China (Tibet) only."
+    },
+    {
+     "q": "India's first passenger train ran on 16 April 1853 between:",
+     "options": [
+      "Howrah and Hooghly",
+      "Madras and Arcot",
+      "Bori Bunder and Thane",
+      "Delhi and Agra"
+     ],
+     "answer": 2,
+     "explanation": "The first passenger train ran 34 km from Bori Bunder (Bombay) to Thane."
     }
    ]
   }

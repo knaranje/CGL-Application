@@ -1,6 +1,6 @@
 // Network-first service worker: always tries fresh content, falls back to
 // the cached copy when offline. Bump CACHE when the file list changes.
-const CACHE = "cgl-recap-v2";
+const CACHE = "cgl-recap-v3";
 const ASSETS = [
   "./",
   "index.html",

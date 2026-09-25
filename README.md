@@ -24,7 +24,7 @@ It is a static site (plain HTML/CSS/JS, no build step, no server, no sign-up). P
 
 ## Syllabus coverage
 
-Topics are mapped to the official SSC CGL Tier 1 syllabus: 73 topics, 655 flashcards and 474 practice questions.
+Topics are mapped to the official SSC CGL Tier 1 syllabus: 73 topics, 655 flashcards and 1,022 practice questions (14 per topic).
 
 | Section | Topics |
 |---|---|
@@ -88,6 +88,23 @@ python tools/export_review.py
 ```
 
 This creates `review/questions-review.csv` (every question with its keyed answer and explanation) and `review/notes-review.csv` (every note point and flashcard), each with columns for the reviewer's Y/N and comments. Open them in Excel or Google Sheets, fix anything flagged in `data/<subject>.js`, then run `python tools/validate.py`.
+
+## Collecting mistake reports
+
+Every question, flashcard and set of notes has a small **⚑ Report a mistake** link. It opens a pre-filled report containing the question, options, keyed answer and an ID like `quant/percentage/3` (subject/topic/question number, counting from 0) so the item is easy to find in `data/quant.js`.
+
+By default the link opens a new **GitHub issue** in this repository. Reports appear under the repo's *Issues* tab, and you can turn on email alerts with *Watch → All activity*. Reporters need a free GitHub account.
+
+To let students report **without a GitHub account**, use a Google Form:
+
+1. Create a Google Form with one *Paragraph* question, e.g. "What is wrong?".
+2. Open **⋮ → Get pre-filled link**, type `x` in the answer and click **Get link**. The link looks like
+   `https://docs.google.com/forms/d/e/FORM_ID/viewform?usp=pp_url&entry.123456789=x`.
+3. In `js/app.js`, set `REPORT_FORM` from that link:
+   ```js
+   const REPORT_FORM = { url: "https://docs.google.com/forms/d/e/FORM_ID/viewform", field: "entry.123456789" };
+   ```
+4. Commit and push. Responses collect in the form, and you can link it to a Google Sheet.
 
 ## Disclaimer
 

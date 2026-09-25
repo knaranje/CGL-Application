@@ -83,6 +83,37 @@
   const pct = (a, b) => (b ? Math.round((a / b) * 100) : 0);
   const LETTERS = "ABCD";
 
+  // "Report a mistake" links open a pre-filled GitHub issue. To collect reports
+  // with a Google Form instead (no GitHub account needed), fill in REPORT_FORM:
+  // see "Collecting mistake reports" in README.md.
+  const REPORT_ISSUES_URL = "https://github.com/knaranje/CGL-Application/issues/new";
+  const REPORT_FORM = { url: "", field: "" }; // e.g. { url: "https://docs.google.com/forms/d/e/…/viewform", field: "entry.123456789" }
+
+  function plainText(html) {
+    const div = document.createElement("div");
+    div.innerHTML = String(html).replace(/<br\s*\/?>/gi, " / ").replace(/<sup>/gi, "^");
+    return div.textContent.trim();
+  }
+  function reportLink(title, details) {
+    const body = `${details}\n\nWhat is wrong (and the correct answer, if you know it):\n`;
+    const href = REPORT_FORM.url && REPORT_FORM.field
+      ? `${REPORT_FORM.url}?usp=pp_url&${REPORT_FORM.field}=${encodeURIComponent(`${title}\n\n${body}`)}`
+      : `${REPORT_ISSUES_URL}?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+    return `<div class="report-row"><a class="report-link" href="${esc(href)}" target="_blank" rel="noopener">⚑ Report a mistake</a></div>`;
+  }
+  function questionReport(q) {
+    const where = `${SHORT[q.subjectId]} › ${q.topicName}, Q${Number(q.ref.split("/")[2]) + 1}`;
+    const opts = q.options.map((o, k) => `${LETTERS[k]}. ${plainText(o)}`).join("\n");
+    return reportLink(`Mistake: ${where}`,
+      `Question [${q.ref}]\n${plainText(q.q)}\n${opts}\nKeyed answer: ${LETTERS[q.answer]}\nExplanation: ${plainText(q.explanation || "")}`);
+  }
+  function cardReport(c) {
+    const [sid, tid] = c.ref.split("/");
+    const t = getTopic(sid, tid);
+    return reportLink(`Mistake: ${SHORT[sid]} › ${t ? t.name : tid}, flashcard`,
+      `Flashcard [${c.ref}]\nFront: ${plainText(c.front)}\nBack: ${plainText(c.back)}`);
+  }
+
   function shuffle(arr) {
     const a = arr.slice();
     for (let i = a.length - 1; i > 0; i--) {
@@ -467,7 +498,8 @@
 
     const body = document.getElementById("tabBody");
     if (tab === "notes") {
-      body.innerHTML = `<div class="card">${notesHTML(t)}</div>
+      body.innerHTML = `<div class="card">${notesHTML(t)}${reportLink(`Mistake: ${SHORT[sid]} › ${t.name}, notes`, `Notes [${key}]
+Which point (copy the text):`)}</div>
         <div class="btn-row" style="margin-top:1rem">
           <a class="btn primary" href="${base}/cards">Next: flashcards →</a>
           <a class="btn" href="${base}/quiz">Skip to practice</a>
@@ -535,7 +567,8 @@
           <button class="btn" data-act="prev" type="button" ${i === 0 ? "disabled" : ""}>← Prev</button>
           <button class="btn ${known ? "success" : ""}" data-act="known" type="button">${known ? "✓ Known" : "Mark as known"}</button>
           <button class="btn primary" data-act="next" type="button">${i === deck.length - 1 ? "Finish" : "Next →"}</button>
-        </div>`;
+        </div>
+        ${cardReport(c)}`;
     }
 
     function drawDone() {
@@ -670,7 +703,8 @@
       });
       container.querySelector(".feedback").innerHTML = `
         <div class="fb ${ok ? "ok" : "bad"}">${ok ? "✓ Correct!" : `✗ Not quite. The answer is ${LETTERS[q.answer]}.`}</div>
-        ${q.explanation ? `<div class="explanation">${q.explanation}</div>` : ""}`;
+        ${q.explanation ? `<div class="explanation">${q.explanation}</div>` : ""}
+        ${questionReport(q)}`;
       const right = results.filter((r) => r.ok).length;
       container.querySelector(".practice-actions .muted").textContent = `Score: ${right}/${results.length}`;
       const nextBtn = container.querySelector('[data-act="next"]');
@@ -764,6 +798,7 @@
           }).join("")}
         </div>
         ${q.explanation ? `<div class="explanation">${q.explanation}</div>` : ""}
+        ${questionReport(q)}
       </div>`;
   }
 

@@ -85,6 +85,94 @@ window.CGL_DATA.quant = {
           "options": ["2030", "2204", "1998", "2107"],
           "answer": 3,
           "explanation": "First multiple of 7 after 100 = 105; last before 200 = 196.<br>Number of terms = (196 − 105)/7 + 1 = 13 + 1 = 14.<br>Sum = (14/2) × (105 + 196) = 7 × 301 = <b>2107</b>."
+        },
+        {
+          "q": "What is the remainder when 2<sup>100</sup> is divided by 7?",
+          "options": [
+            "1",
+            "2",
+            "4",
+            "3"
+          ],
+          "answer": 1,
+          "explanation": "2<sup>3</sup> = 8 leaves remainder 1 when divided by 7. 2<sup>100</sup> = (2<sup>3</sup>)<sup>33</sup> × 2 → remainder 1 × 2 = 2."
+        },
+        {
+          "q": "What is the largest four-digit number that is exactly divisible by 88?",
+          "options": [
+            "9944",
+            "9988",
+            "9900",
+            "9856"
+          ],
+          "answer": 0,
+          "explanation": "9999 ÷ 88 leaves remainder 55. Largest multiple = 9999 − 55 = 9944."
+        },
+        {
+          "q": "What is the unit digit of the sum 1! + 2! + 3! + ... + 50!?",
+          "options": [
+            "0",
+            "1",
+            "3",
+            "9"
+          ],
+          "answer": 2,
+          "explanation": "From 5! onwards every factorial ends in 0. 1 + 2 + 6 + 24 = 33 → unit digit 3."
+        },
+        {
+          "q": "What is the sum of all the factors (divisors) of 360?",
+          "options": [
+            "1080",
+            "1200",
+            "1260",
+            "1170"
+          ],
+          "answer": 3,
+          "explanation": "360 = 2<sup>3</sup> × 3<sup>2</sup> × 5. Sum = (1+2+4+8)(1+3+9)(1+5) = 15 × 13 × 6 = 1170."
+        },
+        {
+          "q": "What is the least number that must be subtracted from 9999 to make it a perfect square?",
+          "options": [
+            "99",
+            "198",
+            "199",
+            "189"
+          ],
+          "answer": 1,
+          "explanation": "99² = 9801 is the largest perfect square below 9999. 9999 − 9801 = 198."
+        },
+        {
+          "q": "A number when divided by 357 leaves a remainder 39. What will be the remainder when the same number is divided by 17?",
+          "options": [
+            "5",
+            "3",
+            "7",
+            "39"
+          ],
+          "answer": 0,
+          "explanation": "357 = 17 × 21, so the remainder is 39 ÷ 17 → 39 − 34 = 5."
+        },
+        {
+          "q": "How many numbers from 1 to 500 (both inclusive) are divisible by neither 3 nor 5?",
+          "options": [
+            "233",
+            "266",
+            "300",
+            "267"
+          ],
+          "answer": 3,
+          "explanation": "Divisible by 3: 166, by 5: 100, by both (15): 33. Divisible by 3 or 5 = 166 + 100 − 33 = 233. Neither = 500 − 233 = 267."
+        },
+        {
+          "q": "The number (3<sup>25</sup> + 3<sup>26</sup> + 3<sup>27</sup> + 3<sup>28</sup>) is divisible by:",
+          "options": [
+            "11",
+            "16",
+            "30",
+            "25"
+          ],
+          "answer": 2,
+          "explanation": "Sum = 3<sup>25</sup>(1 + 3 + 9 + 27) = 40 × 3<sup>25</sup> = 120 × 3<sup>24</sup>, which is divisible by 30."
         }
       ]
     },
@@ -166,6 +254,94 @@ window.CGL_DATA.quant = {
           "options": ["244", "232", "476", "236"],
           "answer": 3,
           "explanation": "Divisor − remainder: 16 − 12 = 20 − 16 = 24 − 20 = 4 (constant).<br>LCM(16, 20, 24) = 2⁴ × 3 × 5 = 240.<br>Required number = 240 − 4 = <b>236</b>.<br>Check: 236 = 16×14 + 12 = 20×11 + 16 = 24×9 + 20 ✓."
+        },
+        {
+          "q": "The product of two numbers is 4107 and their HCF is 37. What is the greater number?",
+          "options": [
+            "111",
+            "101",
+            "107",
+            "117"
+          ],
+          "answer": 0,
+          "explanation": "Numbers = 37a and 37b with a, b co-prime; 37² × ab = 4107 → ab = 3 → a = 1, b = 3. Greater number = 111."
+        },
+        {
+          "q": "What is the HCF of 2/3, 8/9 and 16/81?",
+          "options": [
+            "2/3",
+            "2/81",
+            "16/81",
+            "8/27"
+          ],
+          "answer": 1,
+          "explanation": "HCF of fractions = HCF of numerators / LCM of denominators = HCF(2, 8, 16) / LCM(3, 9, 81) = 2/81."
+        },
+        {
+          "q": "What is the greatest number that divides 43, 91 and 183 leaving the same remainder in each case?",
+          "options": [
+            "7",
+            "8",
+            "4",
+            "9"
+          ],
+          "answer": 2,
+          "explanation": "Required number = HCF(91 − 43, 183 − 91, 183 − 43) = HCF(48, 92, 140) = 4."
+        },
+        {
+          "q": "A room is 15.17 m long and 9.02 m broad. What is the least number of square tiles of equal size required to cover the floor completely?",
+          "options": [
+            "714",
+            "841",
+            "902",
+            "814"
+          ],
+          "answer": 3,
+          "explanation": "Largest tile side = HCF(1517, 902) cm = 41 cm. Tiles = (1517 × 902)/(41 × 41) = 37 × 22 = 814."
+        },
+        {
+          "q": "Two numbers are in the ratio 2 : 3 and their LCM is 48. What is the sum of the numbers?",
+          "options": [
+            "40",
+            "30",
+            "36",
+            "45"
+          ],
+          "answer": 0,
+          "explanation": "Numbers 2k and 3k have LCM 6k = 48 → k = 8. Numbers are 16 and 24; sum = 40."
+        },
+        {
+          "q": "What is the smallest four-digit number that is exactly divisible by 12, 15 and 18?",
+          "options": [
+            "1020",
+            "1080",
+            "1180",
+            "1260"
+          ],
+          "answer": 1,
+          "explanation": "LCM(12, 15, 18) = 180. Smallest multiple of 180 with four digits = 180 × 6 = 1080."
+        },
+        {
+          "q": "The sum of two numbers is 528 and their HCF is 33. How many such pairs of numbers are possible?",
+          "options": [
+            "2",
+            "3",
+            "5",
+            "4"
+          ],
+          "answer": 3,
+          "explanation": "Numbers = 33a + 33b = 528 → a + b = 16 with a, b co-prime: (1,15), (3,13), (5,11), (7,9) → 4 pairs."
+        },
+        {
+          "q": "What is the least number which leaves a remainder 3 when divided by 5, 6, 7 and 8, but is exactly divisible by 9?",
+          "options": [
+            "843",
+            "1677",
+            "1683",
+            "2523"
+          ],
+          "answer": 2,
+          "explanation": "Number = 840k + 3 (LCM = 840). 840k + 3 divisible by 9 → 3k + 3 ≡ 0 (mod 9) → k = 2. Number = 1683."
         }
       ]
     },
@@ -246,6 +422,94 @@ window.CGL_DATA.quant = {
           "options": ["5", "23", "17", "21"],
           "answer": 3,
           "explanation": "Order: 'of' → 4 of 2 = 8; power → 3² = 9.<br>Then ÷ and × left to right: 45 ÷ 5 = 9, 9 × 3 = 27; 18 ÷ 9 = 2.<br>27 − 8 + 2 = <b>21</b>."
+        },
+        {
+          "q": "If x = 3 + 2√2, what is the value of x² + 1/x²?",
+          "options": [
+            "34",
+            "36",
+            "32",
+            "38"
+          ],
+          "answer": 0,
+          "explanation": "1/x = 3 − 2√2, so x + 1/x = 6. x² + 1/x² = 6² − 2 = 34."
+        },
+        {
+          "q": "Express 0.4777... (0.4 followed by recurring 7) as a fraction.",
+          "options": [
+            "47/99",
+            "43/90",
+            "47/90",
+            "43/99"
+          ],
+          "answer": 1,
+          "explanation": "0.47̄ = (47 − 4)/90 = 43/90."
+        },
+        {
+          "q": "Simplify: (√3 + √2)/(√3 − √2)",
+          "options": [
+            "5 − 2√6",
+            "1 + 2√6",
+            "5 + √6",
+            "5 + 2√6"
+          ],
+          "answer": 3,
+          "explanation": "Multiply by (√3 + √2)/(√3 + √2): (√3 + √2)²/(3 − 2) = 3 + 2 + 2√6 = 5 + 2√6."
+        },
+        {
+          "q": "If 2<sup>x + 3</sup> = 32<sup>x − 1</sup>, then what is the value of x?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1,
+          "explanation": "32 = 2<sup>5</sup>, so x + 3 = 5(x − 1) → 4x = 8 → x = 2."
+        },
+        {
+          "q": "What is the value of 64<sup>−2/3</sup> × (1/4)<sup>−3</sup>?",
+          "options": [
+            "4",
+            "1/4",
+            "16",
+            "8"
+          ],
+          "answer": 0,
+          "explanation": "64<sup>−2/3</sup> = 1/(4²) = 1/16 and (1/4)<sup>−3</sup> = 4³ = 64. Product = 64/16 = 4."
+        },
+        {
+          "q": "What is the value of √(5√(5√5))?",
+          "options": [
+            "5<sup>3/4</sup>",
+            "5<sup>15/16</sup>",
+            "5<sup>7/8</sup>",
+            "5"
+          ],
+          "answer": 2,
+          "explanation": "With 3 nested roots the power is 1 − 1/2³ = 7/8, so the value is 5<sup>7/8</sup>."
+        },
+        {
+          "q": "Simplify: 18 − [5 − {6 + 2(7 − 3)}]",
+          "options": [
+            "9",
+            "13",
+            "27",
+            "23"
+          ],
+          "answer": 2,
+          "explanation": "7 − 3 = 4; 6 + 2 × 4 = 14; 5 − 14 = −9; 18 − (−9) = 27."
+        },
+        {
+          "q": "Which of the following is the smallest?",
+          "options": [
+            "√7 − √5",
+            "√5 − √3",
+            "√9 − √7",
+            "√11 − √9"
+          ],
+          "answer": 3,
+          "explanation": "√(n+2) − √n = 2/(√(n+2) + √n), which decreases as n grows. So √11 − √9 is the smallest."
         }
       ]
     },
@@ -325,6 +589,94 @@ window.CGL_DATA.quant = {
           "options": ["2/3", "8/9", "5/9", "4/9"],
           "answer": 3,
           "explanation": "Let fraction = x/y. New fraction = 1.2x / 0.9y = (4/3)(x/y) = 16/27.<br>x/y = (16/27) × (3/4) = 48/108 = <b>4/9</b>."
+        },
+        {
+          "q": "A's salary is 40% more than B's salary. By what percentage is B's salary less than A's salary?",
+          "options": [
+            "40%",
+            "30%",
+            "25 2/7%",
+            "28 4/7%"
+          ],
+          "answer": 3,
+          "explanation": "B is less by 40/(100 + 40) × 100 = 200/7 = 28 4/7%."
+        },
+        {
+          "q": "What is 16 2/3% of 25% of 960?",
+          "options": [
+            "40",
+            "60",
+            "45",
+            "48"
+          ],
+          "answer": 0,
+          "explanation": "25% of 960 = 240; 16 2/3% = 1/6, so 240 × 1/6 = 40."
+        },
+        {
+          "q": "A man spends 75% of his income. His income increases by 20% and his expenditure increases by 10%. By what percentage do his savings increase?",
+          "options": [
+            "30%",
+            "50%",
+            "40%",
+            "25%"
+          ],
+          "answer": 1,
+          "explanation": "Take income 100: expense 75, savings 25. New income 120, new expense 82.5, new savings 37.5. Increase = 12.5/25 × 100 = 50%."
+        },
+        {
+          "q": "The population of a town is 1,33,100 now. It has been increasing at 10% per annum. What was the population 3 years ago?",
+          "options": [
+            "1,10,000",
+            "99,000",
+            "1,00,000",
+            "1,03,000"
+          ],
+          "answer": 2,
+          "explanation": "Population 3 years ago = 133100 ÷ (1.1)³ = 133100 ÷ 1.331 = 1,00,000."
+        },
+        {
+          "q": "In an examination, 35% of the students failed in Hindi, 45% failed in English and 20% failed in both subjects. What percentage of students passed in both subjects?",
+          "options": [
+            "40%",
+            "20%",
+            "60%",
+            "35%"
+          ],
+          "answer": 0,
+          "explanation": "Failed in at least one = 35 + 45 − 20 = 60%. Passed in both = 100 − 60 = 40%."
+        },
+        {
+          "q": "A 40-litre solution contains 15% alcohol. How many litres of water must be added to make the alcohol 12% of the solution?",
+          "options": [
+            "8 L",
+            "12 L",
+            "5 L",
+            "10 L"
+          ],
+          "answer": 3,
+          "explanation": "Alcohol = 6 L. New volume = 6/0.12 = 50 L, so water added = 50 − 40 = 10 L."
+        },
+        {
+          "q": "If each side of a square is increased by 30%, by what percentage does its area increase?",
+          "options": [
+            "60%",
+            "69%",
+            "30%",
+            "90%"
+          ],
+          "answer": 1,
+          "explanation": "Net change = 30 + 30 + (30 × 30)/100 = 69%."
+        },
+        {
+          "q": "The difference between 72% and 57% of a number is 93. What is 40% of that number?",
+          "options": [
+            "232",
+            "264",
+            "248",
+            "372"
+          ],
+          "answer": 2,
+          "explanation": "15% of the number = 93 → number = 620. 40% of 620 = 248."
         }
       ]
     },
@@ -397,6 +749,94 @@ window.CGL_DATA.quant = {
           "options": ["32%", "36%", "45%", "40%"],
           "answer": 3,
           "explanation": "CP/MP = (100 − 20)/(100 + 12) = 80/112 = 5/7.<br>So if CP = 5, MP = 7. Selling at MP gives profit = (7 − 5)/5 × 100 = <b>40%</b>."
+        },
+        {
+          "q": "By selling an article for ₹1,140, a man loses 5%. At what price should he sell it to gain 5%?",
+          "options": [
+            "₹1,260",
+            "₹1,197",
+            "₹1,254",
+            "₹1,300"
+          ],
+          "answer": 0,
+          "explanation": "CP = 1140 ÷ 0.95 = ₹1,200. For 5% gain, SP = 1200 × 1.05 = ₹1,260."
+        },
+        {
+          "q": "After two successive discounts of 15% and 8%, an article is sold for ₹1,955. What is its marked price?",
+          "options": [
+            "₹2,400",
+            "₹2,500",
+            "₹2,550",
+            "₹2,600"
+          ],
+          "answer": 1,
+          "explanation": "MP × 0.85 × 0.92 = 1955 → MP = 1955 ÷ 0.782 = ₹2,500."
+        },
+        {
+          "q": "A shopkeeper offers 'buy 4, get 1 free' and still makes a profit of 20%. By what percentage above the cost price has he marked his goods?",
+          "options": [
+            "40%",
+            "25%",
+            "50%",
+            "44%"
+          ],
+          "answer": 2,
+          "explanation": "He gets the price of 4 for 5 items: 4 × MP = 5 × 1.2 × CP → MP = 1.5 × CP, i.e. 50% above CP."
+        },
+        {
+          "q": "A dishonest shopkeeper sells his goods at a loss of 10% on cost price but uses a weight of 800 g instead of 1 kg. What is his overall gain percentage?",
+          "options": [
+            "10%",
+            "8%",
+            "15%",
+            "12.5%"
+          ],
+          "answer": 3,
+          "explanation": "Let CP be ₹1 per g. For '1 kg' he charges 0.9 × 1000 = ₹900 but gives only 800 g (cost ₹800). Gain = 100/800 × 100 = 12.5%."
+        },
+        {
+          "q": "A vendor buys oranges at 6 for ₹5 and sells them at 5 for ₹6. What is his profit percentage?",
+          "options": [
+            "44%",
+            "20%",
+            "36%",
+            "40%"
+          ],
+          "answer": 0,
+          "explanation": "CP per orange = 5/6, SP per orange = 6/5. Profit% = (6/5 ÷ 5/6 − 1) × 100 = (36/25 − 1) × 100 = 44%."
+        },
+        {
+          "q": "The profit earned by selling an article for ₹1,320 is equal to the loss incurred when it is sold for ₹880. At what price should it be sold to make a profit of 25%?",
+          "options": [
+            "₹1,320",
+            "₹1,400",
+            "₹1,250",
+            "₹1,375"
+          ],
+          "answer": 3,
+          "explanation": "CP = (1320 + 880)/2 = ₹1,100. SP for 25% profit = 1100 × 1.25 = ₹1,375."
+        },
+        {
+          "q": "A sells a bicycle to B at a profit of 20%, and B sells it to C at a profit of 10%. If C pays ₹2,640 for it, what did A pay for it?",
+          "options": [
+            "₹1,980",
+            "₹2,000",
+            "₹2,100",
+            "₹2,200"
+          ],
+          "answer": 1,
+          "explanation": "A's CP × 1.2 × 1.1 = 2640 → A's CP = 2640 ÷ 1.32 = ₹2,000."
+        },
+        {
+          "q": "A man sells an article at a loss of 12%. Had he sold it for ₹56 more, he would have gained 4%. What is the cost price of the article?",
+          "options": [
+            "₹400",
+            "₹336",
+            "₹350",
+            "₹466"
+          ],
+          "answer": 2,
+          "explanation": "The difference 4% − (−12%) = 16% of CP = ₹56 → CP = 56 ÷ 0.16 = ₹350."
         }
       ]
     },
@@ -477,6 +917,94 @@ window.CGL_DATA.quant = {
           "options": ["33", "27", "36", "39"],
           "answer": 0,
           "explanation": "Let numbers be 3x and 5x. (3x − 9)/(5x − 9) = 12/23.<br>23(3x − 9) = 12(5x − 9) → 69x − 207 = 60x − 108 → 9x = 99 → x = 11.<br>Smaller number = 3 × 11 = <b>33</b>. Check: 24/46 = 12/23 ✓."
+        },
+        {
+          "q": "What is the third proportional to 12 and 18?",
+          "options": [
+            "27",
+            "24",
+            "36",
+            "30"
+          ],
+          "answer": 0,
+          "explanation": "Third proportional = b²/a = 18²/12 = 324/12 = 27."
+        },
+        {
+          "q": "What is the fourth proportional to 5, 8 and 15?",
+          "options": [
+            "20",
+            "24",
+            "25",
+            "40"
+          ],
+          "answer": 1,
+          "explanation": "Fourth proportional = (b × c)/a = (8 × 15)/5 = 24."
+        },
+        {
+          "q": "₹1,560 is divided among A, B and C in the ratio 1/2 : 1/3 : 1/4. What is B's share?",
+          "options": [
+            "₹480",
+            "₹360",
+            "₹520",
+            "₹720"
+          ],
+          "answer": 0,
+          "explanation": "1/2 : 1/3 : 1/4 = 6 : 4 : 3 (multiply by 12). B = 1560 × 4/13 = ₹480."
+        },
+        {
+          "q": "A bag contains ₹1, 50 paise and 25 paise coins in the ratio 5 : 6 : 8. If the total amount is ₹210, how many 50 paise coins are there?",
+          "options": [
+            "105",
+            "168",
+            "84",
+            "126"
+          ],
+          "answer": 3,
+          "explanation": "Let the coins be 5k, 6k, 8k. Value = 5k + 3k + 2k = 10k = 210 → k = 21. 50 paise coins = 6 × 21 = 126."
+        },
+        {
+          "q": "The incomes of A and B are in the ratio 3 : 2 and their expenditures are in the ratio 5 : 3. If each of them saves ₹2,000, what is A's income?",
+          "options": [
+            "₹10,000",
+            "₹9,000",
+            "₹12,000",
+            "₹15,000"
+          ],
+          "answer": 2,
+          "explanation": "3x − 5y = 2000 and 2x − 3y = 2000 → x = 4000, y = 2000. A's income = 3 × 4000 = ₹12,000."
+        },
+        {
+          "q": "A and B invest in a business in the ratio 3 : 5. A is a working partner and receives 10% of the profit for managing it; the rest is divided in the ratio of investments. If the total profit is ₹48,000, what does A receive in all?",
+          "options": [
+            "₹18,000",
+            "₹16,200",
+            "₹22,800",
+            "₹21,000"
+          ],
+          "answer": 3,
+          "explanation": "A's management share = ₹4,800. Remaining ₹43,200 × 3/8 = ₹16,200. A's total = 4800 + 16200 = ₹21,000."
+        },
+        {
+          "q": "A 40-litre mixture contains milk and water in the ratio 3 : 1. How much water must be added to make the ratio 3 : 2?",
+          "options": [
+            "20 L",
+            "10 L",
+            "15 L",
+            "5 L"
+          ],
+          "answer": 1,
+          "explanation": "Milk = 30 L, water = 10 L. For 3 : 2, water should be 20 L, so add 20 − 10 = 10 L."
+        },
+        {
+          "q": "Alloy A contains gold and copper in the ratio 7 : 2 and alloy B contains them in the ratio 7 : 11. If equal quantities of the two alloys are melted together, what is the ratio of gold to copper in the new alloy?",
+          "options": [
+            "5 : 7",
+            "14 : 13",
+            "7 : 5",
+            "7 : 13"
+          ],
+          "answer": 2,
+          "explanation": "Take 18 kg of each. Gold = 14 + 7 = 21, copper = 4 + 11 = 15. Ratio = 21 : 15 = 7 : 5."
         }
       ]
     },
@@ -556,6 +1084,94 @@ window.CGL_DATA.quant = {
           "options": ["35.64", "36.36", "35.46", "36"],
           "answer": 0,
           "explanation": "Wrong sum = 25 × 36 = 900.<br>Correct sum = 900 − (84 + 36) + (48 + 63) = 900 − 120 + 111 = 891.<br>Correct average = 891/25 = <b>35.64</b>."
+        },
+        {
+          "q": "What is the average of the squares of the first 10 natural numbers?",
+          "options": [
+            "38.5",
+            "55",
+            "35",
+            "40.5"
+          ],
+          "answer": 0,
+          "explanation": "Sum of squares = 10 × 11 × 21/6 = 385. Average = 385/10 = 38.5."
+        },
+        {
+          "q": "The average age of a family of 5 members is 24 years. If the age of the youngest member is 8 years, what was the average age of the family at the time of the birth of the youngest member?",
+          "options": [
+            "16 years",
+            "20 years",
+            "19.2 years",
+            "22 years"
+          ],
+          "answer": 1,
+          "explanation": "Present total = 120. 8 years ago the other 4 members had total 120 − 8 − 4 × 8 = 80. Average = 80/4 = 20 years."
+        },
+        {
+          "q": "The average marks of 30 students in section A is 60. When section B is combined with section A, the average of all 80 students becomes 66. What is the average marks of section B?",
+          "options": [
+            "72",
+            "70.4",
+            "69.6",
+            "68"
+          ],
+          "answer": 2,
+          "explanation": "Total = 80 × 66 = 5280; section A total = 1800. Section B = (5280 − 1800)/50 = 69.6."
+        },
+        {
+          "q": "The average age of 24 students in a class is 12 years. When the teacher's age is included, the average increases by 1 year. What is the age of the teacher?",
+          "options": [
+            "36 years",
+            "25 years",
+            "38 years",
+            "37 years"
+          ],
+          "answer": 3,
+          "explanation": "Teacher = new average × 25 − old total = 13 × 25 − 24 × 12 = 325 − 288 = 37 years."
+        },
+        {
+          "q": "Of three numbers, the first is twice the second and the second is thrice the third. If their average is 30, what is the largest number?",
+          "options": [
+            "54",
+            "27",
+            "60",
+            "45"
+          ],
+          "answer": 0,
+          "explanation": "Let third = x, second = 3x, first = 6x. 10x = 90 → x = 9. Largest = 6 × 9 = 54."
+        },
+        {
+          "q": "A person covers three equal distances at speeds of 10 km/h, 20 km/h and 30 km/h respectively. What is his average speed for the whole journey?",
+          "options": [
+            "20 km/h",
+            "18 km/h",
+            "15 5/11 km/h",
+            "16 4/11 km/h"
+          ],
+          "answer": 3,
+          "explanation": "Average speed = 3xyz/(xy + yz + zx) = 3 × 6000/(200 + 600 + 300) = 18000/1100 = 16 4/11 km/h."
+        },
+        {
+          "q": "The average of 7 consecutive numbers is 20. If the next three consecutive numbers are also included, what is the new average?",
+          "options": [
+            "21",
+            "21.5",
+            "23",
+            "22.5"
+          ],
+          "answer": 1,
+          "explanation": "The numbers are 17 to 23 (sum 140). Adding 24, 25 and 26 gives sum 215. New average = 215/10 = 21.5."
+        },
+        {
+          "q": "A batsman scores 87 runs in his 17th innings and thereby increases his average by 3 runs. What is his average after the 17th innings?",
+          "options": [
+            "36",
+            "42",
+            "39",
+            "40"
+          ],
+          "answer": 2,
+          "explanation": "Let average after 16 innings = a. 16a + 87 = 17(a + 3) → a = 36. New average = 39."
         }
       ]
     },
@@ -637,6 +1253,94 @@ window.CGL_DATA.quant = {
           "options": ["₹2,400", "₹2,480", "₹2,640", "₹2,522"],
           "answer": 3,
           "explanation": "Half-yearly: rate = 5% per half-year, periods = 3.<br>A = 16000 × (1.05)³ → 16000 → 16800 → 17640 → 18522.<br>CI = 18522 − 16000 = <b>₹2,522</b>."
+        },
+        {
+          "q": "A sum of money at simple interest amounts to ₹9,440 in 3 years and to ₹10,400 in 5 years. What is the rate of interest per annum?",
+          "options": [
+            "6%",
+            "5%",
+            "8%",
+            "7.5%"
+          ],
+          "answer": 0,
+          "explanation": "SI for 2 years = 10400 − 9440 = ₹960, so ₹480 per year; P = 9440 − 3 × 480 = ₹8,000.<br>Rate = 480/8000 × 100 = 6%."
+        },
+        {
+          "q": "What is the compound interest on ₹12,500 for 3 years if the rates of interest are 8%, 10% and 12% for the first, second and third years respectively?",
+          "options": [
+            "₹3,750",
+            "₹4,132",
+            "₹4,500",
+            "₹4,212"
+          ],
+          "answer": 1,
+          "explanation": "A = 12500 × 1.08 × 1.10 × 1.12 = ₹16,632.<br>CI = 16632 − 12500 = ₹4,132."
+        },
+        {
+          "q": "The difference between the compound interest and the simple interest on a sum for 3 years at 10% per annum (compounded annually) is ₹310. What is the sum?",
+          "options": [
+            "₹12,000",
+            "₹9,000",
+            "₹10,000",
+            "₹15,500"
+          ],
+          "answer": 2,
+          "explanation": "CI − SI (3 years) = P(R/100)²(3 + R/100) = P × 0.01 × 3.1 = 0.031P.<br>0.031P = 310 ⇒ P = ₹10,000."
+        },
+        {
+          "q": "A sum of money becomes 8 times itself in 6 years at compound interest (compounded annually). In how many years will it become 32 times itself at the same rate?",
+          "options": [
+            "12 years",
+            "8 years",
+            "24 years",
+            "10 years"
+          ],
+          "answer": 3,
+          "explanation": "8 = 2³ in 6 years ⇒ the sum doubles every 2 years.<br>32 = 2⁵ ⇒ 5 × 2 = 10 years."
+        },
+        {
+          "q": "A sum borrowed at 10% per annum compound interest (compounded annually) is repaid in two equal annual instalments of ₹12,100 each. What was the sum borrowed?",
+          "options": [
+            "₹21,000",
+            "₹22,000",
+            "₹24,200",
+            "₹20,000"
+          ],
+          "answer": 0,
+          "explanation": "Sum = present value of instalments = 12100/1.1 + 12100/(1.1)² = 11000 + 10000 = ₹21,000."
+        },
+        {
+          "q": "What is the difference between the compound interest on ₹20,000 for 1 year at 10% per annum when compounded half-yearly and when compounded annually?",
+          "options": [
+            "₹25",
+            "₹50",
+            "₹100",
+            "₹55"
+          ],
+          "answer": 1,
+          "explanation": "Half-yearly: 20000 × (1.05² − 1) = ₹2,050. Annually: ₹2,000.<br>Difference = ₹50."
+        },
+        {
+          "q": "₹15,000 is divided into two parts such that one part is lent at 8% and the other at 10% per annum simple interest. If the total interest for one year is ₹1,340, what is the part lent at 8%?",
+          "options": [
+            "₹7,000",
+            "₹6,500",
+            "₹8,000",
+            "₹9,000"
+          ],
+          "answer": 2,
+          "explanation": "0.08x + 0.10(15000 − x) = 1340 ⇒ 1500 − 0.02x = 1340 ⇒ x = ₹8,000."
+        },
+        {
+          "q": "At what rate of compound interest per annum (compounded annually) will ₹6,400 amount to ₹7,225 in 2 years?",
+          "options": [
+            "6½%",
+            "6%",
+            "7½%",
+            "6¼%"
+          ],
+          "answer": 3,
+          "explanation": "(1 + R/100)² = 7225/6400 = (85/80)² ⇒ 1 + R/100 = 17/16.<br>R = 100/16 = 6¼%."
         }
       ]
     },
@@ -715,6 +1419,94 @@ window.CGL_DATA.quant = {
           "options": ["15 days", "12 days", "14 days", "16 days"],
           "answer": 0,
           "explanation": "Let total time = T days. B works T days, A works (T − 5) days.<br>(T − 5)/20 + T/30 = 1 → multiply by 60: 3(T − 5) + 2T = 60 → 5T = 75 → T = <b>15 days</b>."
+        },
+        {
+          "q": "A and B can do a piece of work in 12 days, B and C in 15 days, and C and A in 20 days. In how many days can A alone do the work?",
+          "options": [
+            "30 days",
+            "24 days",
+            "40 days",
+            "60 days"
+          ],
+          "answer": 0,
+          "explanation": "2(A + B + C) = 1/12 + 1/15 + 1/20 = 1/5 ⇒ A + B + C = 1/10.<br>A = 1/10 − 1/15 (B + C) = 1/30 ⇒ 30 days."
+        },
+        {
+          "q": "A can do a work in 6 days and B in 8 days. With the help of C, they finish the work in 3 days and receive ₹3,200 in all. What is C's share?",
+          "options": [
+            "₹600",
+            "₹400",
+            "₹800",
+            "₹1,200"
+          ],
+          "answer": 1,
+          "explanation": "In 3 days A does 3/6 = 1/2, B does 3/8; C does 1 − 1/2 − 3/8 = 1/8 of the work.<br>C's share = 1/8 × 3200 = ₹400."
+        },
+        {
+          "q": "A pipe can fill a tank in 8 hours, but because of a leak at the bottom it takes 10 hours to fill it. In how many hours can the leak alone empty the full tank?",
+          "options": [
+            "18 hours",
+            "20 hours",
+            "40 hours",
+            "80 hours"
+          ],
+          "answer": 2,
+          "explanation": "Leak rate = 1/8 − 1/10 = 1/40 of the tank per hour.<br>Leak empties the full tank in 40 hours."
+        },
+        {
+          "q": "3 men or 5 women can complete a work in 15 days. In how many days can 6 men and 5 women together complete the same work?",
+          "options": [
+            "6 days",
+            "7½ days",
+            "4 days",
+            "5 days"
+          ],
+          "answer": 3,
+          "explanation": "3 men = 5 women, so 5 women = 3 men and 6 men + 5 women = 9 men.<br>Work = 3 × 15 = 45 man-days ⇒ 45/9 = 5 days."
+        },
+        {
+          "q": "A can complete a work in 12 days and B in 16 days. They work on alternate days, starting with A. In how many days will the work be completed?",
+          "options": [
+            "13⅔ days",
+            "14 days",
+            "13½ days",
+            "13¼ days"
+          ],
+          "answer": 0,
+          "explanation": "Total work = 48 units; A = 4/day, B = 3/day; every 2 days = 7 units. 12 days → 42 units; day 13 (A) → 46 units.<br>Remaining 2 units by B take 2/3 day ⇒ 13⅔ days."
+        },
+        {
+          "q": "A is 60% more efficient than B. If B alone can complete a work in 24 days, in how many days can A and B together complete it?",
+          "options": [
+            "10 days",
+            "9 3/13 days",
+            "12 days",
+            "9⅓ days"
+          ],
+          "answer": 1,
+          "explanation": "A takes 24/1.6 = 15 days. Together: (15 × 24)/(15 + 24) = 360/39 = 120/13 = 9 3/13 days."
+        },
+        {
+          "q": "Two pipes A and B can fill a tank in 12 minutes and 15 minutes respectively. Both are opened together, and after 3 minutes pipe A is closed. How much more time will B take to fill the tank?",
+          "options": [
+            "9 min",
+            "7 min 30 s",
+            "8 min 15 s",
+            "8 min 45 s"
+          ],
+          "answer": 2,
+          "explanation": "In 3 min: 3/12 + 3/15 = 9/20 filled; remaining 11/20.<br>B needs 11/20 × 15 = 8.25 min = 8 min 15 s."
+        },
+        {
+          "q": "15 men working 8 hours a day can dig a 60 m long trench in 10 days. How many men working 10 hours a day are needed to dig a 120 m long trench in 8 days?",
+          "options": [
+            "24",
+            "36",
+            "25",
+            "30"
+          ],
+          "answer": 3,
+          "explanation": "M₁D₁H₁/W₁ = M₂D₂H₂/W₂ ⇒ (15 × 10 × 8)/60 = (M × 8 × 10)/120.<br>M = 20 × 120/80 = 30."
         }
       ]
     },
@@ -795,6 +1587,94 @@ window.CGL_DATA.quant = {
           "options": ["4 : 3", "3 : 4", "16 : 9", "9 : 16"],
           "answer": 0,
           "explanation": "S<sub>P</sub> : S<sub>Q</sub> = √(time of Q after meeting) : √(time of P after meeting) = √16 : √9 = <b>4 : 3</b>.<br>(The faster train needs less time after meeting.)"
+        },
+        {
+          "q": "A car covers the first half of a journey at 40 km/h and the second half at 60 km/h. What is its average speed for the whole journey?",
+          "options": [
+            "48 km/h",
+            "50 km/h",
+            "52 km/h",
+            "45 km/h"
+          ],
+          "answer": 0,
+          "explanation": "For equal distances, average speed = 2xy/(x + y) = (2 × 40 × 60)/100 = 48 km/h."
+        },
+        {
+          "q": "A train 200 m long passes a man walking at 6 km/h in the same direction as the train in 12 seconds. What is the speed of the train?",
+          "options": [
+            "60 km/h",
+            "66 km/h",
+            "54 km/h",
+            "72 km/h"
+          ],
+          "answer": 1,
+          "explanation": "Relative speed = 200/12 m/s = 50/3 × 18/5 = 60 km/h.<br>Train speed = 60 + 6 = 66 km/h."
+        },
+        {
+          "q": "The speed of a boat in still water is 15 km/h and the speed of the stream is 3 km/h. How much time will the boat take to go 90 km downstream and come back?",
+          "options": [
+            "12 h",
+            "13 h 30 min",
+            "12 h 30 min",
+            "10 h"
+          ],
+          "answer": 2,
+          "explanation": "Time = 90/(15 + 3) + 90/(15 − 3) = 5 + 7.5 = 12.5 h = 12 h 30 min."
+        },
+        {
+          "q": "A thief is spotted by a policeman from a distance of 300 m. The thief starts running at 10 km/h and the policeman chases him at 12 km/h at the same moment. How far will the thief have run before he is caught?",
+          "options": [
+            "1.8 km",
+            "1.2 km",
+            "2 km",
+            "1.5 km"
+          ],
+          "answer": 3,
+          "explanation": "Relative speed = 2 km/h; time to cover 0.3 km = 0.15 h.<br>Thief's distance = 10 × 0.15 = 1.5 km."
+        },
+        {
+          "q": "Two trains 120 m and 180 m long are running on parallel tracks in the same direction at 54 km/h and 36 km/h respectively. In how much time will the faster train completely pass the slower one?",
+          "options": [
+            "60 s",
+            "12 s",
+            "30 s",
+            "45 s"
+          ],
+          "answer": 0,
+          "explanation": "Relative speed = 54 − 36 = 18 km/h = 5 m/s.<br>Time = (120 + 180)/5 = 60 s."
+        },
+        {
+          "q": "Walking at 3/4 of his usual speed, a man reaches his office 20 minutes late. What is his usual time to reach the office?",
+          "options": [
+            "80 minutes",
+            "1 hour",
+            "45 minutes",
+            "40 minutes"
+          ],
+          "answer": 1,
+          "explanation": "At 3/4 speed, time becomes 4/3 of usual; extra time = (1/3) × usual = 20 min.<br>Usual time = 60 min = 1 hour."
+        },
+        {
+          "q": "A train passes a pole in 15 seconds and a 100 m long platform in 25 seconds. What is the length of the train?",
+          "options": [
+            "125 m",
+            "200 m",
+            "150 m",
+            "175 m"
+          ],
+          "answer": 2,
+          "explanation": "L/15 = (L + 100)/25 ⇒ 25L = 15L + 1500 ⇒ L = 150 m."
+        },
+        {
+          "q": "Two cars start at the same time from towns P and Q towards each other at 50 km/h and 40 km/h respectively. When they meet, the first car has travelled 60 km more than the second. What is the distance between P and Q?",
+          "options": [
+            "480 km",
+            "600 km",
+            "450 km",
+            "540 km"
+          ],
+          "answer": 3,
+          "explanation": "Extra distance per hour = 50 − 40 = 10 km ⇒ they meet after 60/10 = 6 h.<br>PQ = (50 + 40) × 6 = 540 km."
         }
       ]
     },
@@ -879,6 +1759,94 @@ window.CGL_DATA.quant = {
           "options": ["−4", "4", "2", "−2"],
           "answer": 0,
           "explanation": "a² + b² + c² − 2a + 4b + 6c + 14 = 0 → (a − 1)² + (b + 2)² + (c + 3)² = 0.<br>Each square is zero: a = 1, b = −2, c = −3.<br>a + b + c = 1 − 2 − 3 = <b>−4</b>."
+        },
+        {
+          "q": "If a − b = 5 and ab = 24, what is the value of a³ − b³?",
+          "options": [
+            "485",
+            "365",
+            "−235",
+            "605"
+          ],
+          "answer": 0,
+          "explanation": "a³ − b³ = (a − b)³ + 3ab(a − b) = 125 + 3 × 24 × 5 = 125 + 360 = 485."
+        },
+        {
+          "q": "If x + y + z = 12 and xy + yz + zx = 47, what is the value of x² + y² + z²?",
+          "options": [
+            "97",
+            "50",
+            "44",
+            "56"
+          ],
+          "answer": 1,
+          "explanation": "x² + y² + z² = (x + y + z)² − 2(xy + yz + zx) = 144 − 94 = 50."
+        },
+        {
+          "q": "If x = 3 + 2√2, what is the value of √x + 1/√x?",
+          "options": [
+            "6",
+            "2",
+            "2√2",
+            "√6"
+          ],
+          "answer": 2,
+          "explanation": "1/x = 3 − 2√2, so x + 1/x = 6.<br>(√x + 1/√x)² = x + 1/x + 2 = 8 ⇒ √x + 1/√x = 2√2."
+        },
+        {
+          "q": "What is the value of a³ + b³ + c³ − 3abc when a = 97, b = 98 and c = 99?",
+          "options": [
+            "294",
+            "0",
+            "588",
+            "882"
+          ],
+          "answer": 3,
+          "explanation": "a³ + b³ + c³ − 3abc = ½(a + b + c)[(a − b)² + (b − c)² + (c − a)²] = ½ × 294 × (1 + 1 + 4) = 882."
+        },
+        {
+          "q": "If x + 1/x = √3, what is the value of x¹⁸ + x¹² + x⁶ + 1?",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "4"
+          ],
+          "answer": 0,
+          "explanation": "x + 1/x = √3 ⇒ x³ + 1/x³ = 3√3 − 3√3 = 0 ⇒ x⁶ = −1.<br>Value = (−1)³ + (−1)² + (−1) + 1 = −1 + 1 − 1 + 1 = 0."
+        },
+        {
+          "q": "For what value of k will the pair of equations 3x + ky = 7 and 6x + 10y = 5 have no solution?",
+          "options": [
+            "10",
+            "5",
+            "2",
+            "6"
+          ],
+          "answer": 1,
+          "explanation": "No solution when 3/6 = k/10 ≠ 7/5 ⇒ k = 5 (and 1/2 ≠ 7/5, so the lines are parallel)."
+        },
+        {
+          "q": "If 2x + 3y = 13 and xy = 6, what is the value of 8x³ + 27y³?",
+          "options": [
+            "1404",
+            "2197",
+            "793",
+            "865"
+          ],
+          "answer": 2,
+          "explanation": "8x³ + 27y³ = (2x + 3y)³ − 3(2x)(3y)(2x + 3y) = 2197 − 18 × 6 × 13 = 2197 − 1404 = 793."
+        },
+        {
+          "q": "What is the simplified value of [(a² − b²)³ + (b² − c²)³ + (c² − a²)³] ÷ [(a − b)³ + (b − c)³ + (c − a)³]?",
+          "options": [
+            "(a − b)(b − c)(c − a)",
+            "3(a + b)(b + c)(c + a)",
+            "1",
+            "(a + b)(b + c)(c + a)"
+          ],
+          "answer": 3,
+          "explanation": "Both sums have terms adding to 0, so each equals 3 × (product of terms).<br>Ratio = 3(a² − b²)(b² − c²)(c² − a²) / 3(a − b)(b − c)(c − a) = (a + b)(b + c)(c + a)."
         }
       ]
     },
@@ -976,6 +1944,94 @@ window.CGL_DATA.quant = {
           "options": ["3√5/2 cm", "√5 cm", "5/2 cm", "3√2 cm"],
           "answer": 0,
           "explanation": "Inradius r = (9 + 12 − 15)/2 = 3; circumradius R = 15/2 = 7.5.<br>Euler: OI² = R² − 2Rr = 56.25 − 45 = 11.25 = 45/4.<br>OI = √45/2 = <b>3√5/2 cm</b>.<br>(Coordinates check: incentre (3, 3), circumcentre (6, 4.5) → √(9 + 2.25).)"
+        },
+        {
+          "q": "In an acute-angled triangle ABC, H is the orthocentre and ∠A = 65°. What is the measure of ∠BHC?",
+          "options": [
+            "115°",
+            "130°",
+            "65°",
+            "122.5°"
+          ],
+          "answer": 0,
+          "explanation": "For the orthocentre, ∠BHC = 180° − ∠A = 180° − 65° = 115°."
+        },
+        {
+          "q": "In ΔABC, AB = 10 cm, AC = 14 cm and BC = 16 cm. What is the length of the median AD drawn to side BC?",
+          "options": [
+            "2√19 cm",
+            "2√21 cm",
+            "4√5 cm",
+            "3√10 cm"
+          ],
+          "answer": 1,
+          "explanation": "Apollonius: AB² + AC² = 2(AD² + BD²) ⇒ 100 + 196 = 2(AD² + 64) ⇒ AD² = 84.<br>AD = √84 = 2√21 cm."
+        },
+        {
+          "q": "From an external point P, a tangent PT of length 12 cm is drawn to a circle. A secant through P cuts the circle at A and B (A between P and B) with PA = 8 cm. What is the length of chord AB?",
+          "options": [
+            "18 cm",
+            "8 cm",
+            "10 cm",
+            "14 cm"
+          ],
+          "answer": 2,
+          "explanation": "PT² = PA × PB ⇒ 144 = 8 × PB ⇒ PB = 18 cm.<br>AB = PB − PA = 18 − 8 = 10 cm."
+        },
+        {
+          "q": "In a circle with centre O, chord AB subtends an angle of 110° at the centre. C is a point on the major arc AB. What is the measure of ∠ACB?",
+          "options": [
+            "125°",
+            "110°",
+            "70°",
+            "55°"
+          ],
+          "answer": 3,
+          "explanation": "Angle at the circumference = ½ × angle at the centre on the same arc = ½ × 110° = 55°."
+        },
+        {
+          "q": "Each exterior angle of a regular polygon is 24°. How many diagonals does the polygon have?",
+          "options": [
+            "90",
+            "105",
+            "75",
+            "120"
+          ],
+          "answer": 0,
+          "explanation": "n = 360°/24° = 15 sides.<br>Diagonals = n(n − 3)/2 = 15 × 12/2 = 90."
+        },
+        {
+          "q": "In ΔABC, AB = 6 cm, AC = 9 cm and BC = 10 cm. The bisector of ∠A meets BC at D. What is the length of BD?",
+          "options": [
+            "6 cm",
+            "4 cm",
+            "5 cm",
+            "3.6 cm"
+          ],
+          "answer": 1,
+          "explanation": "BD/DC = AB/AC = 6/9 = 2/3 ⇒ BD = (2/5) × 10 = 4 cm."
+        },
+        {
+          "q": "Two parallel chords of lengths 16 cm and 12 cm lie on opposite sides of the centre of a circle of radius 10 cm. What is the distance between the chords?",
+          "options": [
+            "2 cm",
+            "10 cm",
+            "14 cm",
+            "12 cm"
+          ],
+          "answer": 2,
+          "explanation": "Distance of 16 cm chord from centre = √(100 − 64) = 6 cm; of 12 cm chord = √(100 − 36) = 8 cm.<br>Opposite sides ⇒ 6 + 8 = 14 cm."
+        },
+        {
+          "q": "Two circles of radii 5 cm and 3 cm have their centres 17 cm apart. What is the length of their transverse common tangent?",
+          "options": [
+            "√285 cm",
+            "16 cm",
+            "8 cm",
+            "15 cm"
+          ],
+          "answer": 3,
+          "explanation": "Transverse common tangent = √(d² − (r₁ + r₂)²) = √(289 − 64) = √225 = 15 cm."
         }
       ]
     },
@@ -1061,6 +2117,94 @@ window.CGL_DATA.quant = {
           "options": ["48", "60", "54", "72"],
           "answer": 2,
           "explanation": "Bowl volume = (2/3)π(9)³ = (2/3)π × 729 = 486π cm³.<br>Bottle volume = π(1.5)² × 4 = 9π cm³.<br>Number of bottles = 486π/9π = <b>54</b>."
+        },
+        {
+          "q": "The diagonals of a rhombus are 24 cm and 10 cm. What is the perimeter of the rhombus?",
+          "options": [
+            "52 cm",
+            "60 cm",
+            "68 cm",
+            "48 cm"
+          ],
+          "answer": 0,
+          "explanation": "Side = √(12² + 5²) = 13 cm (diagonals bisect at right angles).<br>Perimeter = 4 × 13 = 52 cm."
+        },
+        {
+          "q": "What is the area of a sector of a circle of radius 21 cm with central angle 120°? (Take π = 22/7)",
+          "options": [
+            "231 cm²",
+            "462 cm²",
+            "693 cm²",
+            "154 cm²"
+          ],
+          "answer": 1,
+          "explanation": "Area = (120/360) × (22/7) × 21 × 21 = (1/3) × 1386 = 462 cm²."
+        },
+        {
+          "q": "The curved surface area of a right circular cylinder of base radius 7 cm is 1320 cm². What is its volume? (Take π = 22/7)",
+          "options": [
+            "4400 cm³",
+            "9240 cm³",
+            "4620 cm³",
+            "3960 cm³"
+          ],
+          "answer": 2,
+          "explanation": "2πrh = 1320 ⇒ 2 × (22/7) × 7 × h = 1320 ⇒ h = 30 cm.<br>V = πr²h = (22/7) × 49 × 30 = 4620 cm³."
+        },
+        {
+          "q": "A frustum of a right circular cone has radii of its two ends 14 cm and 7 cm and height 6 cm. What is its volume? (Take π = 22/7)",
+          "options": [
+            "2256 cm³",
+            "1848 cm³",
+            "2464 cm³",
+            "2156 cm³"
+          ],
+          "answer": 3,
+          "explanation": "V = (πh/3)(R² + Rr + r²) = (22/7) × (6/3) × (196 + 98 + 49) = (44/7) × 343 = 2156 cm³."
+        },
+        {
+          "q": "A right circular cone has base radius 5 cm and height 12 cm. What is its total surface area?",
+          "options": [
+            "90π cm²",
+            "65π cm²",
+            "100π cm²",
+            "115π cm²"
+          ],
+          "answer": 0,
+          "explanation": "Slant height l = √(25 + 144) = 13 cm.<br>TSA = πr(l + r) = π × 5 × 18 = 90π cm²."
+        },
+        {
+          "q": "What is the area of a regular hexagon of side 6 cm?",
+          "options": [
+            "36√3 cm²",
+            "54√3 cm²",
+            "72√3 cm²",
+            "108√3 cm²"
+          ],
+          "answer": 1,
+          "explanation": "Area = (3√3/2)a² = (3√3/2) × 36 = 54√3 cm² (six equilateral triangles of side 6 cm)."
+        },
+        {
+          "q": "If each edge of a cube is increased by 20%, by what percentage does its volume increase?",
+          "options": [
+            "60%",
+            "44%",
+            "72.8%",
+            "69.6%"
+          ],
+          "answer": 2,
+          "explanation": "New volume = (1.2)³ = 1.728 times the original.<br>Increase = 72.8%."
+        },
+        {
+          "q": "The volumes of two spheres are in the ratio 8 : 27. What is the ratio of their surface areas?",
+          "options": [
+            "2 : 3",
+            "8 : 27",
+            "16 : 81",
+            "4 : 9"
+          ],
+          "answer": 3,
+          "explanation": "Volume ratio 8 : 27 ⇒ radius ratio = ∛8 : ∛27 = 2 : 3.<br>Surface area ratio = 2² : 3² = 4 : 9."
         }
       ]
     },
@@ -1151,6 +2295,94 @@ window.CGL_DATA.quant = {
           "options": ["40√3 m", "20 m", "40 m", "20√3 m"],
           "answer": 3,
           "explanation": "Let height = h and distance from the nearer point = x.<br>tan60° = h/x → h = x√3. tan30° = h/(x + 40) → h = (x + 40)/√3.<br>x√3 = (x + 40)/√3 → 3x = x + 40 → x = 20.<br>h = 20√3 m (≈ 34.64 m). Shortcut: (√3/2) × 40 = <b>20√3 m</b>."
+        },
+        {
+          "q": "If tanθ = 3/4 (θ acute), what is the value of (sinθ + cosθ)/(sinθ − cosθ)?",
+          "options": [
+            "−7",
+            "7",
+            "1/7",
+            "−1/7"
+          ],
+          "answer": 0,
+          "explanation": "Divide numerator and denominator by cosθ: (tanθ + 1)/(tanθ − 1) = (7/4)/(−1/4) = −7."
+        },
+        {
+          "q": "If cosecθ + cotθ = 5, what is the value of cosθ?",
+          "options": [
+            "5/13",
+            "12/13",
+            "13/12",
+            "12/5"
+          ],
+          "answer": 1,
+          "explanation": "cosecθ − cotθ = 1/(cosecθ + cotθ) = 1/5. Adding: 2cosecθ = 26/5 ⇒ cosecθ = 13/5; subtracting: cotθ = 12/5.<br>cosθ = cotθ/cosecθ = (12/5)/(13/5) = 12/13."
+        },
+        {
+          "q": "What is the value of sin²5° + sin²10° + sin²15° + ... + sin²85°?",
+          "options": [
+            "9",
+            "8",
+            "17/2",
+            "19/2"
+          ],
+          "answer": 2,
+          "explanation": "17 terms. Pair sin²θ + sin²(90° − θ) = sin²θ + cos²θ = 1: 8 pairs give 8, plus sin²45° = 1/2.<br>Total = 8½ = 17/2."
+        },
+        {
+          "q": "What is the minimum value of 4tan²θ + 9cot²θ (0° < θ < 90°)?",
+          "options": [
+            "13",
+            "6",
+            "36",
+            "12"
+          ],
+          "answer": 3,
+          "explanation": "By AM ≥ GM: 4tan²θ + 9cot²θ ≥ 2√(4tan²θ × 9cot²θ) = 2√36 = 12."
+        },
+        {
+          "q": "If sinθ = 3/5 and θ is acute, what is the value of sin2θ?",
+          "options": [
+            "24/25",
+            "6/5",
+            "7/25",
+            "12/25"
+          ],
+          "answer": 0,
+          "explanation": "cosθ = 4/5. sin2θ = 2sinθcosθ = 2 × (3/5) × (4/5) = 24/25."
+        },
+        {
+          "q": "The length of the shadow of a vertical pole on level ground is √3 times its height. What is the angle of elevation of the Sun?",
+          "options": [
+            "60°",
+            "30°",
+            "45°",
+            "75°"
+          ],
+          "answer": 1,
+          "explanation": "tan(elevation) = height/shadow = 1/√3 ⇒ angle = 30°."
+        },
+        {
+          "q": "A ladder leaning against a vertical wall makes an angle of 60° with the level ground. If the foot of the ladder is 4.5 m away from the wall, what is the length of the ladder?",
+          "options": [
+            "4.5√3 m",
+            "3√3 m",
+            "9 m",
+            "18 m"
+          ],
+          "answer": 2,
+          "explanation": "cos60° = 4.5/length ⇒ length = 4.5/(1/2) = 9 m."
+        },
+        {
+          "q": "The angles of elevation of the top of a tower from two points on level ground, at distances of 4 m and 9 m from the base of the tower and on the same straight line with it, are complementary. What is the height of the tower?",
+          "options": [
+            "6.5 m",
+            "5 m",
+            "13 m",
+            "6 m"
+          ],
+          "answer": 3,
+          "explanation": "tanθ = h/4 and tan(90° − θ) = cotθ = h/9. Multiplying: 1 = h²/36 ⇒ h = 6 m (h = √(4 × 9))."
         }
       ]
     },
@@ -1230,6 +2462,94 @@ window.CGL_DATA.quant = {
           "options": ["3 : 4", "13 : 9", "9 : 13", "8 : 13"],
           "answer": 2,
           "explanation": "2019 + 2020 = 120 + 96 = 216; 2022 + 2023 = 150 + 162 = 312.<br>216 : 312 → divide by 24 → <b>9 : 13</b>."
+        },
+        {
+          "q": "A student's monthly expenditure of ₹24,000 is shown in a pie chart with the following shares:<br>Rent: 30% | Food: 25% | Travel: 15% | Books: 10% | Others: 20%<br>How much more does the student spend on Food than on Books?",
+          "options": [
+            "₹3,000",
+            "₹4,200",
+            "₹3,600",
+            "₹2,400"
+          ],
+          "answer": 2,
+          "explanation": "Difference = (25% − 10%) of ₹24,000 = 15% × 24,000 = ₹3,600."
+        },
+        {
+          "q": "A student's monthly expenditure of ₹24,000 is shown in a pie chart with the following shares:<br>Rent: 30% | Food: 25% | Travel: 15% | Books: 10% | Others: 20%<br>What is the central angle of the sector representing Rent and Travel together?",
+          "options": [
+            "162°",
+            "144°",
+            "180°",
+            "126°"
+          ],
+          "answer": 0,
+          "explanation": "Rent + Travel = 30% + 15% = 45%; angle = 45 × 3.6° = 162°."
+        },
+        {
+          "q": "Production (in tonnes) of a factory:<br>2019: 45 | 2020: 52 | 2021: 38 | 2022: 60 | 2023: 55<br>In how many years was the production more than the average production of the five years?",
+          "options": [
+            "2",
+            "4",
+            "1",
+            "3"
+          ],
+          "answer": 3,
+          "explanation": "Average = 250/5 = 50 tonnes. Years above 50: 2020, 2022 and 2023 → 3 years."
+        },
+        {
+          "q": "Income and expenditure (₹ lakh) of a company:<br>2020: Income 150, Expenditure 120<br>2021: Income 180, Expenditure 150<br>2022: Income 210, Expenditure 160<br>2023: Income 240, Expenditure 210<br>Percentage profit = (Income − Expenditure)/Expenditure × 100. In which year was the percentage profit the highest?",
+          "options": [
+            "2020",
+            "2022",
+            "2021",
+            "2023"
+          ],
+          "answer": 1,
+          "explanation": "Profit %: 2020 = 25%, 2021 = 20%, 2022 = 50/160 × 100 = 31.25%, 2023 ≈ 14.3%. Highest in 2022."
+        },
+        {
+          "q": "The mean of the observations 8, 12, x, 15, 20 and 17 is 14. What is the value of x?",
+          "options": [
+            "10",
+            "12",
+            "14",
+            "11"
+          ],
+          "answer": 1,
+          "explanation": "Sum = 14 × 6 = 84; 8 + 12 + 15 + 20 + 17 = 72, so x = 84 − 72 = 12."
+        },
+        {
+          "q": "The average marks of 30 students of Section A are 62 and the average marks of 20 students of Section B are 72. What are the average marks of all 50 students?",
+          "options": [
+            "67",
+            "65",
+            "64",
+            "66"
+          ],
+          "answer": 3,
+          "explanation": "Combined mean = (30 × 62 + 20 × 72)/50 = (1860 + 1440)/50 = 3300/50 = 66."
+        },
+        {
+          "q": "The mean of 25 observations was found to be 40. Later it was noticed that one observation, 56, had been wrongly copied as 36. What is the correct mean?",
+          "options": [
+            "40.8",
+            "39.2",
+            "41.2",
+            "40.4"
+          ],
+          "answer": 0,
+          "explanation": "Correct sum = 25 × 40 − 36 + 56 = 1020; correct mean = 1020/25 = 40.8."
+        },
+        {
+          "q": "Sales (in units) of four products of a shop:<br>Product P: 2022 – 400, 2023 – 460<br>Product Q: 2022 – 250, 2023 – 300<br>Product R: 2022 – 350, 2023 – 390<br>Product S: 2022 – 200, 2023 – 250<br>What is the percentage increase in the total sales of the four products from 2022 to 2023?",
+          "options": [
+            "14²⁄₇%",
+            "20%",
+            "16⅔%",
+            "15%"
+          ],
+          "answer": 2,
+          "explanation": "Total: 2022 = 1200, 2023 = 1400. Increase = 200/1200 × 100 = 16⅔%."
         }
       ]
     },
@@ -1420,6 +2740,72 @@ window.CGL_DATA.quant = {
           ],
           "answer": 3,
           "explanation": "Slope of 2x − y + 4 = 0 is 2. So (k − 3)/(6 − 2) = 2 ⇒ k − 3 = 8 ⇒ k = 11."
+        },
+        {
+          "q": "At which point do the lines 3x + 2y = 12 and 5x − 3y = 1 intersect?",
+          "options": [
+            "(3, 2)",
+            "(2, 3)",
+            "(2, −3)",
+            "(4, 0)"
+          ],
+          "answer": 1,
+          "explanation": "Multiply the first by 3 and the second by 2 and add: 19x = 38 → x = 2; then 2y = 12 − 6 → y = 3."
+        },
+        {
+          "q": "What is the distance between the parallel lines 3x + 4y − 7 = 0 and 6x + 8y + 11 = 0?",
+          "options": [
+            "3.6 units",
+            "0.3 units",
+            "1.8 units",
+            "2.5 units"
+          ],
+          "answer": 3,
+          "explanation": "Write the second line as 3x + 4y + 5.5 = 0. Distance = |−7 − 5.5|/√(3² + 4²) = 12.5/5 = 2.5 units."
+        },
+        {
+          "q": "Five years ago, A was three times as old as B. Ten years from now, A will be twice as old as B. What is A's present age?",
+          "options": [
+            "50 years",
+            "45 years",
+            "40 years",
+            "55 years"
+          ],
+          "answer": 0,
+          "explanation": "A − 5 = 3(B − 5) → A = 3B − 10; A + 10 = 2(B + 10) → A = 2B + 10. So B = 20 and A = 50."
+        },
+        {
+          "q": "If 2 is added to both the numerator and the denominator of a fraction, it becomes 9/11. If 3 is added to both, it becomes 5/6. What is the fraction?",
+          "options": [
+            "5/7",
+            "3/5",
+            "7/9",
+            "9/11"
+          ],
+          "answer": 2,
+          "explanation": "(x + 2)/(y + 2) = 9/11 → 11x − 9y = −4; (x + 3)/(y + 3) = 5/6 → 6x − 5y = −3. Solving: x = 7, y = 9."
+        },
+        {
+          "q": "What is the equation of the line whose x-intercept is 4 and y-intercept is −3?",
+          "options": [
+            "3x − 4y = 12",
+            "4x − 3y = 12",
+            "3x + 4y = 12",
+            "4x + 3y = 12"
+          ],
+          "answer": 0,
+          "explanation": "Intercept form: x/4 + y/(−3) = 1. Multiplying by 12: 3x − 4y = 12."
+        },
+        {
+          "q": "For what value of k are the points (1, 2), (3, k) and (7, 14) collinear?",
+          "options": [
+            "8",
+            "6",
+            "5",
+            "4"
+          ],
+          "answer": 1,
+          "explanation": "Slope from (1, 2) to (7, 14) = 12/6 = 2. So (k − 2)/(3 − 1) = 2 → k = 6."
         }
       ]
     },
@@ -1610,6 +2996,72 @@ window.CGL_DATA.quant = {
           ],
           "answer": 0,
           "explanation": "PB = 4 + 5 = 9 cm. PT² = PA × PB = 4 × 9 = 36 ⇒ PT = 6 cm."
+        },
+        {
+          "q": "In ΔABC, ∠A = 90° and AD is perpendicular to BC. If BD = 4 cm and DC = 9 cm, what is the length of AD?",
+          "options": [
+            "6 cm",
+            "6.5 cm",
+            "5 cm",
+            "7 cm"
+          ],
+          "answer": 0,
+          "explanation": "ΔABD ~ ΔCAD, so AD² = BD × DC = 4 × 9 = 36 → AD = 6 cm."
+        },
+        {
+          "q": "ΔABC ~ ΔPQR. The areas of ΔABC and ΔPQR are 64 cm² and 121 cm² respectively. If QR = 15.4 cm, what is the length of BC?",
+          "options": [
+            "12.8 cm",
+            "9.6 cm",
+            "11.2 cm",
+            "10.4 cm"
+          ],
+          "answer": 2,
+          "explanation": "BC/QR = √(64/121) = 8/11, so BC = 15.4 × 8/11 = 11.2 cm."
+        },
+        {
+          "q": "The tangent drawn at the point A of a circle with centre O makes an angle of 58° with the chord AB. What is the measure of ∠AOB?",
+          "options": [
+            "58°",
+            "122°",
+            "64°",
+            "116°"
+          ],
+          "answer": 3,
+          "explanation": "By the alternate segment theorem, the angle in the alternate segment = 58°. The angle at the centre on the same arc = 2 × 58° = 116°."
+        },
+        {
+          "q": "A circle touches all four sides of a quadrilateral ABCD. If AB = 8 cm, BC = 11 cm and CD = 9 cm, what is the length of AD?",
+          "options": [
+            "10 cm",
+            "6 cm",
+            "12 cm",
+            "7 cm"
+          ],
+          "answer": 1,
+          "explanation": "For a quadrilateral with an inscribed circle, AB + CD = AD + BC → 8 + 9 = AD + 11 → AD = 6 cm."
+        },
+        {
+          "q": "The adjacent sides of a parallelogram are 5 cm and 7 cm, and one of its diagonals is 8 cm. What is the length of the other diagonal?",
+          "options": [
+            "2√19 cm",
+            "6 cm",
+            "2√21 cm",
+            "4√5 cm"
+          ],
+          "answer": 2,
+          "explanation": "d₁² + d₂² = 2(a² + b²) → 64 + d₂² = 2(25 + 49) = 148 → d₂² = 84 → d₂ = 2√21 cm."
+        },
+        {
+          "q": "Two circles of radii 5 cm and 3 cm have their centres 17 cm apart. What is the length of their transverse common tangent?",
+          "options": [
+            "16 cm",
+            "12 cm",
+            "14 cm",
+            "15 cm"
+          ],
+          "answer": 3,
+          "explanation": "Transverse common tangent = √(d² − (r₁ + r₂)²) = √(289 − 64) = √225 = 15 cm."
         }
       ]
     },
@@ -1797,6 +3249,72 @@ window.CGL_DATA.quant = {
           ],
           "answer": 1,
           "explanation": "(l + b + h)² = diagonal² + TSA ⇒ 361 = 121 + TSA ⇒ TSA = 240 cm²."
+        },
+        {
+          "q": "The base of a right prism is a regular hexagon of side 4 cm and its height is 10 cm. What is the volume of the prism?",
+          "options": [
+            "120√3 cm³",
+            "240√3 cm³",
+            "480√3 cm³",
+            "160√3 cm³"
+          ],
+          "answer": 1,
+          "explanation": "Base area = (3√3/2) × 4² = 24√3 cm²; volume = 24√3 × 10 = 240√3 cm³."
+        },
+        {
+          "q": "A cube of side 5 cm is painted on all its faces and then cut into 1 cm × 1 cm × 1 cm cubes. How many of the small cubes have exactly one face painted?",
+          "options": [
+            "36",
+            "27",
+            "48",
+            "54"
+          ],
+          "answer": 3,
+          "explanation": "Cubes with one face painted = 6(n − 2)² = 6 × 3² = 54."
+        },
+        {
+          "q": "A frustum of a right circular cone has end radii 10 cm and 4 cm and height 8 cm. What is its curved surface area? (π = 22/7)",
+          "options": [
+            "440 cm²",
+            "616 cm²",
+            "528 cm²",
+            "352 cm²"
+          ],
+          "answer": 0,
+          "explanation": "Slant height = √(8² + (10 − 4)²) = 10 cm. CSA = π(R + r)l = (22/7) × 14 × 10 = 440 cm²."
+        },
+        {
+          "q": "What is the volume of a regular tetrahedron each of whose edges is 6 cm?",
+          "options": [
+            "36√2 cm³",
+            "9√2 cm³",
+            "18√2 cm³",
+            "27√2 cm³"
+          ],
+          "answer": 2,
+          "explanation": "Volume = a³/(6√2) = 216/(6√2) = 36/√2 = 18√2 cm³."
+        },
+        {
+          "q": "A solid copper sphere of radius 3 cm is melted and drawn into a wire of diameter 2 mm. What is the length of the wire?",
+          "options": [
+            "36 m",
+            "3.6 m",
+            "360 m",
+            "9 m"
+          ],
+          "answer": 0,
+          "explanation": "Volume = (4/3)π × 3³ = 36π cm³. Wire radius = 0.1 cm, so length = 36π/(π × 0.01) = 3600 cm = 36 m."
+        },
+        {
+          "q": "150 spherical marbles, each of diameter 1.4 cm, are dropped into a cylindrical vessel of diameter 7 cm partly filled with water. If all the marbles are completely immersed, by how much does the water level rise?",
+          "options": [
+            "2.8 cm",
+            "4.2 cm",
+            "6.4 cm",
+            "5.6 cm"
+          ],
+          "answer": 3,
+          "explanation": "Rise = 150 × (4/3)π(0.7)³ ÷ π(3.5)² = 68.6/12.25 = 5.6 cm."
         }
       ]
     },
@@ -1984,6 +3502,72 @@ window.CGL_DATA.quant = {
           ],
           "answer": 1,
           "explanation": "tan 2θ = 1/tan 4θ = cot 4θ = tan(90° − 4θ) → 2θ = 90° − 4θ → 6θ = 90° → θ = 15°."
+        },
+        {
+          "q": "The radian measure of 112°30′ is:",
+          "options": [
+            "3π/8",
+            "5π/6",
+            "5π/8",
+            "7π/12"
+          ],
+          "answer": 2,
+          "explanation": "112°30′ = 112.5°; 112.5 × π/180 = 5π/8."
+        },
+        {
+          "q": "The angles of a triangle are in the ratio 2 : 3 : 4. What is the largest angle in radians?",
+          "options": [
+            "4π/9",
+            "2π/9",
+            "π/3",
+            "5π/9"
+          ],
+          "answer": 0,
+          "explanation": "Angles = 40°, 60°, 80°. Largest = 80° × π/180 = 4π/9."
+        },
+        {
+          "q": "The value of (cos 38° · cosec 52°) ÷ (tan 18° · tan 35° · tan 60° · tan 72° · tan 55°) is:",
+          "options": [
+            "√3",
+            "1/√3",
+            "1",
+            "3"
+          ],
+          "answer": 1,
+          "explanation": "cos 38° = sin 52°, so the numerator = 1. tan 18° tan 72° = 1 and tan 35° tan 55° = 1, so the denominator = tan 60° = √3. Value = 1/√3."
+        },
+        {
+          "q": "If cos(3A − 20°) = sin(2A + 10°), where both angles are acute, then the value of A is:",
+          "options": [
+            "18°",
+            "22°",
+            "25°",
+            "20°"
+          ],
+          "answer": 3,
+          "explanation": "cos x = sin y for acute angles means x + y = 90°: 3A − 20° + 2A + 10° = 90° → 5A = 100° → A = 20°."
+        },
+        {
+          "q": "The value of sin²5° + sin²10° + sin²15° + … + sin²85° + sin²90° is:",
+          "options": [
+            "9",
+            "9.5",
+            "8.5",
+            "10"
+          ],
+          "answer": 1,
+          "explanation": "Pairs (5°, 85°), (10°, 80°) … (40°, 50°) give 8 × 1 = 8; sin²45° = ½ and sin²90° = 1. Total = 9.5."
+        },
+        {
+          "q": "The minute hand of a clock is 21 cm long. How far does its tip move in 20 minutes? (π = 22/7)",
+          "options": [
+            "22 cm",
+            "66 cm",
+            "44 cm",
+            "88 cm"
+          ],
+          "answer": 2,
+          "explanation": "In 20 minutes the minute hand turns 2π/3 radians. Arc = rθ = 21 × 2π/3 = 14π = 44 cm."
         }
       ]
     },
@@ -2167,6 +3751,72 @@ window.CGL_DATA.quant = {
           ],
           "answer": 1,
           "explanation": "(180 − 135)/135 × 100 = 45/135 × 100 = 33⅓%."
+        },
+        {
+          "q": "A frequency distribution has the inclusive classes 10–19, 20–29, 30–39 and 40–49. What are the true (exclusive) class limits of the class 20–29?",
+          "options": [
+            "20–30",
+            "19–29",
+            "20.5–29.5",
+            "19.5–29.5"
+          ],
+          "answer": 3,
+          "explanation": "Gap between classes = 20 − 19 = 1; subtract 0.5 from the lower limit and add 0.5 to the upper limit: 19.5–29.5."
+        },
+        {
+          "q": "The mean of the following distribution is 25. Find the missing frequency x.<br>Class 0–10: 5 | 10–20: x | 20–30: 10 | 30–40: 6 | 40–50: 4",
+          "options": [
+            "4",
+            "6",
+            "5",
+            "8"
+          ],
+          "answer": 0,
+          "explanation": "Σf = 25 + x, Σfx = 665 + 15x. 665 + 15x = 25(25 + x) → 10x = 40 → x = 4."
+        },
+        {
+          "q": "A more-than cumulative frequency table is: more than 0: 50, more than 10: 44, more than 20: 32, more than 30: 18, more than 40: 7. What is the frequency of the class 20–30?",
+          "options": [
+            "18",
+            "11",
+            "14",
+            "12"
+          ],
+          "answer": 2,
+          "explanation": "Frequency of 20–30 = (more than 20) − (more than 30) = 32 − 18 = 14."
+        },
+        {
+          "q": "A histogram is to be drawn for the data: Class 0–10: 8 | 10–30: 20 | 30–60: 24 | 60–70: 6. After adjusting the heights for unequal class widths, which class will have the tallest rectangle?",
+          "options": [
+            "30–60",
+            "10–30",
+            "0–10",
+            "60–70"
+          ],
+          "answer": 1,
+          "explanation": "Adjusted frequency = (10/class width) × f: 0–10 → 8, 10–30 → 10, 30–60 → 8, 60–70 → 6. Tallest: 10–30."
+        },
+        {
+          "q": "In a sub-divided bar diagram of a company's 2022 sales (₹ crore), the single bar is split as: Product A from 0 to 35, Product B from 35 to 80 and Product C from 80 to 120. What percentage of the total 2022 sales is from Product B?",
+          "options": [
+            "37.5%",
+            "66⅔%",
+            "45%",
+            "30%"
+          ],
+          "answer": 0,
+          "explanation": "Product B = 80 − 35 = 45; total = 120. Share = 45/120 × 100 = 37.5%."
+        },
+        {
+          "q": "For a moderately skewed distribution, the mode is 45 and the mean is 36. Using the empirical relation, what is the median?",
+          "options": [
+            "40.5",
+            "42",
+            "38",
+            "39"
+          ],
+          "answer": 3,
+          "explanation": "Mode = 3 Median − 2 Mean → 45 = 3 Median − 72 → Median = 117/3 = 39."
         }
       ]
     }

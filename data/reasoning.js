@@ -79,6 +79,94 @@ window.CGL_DATA.reasoning = {
           "options": ["343", "350", "336", "357"],
           "answer": 1,
           "explanation": "6³ + 6 = 216 + 6 = 222. So the rule is n³ + n.<br>7³ + 7 = 343 + 7 = <b>350</b>. (336 = 7³ − 7 is the trap.)"
+        },
+        {
+          "q": "Select the option that is related to the third word in the same way as the second word is related to the first word.<br>Carpenter : Saw :: Tailor : ?",
+          "options": [
+            "Cloth",
+            "Dress",
+            "Needle",
+            "Shop"
+          ],
+          "answer": 2,
+          "explanation": "A carpenter uses a <b>saw</b> as his tool (worker : tool). A tailor's tool is the <b>needle</b>. Cloth is raw material, dress is the product and shop is the workplace."
+        },
+        {
+          "q": "Select the option that is related to the third word in the same way as the second word is related to the first word.<br>Paper : Pulp :: Glass : ?",
+          "options": [
+            "Sand",
+            "Mirror",
+            "Window",
+            "Bottle"
+          ],
+          "answer": 0,
+          "explanation": "Paper is made from pulp (product : raw material). Glass is made mainly from <b>sand</b> (silica). Mirror, window and bottle are things made of glass."
+        },
+        {
+          "q": "Select the option that is related to the third word in the same way as the second word is related to the first word.<br>Anemometer : Wind speed :: Hygrometer : ?",
+          "options": [
+            "Pressure",
+            "Humidity",
+            "Rainfall",
+            "Altitude"
+          ],
+          "answer": 1,
+          "explanation": "An anemometer measures wind speed (instrument : what it measures). A hygrometer measures <b>humidity</b>. Pressure – barometer; rainfall – rain gauge; altitude – altimeter."
+        },
+        {
+          "q": "Select the option that is related to the third word in the same way as the second word is related to the first word.<br>Abundant : Scarce :: Transparent : ?",
+          "options": [
+            "Clear",
+            "Translucent",
+            "Visible",
+            "Opaque"
+          ],
+          "answer": 3,
+          "explanation": "Abundant and scarce are opposites (antonyms). The opposite of transparent is <b>opaque</b>. Translucent means partly transparent, so it is not the opposite."
+        },
+        {
+          "q": "Select the number that is related to the third number in the same way as the second number is related to the first number.<br>25 : 36 :: 64 : ?",
+          "options": [
+            "72",
+            "81",
+            "100",
+            "49"
+          ],
+          "answer": 1,
+          "explanation": "25 = 5² and 36 = 6² (square of the next number). 64 = 8², so the answer is 9² = <b>81</b>."
+        },
+        {
+          "q": "Select the set in which the numbers are related in the same way as the numbers of the following set.<br>(8, 5, 89)",
+          "options": [
+            "(6, 4, 52)",
+            "(7, 3, 56)",
+            "(9, 2, 83)",
+            "(5, 6, 60)"
+          ],
+          "answer": 0,
+          "explanation": "Rule: third number = (first)² + (second)². 8² + 5² = 64 + 25 = 89.<br>6² + 4² = 36 + 16 = <b>52</b> ✔. Others: 49+9 = 58, 81+4 = 85, 25+36 = 61."
+        },
+        {
+          "q": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster.<br>ACEG : BDFH :: PRTV : ?",
+          "options": [
+            "QTUW",
+            "OQSU",
+            "QSVW",
+            "QSUW"
+          ],
+          "answer": 3,
+          "explanation": "Each letter moves +1: A→B, C→D, E→F, G→H.<br>PRTV: P→Q, R→S, T→U, V→W = <b>QSUW</b>."
+        },
+        {
+          "q": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster.<br>GLOW : HJRS :: BARK : ?",
+          "options": [
+            "CZUG",
+            "CYVG",
+            "CYUG",
+            "DYUG"
+          ],
+          "answer": 2,
+          "explanation": "Shifts are +1, −2, +3, −4: G+1 = H, L−2 = J, O+3 = R, W−4 = S.<br>BARK: B+1 = C, A−2 = Y (wraps back past A), R+3 = U, K−4 = G = <b>CYUG</b>."
         }
       ]
     },
@@ -155,6 +243,94 @@ window.CGL_DATA.reasoning = {
           "options": ["5 – 124", "2 – 9", "3 – 28", "4 – 65"],
           "answer": 0,
           "explanation": "Rule: second = first³ + 1. 2³+1 = 9, 3³+1 = 28, 4³+1 = 65. But 5³+1 = 126, not 124. So <b>5 – 124</b> is odd."
+        },
+        {
+          "q": "Select the odd one out.",
+          "options": [
+            "Sarod",
+            "Shehnai",
+            "Veena",
+            "Tanpura"
+          ],
+          "answer": 1,
+          "explanation": "Sarod, veena and tanpura are <b>string</b> instruments. The shehnai is a wind (reed) instrument."
+        },
+        {
+          "q": "Select the pair that is different from the others (country – capital).",
+          "options": [
+            "Japan – Tokyo",
+            "France – Paris",
+            "Egypt – Cairo",
+            "Australia – Sydney"
+          ],
+          "answer": 3,
+          "explanation": "Tokyo, Paris and Cairo are the capitals of Japan, France and Egypt. The capital of Australia is <b>Canberra</b>, not Sydney."
+        },
+        {
+          "q": "Select the odd number.",
+          "options": [
+            "91",
+            "119",
+            "143",
+            "133"
+          ],
+          "answer": 2,
+          "explanation": "91 = 7 × 13, 119 = 7 × 17, 133 = 7 × 19 – all are multiples of 7. 143 = 11 × 13 is not divisible by 7."
+        },
+        {
+          "q": "Select the number pair that is different from the others.",
+          "options": [
+            "11 – 120",
+            "6 – 42",
+            "8 – 72",
+            "9 – 90"
+          ],
+          "answer": 0,
+          "explanation": "Rule: second = first × (first + 1). 6×7 = 42, 8×9 = 72, 9×10 = 90. But 11 × 12 = 132, not 120. So <b>11 – 120</b> is odd."
+        },
+        {
+          "q": "Select the letter-cluster that is different.",
+          "options": [
+            "AZBY",
+            "GTHR",
+            "CXDW",
+            "EVFU"
+          ],
+          "answer": 1,
+          "explanation": "Each cluster = a letter, its opposite, the next letter, its opposite: A-Z, B-Y; C-X, D-W; E-V, F-U. In GTHR, G-T are opposites but the opposite of H is <b>S</b>, not R."
+        },
+        {
+          "q": "Select the letter-cluster that is different.",
+          "options": [
+            "KNQT",
+            "DGJM",
+            "PSVY",
+            "HKNR"
+          ],
+          "answer": 3,
+          "explanation": "KNQT, DGJM and PSVY follow +3, +3, +3. HKNR: H+3 = K, K+3 = N, but N+4 = R. So <b>HKNR</b> is odd."
+        },
+        {
+          "q": "Select the odd one out.",
+          "options": [
+            "Brass",
+            "Zinc",
+            "Copper",
+            "Aluminium"
+          ],
+          "answer": 0,
+          "explanation": "Zinc, copper and aluminium are metallic <b>elements</b>. Brass is an alloy (of copper and zinc)."
+        },
+        {
+          "q": "Select the odd number.",
+          "options": [
+            "6859",
+            "2197",
+            "3375",
+            "4913"
+          ],
+          "answer": 2,
+          "explanation": "6859 = 19³, 2197 = 13³, 4913 = 17³ – cubes of prime numbers. 3375 = 15³, and 15 is not prime."
         }
       ]
     },
@@ -233,6 +409,94 @@ window.CGL_DATA.reasoning = {
           "options": ["17", "38", "26", "50"],
           "answer": 1,
           "explanation": "Terms are n² + 1: 1+1 = 2, 4+1 = 5, 9+1 = 10, 16+1 = 17, 25+1 = 26, 36+1 = <b>37</b>, 49+1 = 50. So 38 is wrong (should be 37). Differences should be 3, 5, 7, 9, 11, 13 but the given differences are 3, 5, 7, 9, 12, 12."
+        },
+        {
+          "q": "Find the next term: 7, 26, 63, 124, ?",
+          "options": [
+            "215",
+            "216",
+            "217",
+            "225"
+          ],
+          "answer": 0,
+          "explanation": "Terms are n³ − 1: 2³−1 = 7, 3³−1 = 26, 4³−1 = 63, 5³−1 = 124, 6³−1 = 216−1 = <b>215</b>."
+        },
+        {
+          "q": "Find the next term: 2, 3, 5, 8, 13, 21, ?",
+          "options": [
+            "29",
+            "34",
+            "32",
+            "42"
+          ],
+          "answer": 1,
+          "explanation": "Each term = sum of the previous two: 2+3 = 5, 3+5 = 8, 5+8 = 13, 8+13 = 21, 13+21 = <b>34</b>."
+        },
+        {
+          "q": "Find the next term: 6, 11, 21, 36, 56, ?",
+          "options": [
+            "76",
+            "86",
+            "81",
+            "78"
+          ],
+          "answer": 2,
+          "explanation": "Differences: 5, 10, 15, 20 (multiples of 5) → next difference 25. 56 + 25 = <b>81</b>."
+        },
+        {
+          "q": "Find the next term: 32, 48, 72, 108, ?",
+          "options": [
+            "144",
+            "154",
+            "216",
+            "162"
+          ],
+          "answer": 3,
+          "explanation": "Each term = previous × 1.5 (i.e. × 3/2): 32 → 48 → 72 → 108 → 108 × 1.5 = <b>162</b>."
+        },
+        {
+          "q": "Find the next term: 3, 20, 6, 17, 12, 14, 24, ?",
+          "options": [
+            "11",
+            "48",
+            "12",
+            "10"
+          ],
+          "answer": 0,
+          "explanation": "Two alternate series.<br>Odd positions: 3, 6, 12, 24 (× 2).<br>Even positions: 20, 17, 14 → next 14 − 3 = <b>11</b>."
+        },
+        {
+          "q": "Find the missing term: 5, 11, 23, 47, ?, 191",
+          "options": [
+            "94",
+            "95",
+            "96",
+            "93"
+          ],
+          "answer": 1,
+          "explanation": "Each term = previous × 2 + 1: 5→11→23→47→47×2+1 = <b>95</b>, and 95×2+1 = 191 ✔."
+        },
+        {
+          "q": "Find the wrong term in the series: 4, 9, 20, 42, 90, 185",
+          "options": [
+            "9",
+            "20",
+            "42",
+            "90"
+          ],
+          "answer": 2,
+          "explanation": "Pattern ×2+1, ×2+2, ×2+3, ×2+4, ×2+5: 4×2+1 = 9, 9×2+2 = 20, 20×2+3 = <b>43</b>, 43×2+4 = 90, 90×2+5 = 185. So 42 is wrong (should be 43)."
+        },
+        {
+          "q": "Find the next term: 2, 12, 36, 80, 150, ?",
+          "options": [
+            "240",
+            "256",
+            "294",
+            "252"
+          ],
+          "answer": 3,
+          "explanation": "Terms are n³ + n² (= n²(n+1)): 1+1 = 2, 8+4 = 12, 27+9 = 36, 64+16 = 80, 125+25 = 150, 216+36 = <b>252</b>."
         }
       ]
     },
@@ -309,6 +573,94 @@ window.CGL_DATA.reasoning = {
           "options": ["1", "2", "3", "4"],
           "answer": 1,
           "explanation": "Check each number:<br>4: preceded by R, followed by E (letter) – no.<br>7: preceded by % – no.<br>2: preceded by @ – no.<br>9: preceded by M, followed by # – <b>yes</b>.<br>5: preceded by T, followed by & – <b>yes</b>.<br>3: preceded by U, followed by P (letter) – no.<br>Total = <b>2</b>."
+        },
+        {
+          "q": "Find the next term: AZ, CX, FU, JQ, ?",
+          "options": [
+            "OL",
+            "OK",
+            "NL",
+            "PL"
+          ],
+          "answer": 0,
+          "explanation": "First letters: A(1), C(3), F(6), J(10) – gaps +2, +3, +4 → +5 = 15 = O.<br>Second letters: Z(26), X(24), U(21), Q(17) – gaps −2, −3, −4 → −5 = 12 = L.<br>Answer <b>OL</b>."
+        },
+        {
+          "q": "Find the next term: A, Z, C, X, E, V, ?",
+          "options": [
+            "T",
+            "G",
+            "F",
+            "U"
+          ],
+          "answer": 1,
+          "explanation": "Two alternate series. Odd positions: A, C, E → <b>G</b> (+2). Even positions: Z, X, V (−2). The 7th term belongs to the first series, so it is G."
+        },
+        {
+          "q": "Find the next term: XB, AE, DH, GK, ?",
+          "options": [
+            "KN",
+            "JM",
+            "JN",
+            "IN"
+          ],
+          "answer": 2,
+          "explanation": "Both letters move +3 each time. First letters: X → A (wraps past Z) → D → G → <b>J</b>. Second letters: B → E → H → K → <b>N</b>. Answer <b>JN</b>."
+        },
+        {
+          "q": "Find the next term: MAB, NCE, OEH, PGK, ?",
+          "options": [
+            "RIN",
+            "QJN",
+            "QIM",
+            "QIN"
+          ],
+          "answer": 3,
+          "explanation": "1st letters: M, N, O, P (+1) → Q.<br>2nd letters: A, C, E, G (+2) → I.<br>3rd letters: B, E, H, K (+3) → N.<br>Answer <b>QIN</b>."
+        },
+        {
+          "q": "Find the next term: A2, C6, E12, G20, ?",
+          "options": [
+            "I30",
+            "H30",
+            "I28",
+            "J30"
+          ],
+          "answer": 0,
+          "explanation": "Letters: A, C, E, G (+2) → I.<br>Numbers: 2, 6, 12, 20 = 1×2, 2×3, 3×4, 4×5 → 5×6 = 30.<br>Answer <b>I30</b>."
+        },
+        {
+          "q": "Select the letters that, when placed in the blanks in order, will complete the series.<br>a a _ b a _ b b _ a b _",
+          "options": [
+            "abab",
+            "baab",
+            "bbaa",
+            "abba"
+          ],
+          "answer": 1,
+          "explanation": "The repeating unit is 'aabb': aa<b>b</b>b | a<b>a</b>bb | <b>a</b>ab<b>b</b>. Blanks = b, a, a, b = <b>baab</b>."
+        },
+        {
+          "q": "Study the arrangement:<br>K 7 # B 3 @ M 8 $ P 2 R % 5 T 9 & W<br>Which element is 6th to the right of the 10th element from the right end?",
+          "options": [
+            "5",
+            "9",
+            "%",
+            "T"
+          ],
+          "answer": 3,
+          "explanation": "There are 18 elements. 10th from the right = (18 − 10 + 1) = 9th from the left = $. 6th to the right of $ = 9 + 6 = 15th from the left = <b>T</b>."
+        },
+        {
+          "q": "Find the next term: D, G, K, P, V, ?",
+          "options": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ],
+          "answer": 2,
+          "explanation": "D(4) +3 → G(7) +4 → K(11) +5 → P(16) +6 → V(22) +7 → 29. Since 29 > 26, 29 − 26 = 3 = <b>C</b> (wrap-around)."
         }
       ]
     },
@@ -392,6 +744,94 @@ window.CGL_DATA.reasoning = {
           "options": ["BRSOJ", "BQSPJ", "BRTPJ", "BRSPJ"],
           "answer": 3,
           "explanation": "M+1 = N, A+2 = C, N+3 = Q, G+4 = K, O+5 = T (shifts +1, +2, +3, +4, +5).<br>APPLE: A+1 = B, P+2 = R, P+3 = S, L+4 = P, E+5 = J = <b>BRSPJ</b>."
+        },
+        {
+          "q": "In a certain code language, SHIFT is written as UJKHV. Which word is written as FKTGEV in that language?",
+          "options": [
+            "DIRECT",
+            "DIRGCT",
+            "DERECT",
+            "DIRECY"
+          ],
+          "answer": 0,
+          "explanation": "S→U, H→J, I→K, F→H, T→V: each letter +2. To decode, move each letter −2: F→D, K→I, T→R, G→E, E→C, V→T = <b>DIRECT</b>."
+        },
+        {
+          "q": "In a certain code, ACE = 15 and BAD = 8. What is the code for FED?",
+          "options": [
+            "15",
+            "60",
+            "150",
+            "120"
+          ],
+          "answer": 3,
+          "explanation": "Code = product of letter positions: ACE = 1×3×5 = 15 ✔, BAD = 2×1×4 = 8 ✔.<br>FED = 6×5×4 = <b>120</b>."
+        },
+        {
+          "q": "In a certain code, DOG = 78 and CAT = 72. What is the code for COW?",
+          "options": [
+            "120",
+            "123",
+            "41",
+            "126"
+          ],
+          "answer": 1,
+          "explanation": "Code = (sum of letter positions) × (number of letters). DOG = (4+15+7) × 3 = 26 × 3 = 78 ✔; CAT = 24 × 3 = 72 ✔.<br>COW = (3+15+23) × 3 = 41 × 3 = <b>123</b>."
+        },
+        {
+          "q": "If 'white' is called 'blue', 'blue' is called 'red', 'red' is called 'yellow', 'yellow' is called 'green' and 'green' is called 'black', then what is the colour of human blood?",
+          "options": [
+            "Red",
+            "Green",
+            "Yellow",
+            "Blue"
+          ],
+          "answer": 2,
+          "explanation": "Human blood is red, and in this language 'red' is called <b>'yellow'</b>. Answer with the code name, not the real colour."
+        },
+        {
+          "q": "In a certain code language:<br>'pit na so' means 'grow more trees'<br>'na ka lu' means 'trees are green'<br>'lu pit na zu' means 'green trees grow fast'<br>What is the code for 'more'?",
+          "options": [
+            "pit",
+            "zu",
+            "ka",
+            "so"
+          ],
+          "answer": 3,
+          "explanation": "Sentences 1 and 2 share only 'trees' and 'na' → trees = na. Sentences 1 and 3 share 'grow, trees' and 'pit, na' → grow = pit. The remaining word 'more' in sentence 1 = <b>so</b>."
+        },
+        {
+          "q": "In a certain code language, TEACHER is written as ETCAEHR. How will MONSTER be written in that language?",
+          "options": [
+            "OMSNETR",
+            "OMNSETR",
+            "MOSNTER",
+            "OMSNTER"
+          ],
+          "answer": 0,
+          "explanation": "Letters are swapped in pairs: TE→ET, AC→CA, HE→EH, and the last letter R stays.<br>MONSTER: MO→OM, NS→SN, TE→ET, R stays = <b>OMSNETR</b>."
+        },
+        {
+          "q": "If WORD is coded as XNSC, how will FAME be coded?",
+          "options": [
+            "GBND",
+            "GZND",
+            "EZND",
+            "GZNF"
+          ],
+          "answer": 1,
+          "explanation": "Shifts alternate +1, −1: W+1 = X, O−1 = N, R+1 = S, D−1 = C.<br>FAME: F+1 = G, A−1 = Z (wrap-around), M+1 = N, E−1 = D = <b>GZND</b>."
+        },
+        {
+          "q": "In a certain code language, ROSE is written as 6821, CHAIR as 73456 and PREACH as 961473. How will SEARCH be written in that language?",
+          "options": [
+            "214763",
+            "241673",
+            "214673",
+            "214637"
+          ],
+          "answer": 2,
+          "explanation": "Each letter has a fixed digit: R = 6, O = 8, S = 2, E = 1 (ROSE); C = 7, H = 3, A = 4, I = 5 (CHAIR); P = 9 (PREACH).<br>SEARCH = S E A R C H = 2 1 4 6 7 3 = <b>214673</b>."
         }
       ]
     },
@@ -468,6 +908,94 @@ window.CGL_DATA.reasoning = {
           "options": ["Sister", "Aunt", "Mother", "Grandmother"],
           "answer": 2,
           "explanation": "P @ Q: P is the brother of Q. Q # R: Q is the daughter of R. R $ S: R is the husband of S, so S is Q's mother. Since P is Q's brother, S is P's <b>mother</b>."
+        },
+        {
+          "q": "Pointing to a photograph, a man said, 'I have no brother or sister, but that man's father is my father's son.' Whose photograph was it?",
+          "options": [
+            "His own",
+            "His son's",
+            "His father's",
+            "His nephew's"
+          ],
+          "answer": 1,
+          "explanation": "He has no siblings, so 'my father's son' is the man himself. So the person in the photograph has the speaker as his father → it is the speaker's <b>son</b>."
+        },
+        {
+          "q": "A is B's brother. C is A's mother. D is C's father. E is B's son. How is D related to E?",
+          "options": [
+            "Grandfather",
+            "Uncle",
+            "Father",
+            "Great-grandfather"
+          ],
+          "answer": 3,
+          "explanation": "C is the mother of A and B. D is C's father, so D is B's maternal grandfather. E is B's son, so D is E's <b>great-grandfather</b>."
+        },
+        {
+          "q": "A is the sister of B. B is the brother of C. C is the son of D. How is D related to A?",
+          "options": [
+            "Cannot be determined",
+            "Father",
+            "Mother",
+            "Brother"
+          ],
+          "answer": 0,
+          "explanation": "A, B and C are siblings and D is C's parent, so D is A's parent. D's gender is not given, so D may be the father or the mother – the exact relation <b>cannot be determined</b>."
+        },
+        {
+          "q": "Introducing a boy, a woman said, 'He is the only son of my mother's only daughter-in-law.' How is the boy related to the woman?",
+          "options": [
+            "Son",
+            "Brother",
+            "Nephew",
+            "Cousin"
+          ],
+          "answer": 2,
+          "explanation": "The woman is her mother's daughter, not daughter-in-law. So her mother's daughter-in-law is the wife of the woman's brother. That lady's son is the woman's brother's son = her <b>nephew</b>."
+        },
+        {
+          "q": "A + B means A is the father of B; A − B means A is the wife of B; A × B means A is the brother of B; A ÷ B means A is the daughter of B. If P × Q ÷ R − S, how is P related to S?",
+          "options": [
+            "Son",
+            "Brother",
+            "Father",
+            "Nephew"
+          ],
+          "answer": 0,
+          "explanation": "P × Q: P is Q's brother. Q ÷ R: Q is R's daughter. R − S: R is the wife of S, so S is Q's father. P is Q's brother (male), so P is S's <b>son</b>."
+        },
+        {
+          "q": "In a family of six members A, B, C, D, E and F, there are two married couples. D is the grandmother of A and the mother of B. C is the wife of B and the mother of F. F is the granddaughter of E. How is E related to B?",
+          "options": [
+            "Grandfather",
+            "Brother",
+            "Uncle",
+            "Father"
+          ],
+          "answer": 3,
+          "explanation": "B–C is one couple; A and F are their children (the grandchildren). The only other couple possible is D–E. D is a woman (grandmother), so E is her husband. D is B's mother, so E is B's <b>father</b>."
+        },
+        {
+          "q": "Pointing to a woman, Karan said, 'Her mother's only son is my father.' How is the woman related to Karan?",
+          "options": [
+            "Mother",
+            "Sister",
+            "Paternal aunt",
+            "Maternal aunt"
+          ],
+          "answer": 2,
+          "explanation": "Her mother's only son is her brother. That brother is Karan's father, so the woman is the sister of Karan's father = Karan's <b>paternal aunt</b> (bua)."
+        },
+        {
+          "q": "Vinay is the son of the only brother of Anil's wife. How is Anil related to Vinay?",
+          "options": [
+            "Father",
+            "Uncle",
+            "Brother-in-law",
+            "Grandfather"
+          ],
+          "answer": 1,
+          "explanation": "Vinay's father is the brother of Anil's wife, so Anil's wife is Vinay's paternal aunt (bua). Her husband Anil is Vinay's <b>uncle</b> (phupha)."
         }
       ]
     },
@@ -545,6 +1073,94 @@ window.CGL_DATA.reasoning = {
           "options": ["25 m North-East", "20 m North-East", "25 m South-East", "35 m North"],
           "answer": 0,
           "explanation": "P = (0, 0). 20 m South → (0, −20). Left of South = East, 15 m → (15, −20). Left of East = North, 35 m → (15, 15). Right of North = East, 5 m → (20, 15). Distance = √(20² + 15²) = √625 = 25 m, both coordinates positive → <b>25 m North-East</b>."
+        },
+        {
+          "q": "One evening before sunset, A and B were talking to each other face to face. A's shadow fell exactly to his left. Which direction was B facing?",
+          "options": [
+            "North",
+            "South",
+            "East",
+            "West"
+          ],
+          "answer": 0,
+          "explanation": "In the evening the sun is in the West, so shadows fall to the East. A's left points East → A faces South. B faces A, so B faces <b>North</b>."
+        },
+        {
+          "q": "From his house, Arun walks 5 km South, turns right and walks 3 km, turns right again and walks 17 km, and then turns left and walks 2 km. How far and in which direction is he from his house?",
+          "options": [
+            "13 km North-East",
+            "13 km North-West",
+            "12 km North",
+            "17 km South-West"
+          ],
+          "answer": 1,
+          "explanation": "House = (0, 0). 5 km South → (0, −5). Right of South = West, 3 km → (−3, −5). Right of West = North, 17 km → (−3, 12). Left of North = West, 2 km → (−5, 12).<br>Distance = √(5² + 12²) = 13 km; x negative, y positive → <b>13 km North-West</b>."
+        },
+        {
+          "q": "A man is facing North-East. He turns 135° anticlockwise and then 270° clockwise. Which direction is he facing now?",
+          "options": [
+            "North",
+            "East",
+            "South",
+            "South-West"
+          ],
+          "answer": 2,
+          "explanation": "North-East = 45° (measured clockwise from North). 45° − 135° = −90° = West. West + 270° clockwise = −90° + 270° = 180° = <b>South</b>. (Net turn = 135° clockwise from NE.)"
+        },
+        {
+          "q": "P is 10 m North of Q. R is 10 m East of Q. S is 10 m North of R. In which direction is P with respect to R?",
+          "options": [
+            "South-East",
+            "North-East",
+            "West",
+            "North-West"
+          ],
+          "answer": 3,
+          "explanation": "Take Q = (0, 0). P = (0, 10), R = (10, 0). From R, P is 10 m West and 10 m North → <b>North-West</b> (S only confirms PQRS is a square)."
+        },
+        {
+          "q": "A # B means A is 3 m North of B; A @ B means A is 4 m East of B; A $ B means A is 3 m South of B. If P # Q @ R $ S, what is the position of S with respect to P?",
+          "options": [
+            "4 m West",
+            "4 m East",
+            "5 m North-West",
+            "3 m South"
+          ],
+          "answer": 0,
+          "explanation": "R $ S: R is 3 m South of S → take R = (0, 0), S = (0, 3). Q @ R: Q = (4, 0). P # Q: P = (4, 3).<br>From P to S: 4 m West, 0 m North → S is <b>4 m West</b> of P."
+        },
+        {
+          "q": "A car travels 12 km East, turns left and travels 20 km, then turns right and travels 9 km. What is the shortest distance between the car and its starting point?",
+          "options": [
+            "41 km",
+            "29 km",
+            "21 km",
+            "25 km"
+          ],
+          "answer": 1,
+          "explanation": "East 12 km, then North 20 km, then East 9 km. Net: 21 km East and 20 km North.<br>Distance = √(21² + 20²) = √(441 + 400) = √841 = <b>29 km</b>. (41 km is the total path.)"
+        },
+        {
+          "q": "Early one morning, Ritu was walking towards the Sun. After some time she turned left, then turned left again, and then turned right. In which direction is she walking now?",
+          "options": [
+            "South",
+            "West",
+            "North",
+            "East"
+          ],
+          "answer": 2,
+          "explanation": "In the morning the Sun is in the East, so she was walking East. Left → North, left → West, right → <b>North</b>."
+        },
+        {
+          "q": "Two friends start from the same point. A walks 6 km North and then 4 km East. B walks 2 km South and then 2 km West. What is the straight-line distance between A and B now?",
+          "options": [
+            "14 km",
+            "12 km",
+            "8 km",
+            "10 km"
+          ],
+          "answer": 3,
+          "explanation": "Start = (0, 0). A = (4, 6), B = (−2, −2). Horizontal gap = 4 − (−2) = 6 km, vertical gap = 6 − (−2) = 8 km.<br>Distance = √(6² + 8²) = √100 = <b>10 km</b>."
         }
       ]
     },
@@ -619,6 +1235,94 @@ window.CGL_DATA.reasoning = {
           "options": ["26", "27", "28", "29"],
           "answer": 1,
           "explanation": "Bina's position from the front = 9 + 7 = 16th. Total = 16 + 12 − 1 = <b>27</b>."
+        },
+        {
+          "q": "In a row of girls, Meena is 18th from the left end and Rita is 22nd from the right end. Rita sits 4 places to the left of Meena. How many girls are there in the row?",
+          "options": [
+            "39",
+            "36",
+            "35",
+            "43"
+          ],
+          "answer": 2,
+          "explanation": "Rita is 4 places to the left of Meena → Rita is 18 − 4 = 14th from the left. She is also 22nd from the right → Total = 14 + 22 − 1 = <b>35</b>."
+        },
+        {
+          "q": "In a row of 30 boys, Arjun is 20th from the left end and Kabir is 17th from the right end. How many boys are there between Arjun and Kabir?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "3"
+          ],
+          "answer": 0,
+          "explanation": "Kabir from the left = 30 − 17 + 1 = 14th. Boys between 14th and 20th = 20 − 14 − 1 = <b>5</b>.<br>(Overlap shortcut: 20 + 17 − 30 − 2 = 5.)"
+        },
+        {
+          "q": "In a row, Asha is 12th from the left end and Bela is 18th from the right end. They interchange their positions, and Asha becomes 25th from the left end. What is Bela's new position from the right end?",
+          "options": [
+            "30th",
+            "29th",
+            "32nd",
+            "31st"
+          ],
+          "answer": 3,
+          "explanation": "Asha now sits in Bela's old seat: 25th from left and 18th from right → Total = 25 + 18 − 1 = 42.<br>Bela now sits in Asha's old seat (12th from left) → from the right = 42 − 12 + 1 = <b>31st</b>."
+        },
+        {
+          "q": "In a queue, P is 7th from the front and Q is 5th from the end. There are exactly 3 persons between P and Q. What is the minimum possible number of persons in the queue?",
+          "options": [
+            "15",
+            "7",
+            "8",
+            "11"
+          ],
+          "answer": 1,
+          "explanation": "If P is ahead of Q: 7 + 3 + 5 = 15 persons. If Q is ahead of P: Q is 7 − 4 = 3rd from the front, and 5th from the end → total = 3 + 5 − 1 = 7 (P is last).<br>Minimum = <b>7</b>."
+        },
+        {
+          "q": "In a row of 35 people facing North, Arun is 10th from the left end. Bhavna sits 5 places to the right of Arun. What is Bhavna's position from the right end?",
+          "options": [
+            "20th",
+            "21st",
+            "22nd",
+            "19th"
+          ],
+          "answer": 1,
+          "explanation": "Bhavna from the left = 10 + 5 = 15th. From the right = 35 − 15 + 1 = <b>21st</b>."
+        },
+        {
+          "q": "Among the students who passed an exam, Ravi ranks 13th from the top and 28th from the bottom. 5 students failed and 3 were absent. How many students are there in the class?",
+          "options": [
+            "45",
+            "40",
+            "43",
+            "48"
+          ],
+          "answer": 3,
+          "explanation": "Passed students = 13 + 28 − 1 = 40. Total in class = 40 + 5 (failed) + 3 (absent) = <b>48</b>."
+        },
+        {
+          "q": "In a row of 41 students facing North, Tanvi sits exactly in the middle. Kunal sits 6 places to the right of Tanvi. What is Kunal's position from the right end?",
+          "options": [
+            "15th",
+            "14th",
+            "16th",
+            "27th"
+          ],
+          "answer": 0,
+          "explanation": "Middle of 41 = 21st from each end. Moving 6 places to the right brings Kunal closer to the right end: 21 − 6 = <b>15th</b> from the right (27th from the left)."
+        },
+        {
+          "q": "Five students scored different marks in a test. Mohit scored more than Nitin but less than Kavya. Ria scored less than Nitin. Sam scored more than Mohit but less than Kavya. Who scored the third highest marks?",
+          "options": [
+            "Sam",
+            "Nitin",
+            "Mohit",
+            "Kavya"
+          ],
+          "answer": 2,
+          "explanation": "Kavya > Mohit > Nitin > Ria, and Kavya > Sam > Mohit. Combined: Kavya > Sam > Mohit > Nitin > Ria. Third highest = <b>Mohit</b>."
         }
       ]
     },
@@ -695,6 +1399,94 @@ window.CGL_DATA.reasoning = {
           "options": ["D", "B", "E", "C"],
           "answer": 3,
           "explanation": "Facing outward: right = clockwise, left = anticlockwise. Seats 0–5 clockwise, A = 0. F = 1, E = 5, C = 3, B = 4 (anticlockwise of E), so D = 2. Second to the right of F (clockwise from seat 1): seat 2 (D), then seat 3 → <b>C</b>."
+        },
+        {
+          "q": "Six persons P, Q, R, S, T and U sit in a row facing North. Q sits at the extreme right end. R sits third to the left of Q. P sits to the immediate right of R. T sits to the immediate left of Q. U does not sit at any end. Who sits second to the left of P?",
+          "options": [
+            "U",
+            "S",
+            "T",
+            "R"
+          ],
+          "answer": 0,
+          "explanation": "Seats 1–6 from left: Q = 6, R = 3, P = 4, T = 5. U is not at an end, so U = 2 and S = 1. Row: S U R P T Q. Second to the left of P (seat 4) is seat 2 → <b>U</b>."
+        },
+        {
+          "q": "Six friends A, B, C, D, E and F sit in a row facing South. D sits at one of the extreme ends. C sits second to the right of D. A sits to the immediate left of C. E sits to the immediate right of B. F is not an immediate neighbour of C. Who sits to the immediate right of C?",
+          "options": [
+            "A",
+            "B",
+            "E",
+            "F"
+          ],
+          "answer": 1,
+          "explanation": "Facing South, a person's right is towards the West. Seats 1–6 from West to East: D must be at the East end (6) so that C, second to his right, is at 4; A (to C's left = East) is at 5. F is not next to C, and E is just West of B → F = 1, E = 2, B = 3. Order: F E B C A D. Immediate right (West side) of C → <b>B</b>."
+        },
+        {
+          "q": "Eight persons sit in two parallel rows of four each. P, Q, R and S sit in Row 1 facing South; A, B, C and D sit in Row 2 facing North, so each person faces one person of the other row. Q sits at an extreme end of Row 1 and faces B. R sits third to the right of Q. The person facing R sits second to the left of D. A sits to the immediate right of C. P does not face D. Who faces S?",
+          "options": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ],
+          "answer": 2,
+          "explanation": "Row 1 faces South, so its 'right' is West; Row 2 faces North, so its 'right' is East. R is 3rd to the right of Q → Q at East end, R at West end; B faces Q. C faces R, and D is two places East of C; A is next to C. Row 2 (W→E): C A D B. P does not face D, so Row 1 (W→E): R P S Q. S faces <b>D</b>."
+        },
+        {
+          "q": "Eight friends A, B, C, D, E, F, G and H sit around a circular table facing the centre. A sits opposite E. B sits second to the right of A. C sits to the immediate left of E. D sits third to the left of B. F sits to the immediate left of D. G is not an immediate neighbour of A. Who sits third to the right of C?",
+          "options": [
+            "D",
+            "G",
+            "H",
+            "F"
+          ],
+          "answer": 3,
+          "explanation": "Facing centre: left = clockwise. Seats 0–7 clockwise, A = 0, E = 4, B = 6, C = 5, D = 1, F = 2. G is not next to A, so G = 3 and H = 7. Order: A D F G E C B H. Third to the right (anticlockwise) of C (5) is seat 2 → <b>F</b>."
+        },
+        {
+          "q": "Six persons K, L, M, N, O and P sit around a circular table facing the centre. K sits opposite N. M sits second to the left of K. P sits to the immediate left of N. O is not an immediate neighbour of M. Who sits to the immediate left of K?",
+          "options": [
+            "L",
+            "O",
+            "P",
+            "M"
+          ],
+          "answer": 0,
+          "explanation": "Facing centre: left = clockwise. Seats 0–5 clockwise: K = 0, N = 3, M = 2, P = 4. Seats 1 and 5 remain; O cannot be next to M (seats 1, 3), so O = 5 and L = 1. Immediate left of K (clockwise, seat 1) → <b>L</b>."
+        },
+        {
+          "q": "Seven persons A, B, C, D, E, F and G sit in a row facing North. D sits third from the left end. G sits second to the right of D. Only one person sits between G and B. A sits to the immediate left of E. F sits somewhere to the right of G. Who sits exactly in the middle of the row?",
+          "options": [
+            "G",
+            "C",
+            "F",
+            "E"
+          ],
+          "answer": 1,
+          "explanation": "D = 3, G = 5, so B = 7 (seat 3 is taken). F is right of G → F = 6. A and E must be adjacent with A on the left → A = 1, E = 2. C takes seat 4. Row: A E D C G F B. Middle (4th) = <b>C</b>."
+        },
+        {
+          "q": "Eight persons P, Q, R, S, T, U, V and W sit around a circular table facing <b>away from</b> the centre. P sits opposite T. R sits to the immediate right of P. V sits second to the left of R. Q sits third to the right of V. U sits to the immediate right of Q. S is an immediate neighbour of T. Who sits second to the right of T?",
+          "options": [
+            "S",
+            "V",
+            "W",
+            "U"
+          ],
+          "answer": 2,
+          "explanation": "Facing outward: right = clockwise. Seats 0–7 clockwise: P = 0, T = 4, R = 1, V = 7, Q = 2, U = 3. S next to T → S = 5, W = 6. Order: P R Q U T S W V. Second to the right of T (clockwise) = seat 6 → <b>W</b>."
+        },
+        {
+          "q": "Eight persons A, B, C, D, E, F, G and H sit in a row facing North. E sits fourth from the right end. B sits third to the left of E. G sits to the immediate right of E. D sits second to the right of G. H sits at one of the ends, and only two persons sit between H and C. F is not an immediate neighbour of B. How many persons sit between A and F?",
+          "options": [
+            "2",
+            "4",
+            "5",
+            "3"
+          ],
+          "answer": 3,
+          "explanation": "Seats 1–8 from left: E = 5, B = 2, G = 6, D = 8. So H = 1 and C = 4. Seats 3 and 7 remain; F is not next to B → F = 7, A = 3. Row: H B A C E G F D. Between A (3) and F (7): C, E, G = <b>3</b>."
         }
       ]
     },
@@ -774,6 +1566,94 @@ window.CGL_DATA.reasoning = {
           "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
           "answer": 0,
           "explanation": "Some erasers are sharpeners + No sharpener is a ruler → Some erasers are not rulers (I follows). All pencils are erasers + Some erasers are sharpeners gives no definite pencil–sharpener relation, so II does not follow. <b>Only I follows</b>."
+        },
+        {
+          "q": "Statements: No apple is a mango. Some mangoes are bananas.<br>Conclusions: I. Some bananas are not apples. II. Some apples are bananas.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both I and II follow",
+            "Neither I nor II follows"
+          ],
+          "answer": 0,
+          "explanation": "Some bananas are mangoes, and no mango is an apple → those bananas are not apples: 'Some bananas are not apples' (I follows). Apples may or may not touch bananas, so II is not definite. <b>Only I follows</b>."
+        },
+        {
+          "q": "Statements: All books are copies. No copy is a pen.<br>Conclusions: I. No book is a pen. II. Some copies are books.",
+          "options": [
+            "Both I and II follow",
+            "Only I follows",
+            "Only II follows",
+            "Neither I nor II follows"
+          ],
+          "answer": 0,
+          "explanation": "All + No = No: 'No book is a pen' (I follows). Converting 'All books are copies' gives 'Some copies are books' (II follows). <b>Both follow</b>."
+        },
+        {
+          "q": "Statements: Some cars are buses. No bus is a truck.<br>Conclusions: I. No car is a truck. II. All trucks are cars.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Either I or II follows",
+            "Neither I nor II follows"
+          ],
+          "answer": 3,
+          "explanation": "The only definite conclusion is 'Some cars are not trucks'. The cars that are not buses may or may not be trucks, so I is not definite; II has no basis. I and II are not a complementary pair, so either–or does not apply. <b>Neither follows</b>."
+        },
+        {
+          "q": "Statements: Some stars are planets. Some planets are moons.<br>Conclusions: I. All moons are stars. II. Some moons are not stars.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Either I or II follows",
+            "Neither I nor II follows"
+          ],
+          "answer": 2,
+          "explanation": "Some + Some gives no definite star–moon relation, so neither I nor II follows alone. But I (All moons are stars) and II (Some moons are not stars) have the same subject and predicate and one of them must be true. <b>Either I or II follows</b>."
+        },
+        {
+          "q": "Statements: All lions are tigers. Some tigers are cheetahs.<br>Conclusions: I. Some lions being cheetahs is a possibility. II. All tigers being lions is a possibility.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both I and II follow",
+            "Neither I nor II follows"
+          ],
+          "answer": 2,
+          "explanation": "Nothing prevents the lion circle from overlapping the cheetahs (I is possible). If the lion and tiger circles coincide, all statements still hold, so II is also possible. <b>Both follow</b>."
+        },
+        {
+          "q": "Statements: All rings are bangles. Some bangles are chains. All chains are lockets.<br>Conclusions: I. Some rings are lockets. II. Some bangles are lockets.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both I and II follow",
+            "Neither I nor II follows"
+          ],
+          "answer": 1,
+          "explanation": "Some bangles are chains + All chains are lockets → Some bangles are lockets (II follows). The chains may lie outside the ring circle, so no definite ring–locket relation (I does not follow). <b>Only II follows</b>."
+        },
+        {
+          "q": "Statements: All teachers are graduates. No graduate is illiterate.<br>Conclusions: I. Some teachers are illiterate. II. No teacher is illiterate.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both I and II follow",
+            "Neither I nor II follows"
+          ],
+          "answer": 1,
+          "explanation": "All + No = No: the teacher circle lies inside the graduate circle, which has nothing in common with illiterates → 'No teacher is illiterate' (II follows) and I is false. <b>Only II follows</b>."
+        },
+        {
+          "q": "Statements: No shirt is a trouser. No trouser is a jacket.<br>Conclusions: I. No shirt is a jacket. II. Some shirts are jackets.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Neither I nor II follows",
+            "Either I or II follows"
+          ],
+          "answer": 3,
+          "explanation": "No + No gives no definite shirt–jacket conclusion, so neither follows alone. I (No) and II (Some) have the same subject and predicate and form a complementary pair – one must be true. <b>Either I or II follows</b>."
         }
       ]
     },
@@ -853,6 +1733,94 @@ window.CGL_DATA.reasoning = {
           "options": ["One circle inside another, and a third circle separate from both", "Three separate (non-overlapping) circles", "One circle inside another, and a third circle intersecting both", "Two separate circles, both inside a third larger circle"],
           "answer": 0,
           "explanation": "Iron is a metal → Iron circle inside Metals circle. Oxygen is a non-metal (a gas) → a separate circle. Hence <b>one inside another, third separate</b>."
+        },
+        {
+          "q": "Which diagram best represents the relationship between: Cows, Horses, Goats?",
+          "options": [
+            "Three concentric circles (each inside the next)",
+            "Three separate (non-overlapping) circles",
+            "Three mutually intersecting circles",
+            "Two separate circles, both inside a third larger circle"
+          ],
+          "answer": 1,
+          "explanation": "No cow is a horse, no horse is a goat and no goat is a cow, and no class here contains the others → <b>three separate circles</b>."
+        },
+        {
+          "q": "Which diagram best represents the relationship between: Human beings, Teachers, Graduates?",
+          "options": [
+            "Three concentric circles (each inside the next)",
+            "One circle inside another, and a third circle separate from both",
+            "Three mutually intersecting circles",
+            "Two intersecting circles, both inside a third larger circle"
+          ],
+          "answer": 3,
+          "explanation": "All teachers and all graduates are human beings. Some teachers are graduates and some are not (and vice versa) → Teachers and Graduates intersect, and both lie inside Human beings: <b>two intersecting circles inside a larger circle</b>."
+        },
+        {
+          "q": "Which diagram best represents the relationship between: Rectangles, Squares, Rhombuses?",
+          "options": [
+            "Three concentric circles (each inside the next)",
+            "Two separate circles, both inside a third larger circle",
+            "Two intersecting circles, with the third circle lying inside their common region",
+            "One circle inside another, and a third circle separate from both"
+          ],
+          "answer": 2,
+          "explanation": "Every square is both a rectangle and a rhombus; some rectangles are not rhombuses and some rhombuses are not rectangles. So Rectangles and Rhombuses intersect, and Squares lie <b>inside their common region</b>."
+        },
+        {
+          "q": "In a class of 50 students, 28 play cricket, 20 play football and 8 play both. How many students play exactly one of the two games?",
+          "options": [
+            "32",
+            "40",
+            "10",
+            "28"
+          ],
+          "answer": 0,
+          "explanation": "Only cricket = 28 − 8 = 20; only football = 20 − 8 = 12. Exactly one game = 20 + 12 = <b>32</b>. (40 play at least one; 10 play neither.)"
+        },
+        {
+          "q": "In a survey of 100 people, 50 read newspaper A, 40 read B and 30 read C. 15 read both A and B, 12 read both B and C, 10 read both A and C, and 5 read all three. How many people read none of the three newspapers?",
+          "options": [
+            "17",
+            "12",
+            "22",
+            "7"
+          ],
+          "answer": 1,
+          "explanation": "n(A ∪ B ∪ C) = 50 + 40 + 30 − 15 − 12 − 10 + 5 = 88. None = 100 − 88 = <b>12</b>."
+        },
+        {
+          "q": "In a Venn diagram, circle C = Cricket players, circle H = Hockey players, circle F = Football players. The regions contain: only C = 15, only H = 10, only F = 12, C and H only = 6, H and F only = 4, C and F only = 5, all three = 3. How many persons play at least two games?",
+          "options": [
+            "15",
+            "21",
+            "3",
+            "18"
+          ],
+          "answer": 3,
+          "explanation": "At least two = exactly two + all three = (6 + 4 + 5) + 3 = <b>18</b>. (Exactly two alone = 15.)"
+        },
+        {
+          "q": "In a group of 60 students, 35 like music and 42 like dance. What is the minimum number of students who must like both music and dance?",
+          "options": [
+            "17",
+            "35",
+            "13",
+            "25"
+          ],
+          "answer": 0,
+          "explanation": "n(M ∩ D) = n(M) + n(D) − n(M ∪ D). The union can be at most 60, so both ≥ 35 + 42 − 60 = <b>17</b>."
+        },
+        {
+          "q": "Which set of classes is best represented by two separate circles, both inside a third larger circle?",
+          "options": [
+            "Kolkata, West Bengal, India",
+            "Musicians, Teachers, Painters",
+            "Nitrogen, Oxygen, Gases",
+            "Doctors, Men, Women"
+          ],
+          "answer": 2,
+          "explanation": "Nitrogen and oxygen are different gases (separate circles), and both are gases (inside the larger circle) → <b>Nitrogen, Oxygen, Gases</b>. Kolkata ⊂ West Bengal ⊂ India is concentric; Musicians/Teachers/Painters all intersect; Doctors intersect both Men and Women."
         }
       ]
     },
@@ -927,6 +1895,94 @@ window.CGL_DATA.reasoning = {
           "options": ["×, ÷, −", "+, ÷, ×", "÷, ×, +", "−, ×, ÷"],
           "answer": 2,
           "explanation": "÷, ×, +: 24 ÷ 6 × 3 + 5 = 4 × 3 + 5 = 17 ✔.<br>Others: 24 × 6 ÷ 3 − 5 = 43; 24 + 6 ÷ 3 × 5 = 24 + 10 = 34; 24 − 6 × 3 ÷ 5 = 20.4. Answer <b>÷, ×, +</b>."
+        },
+        {
+          "q": "If 'A' means '+', 'B' means '−', 'C' means '×' and 'D' means '÷', find the value of: 18 C 4 D 6 A 9 B 5",
+          "options": [
+            "14",
+            "18",
+            "20",
+            "16"
+          ],
+          "answer": 3,
+          "explanation": "Rewrite: 18 × 4 ÷ 6 + 9 − 5. BODMAS: 18 × 4 = 72; 72 ÷ 6 = 12; 12 + 9 − 5 = <b>16</b>."
+        },
+        {
+          "q": "If the signs '−' and '÷' are interchanged and the numbers 2 and 4 are interchanged, what is the value of: 36 − 4 + 5 × 2 ÷ 7?",
+          "options": [
+            "31",
+            "29",
+            "35",
+            "27"
+          ],
+          "answer": 0,
+          "explanation": "After both interchanges: 36 ÷ 2 + 5 × 4 − 7 = 18 + 20 − 7 = <b>31</b>."
+        },
+        {
+          "q": "Select the correct combination of mathematical signs to replace the * signs (in order) and balance the equation:<br>15 * 3 * 4 * 8 * 2 = 26",
+          "options": [
+            "÷, +, ×, −",
+            "÷, ×, +, −",
+            "−, +, ×, ÷",
+            "×, ÷, +, −"
+          ],
+          "answer": 1,
+          "explanation": "÷, ×, +, −: 15 ÷ 3 × 4 + 8 − 2 = 5 × 4 + 6 = <b>26</b> ✔.<br>Others: 15 ÷ 3 + 4 × 8 − 2 = 35; 15 − 3 + 4 × 8 ÷ 2 = 28; 15 × 3 ÷ 4 + 8 − 2 = 17.25."
+        },
+        {
+          "q": "Find the missing number.<br>Row 1: 2, 3, 35<br>Row 2: 3, 1, 28<br>Row 3: 4, 2, ?",
+          "options": [
+            "64",
+            "70",
+            "72",
+            "80"
+          ],
+          "answer": 2,
+          "explanation": "Third number = (first)³ + (second)³: 8 + 27 = 35 ✔; 27 + 1 = 28 ✔. Row 3: 64 + 8 = <b>72</b>."
+        },
+        {
+          "q": "If a ★ b = a² − ab + b², find the value of (3 ★ 2) ★ 1.",
+          "options": [
+            "37",
+            "49",
+            "41",
+            "43"
+          ],
+          "answer": 3,
+          "explanation": "3 ★ 2 = 9 − 6 + 4 = 7. Then 7 ★ 1 = 49 − 7 + 1 = <b>43</b>."
+        },
+        {
+          "q": "If 21 @ 3 = 10 and 36 @ 4 = 13, then 45 @ 5 = ?",
+          "options": [
+            "14",
+            "12",
+            "15",
+            "9"
+          ],
+          "answer": 0,
+          "explanation": "Rule: a @ b = (a ÷ b) + b. 21 ÷ 3 + 3 = 10 ✔; 36 ÷ 4 + 4 = 13 ✔. So 45 ÷ 5 + 5 = <b>14</b>."
+        },
+        {
+          "q": "Which two numbers should be interchanged to make the given equation correct?<br>12 ÷ 4 × 6 + 3 − 2 = 13",
+          "options": [
+            "4 and 6",
+            "6 and 3",
+            "4 and 3",
+            "3 and 2"
+          ],
+          "answer": 1,
+          "explanation": "Swap 6 and 3: 12 ÷ 4 × 3 + 6 − 2 = 9 + 6 − 2 = <b>13</b> ✔.<br>Others: 4↔6 → 2 × 4 + 1 = 9; 4↔3 → 24 + 4 − 2 = 26; 3↔2 → 18 + 2 − 3 = 17."
+        },
+        {
+          "q": "If '+' means '÷', '×' means '−', '÷' means '×' and '−' means '+', which of the following equations is correct?",
+          "options": [
+            "16 + 4 × 2 ÷ 3 − 5 = 11",
+            "24 + 6 × 3 ÷ 2 − 7 = 4",
+            "18 + 3 ÷ 2 × 4 − 6 = 14",
+            "20 + 5 ÷ 3 × 6 − 4 = 12"
+          ],
+          "answer": 2,
+          "explanation": "Convert option 3: 18 ÷ 3 × 2 − 4 + 6 = 12 − 4 + 6 = <b>14</b> ✔.<br>Others: 16 ÷ 4 − 2 × 3 + 5 = 3; 24 ÷ 6 − 3 × 2 + 7 = 5; 20 ÷ 5 × 3 − 6 + 4 = 10."
         }
       ]
     },
@@ -1014,6 +2070,94 @@ window.CGL_DATA.reasoning = {
           "options": ["20 minutes past 4", "21 9/11 minutes past 4", "21 3/11 minutes past 4", "22 2/11 minutes past 4"],
           "answer": 1,
           "explanation": "At 4:00 the minute hand is 20 minute-spaces behind the hour hand. It gains 55 minute-spaces in 60 minutes, so time needed = 20 × 60/55 = 240/11 = <b>21 9/11 minutes</b> past 4."
+        },
+        {
+          "q": "What day of the week was 15 August 1947?",
+          "options": [
+            "Thursday",
+            "Saturday",
+            "Friday",
+            "Sunday"
+          ],
+          "answer": 2,
+          "explanation": "Odd days: 1600 years → 0; 1601–1900 → 1; 1901–1946: 46 years with 11 leap years → 46 + 11 = 57 → 1.<br>1 Jan–15 Aug 1947: 31 + 28 + 31 + 30 + 31 + 30 + 31 + 15 = 227 → 227 mod 7 = 3.<br>Total = 0 + 1 + 1 + 3 = 5 → <b>Friday</b>."
+        },
+        {
+          "q": "If 1 January 2025 was a Wednesday, what day of the week was 1 March 2025?",
+          "options": [
+            "Friday",
+            "Sunday",
+            "Thursday",
+            "Saturday"
+          ],
+          "answer": 3,
+          "explanation": "Days from 1 Jan to 1 Mar = 31 (Jan) + 28 (Feb, 2025 not leap) = 59 → 59 mod 7 = 3 odd days. Wednesday + 3 = <b>Saturday</b>."
+        },
+        {
+          "q": "If today is Monday, what day of the week will it be after 61 days?",
+          "options": [
+            "Saturday",
+            "Sunday",
+            "Friday",
+            "Tuesday"
+          ],
+          "answer": 0,
+          "explanation": "61 = 8 × 7 + 5 → 5 odd days. Monday + 5 = <b>Saturday</b>."
+        },
+        {
+          "q": "How many times in a day are the hands of a clock at right angles?",
+          "options": [
+            "22",
+            "44",
+            "48",
+            "24"
+          ],
+          "answer": 1,
+          "explanation": "In 12 hours the minute hand gains 11 full rounds over the hour hand, and in each round the hands are at right angles twice → 11 × 2 = 22 times. In a day (24 hours) = 22 × 2 = <b>44</b>."
+        },
+        {
+          "q": "At what time between 2 o'clock and 3 o'clock will the hands of a clock point in exactly opposite directions?",
+          "options": [
+            "40 minutes past 2",
+            "43 3/11 minutes past 2",
+            "43 7/11 minutes past 2",
+            "45 5/11 minutes past 2"
+          ],
+          "answer": 2,
+          "explanation": "At 2:00 the minute hand is 10 minute-spaces behind the hour hand. To be opposite it must get 30 spaces ahead, i.e. gain 40 spaces. Time = 40 × 60/55 = 480/11 = <b>43 7/11 minutes</b> past 2."
+        },
+        {
+          "q": "A clock is set right at 8 a.m. It gains 10 minutes in every 24 hours. What is the true time when this clock shows 1 p.m. on the next day?",
+          "options": [
+            "12:40 p.m.",
+            "12:50 p.m.",
+            "12:45 p.m.",
+            "12:48 p.m."
+          ],
+          "answer": 3,
+          "explanation": "The clock shows 24 h 10 min (1450 min) in 1440 true minutes. From 8 a.m. to 1 p.m. next day it shows 29 h = 1740 min. True time passed = 1740 × 1440/1450 = 1728 min = 28 h 48 min → <b>12:48 p.m.</b>"
+        },
+        {
+          "q": "If 1 January 2000 was a Saturday, what day of the week was 1 January 2001?",
+          "options": [
+            "Monday",
+            "Sunday",
+            "Tuesday",
+            "Saturday"
+          ],
+          "answer": 0,
+          "explanation": "2000 is a leap year (divisible by 400), so it has 366 days = 2 odd days. Saturday + 2 = <b>Monday</b>."
+        },
+        {
+          "q": "In a certain month, the third Monday falls on the 20th. On which date does the first Saturday of that month fall?",
+          "options": [
+            "3rd",
+            "4th",
+            "5th",
+            "2nd"
+          ],
+          "answer": 1,
+          "explanation": "Mondays fall on 20, 13 and 6. Saturday is two days before Monday → 6 − 2 = <b>4th</b> (4 − 7 is not a valid date, so this is the first Saturday)."
         }
       ]
     },
@@ -1088,6 +2232,94 @@ window.CGL_DATA.reasoning = {
           "options": ["Account", "Accord", "Accident", "Access"],
           "answer": 0,
           "explanation": "All start with 'Acc'. Fourth letters: e (Accept, Access), i (Accident), o (Accord, Account). Among the 'Acco' words: Accord (r) vs Account (u) → r comes before u. Order: Accept, Access, Accident, Accord, <b>Account</b>."
+        },
+        {
+          "q": "Arrange the words in the order in which they appear in an English dictionary:<br>1. Cheerful 2. Chemical 3. Charming 4. Cheap 5. Chess",
+          "options": [
+            "3, 1, 4, 2, 5",
+            "3, 4, 1, 2, 5",
+            "4, 3, 1, 2, 5",
+            "3, 4, 2, 1, 5"
+          ],
+          "answer": 1,
+          "explanation": "Third letter: Charming (a) comes before all 'Che-' words. Among Che-: Cheap (a), Cheerful (e), Chemical (m), Chess (s).<br>Order: Charming, Cheap, Cheerful, Chemical, Chess = <b>3, 4, 1, 2, 5</b>."
+        },
+        {
+          "q": "Arrange the words in the order in which they appear in an English dictionary:<br>1. Car 2. Card 3. Care 4. Cargo 5. Carbon",
+          "options": [
+            "1, 2, 3, 4, 5",
+            "5, 1, 2, 3, 4",
+            "1, 5, 2, 3, 4",
+            "1, 5, 3, 2, 4"
+          ],
+          "answer": 2,
+          "explanation": "'Car' is a prefix of all the others, so it comes first. Then by the fourth letter: Carbon (b), Card (d), Care (e), Cargo (g).<br>Order = <b>1, 5, 2, 3, 4</b>."
+        },
+        {
+          "q": "Which word will come third in the English dictionary order?<br>Slander, Slate, Slave, Slack, Slam",
+          "options": [
+            "Slate",
+            "Slam",
+            "Slave",
+            "Slander"
+          ],
+          "answer": 3,
+          "explanation": "All start with 'Sla'. Fourth letters: Slack (c), Slam (m), Slander (n), Slate (t), Slave (v). Third = <b>Slander</b>."
+        },
+        {
+          "q": "Select the correct logical sequence:<br>1. Key 2. Door 3. Lock 4. Room 5. Switch on",
+          "options": [
+            "1, 3, 2, 4, 5",
+            "1, 2, 3, 4, 5",
+            "3, 1, 2, 4, 5",
+            "1, 3, 2, 5, 4"
+          ],
+          "answer": 0,
+          "explanation": "Take the key, open the lock, open the door, enter the room, then switch on the light: <b>1, 3, 2, 4, 5</b>."
+        },
+        {
+          "q": "Select the correct logical sequence of the stages of human life:<br>1. Adult 2. Infant 3. Adolescent 4. Child 5. Old",
+          "options": [
+            "2, 3, 4, 1, 5",
+            "2, 4, 3, 1, 5",
+            "4, 2, 3, 1, 5",
+            "2, 4, 1, 3, 5"
+          ],
+          "answer": 1,
+          "explanation": "Infant → Child → Adolescent → Adult → Old = <b>2, 4, 3, 1, 5</b>."
+        },
+        {
+          "q": "Arrange the following from the smallest unit to the largest:<br>1. Word 2. Letter 3. Sentence 4. Paragraph 5. Phrase",
+          "options": [
+            "2, 1, 3, 5, 4",
+            "1, 2, 5, 3, 4",
+            "2, 1, 5, 3, 4",
+            "2, 5, 1, 3, 4"
+          ],
+          "answer": 2,
+          "explanation": "Letters make a word, words make a phrase, phrases make a sentence and sentences make a paragraph: <b>2, 1, 5, 3, 4</b>."
+        },
+        {
+          "q": "Which of the following words CAN be formed using the letters of the word DEPARTMENT?",
+          "options": [
+            "PARTNER",
+            "TRUMPET",
+            "TRAMPLE",
+            "DAMPEN"
+          ],
+          "answer": 3,
+          "explanation": "DEPARTMENT has D1, E2, P1, A1, R1, T2, M1, N1.<br>PARTNER needs two R's; TRUMPET needs U; TRAMPLE needs L. <b>DAMPEN</b> (D, A, M, P, E, N) can be formed."
+        },
+        {
+          "q": "Which word will come fourth in the English dictionary order?<br>Grievance, Grind, Grieve, Grill, Grimace",
+          "options": [
+            "Grimace",
+            "Grill",
+            "Grind",
+            "Grieve"
+          ],
+          "answer": 0,
+          "explanation": "Grievance vs Grieve: 'Griev-a' comes before 'Griev-e'. Then Grill (l), Grimace (m), Grind (n).<br>Order: Grievance, Grieve, Grill, <b>Grimace</b>, Grind."
         }
       ]
     },
@@ -1175,6 +2407,94 @@ window.CGL_DATA.reasoning = {
           "options": ["16", "30", "25", "20"],
           "answer": 1,
           "explanation": "1×1 squares: 16, 2×2: 9, 3×3: 4, 4×4: 1. Total = 16 + 9 + 4 + 1 = <b>30</b>."
+        },
+        {
+          "q": "A wall clock shows the time 7:10. What time will its mirror image (vertical mirror placed beside the clock) show?",
+          "options": [
+            "4:50",
+            "5:50",
+            "4:10",
+            "5:10"
+          ],
+          "answer": 0,
+          "explanation": "Mirror time = 11:60 − 7:10 = <b>4:50</b>."
+        },
+        {
+          "q": "A clock shows the time 4:40. Using the standard rule, what time will its water image (reflection in water below the clock) show?",
+          "options": [
+            "7:20",
+            "1:50",
+            "2:50",
+            "1:10"
+          ],
+          "answer": 1,
+          "explanation": "Water image time = 18:30 − time = 18:30 − 4:40 = 13:50, i.e. <b>1:50</b>."
+        },
+        {
+          "q": "A square sheet of paper is folded in half, then folded in half again, and then folded in half a third time. Two holes are punched through the folded paper. How many holes will there be when the paper is completely unfolded?",
+          "options": [
+            "8",
+            "6",
+            "16",
+            "32"
+          ],
+          "answer": 2,
+          "explanation": "Three folds give 2³ = 8 layers. Each punch goes through all 8 layers, so 2 punches give 2 × 8 = <b>16</b> holes."
+        },
+        {
+          "q": "Which of the following words (in capital letters) will look exactly the same in its mirror image when a vertical mirror is placed on its right?",
+          "options": [
+            "NOON",
+            "DEED",
+            "SEES",
+            "TOOT"
+          ],
+          "answer": 3,
+          "explanation": "The mirror reverses the order of letters and flips each letter left–right. TOOT reads the same backwards and T, O are symmetric about a vertical line, so <b>TOOT</b> is unchanged. N, D, E and S are not vertically symmetric."
+        },
+        {
+          "q": "A rectangle is divided into a grid of 2 rows and 3 columns of equal small squares. How many rectangles (including squares) are there in the figure?",
+          "options": [
+            "18",
+            "12",
+            "24",
+            "36"
+          ],
+          "answer": 0,
+          "explanation": "Choose 2 of the 3 horizontal lines and 2 of the 4 vertical lines: C(3, 2) × C(4, 2) = 3 × 6 = <b>18</b>."
+        },
+        {
+          "q": "A rectangle is divided into a grid of 3 rows and 5 columns of equal small squares. How many squares of all sizes are there in the figure?",
+          "options": [
+            "15",
+            "20",
+            "23",
+            "26"
+          ],
+          "answer": 3,
+          "explanation": "1×1: 3 × 5 = 15; 2×2: 2 × 4 = 8; 3×3: 1 × 3 = 3. Total = 15 + 8 + 3 = <b>26</b>."
+        },
+        {
+          "q": "Two positions of the same die (faces numbered 1 to 6) are described. Position 1: top 3, front 1, right 2. Position 2: top 3, front 5, right 6. Which number is opposite 2?",
+          "options": [
+            "1",
+            "5",
+            "6",
+            "4"
+          ],
+          "answer": 2,
+          "explanation": "The common face 3 is in the same place (top) in both positions, so faces in matching places are opposite: front 1 ↔ 5 and right 2 ↔ <b>6</b>."
+        },
+        {
+          "q": "Which of the following groups contains only letters that look the same in BOTH a mirror image (vertical mirror) and a water image (horizontal mirror)?",
+          "options": [
+            "H I M X",
+            "H I O X",
+            "B O X I",
+            "T O H I"
+          ],
+          "answer": 1,
+          "explanation": "A letter must be symmetric about both a vertical and a horizontal line: H, I, O, X. M and T fail in water, B fails in the mirror. So <b>H I O X</b>."
         }
       ]
     },
@@ -1358,6 +2678,72 @@ window.CGL_DATA.reasoning = {
           ],
           "answer": 0,
           "explanation": "Extra classes are needed only if the regular classes are not enough, so I is implicit. The students' likes and dislikes are not part of the decision, so II is not."
+        },
+        {
+          "q": "Statement: The number of candidates applying for government jobs has gone up by 40% this year, while the number of vacancies has remained the same as last year.<br>Conclusions:<br>I. The competition for government jobs has increased this year.<br>II. There are more applicants per vacancy this year than last year.",
+          "options": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Neither I nor II follows",
+            "Both I and II follow"
+          ],
+          "answer": 3,
+          "explanation": "More applicants for the same number of posts means more applicants per vacancy (II) and hence tougher competition (I). Both follow directly."
+        },
+        {
+          "q": "Statement: Many people in a locality have fallen ill after drinking contaminated tap water.<br>Courses of action:<br>I. The health department should immediately provide medical aid to the affected people.<br>II. The water supply authority should inspect the pipelines and remove the source of contamination.",
+          "options": [
+            "Only I follows",
+            "Both I and II follow",
+            "Only II follows",
+            "Neither I nor II follows"
+          ],
+          "answer": 1,
+          "explanation": "I gives immediate relief and II solves the root cause. Both are practical and within the power of the authorities, so both follow."
+        },
+        {
+          "q": "Statement: Should the use of mobile phones while driving be banned?<br>Arguments:<br>I. Yes, using a phone distracts the driver and is a major cause of road accidents.<br>II. No, people need to stay connected with others at all times.",
+          "options": [
+            "Only argument I is strong",
+            "Only argument II is strong",
+            "Both I and II are strong",
+            "Neither I nor II is strong"
+          ],
+          "answer": 0,
+          "explanation": "I is directly related to road safety and based on fact. II is an exaggeration ('at all times') and ignores safety, so it is weak."
+        },
+        {
+          "q": "Statements:<br>I. All the schools in the district have declared a holiday today.<br>II. Many trains passing through the district have been cancelled today.",
+          "options": [
+            "Statement I is the cause and statement II is its effect",
+            "Statement II is the cause and statement I is its effect",
+            "Both statements are effects of some common cause",
+            "Both statements are independent causes"
+          ],
+          "answer": 2,
+          "explanation": "A school holiday does not cause train cancellations, nor the other way round. Both are likely results of a common cause such as very heavy rain or a cyclone."
+        },
+        {
+          "q": "Statement: Every student who scored above 90% in the examination was given a scholarship. Meena did not get a scholarship.<br>Conclusions:<br>I. Meena did not score above 90% in the examination.<br>II. Meena failed the examination.",
+          "options": [
+            "Only conclusion II follows",
+            "Only conclusion I follows",
+            "Both I and II follow",
+            "Neither I nor II follows"
+          ],
+          "answer": 1,
+          "explanation": "If Meena had scored above 90% she would have got a scholarship, so I follows. She could still have passed with less than 90%, so II does not follow."
+        },
+        {
+          "q": "Statement: Some of the new mobile phone models launched this year have better cameras than last year's models.<br>Conclusions:<br>I. All the new models launched this year have better cameras.<br>II. People will buy only the new models this year.",
+          "options": [
+            "Neither I nor II follows",
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both I and II follow"
+          ],
+          "answer": 0,
+          "explanation": "The statement says 'some', so 'all' in I does not follow. II is a guess about buyers' behaviour with the extreme word 'only'. Neither follows."
         }
       ]
     },
@@ -1537,6 +2923,72 @@ window.CGL_DATA.reasoning = {
           ],
           "answer": 2,
           "explanation": "Comfort the child and hand him to the proper authorities. This keeps him safe and gives the best chance of finding his parents."
+        },
+        {
+          "q": "You are a team leader. Two members of your team have been arguing for days over how a task should be done, and the work is getting delayed. What is the best step?",
+          "options": [
+            "Remove both members from the project at once",
+            "Take the side of the senior member to end the matter quickly",
+            "Meet both of them, listen to each side calmly and help them agree on a solution that serves the team's goal",
+            "Ignore it, since adults should settle their own differences"
+          ],
+          "answer": 2,
+          "explanation": "A good leader listens to both sides and focuses them on the common goal. Punishing, taking sides or ignoring the conflict does not solve it."
+        },
+        {
+          "q": "You realise that you will not be able to finish an important assignment by the deadline given by your manager. What should you do?",
+          "options": [
+            "Inform the manager early, explain the progress, prioritise the key parts and ask for help or a short extension if needed",
+            "Say nothing and submit incomplete work on the last day",
+            "Call in sick on the day of the deadline",
+            "Blame your colleagues for not helping you"
+          ],
+          "answer": 0,
+          "explanation": "Telling people early, planning and asking for help is responsible. Hiding the problem, escaping or blaming others are poor responses."
+        },
+        {
+          "q": "A relative forwards a sensational health message in your family group that you know is false. What is the most appropriate response?",
+          "options": [
+            "Forward it to other groups as well, just in case",
+            "Leave the family group without saying anything",
+            "Make fun of the relative in the group for believing it",
+            "Politely tell the group that the message is false and share information from a reliable source"
+          ],
+          "answer": 3,
+          "explanation": "Stopping misinformation politely with verified facts is responsible and respectful. Spreading it, mocking the relative or silently leaving does not help."
+        },
+        {
+          "q": "Who gave the first formal model of emotional intelligence in 1990?",
+          "options": [
+            "Daniel Goleman and Richard Boyatzis",
+            "Peter Salovey and John Mayer",
+            "Howard Gardner and Robert Sternberg",
+            "Alfred Binet and Théodore Simon"
+          ],
+          "answer": 1,
+          "explanation": "Peter Salovey and John Mayer described emotional intelligence formally in 1990. Daniel Goleman later popularised it in his 1995 book."
+        },
+        {
+          "q": "The ability to understand another person's feelings by seeing the situation from his or her point of view is called",
+          "options": [
+            "Sympathy",
+            "Empathy",
+            "Apathy",
+            "Antipathy"
+          ],
+          "answer": 1,
+          "explanation": "Empathy is understanding feelings from the other person's point of view. Sympathy is feeling pity, apathy is lack of feeling, and antipathy is dislike."
+        },
+        {
+          "q": "You work at a public service counter. A citizen who has come several times for the same work starts speaking to you angrily. What should you do?",
+          "options": [
+            "Stay calm, listen to his problem patiently and help him complete the work or guide him to the right officer",
+            "Shout back at him so that he learns to behave",
+            "Ask the security guard to send him out at once",
+            "Tell him to come back another day without looking at his problem"
+          ],
+          "answer": 0,
+          "explanation": "Self-regulation and empathy: his anger comes from repeated visits. Calmly solving the problem is the constructive, public-service response."
         }
       ]
     },
@@ -1715,6 +3167,72 @@ window.CGL_DATA.reasoning = {
           ],
           "answer": 0,
           "explanation": "M (capital) → n; o (small) → N; R (capital) → s; e (small) → D. Code: nNsD."
+        },
+        {
+          "q": "If the following words are arranged in the order in which they appear in an English dictionary, which word will come THIRD?<br>Magnet, Magnify, Magnitude, Magic, Magazine",
+          "options": [
+            "Magic",
+            "Magnify",
+            "Magnet",
+            "Magazine"
+          ],
+          "answer": 2,
+          "explanation": "Order: Magazine (maga), Magic (magi), Magnet (magne), Magnify (magnif), Magnitude (magnit). The third word is <b>Magnet</b>."
+        },
+        {
+          "q": "Arrange the following words in the order in which they appear in an English dictionary.<br>1. Profile<br>2. Produce<br>3. Process<br>4. Program<br>5. Project",
+          "options": [
+            "3, 2, 1, 4, 5",
+            "2, 3, 1, 4, 5",
+            "3, 2, 4, 1, 5",
+            "3, 1, 2, 4, 5"
+          ],
+          "answer": 0,
+          "explanation": "Compare the 4th letter: c (Process) < d (Produce) < f (Profile) < g (Program) < j (Project). Order: 3, 2, 1, 4, 5."
+        },
+        {
+          "q": "Select the option that is exactly the same as the given entry.<br>Anita Verma, HR-26-DK-8337, Sector 14, Gurugram – 122001",
+          "options": [
+            "Anita Verma, HR-26-DK-8373, Sector 14, Gurugram – 122001",
+            "Anita Verma, HR-26-DK-8337, Secter 14, Gurugram – 122001",
+            "Anita Verma, HR-26-DK-8337, Sector 14, Gurugram – 122010",
+            "Anita Verma, HR-26-DK-8337, Sector 14, Gurugram – 122001"
+          ],
+          "answer": 3,
+          "explanation": "The others have a changed vehicle number (8373), a misspelt 'Secter' or a wrong PIN (122010)."
+        },
+        {
+          "q": "How many times does the number 5738 appear in the following list?<br>5738, 5783, 5738, 7538, 5738, 5378, 5738, 3758",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "2"
+          ],
+          "answer": 1,
+          "explanation": "5738 appears at the 1st, 3rd, 5th and 7th places, i.e. <b>4</b> times. 5783, 7538, 5378 and 3758 are look-alikes with swapped digits."
+        },
+        {
+          "q": "Three of the following four codes are alike in some way and one is different. Select the odd one.",
+          "options": [
+            "P3Q6",
+            "R4S5",
+            "V1W8",
+            "T2U8"
+          ],
+          "answer": 3,
+          "explanation": "In each code the letters are consecutive. The digits add up to 9 in P3Q6, R4S5 and V1W8, but to 10 in <b>T2U8</b> (which also has two even digits)."
+        },
+        {
+          "q": "Dates are written in DD-MM-YYYY format. How many of the following dates fall in March 2023?<br>12-03-2023, 03-12-2023, 23-03-2032, 30-03-2023, 03-03-2023, 13-02-2023",
+          "options": [
+            "2",
+            "4",
+            "3",
+            "5"
+          ],
+          "answer": 2,
+          "explanation": "March 2023 needs MM = 03 and YYYY = 2023: 12-03-2023, 30-03-2023 and 03-03-2023, i.e. <b>3</b>. 03-12-2023 is in December and 23-03-2032 is in 2032."
         }
       ]
     },
@@ -1902,6 +3420,72 @@ window.CGL_DATA.reasoning = {
           ],
           "answer": 2,
           "explanation": "1×1: 16, 2×2: 9, 3×3: 4, 4×4: 1. Total = 16 + 9 + 4 + 1 = 30."
+        },
+        {
+          "q": "A cuboid of size 5 cm × 4 cm × 3 cm is painted on all its faces and then cut into cubes of side 1 cm. How many small cubes have exactly two faces painted?",
+          "options": [
+            "20",
+            "24",
+            "12",
+            "6"
+          ],
+          "answer": 1,
+          "explanation": "Each of the 12 edges gives (length − 2) cubes: 4 edges each of (5 − 2), (4 − 2) and (3 − 2). Total = 4 × (3 + 2 + 1) = <b>24</b>."
+        },
+        {
+          "q": "A cube of side 5 cm has two opposite faces painted red and the other four faces painted green. It is cut into cubes of side 1 cm. How many small cubes have both red and green paint on them?",
+          "options": [
+            "16",
+            "24",
+            "32",
+            "36"
+          ],
+          "answer": 2,
+          "explanation": "On each red face (a 5 × 5 layer), only the border cubes touch a green face: 5² − 3² = 16. Two red faces → 2 × 16 = <b>32</b>."
+        },
+        {
+          "q": "A rectangle is divided into a grid of 3 rows and 4 columns of equal small squares. How many rectangles (including squares) are there in the figure?",
+          "options": [
+            "60",
+            "36",
+            "72",
+            "48"
+          ],
+          "answer": 0,
+          "explanation": "Rectangles = C(4, 2) × C(5, 2) = 6 × 10 = <b>60</b> (choose 2 of the 4 horizontal lines and 2 of the 5 vertical lines)."
+        },
+        {
+          "q": "A net of a cube has four squares in a row labelled P, Q, R and S from left to right. Square T is attached above Q and square U is attached below Q. When the net is folded into a cube, which face is opposite R?",
+          "options": [
+            "T",
+            "S",
+            "U",
+            "P"
+          ],
+          "answer": 3,
+          "explanation": "In a row of four, the 1st and 3rd faces are opposite and so are the 2nd and 4th. So <b>P</b> is opposite R (Q is opposite S, and T is opposite U)."
+        },
+        {
+          "q": "A standard die (opposite faces add up to 7) is placed with 1 on top, 2 facing you and 3 on the right. It is rolled once to the right, tipping over its right edge. Which number is now on top?",
+          "options": [
+            "3",
+            "4",
+            "6",
+            "5"
+          ],
+          "answer": 1,
+          "explanation": "Rolling to the right sends the top face to the right side and brings the left face to the top. Left face = 7 − 3 = <b>4</b>."
+        },
+        {
+          "q": "In a square, both diagonals are drawn, and also the two straight lines joining the midpoints of opposite sides. How many triangles are there in the figure?",
+          "options": [
+            "8",
+            "12",
+            "16",
+            "20"
+          ],
+          "answer": 2,
+          "explanation": "8 smallest triangles; 4 triangles made of 2 small ones, each with one side of the square as base and the centre as apex; 4 half-square triangles cut off by a diagonal. Total 8 + 4 + 4 = <b>16</b>."
         }
       ]
     }
