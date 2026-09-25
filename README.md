@@ -1,5 +1,7 @@
 # CGL Recap
 
+Application designed for revision for CGL 2026 aspirants.
+
 A free revision app for **SSC CGL Tier 1**: short notes, flashcards, topic-wise practice and timed mock tests for all four sections:
 
 - General Intelligence & Reasoning
