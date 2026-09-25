@@ -1,0 +1,36 @@
+# Checks every push and pull request, so a broken content edit is caught
+# before it reaches students. A red ✗ next to a commit on GitHub means one of
+# these steps failed: open the run to see which question or file is wrong.
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check study content (data/*.js)
+        run: python tools/validate.py
+
+      - name: Check JavaScript syntax
+        run: |
+          for f in js/*.js data/*.js sw.js; do
+            node --check "$f" || exit 1
+          done
+
+      - name: Check every file the offline cache needs exists
+        run: |
+          missing=0
+          for f in $(sed -n '/const ASSETS/,/];/p' sw.js | grep -o '"[^"]*"' | tr -d '"'); do
+            [ "$f" = "./" ] && continue
+            [ -f "$f" ] || { echo "sw.js lists $f but it does not exist"; missing=1; }
+          done
+          exit $missing

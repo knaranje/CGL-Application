@@ -14,6 +14,8 @@ It is a static site (plain HTML/CSS/JS, no build step, no server, no sign-up). P
 ## Features
 
 - **Notes → Flashcards → Practice** for every topic, with a "revised" tracker
+- **Daily study plan** from the exam date: splits the syllabus into topics per day, finishes new topics a week early, and adds flashcard review, practice, weak topics and mocks; it adjusts itself if a day is missed
+- **Spaced-repetition flashcards**: "Cards due today" brings back each card just before it is likely to be forgotten (1, 3, 7, 14, then 30 days), with 15 new cards a day
 - **Instant-feedback practice** with explanations; keyboard shortcuts (1–4 / A–D, Enter)
 - **Mock tests** following the Tier 1 pattern (25 Q per section, 60 min, +2 / −0.5), plus a 40-question mini mock, with a question palette, mark-for-review, auto-submit and a full answer review
 - **Quick revision** modes: daily mix, retry mistakes, weak topics, unseen questions, flashcard sprint
@@ -76,6 +78,8 @@ python tools/validate.py
 ```
 
 When you change the list of files, bump `CACHE` in `sw.js` so returning visitors get the update.
+
+Every push is also checked automatically on GitHub (`.github/workflows/validate.yml`): the validator, a JavaScript syntax check and a check that every file the offline cache needs exists. A red ✗ next to a commit means something is broken; open **Actions** to see what.
 
 > Progress is keyed by question position within a topic, so prefer **appending** new questions to the end of a topic rather than inserting them in the middle.
 

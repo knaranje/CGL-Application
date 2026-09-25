@@ -615,6 +615,31 @@ details summary { cursor: pointer; font-weight: 600; }
   font-size: .9rem;
 }
 
+/* Study plan */
+.plan-head { display: flex; justify-content: space-between; align-items: center; gap: .5rem; margin-bottom: .4rem; }
+.plan-head h2, .plan-head h3 { margin: 0; }
+.plan-list { margin-top: .4rem; }
+.plan-task { display: flex; align-items: center; gap: .75rem; }
+.plan-task a { display: flex; flex-direction: column; color: var(--text); flex: 1; min-width: 0; }
+.plan-task a:hover { text-decoration: none; }
+.plan-task a:hover b { color: var(--primary); }
+.plan-check {
+  flex-shrink: 0;
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: .8rem;
+  font-weight: 800;
+}
+.plan-task.done .plan-check { background: var(--success); border-color: var(--success); color: var(--surface); }
+.plan-task.done b { color: var(--muted); text-decoration: line-through; }
+.plan-day { display: flex; gap: .75rem; align-items: baseline; font-size: .92rem; }
+.plan-date { flex-shrink: 0; width: 6.5rem; font-weight: 700; color: var(--muted); font-size: .85rem; }
+#planDateForm { flex-wrap: wrap; align-items: center; justify-content: flex-start; margin: 0; }
+
 /* Toast */
 .toast {
   position: fixed;

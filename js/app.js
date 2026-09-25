@@ -52,6 +52,8 @@
     theme: "",
     qs: {},        // ref -> { c, w, last, at }
     cards: {},     // flashcard ref -> 1 (known)
+    srs: {},       // flashcard ref -> { b: box 1–5, d: due day number }
+    srsToday: { day: 0, reviewed: 0, fresh: 0 },
     revised: {},   // "subject/topic" -> timestamp
     bookmarks: {}, // question ref -> timestamp
     mocks: [],     // newest first
@@ -221,6 +223,76 @@
     return Math.round((exam - today) / 86400000);
   }
 
+  const startOfToday = () => {
+    const d = new Date();
+    d.setHours(0, 0, 0, 0);
+    return d.getTime();
+  };
+  // Local calendar day as a number, so "due tomorrow" means tomorrow's date, not 24 hours later.
+  const dayNum = (t = Date.now()) => {
+    const d = new Date(t);
+    return Math.round(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000);
+  };
+
+  // ================= Spaced repetition (flashcards) =================
+  // Leitner boxes: a card you remember moves up a box and comes back after a
+  // longer gap; a card you forget drops to box 1 and comes back tomorrow.
+  const SRS_DAYS = [0, 1, 3, 7, 14, 30]; // gap in days for boxes 1–5
+  const NEW_PER_DAY = 15;
+  const SESSION_MAX = 40;
+
+  const CARDS = []; // every flashcard, in syllabus order
+  SUBJECTS.forEach((s) =>
+    s.topics.forEach((t) =>
+      (t.flashcards || []).forEach((c, i) =>
+        CARDS.push({ ref: `${s.id}/${t.id}/c${i}`, front: c.front, back: c.back, label: t.name, subjectId: s.id, topicId: t.id })
+      )
+    )
+  );
+
+  function srsDueDay(box) {
+    const today = dayNum();
+    let due = today + SRS_DAYS[box];
+    // Bring every card back at least once before the exam.
+    const left = daysLeft();
+    if (left !== null && left > 1) due = Math.min(due, today + left - 1);
+    return due;
+  }
+  const srsGap = (box) => srsDueDay(box) - dayNum();
+  const gapText = (n) => (n <= 1 ? "tomorrow" : `in ${n} days`);
+
+  function srsToday() {
+    const today = dayNum();
+    if (!state.srsToday || state.srsToday.day !== today) state.srsToday = { day: today, reviewed: 0, fresh: 0 };
+    return state.srsToday;
+  }
+
+  // Cards due today (most overdue first) plus today's allowance of new cards.
+  // New cards come from topics the student has already revised first.
+  function srsQueue(subjectId = null) {
+    const today = dayNum();
+    const inScope = (c) => !subjectId || c.subjectId === subjectId;
+    const due = shuffle(CARDS.filter((c) => inScope(c) && state.srs[c.ref] && state.srs[c.ref].d <= today))
+      .sort((a, b) => state.srs[a.ref].d - state.srs[b.ref].d);
+    const unseen = CARDS.filter((c) => inScope(c) && !state.srs[c.ref]);
+    const isRevised = (c) => !!state.revised[`${c.subjectId}/${c.topicId}`];
+    const room = Math.max(0, NEW_PER_DAY - srsToday().fresh);
+    const fresh = unseen.filter(isRevised).concat(unseen.filter((c) => !isRevised(c))).slice(0, room);
+    return { due, fresh };
+  }
+
+  function gradeCard(ref, remembered) {
+    const r = state.srs[ref];
+    const box = remembered ? Math.min((r ? r.b : 1) + 1, 5) : 1;
+    const log = srsToday();
+    if (!r) log.fresh++;
+    log.reviewed++;
+    state.srs[ref] = { b: box, d: srsDueDay(box) };
+    if (remembered) state.cards[ref] = 1;
+    else delete state.cards[ref];
+    save();
+  }
+
   // Questions not yet seen or last answered wrong come first.
   function prioritised(pool) {
     const rank = (q) => {
@@ -244,6 +316,7 @@
 
     switch (page) {
       case undefined: renderHome(); break;
+      case "plan": renderPlan(); break;
       case "subject": renderSubject(a); break;
       case "topic": renderTopic(a, b, c || "notes"); break;
       case "sheet": renderSheet(a); break;
@@ -303,6 +376,8 @@
         <div class="card stat"><div class="stat-num">${attempted ? pct(correct, attempted) + "%" : "–"}</div><div class="stat-label">Overall accuracy</div></div>
         <div class="card stat"><div class="stat-num">${lastMock ? `${fmtScore(lastMock.score)}<span class="muted small">/${lastMock.max}</span>` : "–"}</div><div class="stat-label">Last mock score</div></div>
       </section>
+
+      <section style="margin-top:1rem" id="planCard">${planCardHTML()}</section>
 
       <h2 class="section-title">Subjects</h2>
       <section class="grid subjects">${SUBJECTS.map(subjectCard).join("")}</section>
@@ -390,6 +465,8 @@
         save();
         box.innerHTML = countdownHTML();
         bindCountdown();
+        const plan = document.getElementById("planCard");
+        if (plan) plan.innerHTML = planCardHTML();
       };
     }
     const change = document.getElementById("changeDate");
@@ -413,6 +490,205 @@
         ${progressBar(pct(st.revised, st.topics))}
         <div class="small meta"><span>${st.revised}/${st.topics} revised</span><span>${st.attempted ? st.acc + "% accuracy" : "Not started"}</span></div>
       </a>`;
+  }
+
+  // ================= Study plan =================
+  // Rebuilt from progress every time it is shown, so it adapts when a day is
+  // missed or the student gets ahead. Today's topics stay fixed for the day:
+  // topics revised today still count as "today's" topics.
+  const DAILY_QUESTIONS = 20;
+
+  function buildPlan() {
+    const left = daysLeft();
+    if (left === null || left <= 0) return { left };
+    const t0 = startOfToday();
+    const doneToday = (key) => state.revised[key] >= t0;
+
+    // Topics still to learn as of this morning, taking one from each section in turn.
+    const lists = SUBJECTS.map((s) =>
+      s.topics
+        .map((t) => ({ s, t, key: `${s.id}/${t.id}` }))
+        .filter((x) => !state.revised[x.key] || doneToday(x.key))
+    );
+    let order = [];
+    for (let i = 0; lists.some((l) => i < l.length); i++) lists.forEach((l) => l[i] && order.push(l[i]));
+    order = order.filter((x) => doneToday(x.key)).concat(order.filter((x) => !doneToday(x.key)));
+
+    // Finish new topics a week before the exam (or halfway, if under two weeks
+    // are left) and keep the rest for mocks and revision.
+    const learnDays = left > 14 ? left - 7 : Math.ceil(left / 2);
+    const reserve = left - learnDays;
+    const perDay = order.length ? Math.ceil(order.length / learnDays) : 0;
+    const todayCount = Math.max(perDay, order.filter((x) => doneToday(x.key)).length);
+    const learnToday = order.slice(0, todayCount);
+    const later = order.slice(todayCount);
+    const finalPhase = !order.length || left <= 7;
+
+    const tasks = learnToday.map(({ s, t, key }) => ({
+      icon: s.icon,
+      title: `Learn ${t.name}`,
+      detail: `${SHORT[s.id]} · notes → flashcards → practice`,
+      href: `#/topic/${s.id}/${t.id}/notes`,
+      done: doneToday(key),
+    }));
+
+    const { due, fresh } = srsQueue();
+    const log = srsToday();
+    const cardsLeft = due.length + fresh.length;
+    if (cardsLeft || log.reviewed) {
+      tasks.push({
+        icon: "🧠",
+        title: cardsLeft ? `Review ${cardsLeft} flashcard${cardsLeft === 1 ? "" : "s"}` : "Flashcard review",
+        detail: cardsLeft ? `${due.length} due${fresh.length ? ` + ${fresh.length} new` : ""} · spaced repetition` : `${log.reviewed} reviewed today`,
+        href: "#/revise/due/all",
+        done: !cardsLeft,
+      });
+    }
+
+    const answeredToday = Object.values(state.qs).filter((r) => r.at >= t0).length;
+    tasks.push({
+      icon: "⚡",
+      title: `Practise ${DAILY_QUESTIONS} mixed questions`,
+      detail: `${Math.min(answeredToday, DAILY_QUESTIONS)}/${DAILY_QUESTIONS} answered today`,
+      href: "#/revise/mix/all",
+      done: answeredToday >= DAILY_QUESTIONS,
+    });
+
+    const weak = weakTopics(1)[0];
+    if (weak) {
+      const practisedToday = (weak.t.questions || []).some((_, i) => (state.qs[`${weak.s.id}/${weak.t.id}/${i}`] || {}).at >= t0);
+      tasks.push({
+        icon: "🎯",
+        title: `Strengthen ${weak.t.name}`,
+        detail: `${SHORT[weak.s.id]} · ${weak.st.acc}% accuracy so far`,
+        href: `#/topic/${weak.s.id}/${weak.t.id}/quiz`,
+        done: practisedToday,
+      });
+    }
+
+    const oldMistakes = QUESTIONS.filter((q) => { const r = state.qs[q.ref]; return r && r.last === 0 && r.at < t0; }).length;
+    if (oldMistakes) {
+      tasks.push({
+        icon: "🔁",
+        title: `Retry ${oldMistakes} earlier mistake${oldMistakes === 1 ? "" : "s"}`,
+        detail: "Questions you got wrong on a previous day",
+        href: "#/revise/mistakes/all",
+        done: false,
+      });
+    }
+
+    // Mocks: weekly at first, every few days in the last six weeks, daily at the end.
+    const lastMock = state.mocks[0];
+    const mockToday = !!lastMock && lastMock.at >= t0;
+    const every = left <= 7 ? 1 : left <= 45 ? 3 : 7;
+    const sinceMock = lastMock ? dayNum() - dayNum(lastMock.at) : Infinity;
+    if (mockToday || sinceMock >= every) {
+      const revisedShare = pct(Object.keys(state.revised).length, SUBJECTS.reduce((n, s) => n + s.topics.length, 0));
+      const full = finalPhase || revisedShare >= 40;
+      tasks.push({
+        icon: "⏱️",
+        title: full ? "Take a full mock (60 min)" : "Take a mini mock (24 min)",
+        detail: mockToday ? `Done: ${fmtScore(lastMock.score)}/${lastMock.max}` : lastMock ? `Last mock ${sinceMock} day${sinceMock === 1 ? "" : "s"} ago` : "Get used to the exam pattern early",
+        href: "#/mock",
+        done: mockToday,
+      });
+    }
+
+    // What the coming days look like if the plan is followed.
+    const upcoming = [];
+    for (let k = 1, pos = 0; k < Math.min(left, 8); k++) {
+      const topics = k < learnDays ? later.slice(pos, pos + perDay) : [];
+      pos += topics.length;
+      upcoming.push({ date: t0 + k * 86400000, topics });
+    }
+
+    return {
+      left, reserve, perDay, finalPhase, tasks, upcoming,
+      topicsLeft: order.filter((x) => !doneToday(x.key)).length,
+      finalFrom: t0 + learnDays * 86400000,
+    };
+  }
+
+  const planTaskHTML = (x) => `
+    <li class="plan-task ${x.done ? "done" : ""}">
+      <span class="plan-check" aria-hidden="true">${x.done ? "✓" : ""}</span>
+      <a href="${x.href}"><b>${x.icon} ${esc(x.title)}</b><span class="small muted">${esc(x.detail)}</span></a>
+    </li>`;
+
+  function planCardHTML() {
+    const p = buildPlan();
+    if (!p.tasks) {
+      return `<div class="card"><h3>📅 Today's plan</h3><p class="muted small">${p.left === null ? "Set your exam date above to get a day-by-day study plan." : p.left === 0 ? "Exam day: no new topics. Skim the formula sheet and your notes, and stay calm. All the best!" : "Your exam date has passed. Set a new date to get a fresh plan."}</p></div>`;
+    }
+    const done = p.tasks.filter((x) => x.done).length;
+    return `
+      <div class="card">
+        <div class="plan-head">
+          <h3>📅 Today's plan</h3>
+          <span class="badge ${done === p.tasks.length ? "ok" : "info"}">${done}/${p.tasks.length} done</span>
+        </div>
+        <ul class="list plan-list">${p.tasks.slice(0, 4).map(planTaskHTML).join("")}</ul>
+        <a class="btn sm primary" style="margin-top:.5rem" href="#/plan">${p.tasks.length > 4 ? `See all ${p.tasks.length} tasks` : "Open full plan"}</a>
+      </div>`;
+  }
+
+  function renderPlan() {
+    const p = buildPlan();
+    const dateForm = `
+      <form class="exam-form" id="planDateForm">
+        <label class="small muted" for="planDate">Exam date</label>
+        <input type="date" id="planDate" required value="${esc(state.examDate)}">
+        <button class="btn sm" type="submit">${state.examDate ? "Update" : "Set"}</button>
+      </form>`;
+    const fmtDay = (t) => new Date(t).toLocaleDateString("en-IN", { weekday: "short", day: "numeric", month: "short" });
+
+    if (!p.tasks) {
+      $app.innerHTML = `
+        <div class="page-head">
+          <h1>📅 Study plan</h1>
+          <p class="muted">${p.left === null ? "Tell the app when your exam is, and it will split the syllabus into daily tasks: new topics, flashcard reviews, practice and mocks." : p.left === 0 ? "It's exam day: no new topics today. Skim the formula sheet and your notes, and stay calm. All the best!" : "Your exam date has passed. Set the date of your next exam to get a fresh plan."}</p>
+        </div>
+        <div class="card">${dateForm}</div>`;
+    } else {
+      const done = p.tasks.filter((x) => x.done).length;
+      $app.innerHTML = `
+        <div class="page-head">
+          <h1>📅 Study plan</h1>
+          <p class="muted"><b>${p.left}</b> day${p.left === 1 ? "" : "s"} to the exam · <b>${p.topicsLeft}</b> topic${p.topicsLeft === 1 ? "" : "s"} still to learn${p.perDay ? ` · about <b>${p.perDay}</b> a day` : ""}.
+            ${p.reserve ? ` The last ${p.reserve} day${p.reserve === 1 ? "" : "s"} (from ${fmtDay(p.finalFrom)}) are kept for mocks and revision.` : ""}</p>
+          ${p.perDay > 4 ? `<div class="callout">That's a heavy pace. Start with the topics that carry the most questions, and use the notes and flashcards rather than every practice question.</div>` : ""}
+        </div>
+        <section class="card">
+          <div class="plan-head">
+            <h2>Today${p.finalPhase ? ": final revision" : ""}</h2>
+            <span class="badge ${done === p.tasks.length ? "ok" : "info"}">${done}/${p.tasks.length} done</span>
+          </div>
+          ${progressBar(pct(done, p.tasks.length))}
+          <ul class="list plan-list">${p.tasks.map(planTaskHTML).join("")}</ul>
+          ${done === p.tasks.length ? `<p class="small" style="margin-top:.75rem">🎉 All done for today. Anything extra is a bonus: try a <a href="#/revise/new/all">few unseen questions</a>.</p>` : ""}
+        </section>
+        ${p.upcoming.length ? `
+          <section class="card" style="margin-top:1rem">
+            <h3>Coming up</h3>
+            <ul class="list">
+              ${p.upcoming.map((d) => `
+                <li class="plan-day">
+                  <span class="plan-date">${fmtDay(d.date)}</span>
+                  <span>${d.topics.length ? d.topics.map((x) => `${x.s.icon} ${esc(x.t.name)}`).join(" · ") : `<span class="muted">Revision day: mock test, mistakes and flashcard review</span>`}</span>
+                </li>`).join("")}
+            </ul>
+            <p class="small muted" style="margin-top:.6rem">Every day also has flashcard review and ${DAILY_QUESTIONS} practice questions. The plan updates itself if you miss a day or get ahead.</p>
+          </section>` : ""}
+        <section class="card" style="margin-top:1rem">${dateForm}</section>`;
+    }
+
+    document.getElementById("planDateForm").onsubmit = (e) => {
+      e.preventDefault();
+      state.examDate = document.getElementById("planDate").value;
+      save();
+      toast("Exam date saved");
+      renderPlan();
+    };
   }
 
   // ================= Subject =================
@@ -608,6 +884,10 @@ Which point (copy the text):`)}</div>
         const c = deck[i];
         if (state.cards[c.ref]) delete state.cards[c.ref];
         else state.cards[c.ref] = 1;
+        // Feed the daily review: a known card comes back in a few days, an unmarked one tomorrow.
+        const r = state.srs[c.ref];
+        if (state.cards[c.ref] && (!r || r.b < 2)) state.srs[c.ref] = { b: 2, d: srsDueDay(2) };
+        else if (!state.cards[c.ref]) state.srs[c.ref] = { b: 1, d: srsDueDay(1) };
         save();
         const known = !!state.cards[c.ref];
         const btn = container.querySelector('[data-act="known"]');
@@ -648,6 +928,100 @@ Which point (copy the text):`)}</div>
     }
 
     bind();
+    draw();
+  }
+
+  // Daily spaced-repetition review: recall, reveal, then grade yourself.
+  // Forgotten cards get a second look at the end of the session.
+  function mountReview(container, queue, opts = {}) {
+    queue = queue.slice(0, SESSION_MAX);
+    const graded = new Set();
+    let i = 0, revealed = false, remembered = 0, forgot = 0;
+
+    function dueTomorrow() {
+      const tomorrow = dayNum() + 1;
+      return CARDS.filter((c) => (!opts.subjectId || c.subjectId === opts.subjectId) && state.srs[c.ref] && state.srs[c.ref].d <= tomorrow).length;
+    }
+
+    function actionsHTML(c) {
+      if (!revealed) return `<button class="btn primary" data-act="flip" type="button">Show answer</button>`;
+      const r = state.srs[c.ref];
+      const up = graded.has(c.ref) ? "" : ` · back ${gapText(srsGap(Math.min((r ? r.b : 1) + 1, 5)))}`;
+      return `
+        <button class="btn danger" data-act="forgot" type="button">✗ Forgot <span class="small">(1)</span></button>
+        <button class="btn success" data-act="remembered" type="button">✓ Remembered <span class="small">(2)${up}</span></button>`;
+    }
+
+    function draw() {
+      if (i >= queue.length) return drawDone();
+      const c = queue[i];
+      const tag = graded.has(c.ref) ? "second look" : !state.srs[c.ref] ? "new card" : "";
+      container.innerHTML = `
+        <div class="fc-toolbar">
+          <span class="small muted">Card ${i + 1} of ${queue.length}${tag ? ` · <span class="badge info">${tag}</span>` : ""}</span>
+          <span class="small muted">✓ ${remembered} · ✗ ${forgot}</span>
+        </div>
+        <div class="flashcard ${revealed ? "flipped" : ""}" data-act="flip" role="button" tabindex="0" aria-label="Flashcard, press to reveal">
+          <div class="fc-inner">
+            <div class="fc-face fc-front"><span class="fc-label">${esc(SHORT[c.subjectId])} › ${esc(c.label)}</span><div>${c.front}</div><span class="fc-hint">Recall the answer, then tap or press Space</span></div>
+            <div class="fc-face fc-back"><div>${c.back}</div></div>
+          </div>
+        </div>
+        <div class="fc-actions">${actionsHTML(c)}</div>
+        ${cardReport(c)}`;
+    }
+
+    function drawDone() {
+      keyHandler = null;
+      const more = opts.more ? opts.more() : 0;
+      container.innerHTML = `
+        <div class="card empty">
+          <div class="big">${queue.length ? "🎉" : "✅"}</div>
+          <h3>${queue.length ? "Review done" : "Nothing to review right now"}</h3>
+          ${queue.length ? `<p>${remembered} remembered · ${forgot} forgotten. Forgotten cards come back tomorrow.</p>` : ""}
+          <p class="small">${more ? `${more} more card${more === 1 ? "" : "s"} due now.` : `${dueTomorrow()} card${dueTomorrow() === 1 ? "" : "s"} due tomorrow.`}</p>
+          <div class="btn-row" style="justify-content:center">
+            ${more ? `<button class="btn primary" data-act="more" type="button">Review ${Math.min(more, SESSION_MAX)} more</button>` : ""}
+            <a class="btn ${more ? "" : "primary"}" href="${opts.doneHref || "#/plan"}">${esc(opts.doneLabel || "Back to today's plan")}</a>
+          </div>
+        </div>`;
+    }
+
+    function act(name) {
+      const c = queue[i];
+      if (name === "more") return opts.onMore && opts.onMore();
+      if (!c) return;
+      if (name === "flip") {
+        const first = !revealed;
+        revealed = true;
+        const el = container.querySelector(".flashcard");
+        el.classList.toggle("flipped", first || !el.classList.contains("flipped"));
+        container.querySelector(".fc-actions").innerHTML = actionsHTML(c);
+        return;
+      }
+      if (!revealed || (name !== "forgot" && name !== "remembered")) return;
+      const ok = name === "remembered";
+      if (!graded.has(c.ref)) {
+        gradeCard(c.ref, ok);
+        graded.add(c.ref);
+        if (ok) remembered++;
+        else forgot++;
+        if (!ok) queue.push(c);
+      }
+      i++;
+      revealed = false;
+      draw();
+    }
+
+    container.onclick = (e) => {
+      const b = e.target.closest("[data-act]");
+      if (b) act(b.dataset.act);
+    };
+    keyHandler = (e) => {
+      if (e.key === " " || e.key === "Enter") { e.preventDefault(); act("flip"); }
+      else if (e.key === "1") act("forgot");
+      else if (e.key === "2") act("remembered");
+    };
     draw();
   }
 
@@ -807,7 +1181,9 @@ Which point (copy the text):`)}</div>
     const mistakes = QUESTIONS.filter((q) => state.qs[q.ref] && state.qs[q.ref].last === 0).length;
     const unseen = QUESTIONS.filter((q) => !state.qs[q.ref]).length;
     const weak = weakTopics(50).length;
+    const { due, fresh } = srsQueue();
     const modes = [
+      ["due", "🧠", "Cards due today", `${due.length} card${due.length === 1 ? "" : "s"} to review${fresh.length ? ` + ${fresh.length} new` : ""}. Cards you remember come back less often, and forgotten ones come back tomorrow.`, "Review"],
       ["mix", "⚡", "Daily mix", "20 questions across all sections, favouring ones you haven't seen or got wrong.", "Start"],
       ["mistakes", "🔁", "Retry mistakes", `${mistakes} question${mistakes === 1 ? "" : "s"} you last answered wrong.`, "Retry"],
       ["weak", "🎯", "Weak topics", weak ? `${weak} topic${weak === 1 ? "" : "s"} below 60% accuracy.` : "Nothing yet. Practise more topics first.", "Practise"],
@@ -841,6 +1217,7 @@ Which point (copy the text):`)}</div>
 
   function renderReviseRun(mode, subjectId) {
     const titles = {
+      due: ["🧠", "Cards due today"],
       mix: ["⚡", "Daily mix"],
       mistakes: ["🔁", "Retry mistakes"],
       weak: ["🎯", "Weak topics"],
@@ -865,15 +1242,23 @@ Which point (copy the text):`)}</div>
       <div id="runBody"></div>`;
     const body = document.getElementById("runBody");
 
-    if (mode === "cards") {
-      const cards = [];
-      SUBJECTS.forEach((s) => {
-        if (!inScope(s.id)) return;
-        s.topics.forEach((t) =>
-          (t.flashcards || []).forEach((c, i) => cards.push({ ref: `${s.id}/${t.id}/c${i}`, front: c.front, back: c.back, label: t.name }))
-        );
+    if (mode === "due") {
+      const sid = subj && subj.id;
+      const queueNow = () => {
+        const { due, fresh } = srsQueue(sid);
+        return due.concat(fresh);
+      };
+      const start = () => mountReview(body, queueNow(), {
+        subjectId: sid,
+        more: () => queueNow().length,
+        onMore: start,
       });
-      mountFlashcards(body, shuffle(cards).slice(0, 20), { doneHref: "#/revise", doneLabel: "Back to revision" });
+      start();
+      return;
+    }
+
+    if (mode === "cards") {
+      mountFlashcards(body, shuffle(CARDS.filter((c) => inScope(c.subjectId))).slice(0, 20), { doneHref: "#/revise", doneLabel: "Back to revision" });
       return;
     }
 
