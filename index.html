@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CGL Recap — SSC CGL Tier 1 Revision</title>
+  <meta name="description" content="Free SSC CGL Tier 1 revision app: short notes, flashcards, topic-wise practice and timed mock tests for Reasoning, General Awareness, Quantitative Aptitude and English.">
+  <meta name="theme-color" content="#4f46e5">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Apply saved theme before first paint to avoid a flash.
+    try {
+      var s = JSON.parse(localStorage.getItem("cglRecap.v1") || "{}");
+      var t = s.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="brand"><span class="brand-logo">📚</span> CGL Recap</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/" data-nav="home"><span class="nav-ic">🏠</span><span>Home</span></a>
+      <a href="#/revise" data-nav="revise"><span class="nav-ic">⚡</span><span>Revise</span></a>
+      <a href="#/reference" data-nav="reference"><span class="nav-ic">📐</span><span>Reference</span></a>
+      <a href="#/mock" data-nav="mock"><span class="nav-ic">⏱️</span><span>Mock Test</span></a>
+      <a href="#/saved" data-nav="saved"><span class="nav-ic">★</span><span>Saved</span></a>
+      <a href="#/notes" data-nav="notes"><span class="nav-ic">📝</span><span>My Notes</span></a>
+    </nav>
+    <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <noscript><p class="card">Please enable JavaScript to use CGL Recap.</p></noscript>
+  </main>
+
+  <footer class="footer">
+    <p>CGL Recap is an independent study aid and is not affiliated with the Staff Selection Commission.
+      Always confirm exam dates, pattern and notices on the official website <a href="https://ssc.gov.in" target="_blank" rel="noopener">ssc.gov.in</a>.</p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="data/reasoning.js"></script>
+  <script src="data/gk.js"></script>
+  <script src="data/quant.js"></script>
+  <script src="data/english.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

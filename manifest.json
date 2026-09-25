@@ -1,0 +1,13 @@
+{
+  "name": "CGL Recap — SSC CGL Tier 1 Revision",
+  "short_name": "CGL Recap",
+  "description": "Notes, flashcards, practice and timed mock tests for SSC CGL Tier 1.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f6fb",
+  "theme_color": "#4f46e5",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

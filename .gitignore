@@ -1,0 +1,4 @@
+# Generated review spreadsheets (python tools/export_review.py)
+review/
+__pycache__/
+.claude/
